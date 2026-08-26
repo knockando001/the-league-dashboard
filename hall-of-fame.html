@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hall of Fame</title>
+</head>
+<body>
+
+<h1>Hall of Fame</h1>
+
+<div id="content">
+Loading...
+</div>
+
+<script>
+fetch('data/history.json')
+.then(r => r.json())
+.then(data => {
+
+    let stats = {};
+
+    data.forEach(row => {
+
+        if (!stats[row.franchiseId]) {
+            stats[row.franchiseId] = {
+                name: row.teamName,
+                championships: 0,
+                wins: 0
+            };
+        }
+
+        stats[row.franchiseId].wins += row.wins;
+
+        if (row.finalRank === 1) {
+            stats[row.franchiseId].championships++;
+        }
+    });
+
+    let sorted = Object.values(stats)
+        .sort((a,b) => b.championships - a.championships);
+
+    let html = "<h2>Most Championships</h2><ol>";
+
+    sorted.forEach(s => {
+        html += `<li>${s.name} (${s.championships})</li>`;
+    });
+
+    html += "</ol>";
+
+    document.getElementById("content").innerHTML = html;
+});
+</script>
+
+</body>
+</html>
+``
