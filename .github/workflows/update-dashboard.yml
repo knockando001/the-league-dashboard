@@ -27,22 +27,22 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install Python dependencies
+      - name: Install dependencies
         run: python -m pip install openpyxl
 
       - name: Build legacy data
         run: python scripts/build_legacy.py
 
-      - name: Synchronise and commit generated data
+      - name: Fetch live Sleeper data
+        run: python scripts/fetch_live.py
+
+      - name: Commit generated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git pull --rebase --autostash origin main
-
-          git add data/franchises.json
-          git add data/history.json
-          git add data/dashboard.json
+          git add data/franchises.json data/history.json data/live.json
 
           if git diff --cached --quiet; then
             echo "No generated data changes to commit."
