@@ -1,1 +1,469 @@
-
+[
+  {
+    "franchiseId": "1",
+    "currentName": "Zamek Pancerne Dziki",
+    "firstSeason": 2011,
+    "lastSeason": 2025,
+    "historicalNames": [
+      "Zamek Pancerne Dziki"
+    ],
+    "namesBySeason": [
+      {
+        "season": 2011,
+        "teamName": "Zamek Pancerne Dziki"
+      },
+      {
+        "season": 2012,
+        "teamName": "Zamek Pancerne Dziki"
+      },
+      {
+        "season": 2013,
+        "teamName": "Zamek Pancerne Dziki"
+      },
+      {
+        "season": 2014,
+        "teamName": "Zamek Pancerne Dziki"
+      },
+      {
+        "season": 2015,
+        "teamName": "Zamek Pancerne Dziki"
+      },
+      {
+        "season": 2016,
+        "teamName": "Zamek Pancerne Dziki"
+      },
+      {
+        "season": 2017,
+        "teamName": "Zamek Pancerne Dziki"
+      },
+      {
+        "season": 2018,
+        "teamName": "Zamek Pancerne Dziki"
+      },
+      {
+        "season": 2019,
+        "teamName": "Zamek Pancerne Dziki"
+      },
+      {
+        "season": 2020,
+        "teamName": "Zamek Pancerne Dziki"
+      },
+      {
+        "season": 2021,
+        "teamName": "Zamek Pancerne Dziki"
+      },
+      {
+        "season": 2022,
+        "teamName": "Zamek Pancerne Dziki"
+      },
+      {
+        "season": 2023,
+        "teamName": "Zamek Pancerne Dziki"
+      },
+      {
+        "season": 2024,
+        "teamName": "Zamek Pancerne Dziki"
+      },
+      {
+        "season": 2025,
+        "teamName": "Zamek Pancerne Dziki"
+      }
+    ]
+  },
+  {
+    "franchiseId": "2",
+    "currentName": "Vegablanca Boars",
+    "firstSeason": 2011,
+    "lastSeason": 2025,
+    "historicalNames": [
+      "Lodz Giants",
+      "Kazachskie Hanysy",
+      "Vegablanca Boars"
+    ],
+    "namesBySeason": [
+      {
+        "season": 2011,
+        "teamName": "Lodz Giants"
+      },
+      {
+        "season": 2012,
+        "teamName": "Lodz Giants"
+      },
+      {
+        "season": 2013,
+        "teamName": "Lodz Giants"
+      },
+      {
+        "season": 2014,
+        "teamName": "Lodz Giants"
+      },
+      {
+        "season": 2015,
+        "teamName": "Lodz Giants"
+      },
+      {
+        "season": 2016,
+        "teamName": "Kazachskie Hanysy"
+      },
+      {
+        "season": 2017,
+        "teamName": "Kazachskie Hanysy"
+      },
+      {
+        "season": 2018,
+        "teamName": "Kazachskie Hanysy"
+      },
+      {
+        "season": 2019,
+        "teamName": "Kazachskie Hanysy"
+      },
+      {
+        "season": 2020,
+        "teamName": "Kazachskie Hanysy"
+      },
+      {
+        "season": 2021,
+        "teamName": "Kazachskie Hanysy"
+      },
+      {
+        "season": 2022,
+        "teamName": "Kazachskie Hanysy"
+      },
+      {
+        "season": 2023,
+        "teamName": "Vegablanca Boars"
+      },
+      {
+        "season": 2024,
+        "teamName": "Vegablanca Boars"
+      },
+      {
+        "season": 2025,
+        "teamName": "Vegablanca Boars"
+      }
+    ]
+  },
+  {
+    "franchiseId": "3",
+    "currentName": "Flota Oksywie",
+    "firstSeason": 2011,
+    "lastSeason": 2025,
+    "historicalNames": [
+      "Flota Oksywie"
+    ],
+    "namesBySeason": [
+      {
+        "season": 2011,
+        "teamName": "Flota Oksywie"
+      },
+      {
+        "season": 2012,
+        "teamName": "Flota Oksywie"
+      },
+      {
+        "season": 2013,
+        "teamName": "Flota Oksywie"
+      },
+      {
+        "season": 2014,
+        "teamName": "Flota Oksywie"
+      },
+      {
+        "season": 2015,
+        "teamName": "Flota Oksywie"
+      },
+      {
+        "season": 2016,
+        "teamName": "Flota Oksywie"
+      },
+      {
+        "season": 2017,
+        "teamName": "Flota Oksywie"
+      },
+      {
+        "season": 2018,
+        "teamName": "Flota Oksywie"
+      },
+      {
+        "season": 2019,
+        "teamName": "Flota Oksywie"
+      },
+      {
+        "season": 2020,
+        "teamName": "Flota Oksywie"
+      },
+      {
+        "season": 2021,
+        "teamName": "Flota Oksywie"
+      },
+      {
+        "season": 2022,
+        "teamName": "Flota Oksywie"
+      },
+      {
+        "season": 2023,
+        "teamName": "Flota Oksywie"
+      },
+      {
+        "season": 2024,
+        "teamName": "Flota Oksywie"
+      },
+      {
+        "season": 2025,
+        "teamName": "Flota Oksywie"
+      }
+    ]
+  },
+  {
+    "franchiseId": "4",
+    "currentName": "Kompino Moustache Admirers",
+    "firstSeason": 2011,
+    "lastSeason": 2025,
+    "historicalNames": [
+      "Kompino Moustache Admirers"
+    ],
+    "namesBySeason": [
+      {
+        "season": 2011,
+        "teamName": "Kompino Moustache Admirers"
+      },
+      {
+        "season": 2012,
+        "teamName": "Kompino Moustache Admirers"
+      },
+      {
+        "season": 2013,
+        "teamName": "Kompino Moustache Admirers"
+      },
+      {
+        "season": 2014,
+        "teamName": "Kompino Moustache Admirers"
+      },
+      {
+        "season": 2015,
+        "teamName": "Kompino Moustache Admirers"
+      },
+      {
+        "season": 2016,
+        "teamName": "Kompino Moustache Admirers"
+      },
+      {
+        "season": 2017,
+        "teamName": "Kompino Moustache Admirers"
+      },
+      {
+        "season": 2018,
+        "teamName": "Kompino Moustache Admirers"
+      },
+      {
+        "season": 2019,
+        "teamName": "Kompino Moustache Admirers"
+      },
+      {
+        "season": 2020,
+        "teamName": "Kompino Moustache Admirers"
+      },
+      {
+        "season": 2021,
+        "teamName": "Kompino Moustache Admirers"
+      },
+      {
+        "season": 2022,
+        "teamName": "Kompino Moustache Admirers"
+      },
+      {
+        "season": 2023,
+        "teamName": "Kompino Moustache Admirers"
+      },
+      {
+        "season": 2024,
+        "teamName": "Kompino Moustache Admirers"
+      },
+      {
+        "season": 2025,
+        "teamName": "Kompino Moustache Admirers"
+      }
+    ]
+  },
+  {
+    "franchiseId": "5",
+    "currentName": "DonTeam Kielce",
+    "firstSeason": 2012,
+    "lastSeason": 2025,
+    "historicalNames": [
+      "DonTeam Kielce"
+    ],
+    "namesBySeason": [
+      {
+        "season": 2012,
+        "teamName": "DonTeam Kielce"
+      },
+      {
+        "season": 2013,
+        "teamName": "DonTeam Kielce"
+      },
+      {
+        "season": 2014,
+        "teamName": "DonTeam Kielce"
+      },
+      {
+        "season": 2015,
+        "teamName": "DonTeam Kielce"
+      },
+      {
+        "season": 2016,
+        "teamName": "DonTeam Kielce"
+      },
+      {
+        "season": 2017,
+        "teamName": "DonTeam Kielce"
+      },
+      {
+        "season": 2018,
+        "teamName": "DonTeam Kielce"
+      },
+      {
+        "season": 2019,
+        "teamName": "DonTeam Kielce"
+      },
+      {
+        "season": 2020,
+        "teamName": "DonTeam Kielce"
+      },
+      {
+        "season": 2021,
+        "teamName": "DonTeam Kielce"
+      },
+      {
+        "season": 2022,
+        "teamName": "DonTeam Kielce"
+      },
+      {
+        "season": 2023,
+        "teamName": "DonTeam Kielce"
+      },
+      {
+        "season": 2024,
+        "teamName": "DonTeam Kielce"
+      },
+      {
+        "season": 2025,
+        "teamName": "DonTeam Kielce"
+      }
+    ]
+  },
+  {
+    "franchiseId": "6",
+    "currentName": "Agroplon Gluszyna",
+    "firstSeason": 2019,
+    "lastSeason": 2025,
+    "historicalNames": [
+      "Agroplon Gluszyna"
+    ],
+    "namesBySeason": [
+      {
+        "season": 2019,
+        "teamName": "Agroplon Gluszyna"
+      },
+      {
+        "season": 2020,
+        "teamName": "Agroplon Gluszyna"
+      },
+      {
+        "season": 2021,
+        "teamName": "Agroplon Gluszyna"
+      },
+      {
+        "season": 2022,
+        "teamName": "Agroplon Gluszyna"
+      },
+      {
+        "season": 2023,
+        "teamName": "Agroplon Gluszyna"
+      },
+      {
+        "season": 2024,
+        "teamName": "Agroplon Gluszyna"
+      },
+      {
+        "season": 2025,
+        "teamName": "Agroplon Gluszyna"
+      }
+    ]
+  },
+  {
+    "franchiseId": "7",
+    "currentName": "Potega Wesiory",
+    "firstSeason": 2016,
+    "lastSeason": 2025,
+    "historicalNames": [
+      "Potega Wesiory"
+    ],
+    "namesBySeason": [
+      {
+        "season": 2016,
+        "teamName": "Potega Wesiory"
+      },
+      {
+        "season": 2017,
+        "teamName": "Potega Wesiory"
+      },
+      {
+        "season": 2018,
+        "teamName": "Potega Wesiory"
+      },
+      {
+        "season": 2019,
+        "teamName": "Potega Wesiory"
+      },
+      {
+        "season": 2020,
+        "teamName": "Potega Wesiory"
+      },
+      {
+        "season": 2021,
+        "teamName": "Potega Wesiory"
+      },
+      {
+        "season": 2022,
+        "teamName": "Potega Wesiory"
+      },
+      {
+        "season": 2023,
+        "teamName": "Potega Wesiory"
+      },
+      {
+        "season": 2024,
+        "teamName": "Potega Wesiory"
+      },
+      {
+        "season": 2025,
+        "teamName": "Potega Wesiory"
+      }
+    ]
+  },
+  {
+    "franchiseId": "8",
+    "currentName": "Kiki Owls",
+    "firstSeason": 2023,
+    "lastSeason": 2025,
+    "historicalNames": [
+      "Kuny Pogoorze",
+      "Kiki Owls"
+    ],
+    "namesBySeason": [
+      {
+        "season": 2023,
+        "teamName": "Kuny Pogoorze"
+      },
+      {
+        "season": 2024,
+        "teamName": "Kuny Pogoorze"
+      },
+      {
+        "season": 2025,
+        "teamName": "Kiki Owls"
+      }
+    ]
+  }
+]
