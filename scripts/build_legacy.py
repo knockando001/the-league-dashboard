@@ -251,6 +251,8 @@ def main():
 
     team_rows = read_excel_rows(TEAMS_FILE)
     history_rows = read_excel_rows(HISTORY_FILE)
+    print("FIRST HISTORY ROW")
+    print(history_rows[0])
 
     franchises = build_franchises(team_rows)
     history = build_history(history_rows)
