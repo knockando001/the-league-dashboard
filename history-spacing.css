@@ -1,0 +1,10 @@
+/* History page spacing fix, v4.3 */
+#season-summary {
+  margin-bottom: 26px;
+}
+
+@media (max-width: 570px) {
+  #season-summary {
+    margin-bottom: 20px;
+  }
+}
