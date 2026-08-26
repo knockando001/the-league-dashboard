@@ -1,0 +1,21 @@
+THE LEAGUE DASHBOARD V5 - METRIC EXPLANATIONS
+
+Upload these five files to the repository root and replace existing files:
+- index.html
+- hall-of-fame.html
+- franchise.html
+- legacy.js
+- styles.css
+
+Commit message: Add explanations for calculated metrics
+Then refresh GitHub Pages with Ctrl+F5.
+
+No workflow run is required. Do not change data, scripts, source or .github.
+
+Info icons are added only for dashboard-calculated metrics:
+- Legacy Index
+- Dynasty Rating
+- Legacy Rank
+- Average Finish
+
+Factual source metrics such as wins, points, championships and playoff appearances remain unmarked.
