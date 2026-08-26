@@ -1,0 +1,64 @@
+{
+  "generatedAt": "2026-08-26T11:45:01.636639+00:00",
+  "standings": [
+    {
+      "team": "Zamek Pancerne Dziki",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pointsFor": 0.0
+    },
+    {
+      "team": "Vegablanca Boars",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pointsFor": 0.0
+    },
+    {
+      "team": "Flota Oksywie",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pointsFor": 0.0
+    },
+    {
+      "team": "Roster 4",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pointsFor": 0.0
+    },
+    {
+      "team": "Roster 5",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pointsFor": 0.0
+    },
+    {
+      "team": "Roster 6",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pointsFor": 0.0
+    },
+    {
+      "team": "Roster 7",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pointsFor": 0.0
+    },
+    {
+      "team": "Roster 8",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pointsFor": 0.0
+    }
+  ],
+  "records": [],
+  "h2h": [],
+  "leagueCount": 1
+}
