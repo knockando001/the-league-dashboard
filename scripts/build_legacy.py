@@ -5,6 +5,7 @@ from openpyxl import load_workbook
 
 
 ROOT = Path(__file__).resolve().parents[1]
+
 SOURCE_DIR = ROOT / "source"
 DATA_DIR = ROOT / "data"
 
@@ -16,6 +17,7 @@ HISTORY_JSON_FILE = DATA_DIR / "history.json"
 
 
 def clean_text(value):
+    """Return trimmed text, or None for an empty cell."""
     if value is None:
         return None
 
@@ -23,38 +25,59 @@ def clean_text(value):
     return text if text else None
 
 
-def number_or_zero(value):
+def to_integer(value, default=0):
+    """Convert an Excel value to an integer."""
     if value is None or value == "":
-        return 0
+        return default
+
+    return int(float(value))
+
+
+def to_number(value, default=0.0):
+    """Convert an Excel value to a floating-point number."""
+    if value is None or value == "":
+        return default
 
     return float(value)
 
 
-def integer_or_zero(value):
-    if value is None or value == "":
-        return 0
+def read_excel_rows(file_path):
+    """
+    Read the active worksheet and return every populated row
+    as a dictionary using the first row as column headers.
+    """
+    workbook = load_workbook(
+        file_path,
+        read_only=True,
+        data_only=True,
+    )
 
-    return int(value)
-
-
-def read_worksheet(path):
-    workbook = load_workbook(path, read_only=True, data_only=True)
     worksheet = workbook.active
+    row_iterator = worksheet.iter_rows(values_only=True)
 
-    rows = list(worksheet.iter_rows(values_only=True))
-
-    if not rows:
+    try:
+        header_row = next(row_iterator)
+    except StopIteration:
+        workbook.close()
         return []
 
-    headers = [clean_text(value) for value in rows[0]]
+    headers = [clean_text(value) for value in header_row]
     records = []
 
-    for row in rows[1:]:
+    for values in row_iterator:
         record = {}
 
-        for index, header in enumerate(headers):
-            if header:
-                record[header] = row[index] if index < len(row) else None
+        for column_index, header in enumerate(headers):
+            if not header:
+                continue
+
+            value = (
+                values[column_index]
+                if column_index < len(values)
+                else None
+            )
+
+            record[header] = value
 
         if any(value is not None for value in record.values()):
             records.append(record)
@@ -64,29 +87,45 @@ def read_worksheet(path):
 
 
 def build_franchises(team_rows):
-    grouped = {}
+    """
+    Build one franchise record per stable TeamId.
+
+    TeamId is permanent.
+    TeamName can change between seasons.
+    """
+    franchises_by_id = {}
 
     for row in team_rows:
-        franchise_id = str(integer_or_zero(row.get("TeamId")))
-        season = integer_or_zero(row.get("Season"))
+        season = to_integer(row.get("Season"))
+        team_id = to_integer(row.get("TeamId"))
         team_name = clean_text(row.get("TeamName"))
 
-        if not franchise_id or franchise_id == "0" or not season or not team_name:
+        if season == 0 or team_id == 0 or not team_name:
             continue
 
-        franchise = grouped.setdefault(
-            franchise_id,
-            {
+        franchise_id = str(team_id)
+
+        if franchise_id not in franchises_by_id:
+            franchises_by_id[franchise_id] = {
                 "franchiseId": franchise_id,
-                "currentName": None,
+                "currentName": team_name,
                 "firstSeason": season,
                 "lastSeason": season,
+                "historicalNames": [],
                 "namesBySeason": [],
-            },
+            }
+
+        franchise = franchises_by_id[franchise_id]
+
+        franchise["firstSeason"] = min(
+            franchise["firstSeason"],
+            season,
         )
 
-        franchise["firstSeason"] = min(franchise["firstSeason"], season)
-        franchise["lastSeason"] = max(franchise["lastSeason"], season)
+        franchise["lastSeason"] = max(
+            franchise["lastSeason"],
+            season,
+        )
 
         franchise["namesBySeason"].append(
             {
@@ -97,93 +136,149 @@ def build_franchises(team_rows):
 
     franchises = []
 
-    for franchise in grouped.values():
-        franchise["namesBySeason"].sort(key=lambda item: item["season"])
+    for franchise in franchises_by_id.values():
+        franchise["namesBySeason"].sort(
+            key=lambda item: item["season"]
+        )
 
-        latest_name = franchise["namesBySeason"][-1]["teamName"]
-        franchise["currentName"] = latest_name
+        # The last season in the mapping determines the current name.
+        franchise["currentName"] = (
+            franchise["namesBySeason"][-1]["teamName"]
+        )
 
         historical_names = []
 
-        for item in franchise["namesBySeason"]:
-            if item["teamName"] not in historical_names:
-                historical_names.append(item["teamName"])
+        for name_record in franchise["namesBySeason"]:
+            team_name = name_record["teamName"]
+
+            if team_name not in historical_names:
+                historical_names.append(team_name)
 
         franchise["historicalNames"] = historical_names
         franchises.append(franchise)
 
-    franchises.sort(key=lambda item: int(item["franchiseId"]))
+    franchises.sort(
+        key=lambda item: int(item["franchiseId"])
+    )
+
     return franchises
 
 
 def build_history(history_rows):
-    output = []
+    """Convert historical Excel rows into normalised JSON records."""
+    history = []
 
     for row in history_rows:
-        season = integer_or_zero(row.get("Season"))
-        franchise_id = str(integer_or_zero(row.get("TeamId")))
+        season = to_integer(row.get("Season"))
+        team_id = to_integer(row.get("TeamId"))
 
-        if not season or franchise_id == "0":
+        if season == 0 or team_id == 0:
             continue
 
-        output.append(
+        history.append(
             {
                 "season": season,
-                "franchiseId": franchise_id,
+                "franchiseId": str(team_id),
                 "teamName": clean_text(row.get("TeamName")),
                 "location": clean_text(row.get("Location")),
                 "owner": clean_text(row.get("Owner")),
-                "wins": integer_or_zero(row.get("Wins")),
-                "losses": integer_or_zero(row.get("Losses")),
-                "ties": integer_or_zero(row.get("Ties")),
-                "winPct": number_or_zero(row.get("WinPct")),
-                "pointsFor": number_or_zero(row.get("PointsFor")),
-                "pointsAgainst": number_or_zero(row.get("PointsAgainst")),
-                "playoffSeed": integer_or_zero(row.get("PlayoffSeed")),
-                "finalRank": integer_or_zero(row.get("FinalRank")),
+                "wins": to_integer(row.get("Wins")),
+                "losses": to_integer(row.get("Losses")),
+                "ties": to_integer(row.get("Ties")),
+                "winPct": to_number(row.get("WinPct")),
+                "pointsFor": to_number(row.get("PointsFor")),
+                "pointsAgainst": to_number(
+                    row.get("PointsAgainst")
+                ),
+                "playoffSeed": to_integer(
+                    row.get("PlayoffSeed")
+                ),
+                "finalRank": to_integer(row.get("FinalRank")),
             }
         )
 
-    output.sort(
+    history.sort(
         key=lambda item: (
             item["season"],
-            item["finalRank"] if item["finalRank"] else 999,
+            item["finalRank"]
+            if item["finalRank"] > 0
+            else 999,
             int(item["franchiseId"]),
         )
     )
 
-    return output
+    return history
+
+
+def validate_source_files():
+    """Stop the workflow with a clear message if a file is missing."""
+    missing_files = []
+
+    if not TEAMS_FILE.exists():
+        missing_files.append(str(TEAMS_FILE))
+
+    if not HISTORY_FILE.exists():
+        missing_files.append(str(HISTORY_FILE))
+
+    if missing_files:
+        formatted = "\n".join(missing_files)
+
+        raise FileNotFoundError(
+            "The following source files are missing:\n"
+            f"{formatted}"
+        )
+
+
+def validate_output(franchises, history):
+    """Prevent valid data from being replaced by empty JSON files."""
+    if not franchises:
+        raise ValueError(
+            "No franchises were generated from source/teams.xlsx"
+        )
+
+    if not history:
+        raise ValueError(
+            "No historical records were generated "
+            "from source/history.xlsx"
+        )
+
+    seasons = sorted(
+        {record["season"] for record in history}
+    )
+
+    print(f"Detected seasons: {seasons}")
+    print(f"Franchise count: {len(franchises)}")
+    print(f"Historical row count: {len(history)}")
+
+
+def write_json(file_path, data):
+    file_path.write_text(
+        json.dumps(
+            data,
+            ensure_ascii=False,
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
 
 
 def main():
-    if not TEAMS_FILE.exists():
-        raise FileNotFoundError(f"Missing source file: {TEAMS_FILE}")
-
-    if not HISTORY_FILE.exists():
-        raise FileNotFoundError(f"Missing source file: {HISTORY_FILE}")
-
+    validate_source_files()
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
-    teams = read_worksheet(TEAMS_FILE)
-    history_rows = read_worksheet(HISTORY_FILE)
+    team_rows = read_excel_rows(TEAMS_FILE)
+    history_rows = read_excel_rows(HISTORY_FILE)
 
-    franchises = build_franchises(teams)
+    franchises = build_franchises(team_rows)
     history = build_history(history_rows)
 
-    FRANCHISES_FILE.write_text(
-        json.dumps(franchises, ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
+    validate_output(franchises, history)
 
-    HISTORY_JSON_FILE.write_text(
-        json.dumps(history, ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
+    write_json(FRANCHISES_FILE, franchises)
+    write_json(HISTORY_JSON_FILE, history)
 
-    print(f"Created {FRANCHISES_FILE}")
-    print(f"Created {HISTORY_JSON_FILE}")
-    print(f"Franchises: {len(franchises)}")
-    print(f"Historical season rows: {len(history)}")
+    print(f"Created: {FRANCHISES_FILE}")
+    print(f"Created: {HISTORY_JSON_FILE}")
 
 
 if __name__ == "__main__":
