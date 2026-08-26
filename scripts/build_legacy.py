@@ -17,7 +17,6 @@ HISTORY_JSON_FILE = DATA_DIR / "history.json"
 
 
 def clean_text(value):
-    """Return trimmed text, or None for an empty cell."""
     if value is None:
         return None
 
@@ -26,7 +25,6 @@ def clean_text(value):
 
 
 def to_integer(value, default=0):
-    """Convert an Excel value to an integer."""
     if value is None or value == "":
         return default
 
@@ -34,7 +32,6 @@ def to_integer(value, default=0):
 
 
 def to_number(value, default=0.0):
-    """Convert an Excel value to a floating-point number."""
     if value is None or value == "":
         return default
 
@@ -42,10 +39,6 @@ def to_number(value, default=0.0):
 
 
 def read_excel_rows(file_path):
-    """
-    Read the active worksheet and return every populated row
-    as a dictionary using the first row as column headers.
-    """
     workbook = load_workbook(
         file_path,
         read_only=True,
@@ -87,12 +80,6 @@ def read_excel_rows(file_path):
 
 
 def build_franchises(team_rows):
-    """
-    Build one franchise record per stable TeamId.
-
-    TeamId is permanent.
-    TeamName can change between seasons.
-    """
     franchises_by_id = {}
 
     for row in team_rows:
@@ -141,7 +128,6 @@ def build_franchises(team_rows):
             key=lambda item: item["season"]
         )
 
-        # The last season in the mapping determines the current name.
         franchise["currentName"] = (
             franchise["namesBySeason"][-1]["teamName"]
         )
@@ -165,7 +151,6 @@ def build_franchises(team_rows):
 
 
 def build_history(history_rows):
-    """Convert historical Excel rows into normalised JSON records."""
     history = []
 
     for row in history_rows:
@@ -211,7 +196,6 @@ def build_history(history_rows):
 
 
 def validate_source_files():
-    """Stop the workflow with a clear message if a file is missing."""
     missing_files = []
 
     if not TEAMS_FILE.exists():
@@ -230,7 +214,6 @@ def validate_source_files():
 
 
 def validate_output(franchises, history):
-    """Prevent valid data from being replaced by empty JSON files."""
     if not franchises:
         raise ValueError(
             "No franchises were generated from source/teams.xlsx"
