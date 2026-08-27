@@ -1,0 +1,239 @@
+{
+  "generatedAt": "2026-08-27T12:04:49.769279+00:00",
+  "leagueId": "1397593463293239296",
+  "leagueName": "The League",
+  "leagueStatus": "pre_draft",
+  "season": 2026,
+  "nflState": {
+    "week": 3,
+    "leg": 0,
+    "season": "2026",
+    "season_type": "pre",
+    "league_season": "2026",
+    "previous_season": "2025",
+    "season_start_date": "2026-08-06",
+    "display_week": 3,
+    "league_create_season": "2026",
+    "season_has_scores": true
+  },
+  "teams": {
+    "1": {
+      "rosterId": 1,
+      "ownerId": "1397299609897836544",
+      "ownerName": "milijon",
+      "teamName": "Zamek Pancerne Dziki",
+      "players": [],
+      "starters": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "2": {
+      "rosterId": 2,
+      "ownerId": "1397712793855139840",
+      "ownerName": "Saszewski",
+      "teamName": "Vegablanca Boars",
+      "players": [],
+      "starters": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "3": {
+      "rosterId": 3,
+      "ownerId": "1395937838859579392",
+      "ownerName": "knockando",
+      "teamName": "Flota Oksywie",
+      "players": [],
+      "starters": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "4": {
+      "rosterId": 4,
+      "ownerId": "1398407279245524992",
+      "ownerName": "kiler7775",
+      "teamName": "Gdynia Moustache Admirers",
+      "players": [],
+      "starters": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "5": {
+      "rosterId": 5,
+      "ownerId": null,
+      "ownerName": null,
+      "teamName": null,
+      "players": [],
+      "starters": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "6": {
+      "rosterId": 6,
+      "ownerId": null,
+      "ownerName": null,
+      "teamName": null,
+      "players": [],
+      "starters": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "7": {
+      "rosterId": 7,
+      "ownerId": "1398370307936354304",
+      "ownerName": "PotegaWesiory",
+      "teamName": null,
+      "players": [],
+      "starters": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "8": {
+      "rosterId": 8,
+      "ownerId": "1398643051898880000",
+      "ownerName": "Janaka7",
+      "teamName": "Kiki Owls",
+      "players": [],
+      "starters": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    }
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "matchups": []
+    },
+    {
+      "week": 2,
+      "matchups": []
+    },
+    {
+      "week": 3,
+      "matchups": []
+    },
+    {
+      "week": 4,
+      "matchups": []
+    },
+    {
+      "week": 5,
+      "matchups": []
+    },
+    {
+      "week": 6,
+      "matchups": []
+    },
+    {
+      "week": 7,
+      "matchups": []
+    },
+    {
+      "week": 8,
+      "matchups": []
+    },
+    {
+      "week": 9,
+      "matchups": []
+    },
+    {
+      "week": 10,
+      "matchups": []
+    },
+    {
+      "week": 11,
+      "matchups": []
+    },
+    {
+      "week": 12,
+      "matchups": []
+    },
+    {
+      "week": 13,
+      "matchups": []
+    },
+    {
+      "week": 14,
+      "matchups": []
+    },
+    {
+      "week": 15,
+      "matchups": []
+    },
+    {
+      "week": 16,
+      "matchups": []
+    },
+    {
+      "week": 17,
+      "matchups": []
+    },
+    {
+      "week": 18,
+      "matchups": []
+    }
+  ]
+}
