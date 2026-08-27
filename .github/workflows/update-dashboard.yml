@@ -1,22 +1,29 @@
 name: Update dashboard data
 
 on:
-  # hourly refresh
-  schedule:
-    - cron: '0 * * * *'
   workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * *"
+  push:
+    paths:
+      - "source/**"
+      - "scripts/**"
+      - "config.json"
+      - ".github/workflows/update-dashboard.yml"
 
 permissions:
   contents: write
 
 concurrency:
-  group: dashboard-data-update
+  group: update-dashboard-data
   cancel-in-progress: false
 
 jobs:
   update:
-    runs-on: ubuntu-latest
-
+    runs-on: ubuntu-24.04
+    env:
+      SLEEPER_LEAGUE_ID: "1397593463293239296"
+      SLEEPER_MAX_WEEK: "18"
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -28,26 +35,28 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install dependencies
+      - name: Install workbook dependency
         run: python -m pip install openpyxl
 
       - name: Build legacy data
         run: python scripts/build_legacy.py
 
-      - name: Fetch live Sleeper data
+      - name: Fetch current league data
         run: python scripts/fetch_live.py
+
+      - name: Fetch weekly matchups, players and transactions
+        run: python scripts/fetch_weekly.py
 
       - name: Commit generated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git pull --rebase --autostash origin main
           git add data/franchises.json data/history.json data/live.json
-
+          git add data/weekly.json data/transactions.json data/players.json
           if git diff --cached --quiet; then
             echo "No generated data changes to commit."
           else
-            git commit -m "Update legacy and live dashboard data"
+            git commit -m "Update legacy, live and weekly dashboard data"
             git push origin main
           fi
