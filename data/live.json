@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T12:04:49.693930+00:00",
+  "generatedAt": "2026-08-27T15:34:06.239742+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "pre_draft",
@@ -56,12 +56,8 @@
       "reserve_slots": 0,
       "reserve_allow_cov": 0
     },
-    "avatar": null,
+    "avatar": "8da7991069e3a7217718ff56366005c6",
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "shard": 125,
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -102,17 +98,21 @@
       "fum_rec_td": 6.0,
       "pts_allow_7_13": 4.0
     },
-    "last_message_id": "1398644300396384256",
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
+    "last_message_id": "1398713461021642752",
+    "shard": 125,
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1787825296071,
+    "last_message_time": 1787841785249,
     "last_pinned_message_id": "1398407155169656845",
-    "draft_id": "1397593466170523648",
     "last_read_id": null,
+    "draft_id": "1397593466170523648",
     "league_id": "1397593463293239296",
     "previous_league_id": null,
     "bracket_id": null,
@@ -436,7 +436,14 @@
         "1397299609897836544"
       ],
       "draft_id": "1397593466170523648",
-      "draft_order": null,
+      "draft_order": {
+        "1395937838859579392": 8,
+        "1397299609897836544": 2,
+        "1397712793855139840": 6,
+        "1398370307936354304": 4,
+        "1398407279245524992": 7,
+        "1398643051898880000": 1
+      },
       "last_message_id": "1397593466170523648",
       "last_message_time": 1787574757668,
       "last_picked": 1787771092377,
@@ -473,7 +480,7 @@
         "teams": 8
       },
       "sport": "nfl",
-      "start_time": null,
+      "start_time": 1788723420000,
       "status": "pre_draft",
       "type": "snake"
     }
