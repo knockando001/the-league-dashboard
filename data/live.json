@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T18:15:00.540168+00:00",
+  "generatedAt": "2026-08-27T09:26:05.501528+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "pre_draft",
@@ -58,6 +58,10 @@
     },
     "avatar": null,
     "company_id": null,
+    "shard": 125,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "fgm_40_49": 4.0,
@@ -98,23 +102,24 @@
       "fum_rec_td": 6.0,
       "pts_allow_7_13": 4.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
-    "last_message_id": "1398377419076812800",
-    "shard": 125,
+    "last_message_id": "1398418151825260544",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1787761666606,
-    "last_pinned_message_id": null,
-    "last_read_id": null,
+    "last_message_time": 1787771378050,
+    "last_pinned_message_id": "1398407155169656845",
     "draft_id": "1397593466170523648",
+    "last_read_id": null,
     "league_id": "1397593463293239296",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -133,11 +138,6 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 8
   },
   "nflState": {
@@ -209,6 +209,21 @@
       },
       "settings": null,
       "user_id": "1398370307936354304"
+    },
+    {
+      "avatar": "578c6b253dd7b4bab45382e1af102204",
+      "display_name": "kiler7775",
+      "is_bot": false,
+      "is_owner": null,
+      "league_id": "1397593463293239296",
+      "metadata": {
+        "allow_pn": "on",
+        "avatar": "https://sleepercdn.com/uploads/97c0062b2c4b6fe7664584f91441947c.jpg",
+        "mention_pn": "on",
+        "team_name": "Gdynia Moustache Admirers"
+      },
+      "settings": null,
+      "user_id": "1398407279245524992"
     }
   ],
   "standings": [
@@ -283,9 +298,9 @@
     },
     {
       "rosterId": 4,
-      "ownerId": null,
-      "owner": null,
-      "team": "Roster 4",
+      "ownerId": "1398407279245524992",
+      "owner": "kiler7775",
+      "team": "Gdynia Moustache Admirers",
       "wins": 0,
       "losses": 0,
       "ties": 0,
@@ -410,17 +425,27 @@
       "draft_order": null,
       "last_message_id": "1397593466170523648",
       "last_message_time": 1787574757668,
-      "last_picked": null,
+      "last_picked": 1787771092377,
       "league_id": "1397593463293239296",
       "metadata": {
         "league_type": "0",
         "name": "The League",
-        "scoring_type": "std"
+        "scoring_type": "std",
+        "show_team_names": "1"
       },
       "season": "2026",
       "season_type": "regular",
       "settings": {
         "alpha_sort": 0,
+        "autopause_enabled": 0,
+        "autopause_end_time": 480,
+        "autopause_start_time": 1200,
+        "autostart": 0,
+        "cpu_autopick": 0,
+        "enforce_position_limits": 1,
+        "nomination_timer": 60,
+        "pick_timer": 60,
+        "player_type": 0,
         "reversal_round": 0,
         "rounds": 16,
         "slots_bn": 7,
