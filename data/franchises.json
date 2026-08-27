@@ -216,11 +216,12 @@
   },
   {
     "franchiseId": "4",
-    "currentName": "Kompino Moustache Admirers",
+    "currentName": "Gdynia Moustache Admirers",
     "firstSeason": 2011,
-    "lastSeason": 2025,
+    "lastSeason": 2026,
     "historicalNames": [
-      "Kompino Moustache Admirers"
+      "Kompino Moustache Admirers",
+      "Gdynia Moustache Admirers"
     ],
     "namesBySeason": [
       {
@@ -282,6 +283,10 @@
       {
         "season": 2025,
         "teamName": "Kompino Moustache Admirers"
+      },
+      {
+        "season": 2026,
+        "teamName": "Gdynia Moustache Admirers"
       }
     ]
   },

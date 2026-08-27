@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T09:26:05.501528+00:00",
+  "generatedAt": "2026-08-27T10:29:53.326586+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "pre_draft",
@@ -102,24 +102,19 @@
       "fum_rec_td": 6.0,
       "pts_allow_7_13": 4.0
     },
-    "last_message_id": "1398418151825260544",
+    "last_message_id": "1398644300396384256",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1787771378050,
+    "last_message_time": 1787825296071,
     "last_pinned_message_id": "1398407155169656845",
     "draft_id": "1397593466170523648",
     "last_read_id": null,
     "league_id": "1397593463293239296",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -138,6 +133,11 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 8
   },
   "nflState": {
@@ -224,6 +224,20 @@
       },
       "settings": null,
       "user_id": "1398407279245524992"
+    },
+    {
+      "avatar": "d55d1f7075eda01948318de4af616075",
+      "display_name": "Janaka7",
+      "is_bot": false,
+      "is_owner": null,
+      "league_id": "1397593463293239296",
+      "metadata": {
+        "allow_pn": "on",
+        "mention_pn": "on",
+        "team_name": "Kiki Owls"
+      },
+      "settings": null,
+      "user_id": "1398643051898880000"
     }
   ],
   "standings": [
@@ -390,9 +404,9 @@
     },
     {
       "rosterId": 8,
-      "ownerId": null,
-      "owner": null,
-      "team": "Roster 8",
+      "ownerId": "1398643051898880000",
+      "owner": "Janaka7",
+      "team": "Kiki Owls",
       "wins": 0,
       "losses": 0,
       "ties": 0,
