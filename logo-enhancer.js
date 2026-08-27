@@ -6,8 +6,8 @@
   const style = document.createElement('style');
   style.textContent = `
     .team-with-logo{display:inline-flex;align-items:center;gap:10px;min-width:0;vertical-align:middle}
-    .team-logo{width:${LOGO_SIZE}px;height:${LOGO_SIZE}px;flex:0 0 ${LOGO_SIZE}px;border-radius:50%;background:#fff;border:1px solid rgba(255,255,255,.22);padding:3px;object-fit:contain;box-shadow:0 1px 4px rgba(0,0,0,.28);vertical-align:middle}
-    .team-logo--large{width:64px;height:64px;flex-basis:64px;padding:5px}
+    .team-logo{width:${LOGO_SIZE}px;height:${LOGO_SIZE}px;flex:0 0 ${LOGO_SIZE}px;border-radius:50%;background:transparent;border:0;padding:0;object-fit:cover;box-shadow:0 1px 4px rgba(0,0,0,.28);vertical-align:middle}
+    .team-logo--large{width:64px;height:64px;flex-basis:64px;padding:0}
     .franchise-title-with-logo{display:flex;align-items:center;gap:16px}
     .franchise-title-with-logo h3,.franchise-title-with-logo h4{margin:0}
     td .team-with-logo{white-space:nowrap}
