@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T12:07:58.144587+00:00",
+  "generatedAt": "2026-08-29T14:06:55.419648+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "pre_draft",
@@ -222,19 +222,20 @@
       "st_ff": 0.0,
       "idp_tkl_ast": 0.0
     },
-    "last_message_id": "1399138606215352343",
+    "last_message_id": "1399410105333608448",
+    "draft_id": "1397593466170523648",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1787943147761,
+    "last_message_time": 1788007878196,
     "last_pinned_message_id": "1398407155169656845",
-    "last_read_id": null,
-    "draft_id": "1397593466170523648",
     "league_id": "1397593463293239296",
     "previous_league_id": null,
+    "last_read_id": null,
+    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -255,16 +256,15 @@
     ],
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 8
   },
   "nflState": {
     "week": 3,
-    "season_type": "pre",
-    "season": "2026",
     "leg": 0,
+    "season": "2026",
+    "season_type": "pre",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-08-06",
@@ -358,6 +358,19 @@
       },
       "settings": null,
       "user_id": "1398643051898880000"
+    },
+    {
+      "avatar": "7bfcd7c07b0110d356ae436e1297a25e",
+      "display_name": "AgroplonGluszyna",
+      "is_bot": false,
+      "is_owner": null,
+      "league_id": "1397593463293239296",
+      "metadata": {
+        "allow_pn": "on",
+        "mention_pn": "on"
+      },
+      "settings": null,
+      "user_id": "1399409218053783552"
     }
   ],
   "standings": [
@@ -478,9 +491,9 @@
     },
     {
       "rosterId": 6,
-      "ownerId": null,
-      "owner": null,
-      "team": "Roster 6",
+      "ownerId": "1399409218053783552",
+      "owner": "AgroplonGluszyna",
+      "team": "AgroplonGluszyna",
       "wins": 0,
       "losses": 0,
       "ties": 0,
