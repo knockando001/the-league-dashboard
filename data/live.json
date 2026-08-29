@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T16:07:03.374450+00:00",
+  "generatedAt": "2026-08-29T18:07:04.700188+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "pre_draft",
@@ -223,6 +223,7 @@
       "idp_tkl_ast": 0.0
     },
     "last_message_id": "1399410105333608448",
+    "draft_id": "1397593466170523648",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -231,10 +232,10 @@
     "last_message_text_map": null,
     "last_message_time": 1788007878196,
     "last_pinned_message_id": "1398407155169656845",
-    "draft_id": "1397593466170523648",
-    "last_read_id": null,
     "league_id": "1397593463293239296",
     "previous_league_id": null,
+    "last_read_id": null,
+    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -255,7 +256,6 @@
     ],
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 8
