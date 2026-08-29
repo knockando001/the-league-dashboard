@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-29T08:06:58.763417+00:00",
+  "generatedAt": "2026-08-29T10:06:59.382475+00:00",
   "leagueId": "1397593463293239296",
   "leagueName": "The League",
   "leagueStatus": "pre_draft",
   "season": 2026,
   "nflState": {
     "week": 3,
-    "leg": 0,
-    "season": "2026",
     "season_type": "pre",
+    "season": "2026",
+    "leg": 0,
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-08-06",
