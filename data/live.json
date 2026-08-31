@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T02:06:50.576358+00:00",
+  "generatedAt": "2026-08-31T04:07:39.645417+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "pre_draft",
@@ -68,10 +68,10 @@
     },
     "avatar": "8da7991069e3a7217718ff56366005c6",
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "shard": 125,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -223,6 +223,7 @@
       "idp_tkl_ast": 0.0
     },
     "last_message_id": "1399810567232819200",
+    "draft_id": "1397593466170523648",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -231,12 +232,9 @@
     "last_message_text_map": null,
     "last_message_time": 1788103355752,
     "last_pinned_message_id": "1398407155169656845",
-    "draft_id": "1397593466170523648",
     "last_read_id": null,
     "league_id": "1397593463293239296",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -255,6 +253,8 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
     "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
