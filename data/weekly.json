@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T08:14:35.215608+00:00",
+  "generatedAt": "2026-09-02T10:14:05.607272+00:00",
   "leagueId": "1397593463293239296",
   "leagueName": "The League",
   "leagueStatus": "pre_draft",
@@ -93,7 +93,7 @@
       "rosterId": 5,
       "ownerId": "1399810563806142464",
       "ownerName": "DonTeamKielce",
-      "teamName": null,
+      "teamName": "DonTeam Kielce",
       "players": [],
       "starters": [
         "0",
