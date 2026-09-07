@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T00:22:13.484379+00:00",
+  "generatedAt": "2026-09-07T02:13:06.232580+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "pre_draft",
@@ -235,6 +235,11 @@
     "last_read_id": null,
     "league_id": "1397593463293239296",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -253,11 +258,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 8
   },
   "nflState": {
