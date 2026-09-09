@@ -1,23 +1,84 @@
-# The League Dashboard Roadmap
+# \# Phase 1 (Completed)
 
-## Phase 1: Ready now
+# 
 
-- Matchup Centre
-- Head-to-Head Records
-- Rivalries
-- Weekly Recap
-- Luck Rankings
+# \- Home Page
 
-## Phase 2: After Week 1
+# \- Hall of Fame
 
-- Best Bench Performance
-- Optimal Line-up
-- Coaching Efficiency
-- Weekly MVP
-- Weekly Bust
+# \- History
 
-## Phase 3: Future development
+# \- Records
 
-- Draft Analytics
-- Trade Analytics
-- Player Hall of Fame
+# \- Franchises
+
+# \- Draft Centre
+
+# \- Sleeper Integration
+
+# \- Franchise Logos
+
+# \- League Logo
+
+# \- Mobile Landing Page Table Fix
+
+# 
+
+# \# Phase 2 (Next)
+
+# 
+
+# \- Draft Recap
+
+# \- Draft Grades
+
+# \- Biggest Steals
+
+# \- Biggest Reaches
+
+# \- Team Projection Rankings
+
+# \- Best Draft Value
+
+# \- Position Strength Analysis
+
+# 
+
+# \# Phase 3 (After Week 1)
+
+# 
+
+# \- Matchup Centre
+
+# \- Weekly Recap
+
+# \- Weekly MVP
+
+# \- Weekly Bust
+
+# \- Luck Rankings
+
+# \- Rivalries
+
+# \- Coaching Efficiency
+
+# \- Bench Points
+
+# \- Power Rankings
+
+# 
+
+# \# Future Ideas
+
+# 
+
+# \- Trade Analyser
+
+# \- Playoff Probability
+
+# \- Championship Probability
+
+# \- Franchise Trends
+
+# \- Historical Draft Analysis
+
