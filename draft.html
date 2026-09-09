@@ -1,1 +1,102 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Draft Centre | The League</title><link rel="stylesheet" href="styles.css?v=4.2"><link rel="stylesheet" href="draft-centre.css?v=5.2"></head><body data-page="draft"><header class="site-header"><div class="wrap header-inner"><a class="brand" href="index.html"><span class="brand-mark"><img src="logos/logo.png" alt="The League logo" style="display:block;width:100%;height:100%;object-fit:cover;border-radius:inherit"></span><span><strong>The League</strong><small>Est. 2011</small></span></a><button class="nav-toggle" type="button">Menu</button><nav class="nav"><a href="index.html">Home</a><a href="hall-of-fame.html">Hall of Fame</a><a href="history.html">History</a><a href="records.html">Records</a><a href="franchise.html">Franchises</a><a class="active" href="draft.html">Draft Centre</a></nav></div></header><main class="wrap"><section class="page-hero"><p class="eyebrow">Draft archive</p><h1>Draft Centre</h1><p class="lede">Current draft status and year-by-year draft history from the Sleeper era.</p></section><section class="draft-toolbar"><label>Draft year<select id="draft-year"></select></label><span id="draft-source" class="scope-pill">Loading</span></section><section id="draft-summary" class="draft-summary-grid"><div class="card"><p class="muted">Loading draft information...</p></div></section><section><div class="section-heading"><div><h2>Draft board</h2><p id="draft-board-note" class="muted section-copy"></p></div></div><div id="draft-board" class="card table-wrap"><p class="muted">Loading...</p></div></section><section><div class="section-heading"><div><h2>Team draft summary</h2><p class="muted section-copy">Picks grouped by roster for the selected year.</p></div></div><div id="team-draft-summary" class="team-draft-grid"></div></section></main><footer><div class="wrap">The League Dashboard <span class="version">v5.5</span></div></footer><script src="draft-centre.js?v=5.2"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Draft Centre | The League</title>
+  <link rel="stylesheet" href="styles.css?v=4.2">
+  <link rel="stylesheet" href="draft-centre.css?v=5.2">
+  <style>
+    .digest-shell{overflow:hidden;padding:0}
+    .digest-frame{display:block;width:100%;height:min(900px,78vh);min-height:620px;border:0;background:#07111f}
+    .digest-actions{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:0 0 16px}
+    .digest-actions .section-copy{margin:0}
+    .digest-open{flex:0 0 auto;color:var(--blue);font-weight:750;text-decoration:none}
+    .digest-open:hover{text-decoration:underline}
+    @media(max-width:570px){
+      .digest-actions{align-items:flex-start;flex-direction:column;gap:8px}
+      .digest-frame{height:72vh;min-height:520px}
+    }
+  </style>
+</head>
+<body data-page="draft">
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark"><img src="logos/logo.png" alt="The League logo" style="display:block;width:100%;height:100%;object-fit:cover;border-radius:inherit"></span>
+      <span><strong>The League</strong><small>Est. 2011</small></span>
+    </a>
+    <button class="nav-toggle" type="button">Menu</button>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="hall-of-fame.html">Hall of Fame</a>
+      <a href="history.html">History</a>
+      <a href="records.html">Records</a>
+      <a href="franchise.html">Franchises</a>
+      <a class="active" href="draft.html">Draft Centre</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="page-hero">
+    <p class="eyebrow">Draft archive</p>
+    <h1>Draft Centre</h1>
+    <p class="lede">Current draft status and year-by-year draft history from the Sleeper era.</p>
+  </section>
+
+  <section class="draft-toolbar">
+    <label>Draft year<select id="draft-year"></select></label>
+    <span id="draft-source" class="scope-pill">Loading</span>
+  </section>
+
+  <section id="draft-summary" class="draft-summary-grid">
+    <div class="card"><p class="muted">Loading draft information...</p></div>
+  </section>
+
+  <section id="league-digest">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">2026 draft review</p>
+        <h2>League Digest</h2>
+      </div>
+    </div>
+    <div class="digest-actions">
+      <p class="muted section-copy">Draft recap, grades, analysis and league-wide takeaways.</p>
+      <a class="digest-open" href="the-league-draft-2026-digest (1).html" target="_blank" rel="noopener">Open full digest</a>
+    </div>
+    <div class="card digest-shell">
+      <iframe
+        class="digest-frame"
+        src="the-league-draft-2026-digest (1).html"
+        title="The League 2026 Draft Digest"
+        loading="lazy">
+      </iframe>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-heading">
+      <div>
+        <h2>Draft board</h2>
+        <p id="draft-board-note" class="muted section-copy"></p>
+      </div>
+    </div>
+    <div id="draft-board" class="card table-wrap"><p class="muted">Loading...</p></div>
+  </section>
+
+  <section>
+    <div class="section-heading">
+      <div>
+        <h2>Team draft summary</h2>
+        <p class="muted section-copy">Picks grouped by roster for the selected year.</p>
+      </div>
+    </div>
+    <div id="team-draft-summary" class="team-draft-grid"></div>
+  </section>
+</main>
+
+<footer><div class="wrap">The League Dashboard <span class="version">v5.5</span></div></footer>
+<script src="draft-centre.js?v=5.2"></script>
+</body>
+</html>
