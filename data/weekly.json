@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T00:17:50.677993+00:00",
+  "generatedAt": "2026-09-10T02:13:33.527240+00:00",
   "leagueId": "1397593463293239296",
   "leagueName": "The League",
   "leagueStatus": "in_season",
@@ -7,8 +7,8 @@
   "nflState": {
     "week": 1,
     "leg": 1,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -408,7 +408,7 @@
           "ownerId": "1397712793855139840",
           "ownerName": "Saszewski",
           "teamName": "Vegablanca Boars",
-          "points": 0.0,
+          "points": 6.0,
           "customPoints": null,
           "starters": [
             {
@@ -445,7 +445,7 @@
             },
             {
               "playerId": "SEA",
-              "points": 0.0
+              "points": 6.0
             }
           ],
           "bench": [
@@ -459,7 +459,7 @@
             },
             {
               "playerId": "13286",
-              "points": 0.0
+              "points": 3.9
             },
             {
               "playerId": "13298",
@@ -486,7 +486,7 @@
             "12514": 0.0,
             "12533": 0.0,
             "13279": 0.0,
-            "13286": 0.0,
+            "13286": 3.9,
             "13298": 0.0,
             "13345": 0.0,
             "13346": 0.0,
@@ -499,7 +499,7 @@
             "8148": 0.0,
             "9225": 0.0,
             "9502": 0.0,
-            "SEA": 0.0
+            "SEA": 6.0
           }
         },
         {
@@ -510,7 +510,7 @@
           "ownerId": "1395937838859579392",
           "ownerName": "knockando",
           "teamName": "Flota Oksywie",
-          "points": 0.0,
+          "points": 3.4,
           "customPoints": null,
           "starters": [
             {
@@ -539,7 +539,7 @@
             },
             {
               "playerId": "7611",
-              "points": 0.0
+              "points": 3.4
             },
             {
               "playerId": "12711",
@@ -591,7 +591,7 @@
             "6801": 0.0,
             "7526": 0.0,
             "7588": 0.0,
-            "7611": 0.0,
+            "7611": 3.4,
             "8110": 0.0,
             "8138": 0.0,
             "8408": 0.0,
@@ -607,7 +607,7 @@
           "ownerId": "1398407279245524992",
           "ownerName": "kiler7775",
           "teamName": "Gdynia Moustache Admirers",
-          "points": 0.0,
+          "points": 5.3,
           "customPoints": null,
           "starters": [
             {
@@ -624,7 +624,7 @@
             },
             {
               "playerId": "9488",
-              "points": 0.0
+              "points": 5.3
             },
             {
               "playerId": "9997",
@@ -654,7 +654,7 @@
             },
             {
               "playerId": "11564",
-              "points": 0.0
+              "points": 10.96
             },
             {
               "playerId": "12519",
@@ -679,7 +679,7 @@
           ],
           "playersPoints": {
             "10232": 0.0,
-            "11564": 0.0,
+            "11564": 10.96,
             "12518": 0.0,
             "12519": 0.0,
             "13287": 0.0,
@@ -691,7 +691,7 @@
             "7021": 0.0,
             "8150": 0.0,
             "8259": 0.0,
-            "9488": 0.0,
+            "9488": 5.3,
             "9997": 0.0,
             "DEN": 0.0
           }
@@ -898,7 +898,7 @@
           "ownerId": "1398370307936354304",
           "ownerName": "PotegaWesiory",
           "teamName": "Potega Wesiory",
-          "points": 0.0,
+          "points": 2.6,
           "customPoints": null,
           "starters": [
             {
@@ -919,7 +919,7 @@
             },
             {
               "playerId": "5859",
-              "points": 0.0
+              "points": 2.6
             },
             {
               "playerId": "12517",
@@ -976,7 +976,7 @@
             "2747": 0.0,
             "4037": 0.0,
             "4983": 0.0,
-            "5859": 0.0,
+            "5859": 2.6,
             "5947": 0.0,
             "7543": 0.0,
             "7564": 0.0,
