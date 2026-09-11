@@ -1,8 +1,32 @@
 {
-  "generatedAt": "2026-09-10T22:12:10.734414+00:00",
+  "generatedAt": "2026-09-11T00:18:57.475040+00:00",
   "leagueId": "1397593463293239296",
   "season": 2026,
   "transactions": [
+    {
+      "week": 1,
+      "status": "complete",
+      "type": "free_agent",
+      "metadata": null,
+      "created": 1789080431672,
+      "settings": null,
+      "leg": 1,
+      "draft_picks": [],
+      "creator": "1395937838859579392",
+      "transaction_id": "1403908720672403456",
+      "adds": {
+        "TB": 3
+      },
+      "consenter_ids": [
+        3
+      ],
+      "drops": null,
+      "roster_ids": [
+        3
+      ],
+      "status_updated": 1789080431672,
+      "waiver_budget": []
+    },
     {
       "week": 1,
       "status": "complete",
@@ -17,12 +41,12 @@
       "adds": {
         "8110": 3
       },
-      "drops": {
-        "8142": 3
-      },
       "consenter_ids": [
         3
       ],
+      "drops": {
+        "8142": 3
+      },
       "roster_ids": [
         3
       ],
@@ -43,10 +67,10 @@
       "adds": {
         "9225": 2
       },
-      "drops": null,
       "consenter_ids": [
         2
       ],
+      "drops": null,
       "roster_ids": [
         2
       ],
@@ -67,12 +91,12 @@
       "adds": {
         "6797": 4
       },
-      "drops": {
-        "4199": 4
-      },
       "consenter_ids": [
         4
       ],
+      "drops": {
+        "4199": 4
+      },
       "roster_ids": [
         4
       ],

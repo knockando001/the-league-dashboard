@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T22:12:10.669324+00:00",
+  "generatedAt": "2026-09-11T00:18:57.385544+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -70,6 +70,11 @@
     },
     "avatar": "8da7991069e3a7217718ff56366005c6",
     "company_id": null,
+    "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "last_message_id": "1403908720773042176",
+    "shard": 125,
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -220,26 +225,23 @@
       "st_ff": 0.0,
       "idp_tkl_ast": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 125,
-    "sport": "nfl",
-    "last_message_id": "1403507713392078848",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1788984824087,
+    "last_message_time": 1789080431696,
     "last_pinned_message_id": "1398407155169656845",
     "last_read_id": null,
     "draft_id": "1397593466170523648",
     "league_id": "1397593463293239296",
     "previous_league_id": null,
-    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -258,15 +260,13 @@
       "BN",
       "BN"
     ],
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 8
   },
   "nflState": {
     "week": 1,
     "leg": 1,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -503,7 +503,8 @@
         "8138",
         "8408",
         "9493",
-        "JAX"
+        "JAX",
+        "TB"
       ],
       "starters": [
         "421",
@@ -868,7 +869,8 @@
           "8138",
           "8408",
           "9493",
-          "JAX"
+          "JAX",
+          "TB"
         ],
         "roster_id": 3,
         "custom_points": null,
@@ -911,7 +913,8 @@
           "8138": 0.0,
           "8408": 0.0,
           "9493": 0.0,
-          "JAX": 0.0
+          "JAX": 0.0,
+          "TB": 0.0
         }
       },
       {
@@ -1384,7 +1387,8 @@
           "8138",
           "8408",
           "9493",
-          "JAX"
+          "JAX",
+          "TB"
         ],
         "roster_id": 3,
         "custom_points": null,
@@ -1427,7 +1431,8 @@
           "8138": 0.0,
           "8408": 0.0,
           "9493": 0.0,
-          "JAX": 0.0
+          "JAX": 0.0,
+          "TB": 0.0
         }
       },
       {
@@ -1900,7 +1905,8 @@
           "8138",
           "8408",
           "9493",
-          "JAX"
+          "JAX",
+          "TB"
         ],
         "roster_id": 3,
         "custom_points": null,
@@ -1943,7 +1949,8 @@
           "8138": 0.0,
           "8408": 0.0,
           "9493": 0.0,
-          "JAX": 0.0
+          "JAX": 0.0,
+          "TB": 0.0
         }
       },
       {
@@ -2416,7 +2423,8 @@
           "8138",
           "8408",
           "9493",
-          "JAX"
+          "JAX",
+          "TB"
         ],
         "roster_id": 3,
         "custom_points": null,
@@ -2459,7 +2467,8 @@
           "8138": 0.0,
           "8408": 0.0,
           "9493": 0.0,
-          "JAX": 0.0
+          "JAX": 0.0,
+          "TB": 0.0
         }
       },
       {
@@ -2932,7 +2941,8 @@
           "8138",
           "8408",
           "9493",
-          "JAX"
+          "JAX",
+          "TB"
         ],
         "roster_id": 3,
         "custom_points": null,
@@ -2975,7 +2985,8 @@
           "8138": 0.0,
           "8408": 0.0,
           "9493": 0.0,
-          "JAX": 0.0
+          "JAX": 0.0,
+          "TB": 0.0
         }
       },
       {
@@ -3448,7 +3459,8 @@
           "8138",
           "8408",
           "9493",
-          "JAX"
+          "JAX",
+          "TB"
         ],
         "roster_id": 3,
         "custom_points": null,
@@ -3491,7 +3503,8 @@
           "8138": 0.0,
           "8408": 0.0,
           "9493": 0.0,
-          "JAX": 0.0
+          "JAX": 0.0,
+          "TB": 0.0
         }
       },
       {
@@ -3964,7 +3977,8 @@
           "8138",
           "8408",
           "9493",
-          "JAX"
+          "JAX",
+          "TB"
         ],
         "roster_id": 3,
         "custom_points": null,
@@ -4007,7 +4021,8 @@
           "8138": 0.0,
           "8408": 0.0,
           "9493": 0.0,
-          "JAX": 0.0
+          "JAX": 0.0,
+          "TB": 0.0
         }
       },
       {
@@ -4480,7 +4495,8 @@
           "8138",
           "8408",
           "9493",
-          "JAX"
+          "JAX",
+          "TB"
         ],
         "roster_id": 3,
         "custom_points": null,
@@ -4523,7 +4539,8 @@
           "8138": 0.0,
           "8408": 0.0,
           "9493": 0.0,
-          "JAX": 0.0
+          "JAX": 0.0,
+          "TB": 0.0
         }
       },
       {
@@ -4996,7 +5013,8 @@
           "8138",
           "8408",
           "9493",
-          "JAX"
+          "JAX",
+          "TB"
         ],
         "roster_id": 3,
         "custom_points": null,
@@ -5039,7 +5057,8 @@
           "8138": 0.0,
           "8408": 0.0,
           "9493": 0.0,
-          "JAX": 0.0
+          "JAX": 0.0,
+          "TB": 0.0
         }
       },
       {
@@ -5512,7 +5531,8 @@
           "8138",
           "8408",
           "9493",
-          "JAX"
+          "JAX",
+          "TB"
         ],
         "roster_id": 3,
         "custom_points": null,
@@ -5555,7 +5575,8 @@
           "8138": 0.0,
           "8408": 0.0,
           "9493": 0.0,
-          "JAX": 0.0
+          "JAX": 0.0,
+          "TB": 0.0
         }
       },
       {
@@ -6028,7 +6049,8 @@
           "8138",
           "8408",
           "9493",
-          "JAX"
+          "JAX",
+          "TB"
         ],
         "roster_id": 3,
         "custom_points": null,
@@ -6071,7 +6093,8 @@
           "8138": 0.0,
           "8408": 0.0,
           "9493": 0.0,
-          "JAX": 0.0
+          "JAX": 0.0,
+          "TB": 0.0
         }
       },
       {
@@ -6544,7 +6567,8 @@
           "8138",
           "8408",
           "9493",
-          "JAX"
+          "JAX",
+          "TB"
         ],
         "roster_id": 3,
         "custom_points": null,
@@ -6587,7 +6611,8 @@
           "8138": 0.0,
           "8408": 0.0,
           "9493": 0.0,
-          "JAX": 0.0
+          "JAX": 0.0,
+          "TB": 0.0
         }
       },
       {
@@ -7060,7 +7085,8 @@
           "8138",
           "8408",
           "9493",
-          "JAX"
+          "JAX",
+          "TB"
         ],
         "roster_id": 3,
         "custom_points": null,
@@ -7103,7 +7129,8 @@
           "8138": 0.0,
           "8408": 0.0,
           "9493": 0.0,
-          "JAX": 0.0
+          "JAX": 0.0,
+          "TB": 0.0
         }
       },
       {
@@ -7576,7 +7603,8 @@
           "8138",
           "8408",
           "9493",
-          "JAX"
+          "JAX",
+          "TB"
         ],
         "roster_id": 3,
         "custom_points": null,
@@ -7619,7 +7647,8 @@
           "8138": 0.0,
           "8408": 0.0,
           "9493": 0.0,
-          "JAX": 0.0
+          "JAX": 0.0,
+          "TB": 0.0
         }
       },
       {
@@ -8092,7 +8121,8 @@
           "8138",
           "8408",
           "9493",
-          "JAX"
+          "JAX",
+          "TB"
         ],
         "roster_id": 3,
         "custom_points": null,
@@ -8135,7 +8165,8 @@
           "8138": 0.0,
           "8408": 0.0,
           "9493": 0.0,
-          "JAX": 0.0
+          "JAX": 0.0,
+          "TB": 0.0
         }
       },
       {
@@ -8608,7 +8639,8 @@
           "8138",
           "8408",
           "9493",
-          "JAX"
+          "JAX",
+          "TB"
         ],
         "roster_id": 3,
         "custom_points": null,
@@ -8651,7 +8683,8 @@
           "8138": 0.0,
           "8408": 0.0,
           "9493": 0.0,
-          "JAX": 0.0
+          "JAX": 0.0,
+          "TB": 0.0
         }
       },
       {
@@ -9124,7 +9157,8 @@
           "8138",
           "8408",
           "9493",
-          "JAX"
+          "JAX",
+          "TB"
         ],
         "roster_id": 3,
         "custom_points": null,
@@ -9167,7 +9201,8 @@
           "8138": 0.0,
           "8408": 0.0,
           "9493": 0.0,
-          "JAX": 0.0
+          "JAX": 0.0,
+          "TB": 0.0
         }
       },
       {
@@ -9640,7 +9675,8 @@
           "8138",
           "8408",
           "9493",
-          "JAX"
+          "JAX",
+          "TB"
         ],
         "roster_id": 3,
         "custom_points": null,
@@ -9683,7 +9719,8 @@
           "8138": 0.0,
           "8408": 0.0,
           "9493": 0.0,
-          "JAX": 0.0
+          "JAX": 0.0,
+          "TB": 0.0
         }
       },
       {
@@ -10014,6 +10051,29 @@
         "status": "complete",
         "type": "free_agent",
         "metadata": null,
+        "created": 1789080431672,
+        "settings": null,
+        "leg": 1,
+        "draft_picks": [],
+        "creator": "1395937838859579392",
+        "transaction_id": "1403908720672403456",
+        "adds": {
+          "TB": 3
+        },
+        "consenter_ids": [
+          3
+        ],
+        "drops": null,
+        "roster_ids": [
+          3
+        ],
+        "status_updated": 1789080431672,
+        "waiver_budget": []
+      },
+      {
+        "status": "complete",
+        "type": "free_agent",
+        "metadata": null,
         "created": 1788984824055,
         "settings": null,
         "leg": 1,
@@ -10023,12 +10083,12 @@
         "adds": {
           "8110": 3
         },
-        "drops": {
-          "8142": 3
-        },
         "consenter_ids": [
           3
         ],
+        "drops": {
+          "8142": 3
+        },
         "roster_ids": [
           3
         ],
@@ -10048,10 +10108,10 @@
         "adds": {
           "9225": 2
         },
-        "drops": null,
         "consenter_ids": [
           2
         ],
+        "drops": null,
         "roster_ids": [
           2
         ],
@@ -10071,12 +10131,12 @@
         "adds": {
           "6797": 4
         },
-        "drops": {
-          "4199": 4
-        },
         "consenter_ids": [
           4
         ],
+        "drops": {
+          "4199": 4
+        },
         "roster_ids": [
           4
         ],
