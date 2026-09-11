@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T14:13:40.399778+00:00",
+  "generatedAt": "2026-09-11T16:13:42.973649+00:00",
   "leagueId": "1397593463293239296",
   "season": 2026,
   "transactions": [
@@ -17,10 +17,10 @@
       "adds": {
         "TB": 3
       },
+      "drops": null,
       "consenter_ids": [
         3
       ],
-      "drops": null,
       "roster_ids": [
         3
       ],
@@ -41,12 +41,12 @@
       "adds": {
         "8110": 3
       },
-      "consenter_ids": [
-        3
-      ],
       "drops": {
         "8142": 3
       },
+      "consenter_ids": [
+        3
+      ],
       "roster_ids": [
         3
       ],
@@ -67,10 +67,10 @@
       "adds": {
         "9225": 2
       },
+      "drops": null,
       "consenter_ids": [
         2
       ],
-      "drops": null,
       "roster_ids": [
         2
       ],
@@ -91,12 +91,12 @@
       "adds": {
         "6797": 4
       },
-      "consenter_ids": [
-        4
-      ],
       "drops": {
         "4199": 4
       },
+      "consenter_ids": [
+        4
+      ],
       "roster_ids": [
         4
       ],
