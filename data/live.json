@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T04:14:12.267428+00:00",
+  "generatedAt": "2026-09-11T06:16:40.674745+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -70,11 +70,6 @@
     },
     "avatar": "8da7991069e3a7217718ff56366005c6",
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "last_message_id": "1403908720773042176",
-    "shard": 125,
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -225,6 +220,11 @@
       "st_ff": 0.0,
       "idp_tkl_ast": 0.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 125,
+    "sport": "nfl",
+    "last_message_id": "1403908720773042176",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -233,8 +233,8 @@
     "last_message_text_map": null,
     "last_message_time": 1789080431696,
     "last_pinned_message_id": "1398407155169656845",
-    "last_read_id": null,
     "draft_id": "1397593466170523648",
+    "last_read_id": null,
     "league_id": "1397593463293239296",
     "previous_league_id": null,
     "bracket_id": null,
@@ -265,8 +265,8 @@
   "nflState": {
     "week": 1,
     "leg": 1,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -10060,10 +10060,10 @@
         "adds": {
           "TB": 3
         },
+        "drops": null,
         "consenter_ids": [
           3
         ],
-        "drops": null,
         "roster_ids": [
           3
         ],
@@ -10083,12 +10083,12 @@
         "adds": {
           "8110": 3
         },
-        "consenter_ids": [
-          3
-        ],
         "drops": {
           "8142": 3
         },
+        "consenter_ids": [
+          3
+        ],
         "roster_ids": [
           3
         ],
@@ -10108,10 +10108,10 @@
         "adds": {
           "9225": 2
         },
+        "drops": null,
         "consenter_ids": [
           2
         ],
-        "drops": null,
         "roster_ids": [
           2
         ],
@@ -10131,12 +10131,12 @@
         "adds": {
           "6797": 4
         },
-        "consenter_ids": [
-          4
-        ],
         "drops": {
           "4199": 4
         },
+        "consenter_ids": [
+          4
+        ],
         "roster_ids": [
           4
         ],
