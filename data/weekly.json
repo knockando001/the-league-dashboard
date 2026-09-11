@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T02:13:31.483488+00:00",
+  "generatedAt": "2026-09-11T04:14:12.350529+00:00",
   "leagueId": "1397593463293239296",
   "leagueName": "The League",
   "leagueStatus": "in_season",
@@ -7,8 +7,8 @@
   "nflState": {
     "week": 1,
     "leg": 1,
-    "season_type": "regular",
     "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -359,7 +359,7 @@
             },
             {
               "playerId": "11586",
-              "points": 4.2
+              "points": 5.4
             },
             {
               "playerId": "12512",
@@ -384,7 +384,7 @@
           ],
           "playersPoints": {
             "11560": 0.0,
-            "11586": 4.2,
+            "11586": 5.4,
             "11786": 0.0,
             "12512": 0.0,
             "12526": 0.0,
@@ -511,12 +511,12 @@
           "ownerId": "1395937838859579392",
           "ownerName": "knockando",
           "teamName": "Flota Oksywie",
-          "points": 13.5,
+          "points": 20.0,
           "customPoints": null,
           "starters": [
             {
               "playerId": "421",
-              "points": -0.5
+              "points": 3.1
             },
             {
               "playerId": "8138",
@@ -528,7 +528,7 @@
             },
             {
               "playerId": "9493",
-              "points": 4.5
+              "points": 7.4
             },
             {
               "playerId": "6801",
@@ -591,7 +591,7 @@
             "11628": 0.0,
             "12490": 0.0,
             "12711": 0.0,
-            "421": -0.5,
+            "421": 3.1,
             "5846": 0.0,
             "6801": 0.0,
             "7526": 0.0,
@@ -600,7 +600,7 @@
             "8110": 0.0,
             "8138": 0.0,
             "8408": 0.0,
-            "9493": 4.5,
+            "9493": 7.4,
             "JAX": 0.0,
             "TB": 0.0
           }
@@ -613,7 +613,7 @@
           "ownerId": "1398407279245524992",
           "ownerName": "kiler7775",
           "teamName": "Gdynia Moustache Admirers",
-          "points": 34.0,
+          "points": 39.5,
           "customPoints": null,
           "starters": [
             {
@@ -622,11 +622,11 @@
             },
             {
               "playerId": "4034",
-              "points": 4.7
+              "points": 8.8
             },
             {
               "playerId": "8150",
-              "points": 11.1
+              "points": 12.5
             },
             {
               "playerId": "9488",
@@ -668,7 +668,7 @@
             },
             {
               "playerId": "2133",
-              "points": 0.0
+              "points": 2.6
             },
             {
               "playerId": "5045",
@@ -689,13 +689,13 @@
             "12518": 0.0,
             "12519": 0.0,
             "13287": 0.0,
-            "2133": 0.0,
-            "4034": 4.7,
+            "2133": 2.6,
+            "4034": 8.8,
             "5045": 0.0,
             "6797": 0.0,
             "6806": 0.0,
             "7021": 0.0,
-            "8150": 11.1,
+            "8150": 12.5,
             "8259": 0.0,
             "9488": 18.2,
             "9997": 0.0,
@@ -777,7 +777,7 @@
             },
             {
               "playerId": "LAR",
-              "points": 8.0
+              "points": 3.0
             }
           ],
           "playersPoints": {
@@ -795,7 +795,7 @@
             "8144": 0.0,
             "9226": 0.0,
             "9487": 0.0,
-            "LAR": 8.0,
+            "LAR": 3.0,
             "MIN": 0.0
           }
         },
@@ -807,7 +807,7 @@
           "ownerId": "1399409218053783552",
           "ownerName": "AgroplonGluszyna",
           "teamName": "Agroplon Gluszyna",
-          "points": 4.0,
+          "points": 11.0,
           "customPoints": null,
           "starters": [
             {
@@ -840,7 +840,7 @@
             },
             {
               "playerId": "5189",
-              "points": 4.0
+              "points": 11.0
             },
             {
               "playerId": "HOU",
@@ -858,7 +858,7 @@
             },
             {
               "playerId": "2216",
-              "points": 4.7
+              "points": 10.9
             },
             {
               "playerId": "5927",
@@ -880,8 +880,8 @@
           "playersPoints": {
             "10236": 0.0,
             "11632": 0.0,
-            "2216": 4.7,
-            "5189": 4.0,
+            "2216": 10.9,
+            "5189": 11.0,
             "5892": 0.0,
             "5927": 0.0,
             "5967": 0.0,
