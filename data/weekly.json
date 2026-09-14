@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T00:19:41.661003+00:00",
+  "generatedAt": "2026-09-14T02:14:01.725472+00:00",
   "leagueId": "1397593463293239296",
   "leagueName": "The League",
   "leagueStatus": "in_season",
@@ -511,7 +511,7 @@
           "ownerId": "1395937838859579392",
           "ownerName": "knockando",
           "teamName": "Flota Oksywie",
-          "points": 63.68,
+          "points": 66.78,
           "customPoints": null,
           "starters": [
             {
@@ -524,7 +524,7 @@
             },
             {
               "playerId": "7588",
-              "points": 0.0
+              "points": 2.5
             },
             {
               "playerId": "9493",
@@ -536,7 +536,7 @@
             },
             {
               "playerId": "8110",
-              "points": 0.0
+              "points": 0.6
             },
             {
               "playerId": "7611",
@@ -595,9 +595,9 @@
             "5846": 4.0,
             "6801": 5.9,
             "7526": 0.0,
-            "7588": 0.0,
+            "7588": 2.5,
             "7611": 9.5,
-            "8110": 0.0,
+            "8110": 0.6,
             "8138": 5.9,
             "8408": 11.9,
             "9493": 7.4,
@@ -710,7 +710,7 @@
           "ownerId": "1399810563806142464",
           "ownerName": "DonTeamKielce",
           "teamName": "DonTeam Kielce",
-          "points": 79.98,
+          "points": 90.58,
           "customPoints": null,
           "starters": [
             {
@@ -739,11 +739,11 @@
             },
             {
               "playerId": "12481",
-              "points": 0.0
+              "points": 9.6
             },
             {
               "playerId": "11533",
-              "points": 0.0
+              "points": 1.0
             },
             {
               "playerId": "MIN",
@@ -782,9 +782,9 @@
           ],
           "playersPoints": {
             "10229": 0.0,
-            "11533": 0.0,
+            "11533": 1.0,
             "11635": 14.2,
-            "12481": 0.0,
+            "12481": 9.6,
             "12506": 2.1,
             "12507": 7.3,
             "12529": 0.0,
@@ -807,7 +807,7 @@
           "ownerId": "1399409218053783552",
           "ownerName": "AgroplonGluszyna",
           "teamName": "Agroplon Gluszyna",
-          "points": 141.82,
+          "points": 148.82,
           "customPoints": null,
           "starters": [
             {
@@ -828,7 +828,7 @@
             },
             {
               "playerId": "6786",
-              "points": 0.0
+              "points": 7.0
             },
             {
               "playerId": "9484",
@@ -854,7 +854,7 @@
             },
             {
               "playerId": "11632",
-              "points": 0.0
+              "points": 4.8
             },
             {
               "playerId": "2216",
@@ -879,13 +879,13 @@
           ],
           "playersPoints": {
             "10236": 13.0,
-            "11632": 0.0,
+            "11632": 4.8,
             "2216": 10.9,
             "5189": 11.0,
             "5892": 25.9,
             "5927": 1.4,
             "5967": 3.4,
-            "6786": 0.0,
+            "6786": 7.0,
             "6790": 31.4,
             "6794": 23.2,
             "6813": 21.1,
@@ -904,7 +904,7 @@
           "ownerId": "1398370307936354304",
           "ownerName": "PotegaWesiory",
           "teamName": "Potega Wesiory",
-          "points": 59.1,
+          "points": 60.8,
           "customPoints": null,
           "starters": [
             {
@@ -933,7 +933,7 @@
             },
             {
               "playerId": "8137",
-              "points": 0.0
+              "points": 1.7
             },
             {
               "playerId": "2747",
@@ -987,7 +987,7 @@
             "7543": 7.8,
             "7564": 1.2,
             "7594": 20.7,
-            "8137": 0.0,
+            "8137": 1.7,
             "8228": 4.3,
             "9224": 13.8,
             "BAL": 9.04
@@ -1001,7 +1001,7 @@
           "ownerId": "1398643051898880000",
           "ownerName": "Janaka7",
           "teamName": "Kiki Owls",
-          "points": 86.3,
+          "points": 95.3,
           "customPoints": null,
           "starters": [
             {
@@ -1038,7 +1038,7 @@
             },
             {
               "playerId": "DAL",
-              "points": 0.0
+              "points": 9.0
             }
           ],
           "bench": [
@@ -1060,7 +1060,7 @@
             },
             {
               "playerId": "11655",
-              "points": 0.0
+              "points": -1.6
             },
             {
               "playerId": "3321",
@@ -1078,7 +1078,7 @@
             "11620": 5.2,
             "11624": 0.0,
             "11626": 0.0,
-            "11655": 0.0,
+            "11655": -1.6,
             "12534": 18.4,
             "3321": 0.0,
             "4046": 0.0,
@@ -1087,7 +1087,7 @@
             "8132": 7.0,
             "8155": 17.8,
             "9509": 21.3,
-            "DAL": 0.0
+            "DAL": 9.0
           }
         }
       ]
