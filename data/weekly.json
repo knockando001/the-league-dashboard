@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T22:13:29.140196+00:00",
+  "generatedAt": "2026-09-15T00:19:32.439569+00:00",
   "leagueId": "1397593463293239296",
   "leagueName": "The League",
   "leagueStatus": "in_season",
@@ -7,8 +7,8 @@
   "nflState": {
     "week": 1,
     "leg": 1,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -613,7 +613,7 @@
           "ownerId": "1398407279245524992",
           "ownerName": "kiler7775",
           "teamName": "Gdynia Moustache Admirers",
-          "points": 93.06,
+          "points": 107.06,
           "customPoints": null,
           "starters": [
             {
@@ -650,7 +650,7 @@
             },
             {
               "playerId": "DEN",
-              "points": 0.0
+              "points": 14.0
             }
           ],
           "bench": [
@@ -676,7 +676,7 @@
             },
             {
               "playerId": "6806",
-              "points": 0.0
+              "points": 0.2
             },
             {
               "playerId": "7021",
@@ -693,13 +693,13 @@
             "4034": 8.8,
             "5045": 0.0,
             "6797": 12.26,
-            "6806": 0.0,
+            "6806": 0.2,
             "7021": 2.1,
             "8150": 12.5,
             "8259": 2.0,
             "9488": 18.2,
             "9997": 21.0,
-            "DEN": 0.0
+            "DEN": 14.0
           }
         },
         {
