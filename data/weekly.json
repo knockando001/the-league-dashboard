@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T06:18:05.787831+00:00",
+  "generatedAt": "2026-09-15T08:15:32.180794+00:00",
   "leagueId": "1397593463293239296",
   "leagueName": "The League",
   "leagueStatus": "in_season",
@@ -46,10 +46,10 @@
         "12527",
         "7569",
         "12526",
-        "7553",
+        "4217",
         "8151",
         "11786",
-        "LAC"
+        "PHI"
       ]
     },
     "2": {
@@ -1127,7 +1127,7 @@
               "points": 0.0
             },
             {
-              "playerId": "7553",
+              "playerId": "4217",
               "points": 0.0
             },
             {
@@ -1139,7 +1139,7 @@
               "points": 0.0
             },
             {
-              "playerId": "LAC",
+              "playerId": "PHI",
               "points": 0.0
             }
           ],
@@ -1157,7 +1157,7 @@
               "points": 0.0
             },
             {
-              "playerId": "4217",
+              "playerId": "7553",
               "points": 0.0
             },
             {
@@ -1169,7 +1169,7 @@
               "points": 0.0
             },
             {
-              "playerId": "PHI",
+              "playerId": "LAC",
               "points": 0.0
             }
           ],
@@ -1915,7 +1915,7 @@
               "points": 0.0
             },
             {
-              "playerId": "7553",
+              "playerId": "4217",
               "points": 0.0
             },
             {
@@ -1927,7 +1927,7 @@
               "points": 0.0
             },
             {
-              "playerId": "LAC",
+              "playerId": "PHI",
               "points": 0.0
             }
           ],
@@ -1945,7 +1945,7 @@
               "points": 0.0
             },
             {
-              "playerId": "4217",
+              "playerId": "7553",
               "points": 0.0
             },
             {
@@ -1957,7 +1957,7 @@
               "points": 0.0
             },
             {
-              "playerId": "PHI",
+              "playerId": "LAC",
               "points": 0.0
             }
           ],
@@ -2703,7 +2703,7 @@
               "points": 0.0
             },
             {
-              "playerId": "7553",
+              "playerId": "4217",
               "points": 0.0
             },
             {
@@ -2715,7 +2715,7 @@
               "points": 0.0
             },
             {
-              "playerId": "LAC",
+              "playerId": "PHI",
               "points": 0.0
             }
           ],
@@ -2733,7 +2733,7 @@
               "points": 0.0
             },
             {
-              "playerId": "4217",
+              "playerId": "7553",
               "points": 0.0
             },
             {
@@ -2745,7 +2745,7 @@
               "points": 0.0
             },
             {
-              "playerId": "PHI",
+              "playerId": "LAC",
               "points": 0.0
             }
           ],
@@ -3491,7 +3491,7 @@
               "points": 0.0
             },
             {
-              "playerId": "7553",
+              "playerId": "4217",
               "points": 0.0
             },
             {
@@ -3503,7 +3503,7 @@
               "points": 0.0
             },
             {
-              "playerId": "LAC",
+              "playerId": "PHI",
               "points": 0.0
             }
           ],
@@ -3521,7 +3521,7 @@
               "points": 0.0
             },
             {
-              "playerId": "4217",
+              "playerId": "7553",
               "points": 0.0
             },
             {
@@ -3533,7 +3533,7 @@
               "points": 0.0
             },
             {
-              "playerId": "PHI",
+              "playerId": "LAC",
               "points": 0.0
             }
           ],
@@ -4279,7 +4279,7 @@
               "points": 0.0
             },
             {
-              "playerId": "7553",
+              "playerId": "4217",
               "points": 0.0
             },
             {
@@ -4291,7 +4291,7 @@
               "points": 0.0
             },
             {
-              "playerId": "LAC",
+              "playerId": "PHI",
               "points": 0.0
             }
           ],
@@ -4309,7 +4309,7 @@
               "points": 0.0
             },
             {
-              "playerId": "4217",
+              "playerId": "7553",
               "points": 0.0
             },
             {
@@ -4321,7 +4321,7 @@
               "points": 0.0
             },
             {
-              "playerId": "PHI",
+              "playerId": "LAC",
               "points": 0.0
             }
           ],
@@ -5067,7 +5067,7 @@
               "points": 0.0
             },
             {
-              "playerId": "7553",
+              "playerId": "4217",
               "points": 0.0
             },
             {
@@ -5079,7 +5079,7 @@
               "points": 0.0
             },
             {
-              "playerId": "LAC",
+              "playerId": "PHI",
               "points": 0.0
             }
           ],
@@ -5097,7 +5097,7 @@
               "points": 0.0
             },
             {
-              "playerId": "4217",
+              "playerId": "7553",
               "points": 0.0
             },
             {
@@ -5109,7 +5109,7 @@
               "points": 0.0
             },
             {
-              "playerId": "PHI",
+              "playerId": "LAC",
               "points": 0.0
             }
           ],
@@ -5855,7 +5855,7 @@
               "points": 0.0
             },
             {
-              "playerId": "7553",
+              "playerId": "4217",
               "points": 0.0
             },
             {
@@ -5867,7 +5867,7 @@
               "points": 0.0
             },
             {
-              "playerId": "LAC",
+              "playerId": "PHI",
               "points": 0.0
             }
           ],
@@ -5885,7 +5885,7 @@
               "points": 0.0
             },
             {
-              "playerId": "4217",
+              "playerId": "7553",
               "points": 0.0
             },
             {
@@ -5897,7 +5897,7 @@
               "points": 0.0
             },
             {
-              "playerId": "PHI",
+              "playerId": "LAC",
               "points": 0.0
             }
           ],
@@ -6643,7 +6643,7 @@
               "points": 0.0
             },
             {
-              "playerId": "7553",
+              "playerId": "4217",
               "points": 0.0
             },
             {
@@ -6655,7 +6655,7 @@
               "points": 0.0
             },
             {
-              "playerId": "LAC",
+              "playerId": "PHI",
               "points": 0.0
             }
           ],
@@ -6673,7 +6673,7 @@
               "points": 0.0
             },
             {
-              "playerId": "4217",
+              "playerId": "7553",
               "points": 0.0
             },
             {
@@ -6685,7 +6685,7 @@
               "points": 0.0
             },
             {
-              "playerId": "PHI",
+              "playerId": "LAC",
               "points": 0.0
             }
           ],
@@ -7431,7 +7431,7 @@
               "points": 0.0
             },
             {
-              "playerId": "7553",
+              "playerId": "4217",
               "points": 0.0
             },
             {
@@ -7443,7 +7443,7 @@
               "points": 0.0
             },
             {
-              "playerId": "LAC",
+              "playerId": "PHI",
               "points": 0.0
             }
           ],
@@ -7461,7 +7461,7 @@
               "points": 0.0
             },
             {
-              "playerId": "4217",
+              "playerId": "7553",
               "points": 0.0
             },
             {
@@ -7473,7 +7473,7 @@
               "points": 0.0
             },
             {
-              "playerId": "PHI",
+              "playerId": "LAC",
               "points": 0.0
             }
           ],
@@ -8219,7 +8219,7 @@
               "points": 0.0
             },
             {
-              "playerId": "7553",
+              "playerId": "4217",
               "points": 0.0
             },
             {
@@ -8231,7 +8231,7 @@
               "points": 0.0
             },
             {
-              "playerId": "LAC",
+              "playerId": "PHI",
               "points": 0.0
             }
           ],
@@ -8249,7 +8249,7 @@
               "points": 0.0
             },
             {
-              "playerId": "4217",
+              "playerId": "7553",
               "points": 0.0
             },
             {
@@ -8261,7 +8261,7 @@
               "points": 0.0
             },
             {
-              "playerId": "PHI",
+              "playerId": "LAC",
               "points": 0.0
             }
           ],
@@ -9007,7 +9007,7 @@
               "points": 0.0
             },
             {
-              "playerId": "7553",
+              "playerId": "4217",
               "points": 0.0
             },
             {
@@ -9019,7 +9019,7 @@
               "points": 0.0
             },
             {
-              "playerId": "LAC",
+              "playerId": "PHI",
               "points": 0.0
             }
           ],
@@ -9037,7 +9037,7 @@
               "points": 0.0
             },
             {
-              "playerId": "4217",
+              "playerId": "7553",
               "points": 0.0
             },
             {
@@ -9049,7 +9049,7 @@
               "points": 0.0
             },
             {
-              "playerId": "PHI",
+              "playerId": "LAC",
               "points": 0.0
             }
           ],
@@ -9795,7 +9795,7 @@
               "points": 0.0
             },
             {
-              "playerId": "7553",
+              "playerId": "4217",
               "points": 0.0
             },
             {
@@ -9807,7 +9807,7 @@
               "points": 0.0
             },
             {
-              "playerId": "LAC",
+              "playerId": "PHI",
               "points": 0.0
             }
           ],
@@ -9825,7 +9825,7 @@
               "points": 0.0
             },
             {
-              "playerId": "4217",
+              "playerId": "7553",
               "points": 0.0
             },
             {
@@ -9837,7 +9837,7 @@
               "points": 0.0
             },
             {
-              "playerId": "PHI",
+              "playerId": "LAC",
               "points": 0.0
             }
           ],
@@ -10583,7 +10583,7 @@
               "points": 0.0
             },
             {
-              "playerId": "7553",
+              "playerId": "4217",
               "points": 0.0
             },
             {
@@ -10595,7 +10595,7 @@
               "points": 0.0
             },
             {
-              "playerId": "LAC",
+              "playerId": "PHI",
               "points": 0.0
             }
           ],
@@ -10613,7 +10613,7 @@
               "points": 0.0
             },
             {
-              "playerId": "4217",
+              "playerId": "7553",
               "points": 0.0
             },
             {
@@ -10625,7 +10625,7 @@
               "points": 0.0
             },
             {
-              "playerId": "PHI",
+              "playerId": "LAC",
               "points": 0.0
             }
           ],
@@ -11371,7 +11371,7 @@
               "points": 0.0
             },
             {
-              "playerId": "7553",
+              "playerId": "4217",
               "points": 0.0
             },
             {
@@ -11383,7 +11383,7 @@
               "points": 0.0
             },
             {
-              "playerId": "LAC",
+              "playerId": "PHI",
               "points": 0.0
             }
           ],
@@ -11401,7 +11401,7 @@
               "points": 0.0
             },
             {
-              "playerId": "4217",
+              "playerId": "7553",
               "points": 0.0
             },
             {
@@ -11413,7 +11413,7 @@
               "points": 0.0
             },
             {
-              "playerId": "PHI",
+              "playerId": "LAC",
               "points": 0.0
             }
           ],
@@ -12159,7 +12159,7 @@
               "points": 0.0
             },
             {
-              "playerId": "7553",
+              "playerId": "4217",
               "points": 0.0
             },
             {
@@ -12171,7 +12171,7 @@
               "points": 0.0
             },
             {
-              "playerId": "LAC",
+              "playerId": "PHI",
               "points": 0.0
             }
           ],
@@ -12189,7 +12189,7 @@
               "points": 0.0
             },
             {
-              "playerId": "4217",
+              "playerId": "7553",
               "points": 0.0
             },
             {
@@ -12201,7 +12201,7 @@
               "points": 0.0
             },
             {
-              "playerId": "PHI",
+              "playerId": "LAC",
               "points": 0.0
             }
           ],
@@ -12947,7 +12947,7 @@
               "points": 0.0
             },
             {
-              "playerId": "7553",
+              "playerId": "4217",
               "points": 0.0
             },
             {
@@ -12959,7 +12959,7 @@
               "points": 0.0
             },
             {
-              "playerId": "LAC",
+              "playerId": "PHI",
               "points": 0.0
             }
           ],
@@ -12977,7 +12977,7 @@
               "points": 0.0
             },
             {
-              "playerId": "4217",
+              "playerId": "7553",
               "points": 0.0
             },
             {
@@ -12989,7 +12989,7 @@
               "points": 0.0
             },
             {
-              "playerId": "PHI",
+              "playerId": "LAC",
               "points": 0.0
             }
           ],
@@ -13735,7 +13735,7 @@
               "points": 0.0
             },
             {
-              "playerId": "7553",
+              "playerId": "4217",
               "points": 0.0
             },
             {
@@ -13747,7 +13747,7 @@
               "points": 0.0
             },
             {
-              "playerId": "LAC",
+              "playerId": "PHI",
               "points": 0.0
             }
           ],
@@ -13765,7 +13765,7 @@
               "points": 0.0
             },
             {
-              "playerId": "4217",
+              "playerId": "7553",
               "points": 0.0
             },
             {
@@ -13777,7 +13777,7 @@
               "points": 0.0
             },
             {
-              "playerId": "PHI",
+              "playerId": "LAC",
               "points": 0.0
             }
           ],

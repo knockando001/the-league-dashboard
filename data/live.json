@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T06:18:05.705709+00:00",
+  "generatedAt": "2026-09-15T08:15:32.112726+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -71,10 +71,6 @@
     },
     "avatar": "8da7991069e3a7217718ff56366005c6",
     "company_id": null,
-    "shard": 125,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -225,19 +221,28 @@
       "st_ff": 0.0,
       "idp_tkl_ast": 0.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "last_message_id": "1404800369430704128",
+    "shard": 125,
     "last_author_avatar": null,
     "last_author_display_name": "sys",
-    "draft_id": "1397593466170523648",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
     "last_message_time": 1789293017302,
     "last_pinned_message_id": "1398407155169656845",
+    "draft_id": "1397593466170523648",
     "last_read_id": null,
     "league_id": "1397593463293239296",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -256,11 +261,6 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 8
   },
   "nflState": {
@@ -471,10 +471,10 @@
         "12527",
         "7569",
         "12526",
-        "7553",
+        "4217",
         "8151",
         "11786",
-        "LAC"
+        "PHI"
       ]
     },
     {
@@ -1269,10 +1269,10 @@
           "12527",
           "7569",
           "12526",
-          "7553",
+          "4217",
           "8151",
           "11786",
-          "LAC"
+          "PHI"
         ],
         "starters_points": [
           0.0,
@@ -1727,10 +1727,10 @@
           "12527",
           "7569",
           "12526",
-          "7553",
+          "4217",
           "8151",
           "11786",
-          "LAC"
+          "PHI"
         ],
         "starters_points": [
           0.0,
@@ -2185,10 +2185,10 @@
           "12527",
           "7569",
           "12526",
-          "7553",
+          "4217",
           "8151",
           "11786",
-          "LAC"
+          "PHI"
         ],
         "starters_points": [
           0.0,
@@ -2643,10 +2643,10 @@
           "12527",
           "7569",
           "12526",
-          "7553",
+          "4217",
           "8151",
           "11786",
-          "LAC"
+          "PHI"
         ],
         "starters_points": [
           0.0,
@@ -3101,10 +3101,10 @@
           "12527",
           "7569",
           "12526",
-          "7553",
+          "4217",
           "8151",
           "11786",
-          "LAC"
+          "PHI"
         ],
         "starters_points": [
           0.0,
@@ -3559,10 +3559,10 @@
           "12527",
           "7569",
           "12526",
-          "7553",
+          "4217",
           "8151",
           "11786",
-          "LAC"
+          "PHI"
         ],
         "starters_points": [
           0.0,
@@ -4017,10 +4017,10 @@
           "12527",
           "7569",
           "12526",
-          "7553",
+          "4217",
           "8151",
           "11786",
-          "LAC"
+          "PHI"
         ],
         "starters_points": [
           0.0,
@@ -4475,10 +4475,10 @@
           "12527",
           "7569",
           "12526",
-          "7553",
+          "4217",
           "8151",
           "11786",
-          "LAC"
+          "PHI"
         ],
         "starters_points": [
           0.0,
@@ -4933,10 +4933,10 @@
           "12527",
           "7569",
           "12526",
-          "7553",
+          "4217",
           "8151",
           "11786",
-          "LAC"
+          "PHI"
         ],
         "starters_points": [
           0.0,
@@ -5391,10 +5391,10 @@
           "12527",
           "7569",
           "12526",
-          "7553",
+          "4217",
           "8151",
           "11786",
-          "LAC"
+          "PHI"
         ],
         "starters_points": [
           0.0,
@@ -5849,10 +5849,10 @@
           "12527",
           "7569",
           "12526",
-          "7553",
+          "4217",
           "8151",
           "11786",
-          "LAC"
+          "PHI"
         ],
         "starters_points": [
           0.0,
@@ -6307,10 +6307,10 @@
           "12527",
           "7569",
           "12526",
-          "7553",
+          "4217",
           "8151",
           "11786",
-          "LAC"
+          "PHI"
         ],
         "starters_points": [
           0.0,
@@ -6765,10 +6765,10 @@
           "12527",
           "7569",
           "12526",
-          "7553",
+          "4217",
           "8151",
           "11786",
-          "LAC"
+          "PHI"
         ],
         "starters_points": [
           0.0,
@@ -7223,10 +7223,10 @@
           "12527",
           "7569",
           "12526",
-          "7553",
+          "4217",
           "8151",
           "11786",
-          "LAC"
+          "PHI"
         ],
         "starters_points": [
           0.0,
@@ -7681,10 +7681,10 @@
           "12527",
           "7569",
           "12526",
-          "7553",
+          "4217",
           "8151",
           "11786",
-          "LAC"
+          "PHI"
         ],
         "starters_points": [
           0.0,
@@ -8139,10 +8139,10 @@
           "12527",
           "7569",
           "12526",
-          "7553",
+          "4217",
           "8151",
           "11786",
-          "LAC"
+          "PHI"
         ],
         "starters_points": [
           0.0,
@@ -8597,10 +8597,10 @@
           "12527",
           "7569",
           "12526",
-          "7553",
+          "4217",
           "8151",
           "11786",
-          "LAC"
+          "PHI"
         ],
         "starters_points": [
           0.0,
