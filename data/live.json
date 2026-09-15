@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T04:14:29.419415+00:00",
+  "generatedAt": "2026-09-15T06:18:05.705709+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -35,6 +35,7 @@
       "playoff_type": 0,
       "taxi_slots": 0,
       "sub_start_time_eligibility": 0,
+      "last_scored_leg": 1,
       "daily_waivers_days": 5461,
       "sub_lock_if_starter_active": 0,
       "playoff_week_start": 14,
@@ -227,6 +228,7 @@
     "last_message_id": "1404800369430704128",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
+    "draft_id": "1397593466170523648",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
@@ -234,7 +236,6 @@
     "last_message_time": 1789293017302,
     "last_pinned_message_id": "1398407155169656845",
     "last_read_id": null,
-    "draft_id": "1397593466170523648",
     "league_id": "1397593463293239296",
     "previous_league_id": null,
     "roster_positions": [
@@ -397,14 +398,54 @@
   ],
   "standings": [
     {
+      "rosterId": 6,
+      "ownerId": "1399409218053783552",
+      "owner": "AgroplonGluszyna",
+      "team": "Agroplon Gluszyna",
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "pointsFor": 152.22,
+      "waiverPosition": 8,
+      "players": [
+        "10236",
+        "11632",
+        "2216",
+        "5189",
+        "5892",
+        "5927",
+        "5967",
+        "6786",
+        "6790",
+        "6794",
+        "6813",
+        "6904",
+        "7523",
+        "9484",
+        "9754",
+        "HOU"
+      ],
+      "starters": [
+        "6904",
+        "6813",
+        "5892",
+        "6794",
+        "6786",
+        "9484",
+        "6790",
+        "5189",
+        "HOU"
+      ]
+    },
+    {
       "rosterId": 1,
       "ownerId": "1397299609897836544",
       "owner": "milijon",
       "team": "Zamek Pancerne Dziki",
-      "wins": 0,
+      "wins": 1,
       "losses": 0,
       "ties": 0,
-      "pointsFor": 0.0,
+      "pointsFor": 141.06,
       "waiverPosition": 7,
       "players": [
         "11560",
@@ -437,14 +478,134 @@
       ]
     },
     {
+      "rosterId": 5,
+      "ownerId": "1399810563806142464",
+      "owner": "DonTeamKielce",
+      "team": "DonTeam Kielce",
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "pointsFor": 101.98,
+      "waiverPosition": 6,
+      "players": [
+        "10229",
+        "11533",
+        "11635",
+        "12481",
+        "12506",
+        "12507",
+        "12529",
+        "4227",
+        "4984",
+        "5012",
+        "5850",
+        "8144",
+        "9226",
+        "9487",
+        "LAR",
+        "MIN"
+      ],
+      "starters": [
+        "4984",
+        "9226",
+        "12507",
+        "8144",
+        "10229",
+        "12506",
+        "12481",
+        "11533",
+        "MIN"
+      ]
+    },
+    {
+      "rosterId": 4,
+      "ownerId": "1398407279245524992",
+      "owner": "kiler7775",
+      "team": "Gdynia Moustache Admirers",
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "pointsFor": 98.02,
+      "waiverPosition": 5,
+      "players": [
+        "10232",
+        "11564",
+        "12518",
+        "12519",
+        "13287",
+        "2133",
+        "4034",
+        "5045",
+        "6797",
+        "6806",
+        "7021",
+        "8150",
+        "8259",
+        "9488",
+        "9997",
+        "DEN"
+      ],
+      "starters": [
+        "6797",
+        "4034",
+        "8150",
+        "9488",
+        "9997",
+        "12518",
+        "13287",
+        "8259",
+        "DEN"
+      ]
+    },
+    {
+      "rosterId": 8,
+      "ownerId": "1398643051898880000",
+      "owner": "Janaka7",
+      "team": "Kiki Owls",
+      "wins": 0,
+      "losses": 1,
+      "ties": 0,
+      "pointsFor": 113.96,
+      "waiverPosition": 4,
+      "players": [
+        "10859",
+        "10937",
+        "11581",
+        "11620",
+        "11624",
+        "11626",
+        "11655",
+        "12534",
+        "3321",
+        "4046",
+        "7525",
+        "7547",
+        "8132",
+        "8155",
+        "9509",
+        "DAL"
+      ],
+      "starters": [
+        "4046",
+        "9509",
+        "8155",
+        "7547",
+        "7525",
+        "10859",
+        "12534",
+        "10937",
+        "DAL"
+      ]
+    },
+    {
       "rosterId": 2,
       "ownerId": "1397712793855139840",
       "owner": "Saszewski",
       "team": "Vegablanca Boars",
       "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
-      "pointsFor": 0.0,
+      "pointsFor": 112.46,
       "waiverPosition": 3,
       "players": [
         "12514",
@@ -483,10 +644,10 @@
       "owner": "knockando",
       "team": "Flota Oksywie",
       "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
-      "pointsFor": 0.0,
-      "waiverPosition": 1,
+      "pointsFor": 83.48,
+      "waiverPosition": 2,
       "players": [
         "11584",
         "11604",
@@ -519,135 +680,15 @@
       ]
     },
     {
-      "rosterId": 4,
-      "ownerId": "1398407279245524992",
-      "owner": "kiler7775",
-      "team": "Gdynia Moustache Admirers",
-      "wins": 0,
-      "losses": 0,
-      "ties": 0,
-      "pointsFor": 0.0,
-      "waiverPosition": 2,
-      "players": [
-        "10232",
-        "11564",
-        "12518",
-        "12519",
-        "13287",
-        "2133",
-        "4034",
-        "5045",
-        "6797",
-        "6806",
-        "7021",
-        "8150",
-        "8259",
-        "9488",
-        "9997",
-        "DEN"
-      ],
-      "starters": [
-        "6797",
-        "4034",
-        "8150",
-        "9488",
-        "9997",
-        "12518",
-        "13287",
-        "8259",
-        "DEN"
-      ]
-    },
-    {
-      "rosterId": 5,
-      "ownerId": "1399810563806142464",
-      "owner": "DonTeamKielce",
-      "team": "DonTeam Kielce",
-      "wins": 0,
-      "losses": 0,
-      "ties": 0,
-      "pointsFor": 0.0,
-      "waiverPosition": 4,
-      "players": [
-        "10229",
-        "11533",
-        "11635",
-        "12481",
-        "12506",
-        "12507",
-        "12529",
-        "4227",
-        "4984",
-        "5012",
-        "5850",
-        "8144",
-        "9226",
-        "9487",
-        "LAR",
-        "MIN"
-      ],
-      "starters": [
-        "4984",
-        "9226",
-        "12507",
-        "8144",
-        "10229",
-        "12506",
-        "12481",
-        "11533",
-        "MIN"
-      ]
-    },
-    {
-      "rosterId": 6,
-      "ownerId": "1399409218053783552",
-      "owner": "AgroplonGluszyna",
-      "team": "Agroplon Gluszyna",
-      "wins": 0,
-      "losses": 0,
-      "ties": 0,
-      "pointsFor": 0.0,
-      "waiverPosition": 6,
-      "players": [
-        "10236",
-        "11632",
-        "2216",
-        "5189",
-        "5892",
-        "5927",
-        "5967",
-        "6786",
-        "6790",
-        "6794",
-        "6813",
-        "6904",
-        "7523",
-        "9484",
-        "9754",
-        "HOU"
-      ],
-      "starters": [
-        "6904",
-        "6813",
-        "5892",
-        "6794",
-        "6786",
-        "9484",
-        "6790",
-        "5189",
-        "HOU"
-      ]
-    },
-    {
       "rosterId": 7,
       "ownerId": "1398370307936354304",
       "owner": "PotegaWesiory",
       "team": "Potega Wesiory",
       "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
-      "pointsFor": 0.0,
-      "waiverPosition": 5,
+      "pointsFor": 61.9,
+      "waiverPosition": 1,
       "players": [
         "11566",
         "11631",
@@ -676,46 +717,6 @@
         "8137",
         "2747",
         "BAL"
-      ]
-    },
-    {
-      "rosterId": 8,
-      "ownerId": "1398643051898880000",
-      "owner": "Janaka7",
-      "team": "Kiki Owls",
-      "wins": 0,
-      "losses": 0,
-      "ties": 0,
-      "pointsFor": 0.0,
-      "waiverPosition": 8,
-      "players": [
-        "10859",
-        "10937",
-        "11581",
-        "11620",
-        "11624",
-        "11626",
-        "11655",
-        "12534",
-        "3321",
-        "4046",
-        "7525",
-        "7547",
-        "8132",
-        "8155",
-        "9509",
-        "DAL"
-      ],
-      "starters": [
-        "4046",
-        "9509",
-        "8155",
-        "7547",
-        "7525",
-        "10859",
-        "12534",
-        "10937",
-        "DAL"
       ]
     }
   ],
@@ -9040,12 +9041,12 @@
         "adds": {
           "LAC": 1
         },
-        "drops": {
-          "PIT": 1
-        },
         "consenter_ids": [
           1
         ],
+        "drops": {
+          "PIT": 1
+        },
         "roster_ids": [
           1
         ],
@@ -9065,10 +9066,10 @@
         "adds": {
           "TB": 3
         },
-        "drops": null,
         "consenter_ids": [
           3
         ],
+        "drops": null,
         "roster_ids": [
           3
         ],
@@ -9088,12 +9089,12 @@
         "adds": {
           "8110": 3
         },
-        "drops": {
-          "8142": 3
-        },
         "consenter_ids": [
           3
         ],
+        "drops": {
+          "8142": 3
+        },
         "roster_ids": [
           3
         ],
@@ -9113,10 +9114,10 @@
         "adds": {
           "9225": 2
         },
-        "drops": null,
         "consenter_ids": [
           2
         ],
+        "drops": null,
         "roster_ids": [
           2
         ],
@@ -9136,12 +9137,12 @@
         "adds": {
           "6797": 4
         },
-        "drops": {
-          "4199": 4
-        },
         "consenter_ids": [
           4
         ],
+        "drops": {
+          "4199": 4
+        },
         "roster_ids": [
           4
         ],
