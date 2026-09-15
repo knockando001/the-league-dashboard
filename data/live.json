@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T20:19:14.564601+00:00",
+  "generatedAt": "2026-09-15T22:13:05.718030+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -227,7 +227,6 @@
     "sport": "nfl",
     "shard": 125,
     "last_message_id": "1405612037446365184",
-    "draft_id": "1397593466170523648",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -237,6 +236,7 @@
     "last_message_time": 1789486534037,
     "last_pinned_message_id": "1398407155169656845",
     "last_read_id": null,
+    "draft_id": "1397593466170523648",
     "league_id": "1397593463293239296",
     "previous_league_id": null,
     "bracket_id": null,
