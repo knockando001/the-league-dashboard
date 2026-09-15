@@ -35,6 +35,17 @@ def user_team_name(user):
     return metadata.get("team_name") or user.get("display_name") or user.get("username")
 
 
+def archive_path(season, week):
+    return DATA_DIR / "seasons" / str(season) / "weeks" / f"week-{week}.json"
+
+
+def load_archive(season, week):
+    path = archive_path(season, week)
+    if not path.exists():
+        return None
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
 def main():
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -74,15 +85,24 @@ def main():
 
     standings.sort(key=lambda row: (-row["wins"], row["losses"], -row["pointsFor"], row["rosterId"]))
 
+    season = int(league.get("season") or state.get("season"))
+    current_week = max(1, min(MAX_WEEK, int(state.get("week") or 1)))
     matchup_weeks = {}
     transaction_weeks = {}
-    for week in range(1, MAX_WEEK + 1):
-        matchups = get_json(f"/league/{LEAGUE_ID}/matchups/{week}") or []
-        transactions = get_json(f"/league/{LEAGUE_ID}/transactions/{week}") or []
-        if matchups:
-            matchup_weeks[str(week)] = matchups
-        if transactions:
-            transaction_weeks[str(week)] = transactions
+    for week in range(1, current_week + 1):
+        archive = load_archive(season, week)
+        if archive:
+            if archive.get("matchups"):
+                matchup_weeks[str(week)] = archive["matchups"]
+            if archive.get("transactions"):
+                transaction_weeks[str(week)] = archive["transactions"]
+        elif week == current_week:
+            matchups = get_json(f"/league/{LEAGUE_ID}/matchups/{week}") or []
+            transactions = get_json(f"/league/{LEAGUE_ID}/transactions/{week}") or []
+            if matchups:
+                matchup_weeks[str(week)] = matchups
+            if transactions:
+                transaction_weeks[str(week)] = transactions
 
     draft_picks = {}
     for draft in drafts:

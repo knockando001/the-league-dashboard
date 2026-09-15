@@ -41,11 +41,11 @@ jobs:
       - name: Build legacy data
         run: python scripts/build_legacy.py
 
-      - name: Fetch current league data
-        run: python scripts/fetch_live.py
-
       - name: Fetch weekly matchups, players and transactions
         run: python scripts/fetch_weekly.py
+
+      - name: Fetch current league data
+        run: python scripts/fetch_live.py
 
       - name: Commit generated data
         run: |
@@ -54,6 +54,7 @@ jobs:
           git pull --rebase --autostash origin main
           git add data/franchises.json data/history.json data/live.json
           git add data/weekly.json data/transactions.json data/players.json
+          git add data/seasons/
           if git diff --cached --quiet; then
             echo "No generated data changes to commit."
           else
