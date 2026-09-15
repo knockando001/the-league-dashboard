@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T18:14:17.861374+00:00",
+  "generatedAt": "2026-09-15T20:13:52.294254+00:00",
   "leagueId": "1397593463293239296",
   "leagueName": "The League",
   "leagueStatus": "in_season",
@@ -83,7 +83,7 @@
         "8112",
         "12514",
         "8130",
-        "8148",
+        "12533",
         "3451",
         "SEA"
       ]
@@ -121,7 +121,7 @@
         "8110",
         "7611",
         "12711",
-        "JAX"
+        "TB"
       ]
     },
     "4": {
@@ -1202,16 +1202,45 @@
           "teamName": "Vegablanca Boars",
           "points": 0.0,
           "customPoints": null,
-          "starters": [],
-          "bench": [
+          "starters": [
+            {
+              "playerId": "6770",
+              "points": 0.0
+            },
+            {
+              "playerId": "3198",
+              "points": 0.0
+            },
+            {
+              "playerId": "4866",
+              "points": 0.0
+            },
+            {
+              "playerId": "8112",
+              "points": 0.0
+            },
             {
               "playerId": "12514",
+              "points": 0.0
+            },
+            {
+              "playerId": "8130",
               "points": 0.0
             },
             {
               "playerId": "12533",
               "points": 0.0
             },
+            {
+              "playerId": "3451",
+              "points": 0.0
+            },
+            {
+              "playerId": "SEA",
+              "points": 0.0
+            }
+          ],
+          "bench": [
             {
               "playerId": "13279",
               "points": 0.0
@@ -1233,30 +1262,6 @@
               "points": 0.0
             },
             {
-              "playerId": "3198",
-              "points": 0.0
-            },
-            {
-              "playerId": "3451",
-              "points": 0.0
-            },
-            {
-              "playerId": "4866",
-              "points": 0.0
-            },
-            {
-              "playerId": "6770",
-              "points": 0.0
-            },
-            {
-              "playerId": "8112",
-              "points": 0.0
-            },
-            {
-              "playerId": "8130",
-              "points": 0.0
-            },
-            {
               "playerId": "8148",
               "points": 0.0
             },
@@ -1266,10 +1271,6 @@
             },
             {
               "playerId": "9502",
-              "points": 0.0
-            },
-            {
-              "playerId": "SEA",
               "points": 0.0
             }
           ],
@@ -1337,7 +1338,7 @@
               "points": 0.0
             },
             {
-              "playerId": "JAX",
+              "playerId": "TB",
               "points": 0.0
             }
           ],
@@ -1371,7 +1372,7 @@
               "points": 0.0
             },
             {
-              "playerId": "TB",
+              "playerId": "JAX",
               "points": 0.0
             }
           ],
@@ -1990,16 +1991,45 @@
           "teamName": "Vegablanca Boars",
           "points": 0.0,
           "customPoints": null,
-          "starters": [],
-          "bench": [
+          "starters": [
+            {
+              "playerId": "6770",
+              "points": 0.0
+            },
+            {
+              "playerId": "3198",
+              "points": 0.0
+            },
+            {
+              "playerId": "4866",
+              "points": 0.0
+            },
+            {
+              "playerId": "8112",
+              "points": 0.0
+            },
             {
               "playerId": "12514",
+              "points": 0.0
+            },
+            {
+              "playerId": "8130",
               "points": 0.0
             },
             {
               "playerId": "12533",
               "points": 0.0
             },
+            {
+              "playerId": "3451",
+              "points": 0.0
+            },
+            {
+              "playerId": "SEA",
+              "points": 0.0
+            }
+          ],
+          "bench": [
             {
               "playerId": "13279",
               "points": 0.0
@@ -2021,30 +2051,6 @@
               "points": 0.0
             },
             {
-              "playerId": "3198",
-              "points": 0.0
-            },
-            {
-              "playerId": "3451",
-              "points": 0.0
-            },
-            {
-              "playerId": "4866",
-              "points": 0.0
-            },
-            {
-              "playerId": "6770",
-              "points": 0.0
-            },
-            {
-              "playerId": "8112",
-              "points": 0.0
-            },
-            {
-              "playerId": "8130",
-              "points": 0.0
-            },
-            {
               "playerId": "8148",
               "points": 0.0
             },
@@ -2054,10 +2060,6 @@
             },
             {
               "playerId": "9502",
-              "points": 0.0
-            },
-            {
-              "playerId": "SEA",
               "points": 0.0
             }
           ],
@@ -2125,7 +2127,7 @@
               "points": 0.0
             },
             {
-              "playerId": "JAX",
+              "playerId": "TB",
               "points": 0.0
             }
           ],
@@ -2159,7 +2161,7 @@
               "points": 0.0
             },
             {
-              "playerId": "TB",
+              "playerId": "JAX",
               "points": 0.0
             }
           ],
@@ -2778,16 +2780,45 @@
           "teamName": "Vegablanca Boars",
           "points": 0.0,
           "customPoints": null,
-          "starters": [],
-          "bench": [
+          "starters": [
+            {
+              "playerId": "6770",
+              "points": 0.0
+            },
+            {
+              "playerId": "3198",
+              "points": 0.0
+            },
+            {
+              "playerId": "4866",
+              "points": 0.0
+            },
+            {
+              "playerId": "8112",
+              "points": 0.0
+            },
             {
               "playerId": "12514",
+              "points": 0.0
+            },
+            {
+              "playerId": "8130",
               "points": 0.0
             },
             {
               "playerId": "12533",
               "points": 0.0
             },
+            {
+              "playerId": "3451",
+              "points": 0.0
+            },
+            {
+              "playerId": "SEA",
+              "points": 0.0
+            }
+          ],
+          "bench": [
             {
               "playerId": "13279",
               "points": 0.0
@@ -2809,30 +2840,6 @@
               "points": 0.0
             },
             {
-              "playerId": "3198",
-              "points": 0.0
-            },
-            {
-              "playerId": "3451",
-              "points": 0.0
-            },
-            {
-              "playerId": "4866",
-              "points": 0.0
-            },
-            {
-              "playerId": "6770",
-              "points": 0.0
-            },
-            {
-              "playerId": "8112",
-              "points": 0.0
-            },
-            {
-              "playerId": "8130",
-              "points": 0.0
-            },
-            {
               "playerId": "8148",
               "points": 0.0
             },
@@ -2842,10 +2849,6 @@
             },
             {
               "playerId": "9502",
-              "points": 0.0
-            },
-            {
-              "playerId": "SEA",
               "points": 0.0
             }
           ],
@@ -2913,7 +2916,7 @@
               "points": 0.0
             },
             {
-              "playerId": "JAX",
+              "playerId": "TB",
               "points": 0.0
             }
           ],
@@ -2947,7 +2950,7 @@
               "points": 0.0
             },
             {
-              "playerId": "TB",
+              "playerId": "JAX",
               "points": 0.0
             }
           ],
@@ -3566,16 +3569,45 @@
           "teamName": "Vegablanca Boars",
           "points": 0.0,
           "customPoints": null,
-          "starters": [],
-          "bench": [
+          "starters": [
+            {
+              "playerId": "6770",
+              "points": 0.0
+            },
+            {
+              "playerId": "3198",
+              "points": 0.0
+            },
+            {
+              "playerId": "4866",
+              "points": 0.0
+            },
+            {
+              "playerId": "8112",
+              "points": 0.0
+            },
             {
               "playerId": "12514",
+              "points": 0.0
+            },
+            {
+              "playerId": "8130",
               "points": 0.0
             },
             {
               "playerId": "12533",
               "points": 0.0
             },
+            {
+              "playerId": "3451",
+              "points": 0.0
+            },
+            {
+              "playerId": "SEA",
+              "points": 0.0
+            }
+          ],
+          "bench": [
             {
               "playerId": "13279",
               "points": 0.0
@@ -3597,30 +3629,6 @@
               "points": 0.0
             },
             {
-              "playerId": "3198",
-              "points": 0.0
-            },
-            {
-              "playerId": "3451",
-              "points": 0.0
-            },
-            {
-              "playerId": "4866",
-              "points": 0.0
-            },
-            {
-              "playerId": "6770",
-              "points": 0.0
-            },
-            {
-              "playerId": "8112",
-              "points": 0.0
-            },
-            {
-              "playerId": "8130",
-              "points": 0.0
-            },
-            {
               "playerId": "8148",
               "points": 0.0
             },
@@ -3630,10 +3638,6 @@
             },
             {
               "playerId": "9502",
-              "points": 0.0
-            },
-            {
-              "playerId": "SEA",
               "points": 0.0
             }
           ],
@@ -3701,7 +3705,7 @@
               "points": 0.0
             },
             {
-              "playerId": "JAX",
+              "playerId": "TB",
               "points": 0.0
             }
           ],
@@ -3735,7 +3739,7 @@
               "points": 0.0
             },
             {
-              "playerId": "TB",
+              "playerId": "JAX",
               "points": 0.0
             }
           ],
@@ -4354,16 +4358,45 @@
           "teamName": "Vegablanca Boars",
           "points": 0.0,
           "customPoints": null,
-          "starters": [],
-          "bench": [
+          "starters": [
+            {
+              "playerId": "6770",
+              "points": 0.0
+            },
+            {
+              "playerId": "3198",
+              "points": 0.0
+            },
+            {
+              "playerId": "4866",
+              "points": 0.0
+            },
+            {
+              "playerId": "8112",
+              "points": 0.0
+            },
             {
               "playerId": "12514",
+              "points": 0.0
+            },
+            {
+              "playerId": "8130",
               "points": 0.0
             },
             {
               "playerId": "12533",
               "points": 0.0
             },
+            {
+              "playerId": "3451",
+              "points": 0.0
+            },
+            {
+              "playerId": "SEA",
+              "points": 0.0
+            }
+          ],
+          "bench": [
             {
               "playerId": "13279",
               "points": 0.0
@@ -4385,30 +4418,6 @@
               "points": 0.0
             },
             {
-              "playerId": "3198",
-              "points": 0.0
-            },
-            {
-              "playerId": "3451",
-              "points": 0.0
-            },
-            {
-              "playerId": "4866",
-              "points": 0.0
-            },
-            {
-              "playerId": "6770",
-              "points": 0.0
-            },
-            {
-              "playerId": "8112",
-              "points": 0.0
-            },
-            {
-              "playerId": "8130",
-              "points": 0.0
-            },
-            {
               "playerId": "8148",
               "points": 0.0
             },
@@ -4418,10 +4427,6 @@
             },
             {
               "playerId": "9502",
-              "points": 0.0
-            },
-            {
-              "playerId": "SEA",
               "points": 0.0
             }
           ],
@@ -4489,7 +4494,7 @@
               "points": 0.0
             },
             {
-              "playerId": "JAX",
+              "playerId": "TB",
               "points": 0.0
             }
           ],
@@ -4523,7 +4528,7 @@
               "points": 0.0
             },
             {
-              "playerId": "TB",
+              "playerId": "JAX",
               "points": 0.0
             }
           ],
@@ -5142,16 +5147,45 @@
           "teamName": "Vegablanca Boars",
           "points": 0.0,
           "customPoints": null,
-          "starters": [],
-          "bench": [
+          "starters": [
+            {
+              "playerId": "6770",
+              "points": 0.0
+            },
+            {
+              "playerId": "3198",
+              "points": 0.0
+            },
+            {
+              "playerId": "4866",
+              "points": 0.0
+            },
+            {
+              "playerId": "8112",
+              "points": 0.0
+            },
             {
               "playerId": "12514",
+              "points": 0.0
+            },
+            {
+              "playerId": "8130",
               "points": 0.0
             },
             {
               "playerId": "12533",
               "points": 0.0
             },
+            {
+              "playerId": "3451",
+              "points": 0.0
+            },
+            {
+              "playerId": "SEA",
+              "points": 0.0
+            }
+          ],
+          "bench": [
             {
               "playerId": "13279",
               "points": 0.0
@@ -5173,30 +5207,6 @@
               "points": 0.0
             },
             {
-              "playerId": "3198",
-              "points": 0.0
-            },
-            {
-              "playerId": "3451",
-              "points": 0.0
-            },
-            {
-              "playerId": "4866",
-              "points": 0.0
-            },
-            {
-              "playerId": "6770",
-              "points": 0.0
-            },
-            {
-              "playerId": "8112",
-              "points": 0.0
-            },
-            {
-              "playerId": "8130",
-              "points": 0.0
-            },
-            {
               "playerId": "8148",
               "points": 0.0
             },
@@ -5206,10 +5216,6 @@
             },
             {
               "playerId": "9502",
-              "points": 0.0
-            },
-            {
-              "playerId": "SEA",
               "points": 0.0
             }
           ],
@@ -5277,7 +5283,7 @@
               "points": 0.0
             },
             {
-              "playerId": "JAX",
+              "playerId": "TB",
               "points": 0.0
             }
           ],
@@ -5311,7 +5317,7 @@
               "points": 0.0
             },
             {
-              "playerId": "TB",
+              "playerId": "JAX",
               "points": 0.0
             }
           ],
@@ -5930,16 +5936,45 @@
           "teamName": "Vegablanca Boars",
           "points": 0.0,
           "customPoints": null,
-          "starters": [],
-          "bench": [
+          "starters": [
+            {
+              "playerId": "6770",
+              "points": 0.0
+            },
+            {
+              "playerId": "3198",
+              "points": 0.0
+            },
+            {
+              "playerId": "4866",
+              "points": 0.0
+            },
+            {
+              "playerId": "8112",
+              "points": 0.0
+            },
             {
               "playerId": "12514",
+              "points": 0.0
+            },
+            {
+              "playerId": "8130",
               "points": 0.0
             },
             {
               "playerId": "12533",
               "points": 0.0
             },
+            {
+              "playerId": "3451",
+              "points": 0.0
+            },
+            {
+              "playerId": "SEA",
+              "points": 0.0
+            }
+          ],
+          "bench": [
             {
               "playerId": "13279",
               "points": 0.0
@@ -5961,30 +5996,6 @@
               "points": 0.0
             },
             {
-              "playerId": "3198",
-              "points": 0.0
-            },
-            {
-              "playerId": "3451",
-              "points": 0.0
-            },
-            {
-              "playerId": "4866",
-              "points": 0.0
-            },
-            {
-              "playerId": "6770",
-              "points": 0.0
-            },
-            {
-              "playerId": "8112",
-              "points": 0.0
-            },
-            {
-              "playerId": "8130",
-              "points": 0.0
-            },
-            {
               "playerId": "8148",
               "points": 0.0
             },
@@ -5994,10 +6005,6 @@
             },
             {
               "playerId": "9502",
-              "points": 0.0
-            },
-            {
-              "playerId": "SEA",
               "points": 0.0
             }
           ],
@@ -6065,7 +6072,7 @@
               "points": 0.0
             },
             {
-              "playerId": "JAX",
+              "playerId": "TB",
               "points": 0.0
             }
           ],
@@ -6099,7 +6106,7 @@
               "points": 0.0
             },
             {
-              "playerId": "TB",
+              "playerId": "JAX",
               "points": 0.0
             }
           ],
@@ -6718,16 +6725,45 @@
           "teamName": "Vegablanca Boars",
           "points": 0.0,
           "customPoints": null,
-          "starters": [],
-          "bench": [
+          "starters": [
+            {
+              "playerId": "6770",
+              "points": 0.0
+            },
+            {
+              "playerId": "3198",
+              "points": 0.0
+            },
+            {
+              "playerId": "4866",
+              "points": 0.0
+            },
+            {
+              "playerId": "8112",
+              "points": 0.0
+            },
             {
               "playerId": "12514",
+              "points": 0.0
+            },
+            {
+              "playerId": "8130",
               "points": 0.0
             },
             {
               "playerId": "12533",
               "points": 0.0
             },
+            {
+              "playerId": "3451",
+              "points": 0.0
+            },
+            {
+              "playerId": "SEA",
+              "points": 0.0
+            }
+          ],
+          "bench": [
             {
               "playerId": "13279",
               "points": 0.0
@@ -6749,30 +6785,6 @@
               "points": 0.0
             },
             {
-              "playerId": "3198",
-              "points": 0.0
-            },
-            {
-              "playerId": "3451",
-              "points": 0.0
-            },
-            {
-              "playerId": "4866",
-              "points": 0.0
-            },
-            {
-              "playerId": "6770",
-              "points": 0.0
-            },
-            {
-              "playerId": "8112",
-              "points": 0.0
-            },
-            {
-              "playerId": "8130",
-              "points": 0.0
-            },
-            {
               "playerId": "8148",
               "points": 0.0
             },
@@ -6782,10 +6794,6 @@
             },
             {
               "playerId": "9502",
-              "points": 0.0
-            },
-            {
-              "playerId": "SEA",
               "points": 0.0
             }
           ],
@@ -6853,7 +6861,7 @@
               "points": 0.0
             },
             {
-              "playerId": "JAX",
+              "playerId": "TB",
               "points": 0.0
             }
           ],
@@ -6887,7 +6895,7 @@
               "points": 0.0
             },
             {
-              "playerId": "TB",
+              "playerId": "JAX",
               "points": 0.0
             }
           ],
@@ -7506,16 +7514,45 @@
           "teamName": "Vegablanca Boars",
           "points": 0.0,
           "customPoints": null,
-          "starters": [],
-          "bench": [
+          "starters": [
+            {
+              "playerId": "6770",
+              "points": 0.0
+            },
+            {
+              "playerId": "3198",
+              "points": 0.0
+            },
+            {
+              "playerId": "4866",
+              "points": 0.0
+            },
+            {
+              "playerId": "8112",
+              "points": 0.0
+            },
             {
               "playerId": "12514",
+              "points": 0.0
+            },
+            {
+              "playerId": "8130",
               "points": 0.0
             },
             {
               "playerId": "12533",
               "points": 0.0
             },
+            {
+              "playerId": "3451",
+              "points": 0.0
+            },
+            {
+              "playerId": "SEA",
+              "points": 0.0
+            }
+          ],
+          "bench": [
             {
               "playerId": "13279",
               "points": 0.0
@@ -7537,30 +7574,6 @@
               "points": 0.0
             },
             {
-              "playerId": "3198",
-              "points": 0.0
-            },
-            {
-              "playerId": "3451",
-              "points": 0.0
-            },
-            {
-              "playerId": "4866",
-              "points": 0.0
-            },
-            {
-              "playerId": "6770",
-              "points": 0.0
-            },
-            {
-              "playerId": "8112",
-              "points": 0.0
-            },
-            {
-              "playerId": "8130",
-              "points": 0.0
-            },
-            {
               "playerId": "8148",
               "points": 0.0
             },
@@ -7570,10 +7583,6 @@
             },
             {
               "playerId": "9502",
-              "points": 0.0
-            },
-            {
-              "playerId": "SEA",
               "points": 0.0
             }
           ],
@@ -7641,7 +7650,7 @@
               "points": 0.0
             },
             {
-              "playerId": "JAX",
+              "playerId": "TB",
               "points": 0.0
             }
           ],
@@ -7675,7 +7684,7 @@
               "points": 0.0
             },
             {
-              "playerId": "TB",
+              "playerId": "JAX",
               "points": 0.0
             }
           ],
@@ -8294,16 +8303,45 @@
           "teamName": "Vegablanca Boars",
           "points": 0.0,
           "customPoints": null,
-          "starters": [],
-          "bench": [
+          "starters": [
+            {
+              "playerId": "6770",
+              "points": 0.0
+            },
+            {
+              "playerId": "3198",
+              "points": 0.0
+            },
+            {
+              "playerId": "4866",
+              "points": 0.0
+            },
+            {
+              "playerId": "8112",
+              "points": 0.0
+            },
             {
               "playerId": "12514",
+              "points": 0.0
+            },
+            {
+              "playerId": "8130",
               "points": 0.0
             },
             {
               "playerId": "12533",
               "points": 0.0
             },
+            {
+              "playerId": "3451",
+              "points": 0.0
+            },
+            {
+              "playerId": "SEA",
+              "points": 0.0
+            }
+          ],
+          "bench": [
             {
               "playerId": "13279",
               "points": 0.0
@@ -8325,30 +8363,6 @@
               "points": 0.0
             },
             {
-              "playerId": "3198",
-              "points": 0.0
-            },
-            {
-              "playerId": "3451",
-              "points": 0.0
-            },
-            {
-              "playerId": "4866",
-              "points": 0.0
-            },
-            {
-              "playerId": "6770",
-              "points": 0.0
-            },
-            {
-              "playerId": "8112",
-              "points": 0.0
-            },
-            {
-              "playerId": "8130",
-              "points": 0.0
-            },
-            {
               "playerId": "8148",
               "points": 0.0
             },
@@ -8358,10 +8372,6 @@
             },
             {
               "playerId": "9502",
-              "points": 0.0
-            },
-            {
-              "playerId": "SEA",
               "points": 0.0
             }
           ],
@@ -8429,7 +8439,7 @@
               "points": 0.0
             },
             {
-              "playerId": "JAX",
+              "playerId": "TB",
               "points": 0.0
             }
           ],
@@ -8463,7 +8473,7 @@
               "points": 0.0
             },
             {
-              "playerId": "TB",
+              "playerId": "JAX",
               "points": 0.0
             }
           ],
@@ -9082,16 +9092,45 @@
           "teamName": "Vegablanca Boars",
           "points": 0.0,
           "customPoints": null,
-          "starters": [],
-          "bench": [
+          "starters": [
+            {
+              "playerId": "6770",
+              "points": 0.0
+            },
+            {
+              "playerId": "3198",
+              "points": 0.0
+            },
+            {
+              "playerId": "4866",
+              "points": 0.0
+            },
+            {
+              "playerId": "8112",
+              "points": 0.0
+            },
             {
               "playerId": "12514",
+              "points": 0.0
+            },
+            {
+              "playerId": "8130",
               "points": 0.0
             },
             {
               "playerId": "12533",
               "points": 0.0
             },
+            {
+              "playerId": "3451",
+              "points": 0.0
+            },
+            {
+              "playerId": "SEA",
+              "points": 0.0
+            }
+          ],
+          "bench": [
             {
               "playerId": "13279",
               "points": 0.0
@@ -9113,30 +9152,6 @@
               "points": 0.0
             },
             {
-              "playerId": "3198",
-              "points": 0.0
-            },
-            {
-              "playerId": "3451",
-              "points": 0.0
-            },
-            {
-              "playerId": "4866",
-              "points": 0.0
-            },
-            {
-              "playerId": "6770",
-              "points": 0.0
-            },
-            {
-              "playerId": "8112",
-              "points": 0.0
-            },
-            {
-              "playerId": "8130",
-              "points": 0.0
-            },
-            {
               "playerId": "8148",
               "points": 0.0
             },
@@ -9146,10 +9161,6 @@
             },
             {
               "playerId": "9502",
-              "points": 0.0
-            },
-            {
-              "playerId": "SEA",
               "points": 0.0
             }
           ],
@@ -9217,7 +9228,7 @@
               "points": 0.0
             },
             {
-              "playerId": "JAX",
+              "playerId": "TB",
               "points": 0.0
             }
           ],
@@ -9251,7 +9262,7 @@
               "points": 0.0
             },
             {
-              "playerId": "TB",
+              "playerId": "JAX",
               "points": 0.0
             }
           ],
@@ -9870,16 +9881,45 @@
           "teamName": "Vegablanca Boars",
           "points": 0.0,
           "customPoints": null,
-          "starters": [],
-          "bench": [
+          "starters": [
+            {
+              "playerId": "6770",
+              "points": 0.0
+            },
+            {
+              "playerId": "3198",
+              "points": 0.0
+            },
+            {
+              "playerId": "4866",
+              "points": 0.0
+            },
+            {
+              "playerId": "8112",
+              "points": 0.0
+            },
             {
               "playerId": "12514",
+              "points": 0.0
+            },
+            {
+              "playerId": "8130",
               "points": 0.0
             },
             {
               "playerId": "12533",
               "points": 0.0
             },
+            {
+              "playerId": "3451",
+              "points": 0.0
+            },
+            {
+              "playerId": "SEA",
+              "points": 0.0
+            }
+          ],
+          "bench": [
             {
               "playerId": "13279",
               "points": 0.0
@@ -9901,30 +9941,6 @@
               "points": 0.0
             },
             {
-              "playerId": "3198",
-              "points": 0.0
-            },
-            {
-              "playerId": "3451",
-              "points": 0.0
-            },
-            {
-              "playerId": "4866",
-              "points": 0.0
-            },
-            {
-              "playerId": "6770",
-              "points": 0.0
-            },
-            {
-              "playerId": "8112",
-              "points": 0.0
-            },
-            {
-              "playerId": "8130",
-              "points": 0.0
-            },
-            {
               "playerId": "8148",
               "points": 0.0
             },
@@ -9934,10 +9950,6 @@
             },
             {
               "playerId": "9502",
-              "points": 0.0
-            },
-            {
-              "playerId": "SEA",
               "points": 0.0
             }
           ],
@@ -10005,7 +10017,7 @@
               "points": 0.0
             },
             {
-              "playerId": "JAX",
+              "playerId": "TB",
               "points": 0.0
             }
           ],
@@ -10039,7 +10051,7 @@
               "points": 0.0
             },
             {
-              "playerId": "TB",
+              "playerId": "JAX",
               "points": 0.0
             }
           ],
@@ -10658,16 +10670,45 @@
           "teamName": "Vegablanca Boars",
           "points": 0.0,
           "customPoints": null,
-          "starters": [],
-          "bench": [
+          "starters": [
+            {
+              "playerId": "6770",
+              "points": 0.0
+            },
+            {
+              "playerId": "3198",
+              "points": 0.0
+            },
+            {
+              "playerId": "4866",
+              "points": 0.0
+            },
+            {
+              "playerId": "8112",
+              "points": 0.0
+            },
             {
               "playerId": "12514",
+              "points": 0.0
+            },
+            {
+              "playerId": "8130",
               "points": 0.0
             },
             {
               "playerId": "12533",
               "points": 0.0
             },
+            {
+              "playerId": "3451",
+              "points": 0.0
+            },
+            {
+              "playerId": "SEA",
+              "points": 0.0
+            }
+          ],
+          "bench": [
             {
               "playerId": "13279",
               "points": 0.0
@@ -10689,30 +10730,6 @@
               "points": 0.0
             },
             {
-              "playerId": "3198",
-              "points": 0.0
-            },
-            {
-              "playerId": "3451",
-              "points": 0.0
-            },
-            {
-              "playerId": "4866",
-              "points": 0.0
-            },
-            {
-              "playerId": "6770",
-              "points": 0.0
-            },
-            {
-              "playerId": "8112",
-              "points": 0.0
-            },
-            {
-              "playerId": "8130",
-              "points": 0.0
-            },
-            {
               "playerId": "8148",
               "points": 0.0
             },
@@ -10722,10 +10739,6 @@
             },
             {
               "playerId": "9502",
-              "points": 0.0
-            },
-            {
-              "playerId": "SEA",
               "points": 0.0
             }
           ],
@@ -10793,7 +10806,7 @@
               "points": 0.0
             },
             {
-              "playerId": "JAX",
+              "playerId": "TB",
               "points": 0.0
             }
           ],
@@ -10827,7 +10840,7 @@
               "points": 0.0
             },
             {
-              "playerId": "TB",
+              "playerId": "JAX",
               "points": 0.0
             }
           ],
@@ -11446,16 +11459,45 @@
           "teamName": "Vegablanca Boars",
           "points": 0.0,
           "customPoints": null,
-          "starters": [],
-          "bench": [
+          "starters": [
+            {
+              "playerId": "6770",
+              "points": 0.0
+            },
+            {
+              "playerId": "3198",
+              "points": 0.0
+            },
+            {
+              "playerId": "4866",
+              "points": 0.0
+            },
+            {
+              "playerId": "8112",
+              "points": 0.0
+            },
             {
               "playerId": "12514",
+              "points": 0.0
+            },
+            {
+              "playerId": "8130",
               "points": 0.0
             },
             {
               "playerId": "12533",
               "points": 0.0
             },
+            {
+              "playerId": "3451",
+              "points": 0.0
+            },
+            {
+              "playerId": "SEA",
+              "points": 0.0
+            }
+          ],
+          "bench": [
             {
               "playerId": "13279",
               "points": 0.0
@@ -11477,30 +11519,6 @@
               "points": 0.0
             },
             {
-              "playerId": "3198",
-              "points": 0.0
-            },
-            {
-              "playerId": "3451",
-              "points": 0.0
-            },
-            {
-              "playerId": "4866",
-              "points": 0.0
-            },
-            {
-              "playerId": "6770",
-              "points": 0.0
-            },
-            {
-              "playerId": "8112",
-              "points": 0.0
-            },
-            {
-              "playerId": "8130",
-              "points": 0.0
-            },
-            {
               "playerId": "8148",
               "points": 0.0
             },
@@ -11510,10 +11528,6 @@
             },
             {
               "playerId": "9502",
-              "points": 0.0
-            },
-            {
-              "playerId": "SEA",
               "points": 0.0
             }
           ],
@@ -11581,7 +11595,7 @@
               "points": 0.0
             },
             {
-              "playerId": "JAX",
+              "playerId": "TB",
               "points": 0.0
             }
           ],
@@ -11615,7 +11629,7 @@
               "points": 0.0
             },
             {
-              "playerId": "TB",
+              "playerId": "JAX",
               "points": 0.0
             }
           ],
@@ -12234,16 +12248,45 @@
           "teamName": "Vegablanca Boars",
           "points": 0.0,
           "customPoints": null,
-          "starters": [],
-          "bench": [
+          "starters": [
+            {
+              "playerId": "6770",
+              "points": 0.0
+            },
+            {
+              "playerId": "3198",
+              "points": 0.0
+            },
+            {
+              "playerId": "4866",
+              "points": 0.0
+            },
+            {
+              "playerId": "8112",
+              "points": 0.0
+            },
             {
               "playerId": "12514",
+              "points": 0.0
+            },
+            {
+              "playerId": "8130",
               "points": 0.0
             },
             {
               "playerId": "12533",
               "points": 0.0
             },
+            {
+              "playerId": "3451",
+              "points": 0.0
+            },
+            {
+              "playerId": "SEA",
+              "points": 0.0
+            }
+          ],
+          "bench": [
             {
               "playerId": "13279",
               "points": 0.0
@@ -12265,30 +12308,6 @@
               "points": 0.0
             },
             {
-              "playerId": "3198",
-              "points": 0.0
-            },
-            {
-              "playerId": "3451",
-              "points": 0.0
-            },
-            {
-              "playerId": "4866",
-              "points": 0.0
-            },
-            {
-              "playerId": "6770",
-              "points": 0.0
-            },
-            {
-              "playerId": "8112",
-              "points": 0.0
-            },
-            {
-              "playerId": "8130",
-              "points": 0.0
-            },
-            {
               "playerId": "8148",
               "points": 0.0
             },
@@ -12298,10 +12317,6 @@
             },
             {
               "playerId": "9502",
-              "points": 0.0
-            },
-            {
-              "playerId": "SEA",
               "points": 0.0
             }
           ],
@@ -12369,7 +12384,7 @@
               "points": 0.0
             },
             {
-              "playerId": "JAX",
+              "playerId": "TB",
               "points": 0.0
             }
           ],
@@ -12403,7 +12418,7 @@
               "points": 0.0
             },
             {
-              "playerId": "TB",
+              "playerId": "JAX",
               "points": 0.0
             }
           ],
@@ -13022,16 +13037,45 @@
           "teamName": "Vegablanca Boars",
           "points": 0.0,
           "customPoints": null,
-          "starters": [],
-          "bench": [
+          "starters": [
+            {
+              "playerId": "6770",
+              "points": 0.0
+            },
+            {
+              "playerId": "3198",
+              "points": 0.0
+            },
+            {
+              "playerId": "4866",
+              "points": 0.0
+            },
+            {
+              "playerId": "8112",
+              "points": 0.0
+            },
             {
               "playerId": "12514",
+              "points": 0.0
+            },
+            {
+              "playerId": "8130",
               "points": 0.0
             },
             {
               "playerId": "12533",
               "points": 0.0
             },
+            {
+              "playerId": "3451",
+              "points": 0.0
+            },
+            {
+              "playerId": "SEA",
+              "points": 0.0
+            }
+          ],
+          "bench": [
             {
               "playerId": "13279",
               "points": 0.0
@@ -13053,30 +13097,6 @@
               "points": 0.0
             },
             {
-              "playerId": "3198",
-              "points": 0.0
-            },
-            {
-              "playerId": "3451",
-              "points": 0.0
-            },
-            {
-              "playerId": "4866",
-              "points": 0.0
-            },
-            {
-              "playerId": "6770",
-              "points": 0.0
-            },
-            {
-              "playerId": "8112",
-              "points": 0.0
-            },
-            {
-              "playerId": "8130",
-              "points": 0.0
-            },
-            {
               "playerId": "8148",
               "points": 0.0
             },
@@ -13086,10 +13106,6 @@
             },
             {
               "playerId": "9502",
-              "points": 0.0
-            },
-            {
-              "playerId": "SEA",
               "points": 0.0
             }
           ],
@@ -13157,7 +13173,7 @@
               "points": 0.0
             },
             {
-              "playerId": "JAX",
+              "playerId": "TB",
               "points": 0.0
             }
           ],
@@ -13191,7 +13207,7 @@
               "points": 0.0
             },
             {
-              "playerId": "TB",
+              "playerId": "JAX",
               "points": 0.0
             }
           ],
@@ -13810,16 +13826,45 @@
           "teamName": "Vegablanca Boars",
           "points": 0.0,
           "customPoints": null,
-          "starters": [],
-          "bench": [
+          "starters": [
+            {
+              "playerId": "6770",
+              "points": 0.0
+            },
+            {
+              "playerId": "3198",
+              "points": 0.0
+            },
+            {
+              "playerId": "4866",
+              "points": 0.0
+            },
+            {
+              "playerId": "8112",
+              "points": 0.0
+            },
             {
               "playerId": "12514",
+              "points": 0.0
+            },
+            {
+              "playerId": "8130",
               "points": 0.0
             },
             {
               "playerId": "12533",
               "points": 0.0
             },
+            {
+              "playerId": "3451",
+              "points": 0.0
+            },
+            {
+              "playerId": "SEA",
+              "points": 0.0
+            }
+          ],
+          "bench": [
             {
               "playerId": "13279",
               "points": 0.0
@@ -13841,30 +13886,6 @@
               "points": 0.0
             },
             {
-              "playerId": "3198",
-              "points": 0.0
-            },
-            {
-              "playerId": "3451",
-              "points": 0.0
-            },
-            {
-              "playerId": "4866",
-              "points": 0.0
-            },
-            {
-              "playerId": "6770",
-              "points": 0.0
-            },
-            {
-              "playerId": "8112",
-              "points": 0.0
-            },
-            {
-              "playerId": "8130",
-              "points": 0.0
-            },
-            {
               "playerId": "8148",
               "points": 0.0
             },
@@ -13874,10 +13895,6 @@
             },
             {
               "playerId": "9502",
-              "points": 0.0
-            },
-            {
-              "playerId": "SEA",
               "points": 0.0
             }
           ],
@@ -13945,7 +13962,7 @@
               "points": 0.0
             },
             {
-              "playerId": "JAX",
+              "playerId": "TB",
               "points": 0.0
             }
           ],
@@ -13979,7 +13996,7 @@
               "points": 0.0
             },
             {
-              "playerId": "TB",
+              "playerId": "JAX",
               "points": 0.0
             }
           ],
