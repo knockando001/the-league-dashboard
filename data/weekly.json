@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-18T04:13:12.802563+00:00",
+  "generatedAt": "2026-09-18T06:16:57.810162+00:00",
   "leagueId": "1397593463293239296",
   "leagueName": "The League",
   "leagueStatus": "in_season",
   "season": 2026,
   "nflState": {
     "week": 2,
-    "leg": 2,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
+    "leg": 2,
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -203,6 +203,7 @@
         "10236",
         "11632",
         "2216",
+        "2449",
         "5189",
         "5892",
         "5927",
@@ -214,7 +215,6 @@
         "6904",
         "7523",
         "9484",
-        "9754",
         "HOU"
       ],
       "starters": [
