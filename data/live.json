@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T20:12:11.577981+00:00",
+  "generatedAt": "2026-09-20T22:11:54.946826+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -72,10 +72,11 @@
     },
     "avatar": "8da7991069e3a7217718ff56366005c6",
     "company_id": null,
+    "last_message_id": "1406552062572908544",
+    "sport": "nfl",
     "shard": 125,
     "season": "2026",
     "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -226,8 +227,6 @@
       "st_ff": 0.0,
       "idp_tkl_ast": 0.0
     },
-    "last_message_id": "1406552062572908544",
-    "draft_id": "1397593466170523648",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -237,6 +236,7 @@
     "last_message_time": 1789710653492,
     "last_pinned_message_id": "1398407155169656845",
     "last_read_id": null,
+    "draft_id": "1397593466170523648",
     "league_id": "1397593463293239296",
     "previous_league_id": null,
     "bracket_id": null,
