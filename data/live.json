@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T06:17:14.768342+00:00",
+  "generatedAt": "2026-09-23T08:14:04.917165+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -224,8 +224,8 @@
     },
     "season": "2026",
     "season_type": "regular",
-    "sport": "nfl",
     "shard": 125,
+    "sport": "nfl",
     "last_message_id": "1408149046228430848",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
@@ -235,13 +235,15 @@
     "last_message_text_map": null,
     "last_message_time": 1790091404067,
     "last_pinned_message_id": "1398407155169656845",
+    "last_read_id": null,
     "draft_id": "1397593466170523648",
     "league_id": "1397593463293239296",
     "previous_league_id": null,
-    "last_read_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
     "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -260,8 +262,6 @@
       "BN",
       "BN"
     ],
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 8
   },
   "nflState": {
@@ -272,7 +272,7 @@
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
-    "display_week": 2,
+    "display_week": 3,
     "league_create_season": "2026",
     "season_has_scores": true
   },
