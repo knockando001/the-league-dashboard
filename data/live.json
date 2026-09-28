@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T22:52:08.598541+00:00",
+  "generatedAt": "2026-09-28T04:22:19.864745+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -232,10 +232,10 @@
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
-    "draft_id": "1397593466170523648",
     "last_message_text_map": null,
     "last_message_time": 1790509916138,
     "last_pinned_message_id": "1398407155169656845",
+    "draft_id": "1397593466170523648",
     "last_read_id": null,
     "league_id": "1397593463293239296",
     "previous_league_id": null,
