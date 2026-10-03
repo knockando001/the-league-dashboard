@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-03T19:05:06.494165+00:00",
+  "generatedAt": "2026-10-03T22:45:42.956741+00:00",
   "leagueId": "1397593463293239296",
   "leagueName": "The League",
   "leagueStatus": "in_season",
   "season": 2026,
   "nflState": {
     "week": 4,
+    "leg": 4,
     "season_type": "regular",
     "season": "2026",
-    "leg": 4,
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -94,7 +94,6 @@
       "ownerName": "knockando",
       "teamName": "Flota Oksywie",
       "players": [
-        "11435",
         "11584",
         "11604",
         "12490",
@@ -108,6 +107,7 @@
         "8408",
         "9228",
         "9493",
+        "9753",
         "9756",
         "BAL",
         "CIN"
@@ -271,33 +271,33 @@
       "ownerName": "Janaka7",
       "teamName": "Kiki Owls",
       "players": [
-        "10859",
+        "10232",
         "11581",
-        "11620",
         "11624",
         "11626",
-        "11655",
+        "12474",
         "12534",
         "4046",
         "6083",
+        "7002",
         "7525",
         "7547",
-        "8132",
         "8155",
         "9509",
-        "DAL",
+        "9758",
+        "CHI",
         "NYG"
       ],
       "starters": [
         "4046",
         "9509",
-        "8155",
+        "12474",
         "7547",
-        "7525",
-        "10859",
+        "10232",
+        "7002",
         "12534",
         "6083",
-        "DAL"
+        "CHI"
       ]
     }
   },
