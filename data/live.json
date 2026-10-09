@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T12:48:13.816667+00:00",
+  "generatedAt": "2026-10-09T19:19:30.957003+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -72,11 +72,11 @@
     },
     "avatar": "8da7991069e3a7217718ff56366005c6",
     "company_id": null,
-    "shard": 125,
-    "season": "2026",
-    "season_type": "regular",
+    "last_message_id": "1414335461509345280",
     "sport": "nfl",
-    "last_message_id": "1413817400817639424",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 125,
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -233,15 +233,12 @@
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1791442845113,
+    "last_message_time": 1791566360408,
     "last_pinned_message_id": "1398407155169656845",
-    "draft_id": "1397593466170523648",
     "last_read_id": null,
+    "draft_id": "1397593466170523648",
     "league_id": "1397593463293239296",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -260,6 +257,9 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 8
@@ -610,9 +610,11 @@
       "pointsFor": 386.76,
       "waiverPosition": 1,
       "players": [
+        "10219",
         "10229",
         "11533",
         "11635",
+        "11834",
         "12481",
         "12506",
         "12507",
@@ -620,9 +622,7 @@
         "4227",
         "4984",
         "5012",
-        "5850",
         "8144",
-        "9226",
         "9487",
         "LAR",
         "MIN"
@@ -633,8 +633,8 @@
         "12481",
         "8144",
         "9487",
-        "5012",
-        "10229",
+        "12506",
+        "12507",
         "11533",
         "MIN"
       ]
