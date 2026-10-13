@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-12T22:47:20.016952+00:00",
+  "generatedAt": "2026-10-13T06:00:21.300728+00:00",
   "leagueId": "1397593463293239296",
   "leagueName": "The League",
   "leagueStatus": "in_season",
   "season": 2026,
   "nflState": {
-    "week": 5,
-    "leg": 5,
+    "week": 6,
+    "leg": 6,
     "season": "2026",
     "season_type": "regular",
     "league_season": "2026",
