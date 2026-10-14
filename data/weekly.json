@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T00:56:41.914518+00:00",
+  "generatedAt": "2026-10-14T07:15:39.107694+00:00",
   "leagueId": "1397593463293239296",
   "leagueName": "The League",
   "leagueStatus": "in_season",
@@ -12,7 +12,7 @@
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
-    "display_week": 5,
+    "display_week": 6,
     "league_create_season": "2026",
     "season_has_scores": true
   },
