@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T14:44:24.308136+00:00",
+  "generatedAt": "2026-10-15T19:44:57.369445+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -72,11 +72,6 @@
     },
     "avatar": "8da7991069e3a7217718ff56366005c6",
     "company_id": null,
-    "shard": 125,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
-    "last_message_id": "1416416253727285248",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -227,12 +222,17 @@
       "st_ff": 0.0,
       "idp_tkl_ast": 0.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 125,
+    "sport": "nfl",
+    "last_message_id": "1416416253727285248",
     "last_author_avatar": null,
+    "draft_id": "1397593466170523648",
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
-    "draft_id": "1397593466170523648",
     "last_message_text_map": null,
     "last_message_time": 1792062459931,
     "last_pinned_message_id": "1398407155169656845",
@@ -434,7 +434,7 @@
         "2133",
         "12518",
         "9997",
-        "0",
+        "2747",
         "DEN"
       ]
     },
@@ -510,10 +510,10 @@
         "4881",
         "8151",
         "12527",
-        "8167",
+        "12526",
         "7569",
         "4217",
-        "12512",
+        "8167",
         "11786",
         "PIT"
       ]
@@ -631,7 +631,7 @@
       "starters": [
         "6804",
         "3198",
-        "0",
+        "7611",
         "8112",
         "12501",
         "8130",
