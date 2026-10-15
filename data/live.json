@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T19:44:57.369445+00:00",
+  "generatedAt": "2026-10-15T22:56:10.177252+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -72,6 +72,10 @@
     },
     "avatar": "8da7991069e3a7217718ff56366005c6",
     "company_id": null,
+    "shard": 125,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -222,23 +226,24 @@
       "st_ff": 0.0,
       "idp_tkl_ast": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 125,
-    "sport": "nfl",
     "last_message_id": "1416416253727285248",
     "last_author_avatar": null,
-    "draft_id": "1397593466170523648",
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
     "last_message_time": 1792062459931,
+    "draft_id": "1397593466170523648",
     "last_pinned_message_id": "1398407155169656845",
     "last_read_id": null,
     "league_id": "1397593463293239296",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -257,18 +262,13 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 8
   },
   "nflState": {
     "week": 6,
     "leg": 6,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -427,7 +427,7 @@
         "KC"
       ],
       "starters": [
-        "11564",
+        "8183",
         "4034",
         "8150",
         "9488",
@@ -435,7 +435,7 @@
         "12518",
         "9997",
         "2747",
-        "DEN"
+        "KC"
       ]
     },
     {
@@ -473,7 +473,7 @@
         "11632",
         "6786",
         "9484",
-        "2216",
+        "6790",
         "5189",
         "HOU"
       ]
