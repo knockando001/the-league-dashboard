@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T19:42:03.745629+00:00",
+  "generatedAt": "2026-10-19T23:25:33.588971+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -76,6 +76,7 @@
     "season": "2026",
     "season_type": "regular",
     "sport": "nfl",
+    "last_message_id": "1417289979494727680",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -226,7 +227,6 @@
       "st_ff": 0.0,
       "idp_tkl_ast": 0.0
     },
-    "last_message_id": "1417289979494727680",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -266,9 +266,9 @@
   },
   "nflState": {
     "week": 6,
-    "leg": 6,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
+    "leg": 6,
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
