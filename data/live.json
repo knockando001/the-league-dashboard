@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T09:10:46.134095+00:00",
+  "generatedAt": "2026-10-23T14:43:45.968450+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -72,10 +72,10 @@
     },
     "avatar": "8da7991069e3a7217718ff56366005c6",
     "company_id": null,
-    "shard": 125,
-    "season": "2026",
-    "season_type": "regular",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 125,
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -226,14 +226,14 @@
       "st_ff": 0.0,
       "idp_tkl_ast": 0.0
     },
-    "last_message_id": "1418992732193443840",
+    "last_message_id": "1419295011236827136",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1792676740266,
+    "last_message_time": 1792748809207,
     "last_pinned_message_id": "1398407155169656845",
     "last_read_id": null,
     "draft_id": "1397593466170523648",
@@ -432,11 +432,11 @@
         "4034",
         "8150",
         "9488",
-        "0",
-        "12518",
         "9997",
+        "5022",
+        "6806",
         "2747",
-        "KC"
+        "DEN"
       ]
     },
     {
@@ -456,8 +456,8 @@
         "1166",
         "11792",
         "2216",
+        "4866",
         "5849",
-        "5892",
         "5967",
         "6786",
         "6790",
