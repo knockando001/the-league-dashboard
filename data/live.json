@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T17:41:12.750071+00:00",
+  "generatedAt": "2026-10-27T21:55:46.878932+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -72,10 +72,7 @@
     },
     "avatar": "8da7991069e3a7217718ff56366005c6",
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "shard": 125,
+    "last_message_id": "1420887436971511808",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -226,20 +223,22 @@
       "st_ff": 0.0,
       "idp_tkl_ast": 0.0
     },
-    "last_message_id": "1420832646539321344",
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 125,
+    "sport": "nfl",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1793115410031,
+    "last_message_time": 1793128473088,
     "last_pinned_message_id": "1398407155169656845",
     "draft_id": "1397593466170523648",
     "last_read_id": null,
     "league_id": "1397593463293239296",
     "previous_league_id": null,
-    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -260,6 +259,7 @@
     ],
     "bracket_id": null,
     "bracket_overrides_id": null,
+    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 8
@@ -471,7 +471,7 @@
         "4881",
         "12527",
         "9221",
-        "8146",
+        "12526",
         "8167",
         "10859",
         "8151",
@@ -492,7 +492,6 @@
       "players": [
         "10236",
         "11632",
-        "11655",
         "1166",
         "11792",
         "2216",
@@ -509,15 +508,15 @@
         "SF"
       ],
       "starters": [
-        "5849",
+        "7523",
         "6813",
         "6790",
-        "11632",
+        "6794",
         "6786",
         "9484",
-        "6794",
+        "4866",
         "11792",
-        "SF"
+        "JAX"
       ]
     },
     {
