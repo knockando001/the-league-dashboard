@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T22:19:58.629646+00:00",
+  "generatedAt": "2026-10-29T04:53:57.586319+00:00",
   "leagueId": "1397593463293239296",
   "leagueName": "The League",
   "leagueStatus": "in_season",
@@ -7,8 +7,8 @@
   "nflState": {
     "week": 8,
     "leg": 8,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -259,8 +259,8 @@
         "7594",
         "7564",
         "8137",
-        "8131",
-        "11576",
+        "1466",
+        "9224",
         "12185",
         "NYJ"
       ]
