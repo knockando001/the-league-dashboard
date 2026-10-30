@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T19:01:36.083923+00:00",
+  "generatedAt": "2026-10-30T23:30:19.899019+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -226,19 +226,24 @@
       "st_ff": 0.0,
       "idp_tkl_ast": 0.0
     },
-    "last_message_id": "1421836608340054016",
+    "last_message_id": "1421986028108976128",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1793354773177,
+    "last_message_time": 1793390397626,
     "last_pinned_message_id": "1398407155169656845",
-    "last_read_id": null,
     "draft_id": "1397593466170523648",
+    "last_read_id": null,
     "league_id": "1397593463293239296",
     "previous_league_id": null,
+    "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -257,11 +262,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 8
   },
   "nflState": {
@@ -613,29 +613,29 @@
       "players": [
         "10232",
         "11581",
+        "11620",
         "12474",
         "12534",
         "13279",
         "4046",
         "6083",
         "7002",
-        "7525",
         "7547",
-        "8121",
+        "7600",
+        "8126",
         "8155",
         "9509",
         "9758",
-        "CHI",
-        "NYG"
+        "CHI"
       ],
       "starters": [
         "4046",
         "9509",
         "11581",
-        "13279",
+        "8126",
         "10232",
-        "7002",
-        "8121",
+        "7600",
+        "7547",
         "6083",
         "CHI"
       ]
