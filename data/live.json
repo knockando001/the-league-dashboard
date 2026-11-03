@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T20:02:09.581808+00:00",
+  "generatedAt": "2026-11-03T03:21:11.635629+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -224,8 +224,8 @@
     },
     "season": "2026",
     "season_type": "regular",
-    "sport": "nfl",
     "shard": 125,
+    "sport": "nfl",
     "last_message_id": "1422731409616826368",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
@@ -375,6 +375,7 @@
       "league_id": "1397593463293239296",
       "metadata": {
         "allow_pn": "on",
+        "avatar": "https://sleepercdn.com/uploads/637000d8f97fb4422b31b66468699ea5.jpg",
         "mention_pn": "on",
         "team_name": "Agroplon Gluszyna"
       },
