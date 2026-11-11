@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T05:15:52.021975+00:00",
+  "generatedAt": "2026-11-11T13:45:53.874417+00:00",
   "leagueId": "1397593463293239296",
   "leagueName": "The League",
   "leagueStatus": "in_season",
@@ -12,7 +12,7 @@
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
-    "display_week": 9,
+    "display_week": 10,
     "league_create_season": "2026",
     "season_has_scores": true
   },
@@ -113,10 +113,10 @@
         "NO"
       ],
       "starters": [
-        "421",
+        "9228",
         "8138",
         "7588",
-        "9493",
+        "10229",
         "6801",
         "11604",
         "12490",
