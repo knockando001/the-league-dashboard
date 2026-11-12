@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T02:44:28.447176+00:00",
+  "generatedAt": "2026-11-12T12:19:23.890163+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -65,17 +65,13 @@
       "trade_review_days": 2,
       "bench_lock": 1,
       "offseason_adds": 0,
-      "leg": 9,
+      "leg": 10,
       "reserve_slots": 1,
       "reserve_allow_cov": 0,
       "daily_waivers_last_ran": 8
     },
     "avatar": "8da7991069e3a7217718ff56366005c6",
     "company_id": null,
-    "shard": 125,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -226,19 +222,28 @@
       "st_ff": 0.0,
       "idp_tkl_ast": 0.0
     },
-    "last_message_id": "1425921421535617024",
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
+    "last_message_id": "1426541950504280064",
+    "shard": 125,
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1794328668535,
+    "last_message_time": 1794476614170,
     "last_pinned_message_id": "1398407155169656845",
     "last_read_id": null,
     "draft_id": "1397593466170523648",
     "league_id": "1397593463293239296",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -257,18 +262,13 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 8
   },
   "nflState": {
     "week": 10,
-    "season_type": "regular",
-    "season": "2026",
     "leg": 10,
+    "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -408,7 +408,7 @@
       "losses": 2,
       "ties": 0,
       "pointsFor": 1009.02,
-      "waiverPosition": 8,
+      "waiverPosition": 7,
       "players": [
         "11564",
         "12518",
@@ -419,7 +419,7 @@
         "2747",
         "4034",
         "5022",
-        "6806",
+        "7021",
         "8148",
         "8150",
         "8183",
@@ -449,7 +449,7 @@
       "losses": 3,
       "ties": 0,
       "pointsFor": 1037.62,
-      "waiverPosition": 7,
+      "waiverPosition": 6,
       "players": [
         "10859",
         "11560",
@@ -458,6 +458,7 @@
         "12512",
         "12526",
         "12527",
+        "12545",
         "4217",
         "4881",
         "7569",
@@ -466,11 +467,10 @@
         "8167",
         "9221",
         "HOU",
-        "SF",
-        "TB"
+        "SF"
       ],
       "starters": [
-        "11560",
+        "12545",
         "8151",
         "9221",
         "7569",
@@ -490,7 +490,7 @@
       "losses": 3,
       "ties": 0,
       "pointsFor": 936.54,
-      "waiverPosition": 6,
+      "waiverPosition": 3,
       "players": [
         "10236",
         "11632",
@@ -538,6 +538,7 @@
         "12490",
         "421",
         "5850",
+        "5872",
         "6801",
         "7042",
         "7588",
@@ -546,8 +547,8 @@
         "9228",
         "9493",
         "9753",
-        "CIN",
-        "NO"
+        "BUF",
+        "IND"
       ],
       "starters": [
         "9228",
@@ -558,7 +559,7 @@
         "11604",
         "12490",
         "7042",
-        "NO"
+        "IND"
       ]
     },
     {
@@ -570,14 +571,13 @@
       "losses": 4,
       "ties": 0,
       "pointsFor": 854.86,
-      "waiverPosition": 4,
+      "waiverPosition": 8,
       "players": [
         "10213",
+        "11579",
+        "12491",
         "12501",
-        "12514",
         "12533",
-        "13274",
-        "13305",
         "13345",
         "3163",
         "3198",
@@ -588,12 +588,13 @@
         "8130",
         "8132",
         "9502",
+        "PIT",
         "SEA"
       ],
       "starters": [
         "6770",
         "3198",
-        "13345",
+        "11579",
         "8112",
         "12501",
         "8130",
@@ -611,7 +612,7 @@
       "losses": 6,
       "ties": 0,
       "pointsFor": 838.64,
-      "waiverPosition": 3,
+      "waiverPosition": 4,
       "players": [
         "11566",
         "11576",
@@ -629,7 +630,7 @@
         "8137",
         "8228",
         "9224",
-        "DET"
+        "BAL"
       ],
       "starters": [
         "11566",
@@ -640,7 +641,7 @@
         "8131",
         "12495",
         "7839",
-        "DET"
+        "BAL"
       ]
     },
     {
