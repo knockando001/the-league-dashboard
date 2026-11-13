@@ -4,7 +4,45 @@
   const S = window.Season;
   const { $, esc, num, signed, pct } = S;
 
+  function renderStandings(stats) {
+    const t = stats.table;
+    if (!t.length || !t[0].scores.length) return;
+    const lastOdds = stats.odds.weeks.length ? stats.odds.byWeek[stats.odds.weeks.at(-1)] : {};
+    const leader = t[0];
+    const behind = r => ((leader.wins - r.wins) + (r.losses - leader.losses)) / 2;
+    const cut = stats.playoffTeams;
+    const head = [['#', ''], ['Team', ''], ['W-L', ''], ['GB', 'num'], ['PF', 'num'], ['PA', 'num'], ['+/−', 'num'], ['Avg', 'num'],
+      ['High', 'num'], ['All-play', 'num'], ['Luck', 'num'], ['Coach', 'num'], ['Form', ''], ['Streak', ''], ['Trend', ''], ['Playoffs', 'num']];
+    const rows = t.map((r, i) => {
+      const diff = r.pointsFor - r.pointsAgainst;
+      const info = S.team(stats, r.rosterId);
+      const odds = lastOdds[r.rosterId];
+      const line = i === cut - 1 ? ' s-cutline' : '';
+      return `<tr class="${r.rank <= cut ? 'is-playoff' : ''}${line}">
+        <td class="s-rank">${r.rank}</td>
+        <td><span class="s-team team-with-logo">${S.logo(stats, r.rosterId, 30)}<span style="display:block"><a href="franchise.html?id=${esc(info.franchiseId || '')}" style="color:var(--ink);text-decoration:none;font-weight:750">${esc(info.team)}</a><br><small class="muted" style="font-weight:600">${esc(info.manager || info.sleeperUser || '')}</small></span></span></td>
+        <td class="s-strong">${r.wins}-${r.losses}${r.ties ? `-${r.ties}` : ''}</td>
+        <td class="num muted">${i === 0 ? '—' : num(behind(r), 1).replace(/\.0$/, '')}</td>
+        <td class="num s-strong">${num(r.pointsFor)}</td>
+        <td class="num">${num(r.pointsAgainst)}</td>
+        <td class="num ${diff > 0 ? 's-up' : diff < 0 ? 's-down' : ''}">${signed(diff)}</td>
+        <td class="num">${num(r.avgPoints)}</td>
+        <td class="num">${num(r.high)}</td>
+        <td class="num">${r.allPlay.wins}-${r.allPlay.losses}${r.allPlay.ties ? `-${r.allPlay.ties}` : ''}</td>
+        <td class="num ${r.luck > 0 ? 's-up' : r.luck < 0 ? 's-down' : ''}">${signed(r.luck)}</td>
+        <td class="num">${pct(r.coach)}</td>
+        <td>${S.formChips(r.form)}</td>
+        <td class="s-strong ${r.streak?.startsWith('W') ? 's-up' : r.streak?.startsWith('L') ? 's-down' : ''}">${esc(r.streak || '—')}</td>
+        <td>${S.sparkline(r.scores)}</td>
+        <td class="num s-strong">${odds ? S.oddsText(odds.playoff) : '—'}${odds ? `<span class="s-meter"><i style="width:${(odds.playoff * 100).toFixed(1)}%"></i></span>` : ''}</td>
+      </tr>`;
+    }).join('');
+    $('#live-standings').innerHTML = `<table class="s-table s-standings"><thead><tr>${head.map(([h, c]) => `<th class="${c}">${h}</th>`).join('')}</tr></thead><tbody>${rows}</tbody></table>
+      <p class="s-note" style="padding:0 16px 14px">After week ${stats.lastFinishedWeek}. Green edge and line = playoff places (top ${cut}). GB = games behind the leader. All-play = record if you played every team every week. Luck = wins above what the scores deserve. Coach = share of the best possible lineup. Playoffs = chance from 10,000 simulations. <a class="text-link" href="season.html">More on the Season page</a></p>`;
+  }
+
   S.loadStats().then(stats => {
+    renderStandings(stats);
     const week = stats.weeks.at(-1);
     if (!week) return;
     $('#home-week-eyebrow').textContent = `Week ${week.week} · ${week.live ? 'live' : 'final'}`;

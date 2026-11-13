@@ -171,6 +171,11 @@
 .s-two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
 .s-two>*,.two-col>*{min-width:0}
 
+/* Home standings */
+.s-standings{min-width:1180px}
+.s-standings td{padding-top:10px;padding-bottom:10px}
+.s-standings tr.s-cutline td{border-bottom:2px solid rgba(85,214,160,.55)}
+
 /* Home page strip */
 .s-home-week{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
 .s-home-matchup{display:block;padding:10px 14px;color:var(--ink);text-decoration:none;border-radius:14px}
