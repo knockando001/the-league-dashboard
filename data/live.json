@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T22:10:32.734393+00:00",
+  "generatedAt": "2026-11-13T22:19:14.855239+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -13731,12 +13731,12 @@
         "adds": {
           "8134": 8
         },
-        "consenter_ids": [
-          8
-        ],
         "drops": {
           "11620": 8
         },
+        "consenter_ids": [
+          8
+        ],
         "roster_ids": [
           8
         ],
@@ -13757,12 +13757,12 @@
         "adds": {
           "NO": 8
         },
-        "consenter_ids": [
-          8
-        ],
         "drops": {
           "12534": 8
         },
+        "consenter_ids": [
+          8
+        ],
         "roster_ids": [
           8
         ],
@@ -13783,12 +13783,12 @@
         "adds": {
           "6804": 3
         },
-        "consenter_ids": [
-          3
-        ],
         "drops": {
           "8408": 3
         },
+        "consenter_ids": [
+          3
+        ],
         "roster_ids": [
           3
         ],
@@ -13809,12 +13809,12 @@
         "adds": {
           "BUF": 3
         },
-        "consenter_ids": [
-          3
-        ],
         "drops": {
           "CIN": 3
         },
+        "consenter_ids": [
+          3
+        ],
         "roster_ids": [
           3
         ],
@@ -13835,12 +13835,12 @@
         "adds": {
           "IND": 3
         },
-        "consenter_ids": [
-          3
-        ],
         "drops": {
           "NO": 3
         },
+        "consenter_ids": [
+          3
+        ],
         "roster_ids": [
           3
         ],
