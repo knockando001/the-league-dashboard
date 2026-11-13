@@ -1,0 +1,185 @@
+{
+  "generatedAt": "2026-11-13T22:10:36.235248+00:00",
+  "season": 2026,
+  "week": 10,
+  "complete": false,
+  "games": [
+    {
+      "espnId": "401873052",
+      "name": "WSH @ NYG",
+      "kickoff": "2026-11-13T01:15Z",
+      "home": "NYG",
+      "away": "WAS",
+      "homeScore": 21,
+      "awayScore": 24,
+      "final": true
+    },
+    {
+      "espnId": "401873053",
+      "name": "NE VS DET",
+      "kickoff": "2026-11-15T14:30Z",
+      "home": "DET",
+      "away": "NE",
+      "homeScore": 0,
+      "awayScore": 0,
+      "final": false
+    },
+    {
+      "espnId": "401873058",
+      "name": "KC @ ATL",
+      "kickoff": "2026-11-15T18:00Z",
+      "home": "ATL",
+      "away": "KC",
+      "homeScore": 0,
+      "awayScore": 0,
+      "final": false
+    },
+    {
+      "espnId": "401873056",
+      "name": "HOU @ CLE",
+      "kickoff": "2026-11-15T18:00Z",
+      "home": "CLE",
+      "away": "HOU",
+      "homeScore": 0,
+      "awayScore": 0,
+      "final": false
+    },
+    {
+      "espnId": "401873060",
+      "name": "MIN @ GB",
+      "kickoff": "2026-11-15T18:00Z",
+      "home": "GB",
+      "away": "MIN",
+      "homeScore": 0,
+      "awayScore": 0,
+      "final": false
+    },
+    {
+      "espnId": "401873057",
+      "name": "JAX @ TEN",
+      "kickoff": "2026-11-15T18:00Z",
+      "home": "TEN",
+      "away": "JAX",
+      "homeScore": 0,
+      "awayScore": 0,
+      "final": false
+    },
+    {
+      "espnId": "401873059",
+      "name": "MIA @ IND",
+      "kickoff": "2026-11-15T18:00Z",
+      "home": "IND",
+      "away": "MIA",
+      "homeScore": 0,
+      "awayScore": 0,
+      "final": false
+    },
+    {
+      "espnId": "401873055",
+      "name": "CAR @ NO",
+      "kickoff": "2026-11-15T18:00Z",
+      "home": "NO",
+      "away": "CAR",
+      "homeScore": 0,
+      "awayScore": 0,
+      "final": false
+    },
+    {
+      "espnId": "401873054",
+      "name": "BUF @ NYJ",
+      "kickoff": "2026-11-15T18:00Z",
+      "home": "NYJ",
+      "away": "BUF",
+      "homeScore": 0,
+      "awayScore": 0,
+      "final": false
+    },
+    {
+      "espnId": "401873062",
+      "name": "SEA @ LV",
+      "kickoff": "2026-11-15T21:05Z",
+      "home": "LV",
+      "away": "SEA",
+      "homeScore": 0,
+      "awayScore": 0,
+      "final": false
+    },
+    {
+      "espnId": "401873061",
+      "name": "LAR @ ARI",
+      "kickoff": "2026-11-15T21:05Z",
+      "home": "ARI",
+      "away": "LAR",
+      "homeScore": 0,
+      "awayScore": 0,
+      "final": false
+    },
+    {
+      "espnId": "401873063",
+      "name": "SF @ DAL",
+      "kickoff": "2026-11-15T21:25Z",
+      "home": "DAL",
+      "away": "SF",
+      "homeScore": 0,
+      "awayScore": 0,
+      "final": false
+    },
+    {
+      "espnId": "401873064",
+      "name": "PIT @ CIN",
+      "kickoff": "2026-11-16T01:20Z",
+      "home": "CIN",
+      "away": "PIT",
+      "homeScore": 0,
+      "awayScore": 0,
+      "final": false
+    },
+    {
+      "espnId": "401873065",
+      "name": "LAC @ BAL",
+      "kickoff": "2026-11-17T01:15Z",
+      "home": "BAL",
+      "away": "LAC",
+      "homeScore": 0,
+      "awayScore": 0,
+      "final": false
+    }
+  ],
+  "players": {
+    "11566": {
+      "team": "WAS",
+      "opponent": "NYG",
+      "date": "2026-11-12"
+    },
+    "12481": {
+      "team": "NYG",
+      "opponent": "WAS",
+      "date": "2026-11-12"
+    },
+    "8136": {
+      "team": "WAS",
+      "opponent": "NYG",
+      "date": "2026-11-12"
+    },
+    "12533": {
+      "team": "WAS",
+      "opponent": "NYG",
+      "date": "2026-11-12"
+    },
+    "2449": {
+      "team": "WAS",
+      "opponent": "NYG",
+      "date": "2026-11-12"
+    },
+    "11632": {
+      "team": "NYG",
+      "opponent": "WAS",
+      "date": "2026-11-12"
+    },
+    "8131": {
+      "team": "NYG",
+      "opponent": "WAS",
+      "date": "2026-11-12"
+    }
+  }
+}
