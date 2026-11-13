@@ -438,6 +438,136 @@
     return `<button class="info-icon" type="button" data-explain="${esc(key)}" aria-label="${esc(label)}">i</button>`;
   }
 
+  // ------------------------------------------------------------ hover cards
+  /**
+   * Rich hover cards. Any element with data-card="type:id" inside root opens
+   * the card built by builders[type](id): on hover with a mouse, on tap on a
+   * touch screen, and on keyboard focus. Builders return HTML built from
+   * escaped values only.
+   */
+  function hoverCards(root, builders) {
+    let card = document.querySelector('.s-hovercard');
+    if (!card) {
+      card = document.createElement('div');
+      card.className = 's-hovercard';
+      card.setAttribute('role', 'tooltip');
+      card.hidden = true;
+      document.body.append(card);
+    }
+    let current = null;
+    const show = target => {
+      const [type, id] = target.dataset.card.split(':');
+      const html = builders[type]?.(id);
+      if (!html) return;
+      current = target;
+      card.innerHTML = html;
+      card.hidden = false;
+      const box = target.getBoundingClientRect();
+      const rect = card.getBoundingClientRect();
+      let left = Math.min(Math.max(8, box.left), innerWidth - rect.width - 8);
+      let top = box.bottom + 8;
+      if (top + rect.height > innerHeight - 8) top = Math.max(8, box.top - rect.height - 8);
+      card.style.left = `${left}px`;
+      card.style.top = `${top}px`;
+    };
+    const hide = () => { card.hidden = true; current = null; };
+    root.querySelectorAll('[data-card]').forEach(el => {
+      el.classList.add('s-has-card');
+      if (!el.hasAttribute('tabindex')) el.tabIndex = 0;
+    });
+    root.addEventListener('pointerover', event => {
+      if (event.pointerType === 'touch') return;
+      const target = event.target.closest('[data-card]');
+      if (target && target !== current) show(target);
+    });
+    root.addEventListener('pointerout', event => {
+      if (event.pointerType === 'touch') return;
+      const target = event.target.closest('[data-card]');
+      if (target && !target.contains(event.relatedTarget)) hide();
+    });
+    root.addEventListener('click', event => {
+      const target = event.target.closest('[data-card]');
+      if (!target || event.target.closest('a')) return;
+      if (current === target) hide(); else show(target);
+    });
+    root.addEventListener('focusin', event => { const t = event.target.closest('[data-card]'); if (t) show(t); });
+    root.addEventListener('focusout', hide);
+    document.addEventListener('click', event => { if (current && !event.target.closest('[data-card]')) hide(); });
+    addEventListener('scroll', hide, { passive: true });
+    document.addEventListener('keydown', event => { if (event.key === 'Escape') hide(); });
+  }
+
+  /** The three card builders used by standings tables. */
+  function teamCardBuilders(stats) {
+    const cards = stats.teamCards || {};
+    const rows = Object.fromEntries(stats.table.map(r => [r.rosterId, r]));
+    const lastOddsWeek = stats.odds.weeks.at(-1);
+    const odds = lastOddsWeek ? stats.odds.byWeek[lastOddsWeek] : {};
+    const liveWeek = stats.weeks.find(w => w.live);
+    const head = (rid, sub) => {
+      const t = team(stats, rid);
+      const r = rows[rid] || {};
+      return `<div class="s-hc-head">${logo(stats, rid, 40)}<div><strong>${esc(t.team)}</strong>
+        <small>${esc(t.manager || t.sleeperUser || '')}${r.rank ? ` · #${r.rank} · ${r.wins}-${r.losses}${r.ties ? `-${r.ties}` : ''}` : ''}</small></div></div>${sub ? `<p class="s-hc-sub">${sub}</p>` : ''}`;
+    };
+    const resultChip = r => `<i class="s-hc-res s-form-${esc(r || 'x')}">${esc(r || '·')}</i>`;
+    const ordinal = n => `${n}${['th', 'st', 'nd', 'rd'][(n % 100 > 10 && n % 100 < 14) ? 0 : (n % 10 < 4 ? n % 10 : 0)]}`;
+
+    return {
+      team(id) {
+        const rid = +id;
+        const c = cards[rid];
+        if (!c) return '';
+        const games = c.last5.map(g => `<li>${resultChip(g.result)}<span>W${g.week} vs ${esc(team(stats, g.opponent).short)}</span>
+          <b>${num(g.points)}–${num(g.opponentPoints)}</b><em>${ordinal(g.weekRank)} of ${g.teams}</em></li>`).join('');
+        const players = c.topPlayers.map(p => `<li><span>${esc(p.name)} <em>${esc(p.position || '')}</em></span><b>${num(p.points)}</b><em>${p.starts} starts</em></li>`).join('');
+        let next = '';
+        if (c.next) {
+          const live = c.next.live && liveWeek?.matchups.find(m => m.teams.some(t => t.rosterId === rid));
+          const me = live && live.teams.find(t => t.rosterId === rid);
+          const opp = live && live.teams.find(t => t.rosterId !== rid);
+          next = `<h5>${c.next.live ? `Now · week ${c.next.week}` : `Next · week ${c.next.week}`}</h5>
+            <p class="s-hc-next">vs <strong>${esc(team(stats, c.next.opponent).team)}</strong> (${esc(c.next.opponentRecord)}, ${num(c.next.opponentAvg)} a week)
+            ${me ? `<br>Live: <strong>${num(me.points)} – ${num(opp.points)}</strong>` : ''}</p>`;
+        }
+        const trend = stats.odds.weeks.map(w => stats.odds.byWeek[w][rid]?.playoff ?? null);
+        return `${head(rid)}<h5>Last ${c.last5.length} games</h5><ul class="s-hc-list">${games}</ul>
+          <h5>Top scorers for this team</h5><ul class="s-hc-list">${players}</ul>${next}
+          ${trend.length > 1 ? `<h5>Playoff odds by week</h5><div class="s-hc-spark">${sparkline(trend, { width: 270, height: 34 })}<span>${oddsText(trend.at(-1))}</span></div>` : ''}`;
+      },
+      odds(id) {
+        const rid = +id;
+        const o = odds[rid];
+        if (!o) return '';
+        const delta = v => {
+          const d = (v - o.playoff) * 100;
+          return Math.abs(d) < 0.05 ? '<em>±0.0</em>' : `<em class="${d > 0 ? 's-up' : 's-down'}">${d > 0 ? '+' : '−'}${Math.abs(d).toFixed(1)}</em>`;
+        };
+        const c = cards[rid];
+        const opp = c?.next && c.next.week === o.nextWeek ? team(stats, c.next.opponent).short : null;
+        const scenario = o.ifWin !== undefined && o.ifWin !== null
+          ? `<h5>What if · week ${o.nextWeek}${opp ? ` vs ${esc(opp)}` : ''}</h5>
+            <div class="s-hc-whatif"><div class="s-hc-win"><small>Win</small><b>${oddsText(o.ifWin)}</b>${delta(o.ifWin)}</div>
+            <div class="s-hc-loss"><small>Lose</small><b>${oddsText(o.ifLoss)}</b>${delta(o.ifLoss)}</div></div>
+            <p class="s-hc-sub">Chance to win that game: ${pct(o.nextWinChance, 0)}${opp && c.next.live ? ' (before kick-off; the game is in progress)' : ''}</p>`
+          : '<p class="s-hc-sub">No regular-season games left.</p>';
+        return `${head(rid)}<div class="s-hc-big"><b>${oddsText(o.playoff)}</b><span>playoff odds after week ${lastOddsWeek}</span></div>
+          ${scenario}<p class="s-hc-sub">1st place ${oddsText(o.first)} · last place ${oddsText(o.last)} · ${int(stats.odds.simulations)} simulations</p>`;
+      },
+      coach(id) {
+        const rid = +id;
+        const c = cards[rid];
+        const r = rows[rid];
+        if (!c || !r) return '';
+        const costly = c.costlyLosses || [];
+        const list = c.mistakes.map(m => `<li class="s-hc-mistake"><span>W${m.week}</span><div>Start <strong>${esc(m.start.name)}</strong> <em>${esc(m.start.position || '')} ${num(m.start.points)}</em><br>instead of ${esc(m.instead.name)} <em>${esc(m.instead.position || '')} ${num(m.instead.points)}</em></div><b class="s-up">+${num(m.gain)}</b></li>`).join('');
+        return `${head(rid)}<div class="s-hc-big"><b>${pct(r.coach)}</b><span>of the best possible lineup · ${num(r.leftOnBench)} pts left on the bench</span></div>
+          <h5>Worst lineup calls</h5>${list ? `<ul class="s-hc-list">${list}</ul>` : '<p class="s-hc-sub">No lineup mistakes. Perfect coaching.</p>'}
+          <p class="s-hc-sub">${c.mistakeCount} better start/sit choices this season.${costly.length ? ` <strong>${costly.length} ${costly.length === 1 ? 'loss' : 'losses'} the best lineup would have won:</strong> ${costly.map(x => `W${x.week} (lost by ${num(x.margin)}, ${num(x.left)} left on the bench)`).join(', ')}.` : ' No loss was down to lineup choices.'}</p>`;
+      },
+    };
+  }
+
   function fail(container, error) {
     container.innerHTML = `<div class="error">Could not load the season data: ${esc(error.message)}</div>`;
   }
@@ -445,6 +575,6 @@
   window.Season = {
     PALETTE, CONTEXT, RAMP, $, $$, esc, num, int, pct, signed, oddsText, loadStats, team, logo, teamCell, formChips,
     rampColor, inkOn, showTip, hideTip, tipContent, lineChart, teamPicker, divergingBars, bars, duel, sparkline,
-    sortable, explainers, infoButton, fail,
+    sortable, explainers, infoButton, fail, hoverCards, teamCardBuilders,
   };
 })();

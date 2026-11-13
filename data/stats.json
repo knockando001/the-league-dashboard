@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13T22:19:15.290194+00:00",
+ "generatedAt": "2026-11-13T22:36:56.274668+00:00",
  "season": 2026,
  "leagueName": "The League",
  "currentWeek": 10,
@@ -444,6 +444,1138 @@
    "rank": 8
   }
  ],
+ "teamCards": {
+  "4": {
+   "last5": [
+    {
+     "week": 9,
+     "opponent": 5,
+     "points": 96.28,
+     "opponentPoints": 84.66,
+     "result": "W",
+     "weekRank": 6,
+     "teams": 8
+    },
+    {
+     "week": 8,
+     "opponent": 7,
+     "points": 69.46,
+     "opponentPoints": 128.7,
+     "result": "L",
+     "weekRank": 8,
+     "teams": 8
+    },
+    {
+     "week": 7,
+     "opponent": 6,
+     "points": 108.22,
+     "opponentPoints": 105.6,
+     "result": "W",
+     "weekRank": 2,
+     "teams": 8
+    },
+    {
+     "week": 6,
+     "opponent": 1,
+     "points": 96.68,
+     "opponentPoints": 113.6,
+     "result": "L",
+     "weekRank": 4,
+     "teams": 8
+    },
+    {
+     "week": 5,
+     "opponent": 8,
+     "points": 147.54,
+     "opponentPoints": 58.62,
+     "result": "W",
+     "weekRank": 1,
+     "teams": 8
+    }
+   ],
+   "topPlayers": [
+    {
+     "name": "Jaxon Smith-Njigba",
+     "position": "WR",
+     "points": 161.06,
+     "starts": 9
+    },
+    {
+     "name": "Brock Purdy",
+     "position": "QB",
+     "points": 131.04,
+     "starts": 6
+    },
+    {
+     "name": "Christian McCaffrey",
+     "position": "RB",
+     "points": 129.7,
+     "starts": 8
+    }
+   ],
+   "next": {
+    "week": 10,
+    "opponent": 3,
+    "live": true,
+    "opponentRecord": "5-4",
+    "opponentAvg": 108.56
+   },
+   "mistakes": [
+    {
+     "week": 7,
+     "gain": 16.42,
+     "lost": false,
+     "start": {
+      "playerId": "11564",
+      "name": "Drake Maye",
+      "position": "QB",
+      "points": 26.44
+     },
+     "instead": {
+      "playerId": "8183",
+      "name": "Brock Purdy",
+      "position": "QB",
+      "points": 10.02
+     }
+    },
+    {
+     "week": 3,
+     "gain": 15.64,
+     "lost": false,
+     "start": {
+      "playerId": "DEN",
+      "name": "Denver Broncos",
+      "position": "DEF",
+      "points": 16.64
+     },
+     "instead": {
+      "playerId": "SF",
+      "name": "San Francisco 49ers",
+      "position": "DEF",
+      "points": 1.0
+     }
+    },
+    {
+     "week": 8,
+     "gain": 13.0,
+     "lost": false,
+     "start": {
+      "playerId": "8148",
+      "name": "Jameson Williams",
+      "position": "WR",
+      "points": 13.0
+     },
+     "instead": {
+      "playerId": "9997",
+      "name": "Zay Flowers",
+      "position": "WR",
+      "points": 0.0
+     }
+    }
+   ],
+   "mistakeCount": 15,
+   "costlyLosses": []
+  },
+  "1": {
+   "last5": [
+    {
+     "week": 9,
+     "opponent": 6,
+     "points": 130.36,
+     "opponentPoints": 76.98,
+     "result": "W",
+     "weekRank": 1,
+     "teams": 8
+    },
+    {
+     "week": 8,
+     "opponent": 2,
+     "points": 78.48,
+     "opponentPoints": 93.38,
+     "result": "L",
+     "weekRank": 7,
+     "teams": 8
+    },
+    {
+     "week": 7,
+     "opponent": 8,
+     "points": 77.82,
+     "opponentPoints": 58.02,
+     "result": "W",
+     "weekRank": 7,
+     "teams": 8
+    },
+    {
+     "week": 6,
+     "opponent": 4,
+     "points": 113.6,
+     "opponentPoints": 96.68,
+     "result": "W",
+     "weekRank": 1,
+     "teams": 8
+    },
+    {
+     "week": 5,
+     "opponent": 3,
+     "points": 124.38,
+     "opponentPoints": 127.92,
+     "result": "L",
+     "weekRank": 4,
+     "teams": 8
+    }
+   ],
+   "topPlayers": [
+    {
+     "name": "Jahmyr Gibbs",
+     "position": "RB",
+     "points": 173.2,
+     "starts": 8
+    },
+    {
+     "name": "Kenneth Walker III",
+     "position": "RB",
+     "points": 170.4,
+     "starts": 8
+    },
+    {
+     "name": "Christian Watson",
+     "position": "WR",
+     "points": 100.2,
+     "starts": 8
+    }
+   ],
+   "next": {
+    "week": 10,
+    "opponent": 7,
+    "live": true,
+    "opponentRecord": "3-6",
+    "opponentAvg": 93.18
+   },
+   "mistakes": [
+    {
+     "week": 4,
+     "gain": 25.5,
+     "lost": false,
+     "start": {
+      "playerId": "12526",
+      "name": "Tetairoa McMillan",
+      "position": "WR",
+      "points": 30.2
+     },
+     "instead": {
+      "playerId": "8167",
+      "name": "Christian Watson",
+      "position": "WR",
+      "points": 4.7
+     }
+    },
+    {
+     "week": 1,
+     "gain": 22.2,
+     "lost": false,
+     "start": {
+      "playerId": "8167",
+      "name": "Christian Watson",
+      "position": "WR",
+      "points": 26.7
+     },
+     "instead": {
+      "playerId": "12526",
+      "name": "Tetairoa McMillan",
+      "position": "WR",
+      "points": 4.5
+     }
+    },
+    {
+     "week": 7,
+     "gain": 21.8,
+     "lost": false,
+     "start": {
+      "playerId": "12512",
+      "name": "Quinshon Judkins",
+      "position": "RB",
+      "points": 22.4
+     },
+     "instead": {
+      "playerId": "7569",
+      "name": "Nico Collins",
+      "position": "WR",
+      "points": 0.6
+     }
+    }
+   ],
+   "mistakeCount": 21,
+   "costlyLosses": [
+    {
+     "week": 2,
+     "margin": 18.56,
+     "left": 23.52
+    },
+    {
+     "week": 5,
+     "margin": 3.54,
+     "left": 17.4
+    },
+    {
+     "week": 8,
+     "margin": 14.9,
+     "left": 22.48
+    }
+   ]
+  },
+  "6": {
+   "last5": [
+    {
+     "week": 9,
+     "opponent": 1,
+     "points": 76.98,
+     "opponentPoints": 130.36,
+     "result": "L",
+     "weekRank": 8,
+     "teams": 8
+    },
+    {
+     "week": 8,
+     "opponent": 8,
+     "points": 125.14,
+     "opponentPoints": 97.98,
+     "result": "W",
+     "weekRank": 2,
+     "teams": 8
+    },
+    {
+     "week": 7,
+     "opponent": 4,
+     "points": 105.6,
+     "opponentPoints": 108.22,
+     "result": "L",
+     "weekRank": 3,
+     "teams": 8
+    },
+    {
+     "week": 6,
+     "opponent": 3,
+     "points": 100.84,
+     "opponentPoints": 82.98,
+     "result": "W",
+     "weekRank": 2,
+     "teams": 8
+    },
+    {
+     "week": 5,
+     "opponent": 5,
+     "points": 96.5,
+     "opponentPoints": 92.26,
+     "result": "W",
+     "weekRank": 6,
+     "teams": 8
+    }
+   ],
+   "topPlayers": [
+    {
+     "name": "CeeDee Lamb",
+     "position": "WR",
+     "points": 130.8,
+     "starts": 9
+    },
+    {
+     "name": "D'Andre Swift",
+     "position": "RB",
+     "points": 127.8,
+     "starts": 9
+    },
+    {
+     "name": "Jonathan Taylor",
+     "position": "RB",
+     "points": 123.6,
+     "starts": 9
+    }
+   ],
+   "next": {
+    "week": 10,
+    "opponent": 2,
+    "live": true,
+    "opponentRecord": "5-4",
+    "opponentAvg": 94.98
+   },
+   "mistakes": [
+    {
+     "week": 7,
+     "gain": 29.1,
+     "lost": true,
+     "start": {
+      "playerId": "5967",
+      "name": "Tony Pollard",
+      "position": "RB",
+      "points": 33.5
+     },
+     "instead": {
+      "playerId": "6794",
+      "name": "Justin Jefferson",
+      "position": "WR",
+      "points": 4.4
+     }
+    },
+    {
+     "week": 5,
+     "gain": 18.4,
+     "lost": false,
+     "start": {
+      "playerId": "2216",
+      "name": "Mike Evans",
+      "position": "WR",
+      "points": 19.3
+     },
+     "instead": {
+      "playerId": "6786",
+      "name": "CeeDee Lamb",
+      "position": "WR",
+      "points": 0.9
+     }
+    },
+    {
+     "week": 2,
+     "gain": 14.3,
+     "lost": false,
+     "start": {
+      "playerId": "2449",
+      "name": "Stefon Diggs",
+      "position": "WR",
+      "points": 16.7
+     },
+     "instead": {
+      "playerId": "5892",
+      "name": "David Montgomery",
+      "position": "RB",
+      "points": 2.4
+     }
+    }
+   ],
+   "mistakeCount": 24,
+   "costlyLosses": [
+    {
+     "week": 3,
+     "margin": 10.46,
+     "left": 19.96
+    },
+    {
+     "week": 7,
+     "margin": 2.62,
+     "left": 35.6
+    }
+   ]
+  },
+  "3": {
+   "last5": [
+    {
+     "week": 9,
+     "opponent": 2,
+     "points": 121.72,
+     "opponentPoints": 125.32,
+     "result": "L",
+     "weekRank": 3,
+     "teams": 8
+    },
+    {
+     "week": 8,
+     "opponent": 5,
+     "points": 116.98,
+     "opponentPoints": 85.5,
+     "result": "W",
+     "weekRank": 3,
+     "teams": 8
+    },
+    {
+     "week": 7,
+     "opponent": 7,
+     "points": 110.92,
+     "opponentPoints": 87.48,
+     "result": "W",
+     "weekRank": 1,
+     "teams": 8
+    },
+    {
+     "week": 6,
+     "opponent": 6,
+     "points": 82.98,
+     "opponentPoints": 100.84,
+     "result": "L",
+     "weekRank": 5,
+     "teams": 8
+    },
+    {
+     "week": 5,
+     "opponent": 1,
+     "points": 127.92,
+     "opponentPoints": 124.38,
+     "result": "W",
+     "weekRank": 3,
+     "teams": 8
+    }
+   ],
+   "topPlayers": [
+    {
+     "name": "Javonte Williams",
+     "position": "RB",
+     "points": 133.6,
+     "starts": 9
+    },
+    {
+     "name": "James Cook III",
+     "position": "RB",
+     "points": 132.4,
+     "starts": 8
+    },
+    {
+     "name": "Tee Higgins",
+     "position": "WR",
+     "points": 111.8,
+     "starts": 8
+    }
+   ],
+   "next": {
+    "week": 10,
+    "opponent": 4,
+    "live": true,
+    "opponentRecord": "7-2",
+    "opponentAvg": 112.11
+   },
+   "mistakes": [
+    {
+     "week": 5,
+     "gain": 27.3,
+     "lost": false,
+     "start": {
+      "playerId": "11584",
+      "name": "Bucky Irving",
+      "position": "RB",
+      "points": 29.5
+     },
+     "instead": {
+      "playerId": "6801",
+      "name": "Tee Higgins",
+      "position": "WR",
+      "points": 2.2
+     }
+    },
+    {
+     "week": 8,
+     "gain": 23.2,
+     "lost": false,
+     "start": {
+      "playerId": "12490",
+      "name": "Bhayshul Tuten",
+      "position": "RB",
+      "points": 27.9
+     },
+     "instead": {
+      "playerId": "7588",
+      "name": "Javonte Williams",
+      "position": "RB",
+      "points": 4.7
+     }
+    },
+    {
+     "week": 6,
+     "gain": 15.8,
+     "lost": false,
+     "start": {
+      "playerId": "12490",
+      "name": "Bhayshul Tuten",
+      "position": "RB",
+      "points": 20.7
+     },
+     "instead": {
+      "playerId": "11584",
+      "name": "Bucky Irving",
+      "position": "RB",
+      "points": 4.9
+     }
+    }
+   ],
+   "mistakeCount": 19,
+   "costlyLosses": [
+    {
+     "week": 6,
+     "margin": 17.86,
+     "left": 19.76
+    },
+    {
+     "week": 9,
+     "margin": 3.6,
+     "left": 22.96
+    }
+   ]
+  },
+  "2": {
+   "last5": [
+    {
+     "week": 9,
+     "opponent": 3,
+     "points": 125.32,
+     "opponentPoints": 121.72,
+     "result": "W",
+     "weekRank": 2,
+     "teams": 8
+    },
+    {
+     "week": 8,
+     "opponent": 1,
+     "points": 93.38,
+     "opponentPoints": 78.48,
+     "result": "W",
+     "weekRank": 5,
+     "teams": 8
+    },
+    {
+     "week": 7,
+     "opponent": 5,
+     "points": 92.26,
+     "opponentPoints": 99.68,
+     "result": "L",
+     "weekRank": 5,
+     "teams": 8
+    },
+    {
+     "week": 6,
+     "opponent": 8,
+     "points": 73.24,
+     "opponentPoints": 63.28,
+     "result": "W",
+     "weekRank": 6,
+     "teams": 8
+    },
+    {
+     "week": 5,
+     "opponent": 7,
+     "points": 128.64,
+     "opponentPoints": 102.44,
+     "result": "W",
+     "weekRank": 2,
+     "teams": 8
+    }
+   ],
+   "topPlayers": [
+    {
+     "name": "Derrick Henry",
+     "position": "RB",
+     "points": 129.28,
+     "starts": 9
+    },
+    {
+     "name": "Joe Burrow",
+     "position": "QB",
+     "points": 100.76,
+     "starts": 4
+    },
+    {
+     "name": "Ka'imi Fairbairn",
+     "position": "K",
+     "points": 93.0,
+     "starts": 8
+    }
+   ],
+   "next": {
+    "week": 10,
+    "opponent": 6,
+    "live": true,
+    "opponentRecord": "6-3",
+    "opponentAvg": 104.06
+   },
+   "mistakes": [
+    {
+     "week": 3,
+     "gain": 17.6,
+     "lost": false,
+     "start": {
+      "playerId": "8112",
+      "name": "Drake London",
+      "position": "WR",
+      "points": 19.4
+     },
+     "instead": {
+      "playerId": "11646",
+      "name": "Jalen Coker",
+      "position": "WR",
+      "points": 1.8
+     }
+    },
+    {
+     "week": 8,
+     "gain": 16.4,
+     "lost": false,
+     "start": {
+      "playerId": "13345",
+      "name": "Jonah Coleman",
+      "position": "RB",
+      "points": 16.4
+     },
+     "instead": {
+      "playerId": "10213",
+      "name": "Tre Tucker",
+      "position": "WR",
+      "points": 0.0
+     }
+    },
+    {
+     "week": 2,
+     "gain": 15.38,
+     "lost": false,
+     "start": {
+      "playerId": "6770",
+      "name": "Joe Burrow",
+      "position": "QB",
+      "points": 16.18
+     },
+     "instead": {
+      "playerId": "12508",
+      "name": "Jaxson Dart",
+      "position": "QB",
+      "points": 0.8
+     }
+    }
+   ],
+   "mistakeCount": 21,
+   "costlyLosses": [
+    {
+     "week": 7,
+     "margin": 7.42,
+     "left": 21.12
+    }
+   ]
+  },
+  "7": {
+   "last5": [
+    {
+     "week": 9,
+     "opponent": 8,
+     "points": 99.16,
+     "opponentPoints": 96.86,
+     "result": "W",
+     "weekRank": 4,
+     "teams": 8
+    },
+    {
+     "week": 8,
+     "opponent": 4,
+     "points": 128.7,
+     "opponentPoints": 69.46,
+     "result": "W",
+     "weekRank": 1,
+     "teams": 8
+    },
+    {
+     "week": 7,
+     "opponent": 3,
+     "points": 87.48,
+     "opponentPoints": 110.92,
+     "result": "L",
+     "weekRank": 6,
+     "teams": 8
+    },
+    {
+     "week": 6,
+     "opponent": 5,
+     "points": 98.22,
+     "opponentPoints": 47.5,
+     "result": "W",
+     "weekRank": 3,
+     "teams": 8
+    },
+    {
+     "week": 5,
+     "opponent": 2,
+     "points": 102.44,
+     "opponentPoints": 128.64,
+     "result": "L",
+     "weekRank": 5,
+     "teams": 8
+    }
+   ],
+   "topPlayers": [
+    {
+     "name": "Jaylen Warren",
+     "position": "RB",
+     "points": 101.8,
+     "starts": 6
+    },
+    {
+     "name": "Dak Prescott",
+     "position": "QB",
+     "points": 100.18,
+     "starts": 6
+    },
+    {
+     "name": "Chuba Hubbard",
+     "position": "RB",
+     "points": 98.9,
+     "starts": 7
+    }
+   ],
+   "next": {
+    "week": 10,
+    "opponent": 1,
+    "live": true,
+    "opponentRecord": "6-3",
+    "opponentAvg": 115.29
+   },
+   "mistakes": [
+    {
+     "week": 5,
+     "gain": 21.62,
+     "lost": false,
+     "start": {
+      "playerId": "11566",
+      "name": "Jayden Daniels",
+      "position": "QB",
+      "points": 32.26
+     },
+     "instead": {
+      "playerId": "3294",
+      "name": "Dak Prescott",
+      "position": "QB",
+      "points": 10.64
+     }
+    },
+    {
+     "week": 1,
+     "gain": 19.5,
+     "lost": false,
+     "start": {
+      "playerId": "7594",
+      "name": "Chuba Hubbard",
+      "position": "RB",
+      "points": 20.7
+     },
+     "instead": {
+      "playerId": "7564",
+      "name": "Ja'Marr Chase",
+      "position": "WR",
+      "points": 1.2
+     }
+    },
+    {
+     "week": 8,
+     "gain": 16.5,
+     "lost": false,
+     "start": {
+      "playerId": "11576",
+      "name": "Braelon Allen",
+      "position": "RB",
+      "points": 21.3
+     },
+     "instead": {
+      "playerId": "8137",
+      "name": "George Pickens",
+      "position": "WR",
+      "points": 4.8
+     }
+    }
+   ],
+   "mistakeCount": 19,
+   "costlyLosses": [
+    {
+     "week": 1,
+     "margin": 36.12,
+     "left": 40.3
+    },
+    {
+     "week": 4,
+     "margin": 10.72,
+     "left": 15.66
+    },
+    {
+     "week": 5,
+     "margin": 26.2,
+     "left": 47.62
+    }
+   ]
+  },
+  "8": {
+   "last5": [
+    {
+     "week": 9,
+     "opponent": 7,
+     "points": 96.86,
+     "opponentPoints": 99.16,
+     "result": "L",
+     "weekRank": 5,
+     "teams": 8
+    },
+    {
+     "week": 8,
+     "opponent": 6,
+     "points": 97.98,
+     "opponentPoints": 125.14,
+     "result": "L",
+     "weekRank": 4,
+     "teams": 8
+    },
+    {
+     "week": 7,
+     "opponent": 1,
+     "points": 58.02,
+     "opponentPoints": 77.82,
+     "result": "L",
+     "weekRank": 8,
+     "teams": 8
+    },
+    {
+     "week": 6,
+     "opponent": 2,
+     "points": 63.28,
+     "opponentPoints": 73.24,
+     "result": "L",
+     "weekRank": 7,
+     "teams": 8
+    },
+    {
+     "week": 5,
+     "opponent": 4,
+     "points": 58.62,
+     "opponentPoints": 147.54,
+     "result": "L",
+     "weekRank": 8,
+     "teams": 8
+    }
+   ],
+   "topPlayers": [
+    {
+     "name": "Bijan Robinson",
+     "position": "RB",
+     "points": 145.0,
+     "starts": 9
+    },
+    {
+     "name": "Patrick Mahomes",
+     "position": "QB",
+     "points": 130.98,
+     "starts": 7
+    },
+    {
+     "name": "Matt Gay",
+     "position": "K",
+     "points": 80.0,
+     "starts": 8
+    }
+   ],
+   "next": {
+    "week": 10,
+    "opponent": 5,
+    "live": true,
+    "opponentRecord": "2-7",
+    "opponentAvg": 88.48
+   },
+   "mistakes": [
+    {
+     "week": 9,
+     "gain": 19.88,
+     "lost": true,
+     "start": {
+      "playerId": "9758",
+      "name": "C.J. Stroud",
+      "position": "QB",
+      "points": 34.36
+     },
+     "instead": {
+      "playerId": "4046",
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "points": 14.48
+     }
+    },
+    {
+     "week": 7,
+     "gain": 15.2,
+     "lost": false,
+     "start": {
+      "playerId": "7547",
+      "name": "Amon-Ra St. Brown",
+      "position": "WR",
+      "points": 15.2
+     },
+     "instead": {
+      "playerId": "8121",
+      "name": "Romeo Doubs",
+      "position": "WR",
+      "points": 0.0
+     }
+    },
+    {
+     "week": 5,
+     "gain": 14.1,
+     "lost": false,
+     "start": {
+      "playerId": "11581",
+      "name": "MarShawn Lloyd",
+      "position": "RB",
+      "points": 15.7
+     },
+     "instead": {
+      "playerId": "8121",
+      "name": "Romeo Doubs",
+      "position": "WR",
+      "points": 1.6
+     }
+    }
+   ],
+   "mistakeCount": 15,
+   "costlyLosses": [
+    {
+     "week": 4,
+     "margin": 15.02,
+     "left": 19.32
+    },
+    {
+     "week": 6,
+     "margin": 9.96,
+     "left": 35.8
+    },
+    {
+     "week": 9,
+     "margin": 2.3,
+     "left": 29.98
+    }
+   ]
+  },
+  "5": {
+   "last5": [
+    {
+     "week": 9,
+     "opponent": 4,
+     "points": 84.66,
+     "opponentPoints": 96.28,
+     "result": "L",
+     "weekRank": 7,
+     "teams": 8
+    },
+    {
+     "week": 8,
+     "opponent": 3,
+     "points": 85.5,
+     "opponentPoints": 116.98,
+     "result": "L",
+     "weekRank": 6,
+     "teams": 8
+    },
+    {
+     "week": 7,
+     "opponent": 2,
+     "points": 99.68,
+     "opponentPoints": 92.26,
+     "result": "W",
+     "weekRank": 4,
+     "teams": 8
+    },
+    {
+     "week": 6,
+     "opponent": 7,
+     "points": 47.5,
+     "opponentPoints": 98.22,
+     "result": "L",
+     "weekRank": 8,
+     "teams": 8
+    },
+    {
+     "week": 5,
+     "opponent": 6,
+     "points": 92.26,
+     "opponentPoints": 96.5,
+     "result": "L",
+     "weekRank": 7,
+     "teams": 8
+    }
+   ],
+   "topPlayers": [
+    {
+     "name": "Josh Allen",
+     "position": "QB",
+     "points": 189.68,
+     "starts": 8
+    },
+    {
+     "name": "Chris Olave",
+     "position": "WR",
+     "points": 85.4,
+     "starts": 8
+    },
+    {
+     "name": "Brandon Aubrey",
+     "position": "K",
+     "points": 84.0,
+     "starts": 9
+    }
+   ],
+   "next": {
+    "week": 10,
+    "opponent": 8,
+    "live": true,
+    "opponentRecord": "2-7",
+    "opponentAvg": 91.37
+   },
+   "mistakes": [
+    {
+     "week": 3,
+     "gain": 14.7,
+     "lost": true,
+     "start": {
+      "playerId": "12506",
+      "name": "Harold Fannin Jr.",
+      "position": "TE",
+      "points": 17.1
+     },
+     "instead": {
+      "playerId": "5012",
+      "name": "Mark Andrews",
+      "position": "TE",
+      "points": 2.4
+     }
+    },
+    {
+     "week": 4,
+     "gain": 11.3,
+     "lost": false,
+     "start": {
+      "playerId": "12507",
+      "name": "Omarion Hampton",
+      "position": "RB",
+      "points": 11.3
+     },
+     "instead": {
+      "playerId": "10229",
+      "name": "Rashee Rice",
+      "position": "WR",
+      "points": 0.0
+     }
+    },
+    {
+     "week": 6,
+     "gain": 11.0,
+     "lost": false,
+     "start": {
+      "playerId": "4227",
+      "name": "Harrison Butker",
+      "position": "K",
+      "points": 12.0
+     },
+     "instead": {
+      "playerId": "11533",
+      "name": "Brandon Aubrey",
+      "position": "K",
+      "points": 1.0
+     }
+    }
+   ],
+   "mistakeCount": 15,
+   "costlyLosses": [
+    {
+     "week": 3,
+     "margin": 2.78,
+     "left": 21.8
+    }
+   ]
+  }
+ },
  "rankByWeek": {
   "weeks": [
    1,
@@ -564,378 +1696,666 @@
     "1": {
      "playoff": 0.8641,
      "first": 0.324,
-     "last": 0.0059
+     "last": 0.0059,
+     "nextWeek": 2,
+     "nextWinChance": 0.4768,
+     "ifWin": 0.9199,
+     "ifLoss": 0.8133
     },
     "2": {
      "playoff": 0.4604,
      "first": 0.0508,
-     "last": 0.0782
+     "last": 0.0782,
+     "nextWeek": 2,
+     "nextWinChance": 0.5692,
+     "ifWin": 0.5574,
+     "ifLoss": 0.3322
     },
     "3": {
      "playoff": 0.1738,
      "first": 0.0118,
-     "last": 0.2419
+     "last": 0.2419,
+     "nextWeek": 2,
+     "nextWinChance": 0.4308,
+     "ifWin": 0.2577,
+     "ifLoss": 0.1103
     },
     "4": {
      "playoff": 0.4958,
      "first": 0.0611,
-     "last": 0.061
+     "last": 0.061,
+     "nextWeek": 2,
+     "nextWinChance": 0.4894,
+     "ifWin": 0.6134,
+     "ifLoss": 0.3831
     },
     "5": {
      "playoff": 0.5244,
      "first": 0.0717,
-     "last": 0.0533
+     "last": 0.0533,
+     "nextWeek": 2,
+     "nextWinChance": 0.5106,
+     "ifWin": 0.6357,
+     "ifLoss": 0.4083
     },
     "6": {
      "playoff": 0.9071,
      "first": 0.4222,
-     "last": 0.0036
+     "last": 0.0036,
+     "nextWeek": 2,
+     "nextWinChance": 0.5232,
+     "ifWin": 0.9486,
+     "ifLoss": 0.8616
     },
     "7": {
      "playoff": 0.0746,
      "first": 0.0033,
-     "last": 0.4916
+     "last": 0.4916,
+     "nextWeek": 2,
+     "nextWinChance": 0.3626,
+     "ifWin": 0.1285,
+     "ifLoss": 0.0439
     },
     "8": {
      "playoff": 0.4998,
      "first": 0.0551,
-     "last": 0.0645
+     "last": 0.0645,
+     "nextWeek": 2,
+     "nextWinChance": 0.6374,
+     "ifWin": 0.5764,
+     "ifLoss": 0.3651
     }
    },
    "2": {
     "1": {
      "playoff": 0.6392,
      "first": 0.0889,
-     "last": 0.0156
+     "last": 0.0156,
+     "nextWeek": 3,
+     "nextWinChance": 0.6908,
+     "ifWin": 0.6993,
+     "ifLoss": 0.5049
     },
     "2": {
      "playoff": 0.0953,
      "first": 0.0035,
-     "last": 0.2366
+     "last": 0.2366,
+     "nextWeek": 3,
+     "nextWinChance": 0.331,
+     "ifWin": 0.1656,
+     "ifLoss": 0.0605
     },
     "3": {
      "playoff": 0.1912,
      "first": 0.0095,
-     "last": 0.1084
+     "last": 0.1084,
+     "nextWeek": 3,
+     "nextWinChance": 0.3566,
+     "ifWin": 0.2888,
+     "ifLoss": 0.1371
     },
     "4": {
      "playoff": 0.8628,
      "first": 0.2798,
-     "last": 0.0028
+     "last": 0.0028,
+     "nextWeek": 3,
+     "nextWinChance": 0.6434,
+     "ifWin": 0.913,
+     "ifLoss": 0.7723
     },
     "5": {
      "playoff": 0.6127,
      "first": 0.0838,
-     "last": 0.0193
+     "last": 0.0193,
+     "nextWeek": 3,
+     "nextWinChance": 0.4925,
+     "ifWin": 0.7271,
+     "ifLoss": 0.5017
     },
     "6": {
      "playoff": 0.9339,
      "first": 0.4455,
-     "last": 0.0009
+     "last": 0.0009,
+     "nextWeek": 3,
+     "nextWinChance": 0.669,
+     "ifWin": 0.9604,
+     "ifLoss": 0.8804
     },
     "7": {
      "playoff": 0.0234,
      "first": 0.0005,
-     "last": 0.6012
+     "last": 0.6012,
+     "nextWeek": 3,
+     "nextWinChance": 0.3092,
+     "ifWin": 0.0505,
+     "ifLoss": 0.0113
     },
     "8": {
      "playoff": 0.6415,
      "first": 0.0885,
-     "last": 0.0152
+     "last": 0.0152,
+     "nextWeek": 3,
+     "nextWinChance": 0.5075,
+     "ifWin": 0.7494,
+     "ifLoss": 0.5304
     }
    },
    "3": {
     "1": {
      "playoff": 0.8871,
      "first": 0.2344,
-     "last": 0.0016
+     "last": 0.0016,
+     "nextWeek": 4,
+     "nextWinChance": 0.5977,
+     "ifWin": 0.9369,
+     "ifLoss": 0.8131
     },
     "2": {
      "playoff": 0.1187,
      "first": 0.0034,
-     "last": 0.1874
+     "last": 0.1874,
+     "nextWeek": 4,
+     "nextWinChance": 0.2847,
+     "ifWin": 0.2153,
+     "ifLoss": 0.0802
     },
     "3": {
      "playoff": 0.1644,
      "first": 0.0039,
-     "last": 0.1331
+     "last": 0.1331,
+     "nextWeek": 4,
+     "nextWinChance": 0.415,
+     "ifWin": 0.2651,
+     "ifLoss": 0.093
     },
     "4": {
      "playoff": 0.9693,
      "first": 0.5713,
-     "last": 0.0003
+     "last": 0.0003,
+     "nextWeek": 4,
+     "nextWinChance": 0.7153,
+     "ifWin": 0.9838,
+     "ifLoss": 0.9329
     },
     "5": {
      "playoff": 0.3983,
      "first": 0.0192,
-     "last": 0.0459
+     "last": 0.0459,
+     "nextWeek": 4,
+     "nextWinChance": 0.4023,
+     "ifWin": 0.5322,
+     "ifLoss": 0.3082
     },
     "6": {
      "playoff": 0.7571,
      "first": 0.097,
-     "last": 0.0073
+     "last": 0.0073,
+     "nextWeek": 4,
+     "nextWinChance": 0.6707,
+     "ifWin": 0.8135,
+     "ifLoss": 0.6423
     },
     "7": {
      "playoff": 0.0246,
      "first": 0.0002,
-     "last": 0.6121
+     "last": 0.6121,
+     "nextWeek": 4,
+     "nextWinChance": 0.3293,
+     "ifWin": 0.0547,
+     "ifLoss": 0.0098
     },
     "8": {
      "playoff": 0.6805,
      "first": 0.0706,
-     "last": 0.0123
+     "last": 0.0123,
+     "nextWeek": 4,
+     "nextWinChance": 0.585,
+     "ifWin": 0.7732,
+     "ifLoss": 0.5499
     }
    },
    "4": {
     "1": {
      "playoff": 0.9551,
      "first": 0.3783,
-     "last": 0.0001
+     "last": 0.0001,
+     "nextWeek": 5,
+     "nextWinChance": 0.6434,
+     "ifWin": 0.9803,
+     "ifLoss": 0.9097
     },
     "2": {
      "playoff": 0.0539,
      "first": 0.0004,
-     "last": 0.2578
+     "last": 0.2578,
+     "nextWeek": 5,
+     "nextWinChance": 0.5291,
+     "ifWin": 0.0779,
+     "ifLoss": 0.027
     },
     "3": {
      "playoff": 0.4148,
      "first": 0.0158,
-     "last": 0.0171
+     "last": 0.0171,
+     "nextWeek": 5,
+     "nextWinChance": 0.3566,
+     "ifWin": 0.5555,
+     "ifLoss": 0.3368
     },
     "4": {
      "playoff": 0.9743,
      "first": 0.4845,
-     "last": 0.0
+     "last": 0.0,
+     "nextWeek": 5,
+     "nextWinChance": 0.5711,
+     "ifWin": 0.9919,
+     "ifLoss": 0.9508
     },
     "5": {
      "playoff": 0.1494,
      "first": 0.0019,
-     "last": 0.0968
+     "last": 0.0968,
+     "nextWeek": 5,
+     "nextWinChance": 0.4352,
+     "ifWin": 0.2374,
+     "ifLoss": 0.0816
     },
     "6": {
      "playoff": 0.7766,
      "first": 0.0766,
-     "last": 0.0023
+     "last": 0.0023,
+     "nextWeek": 5,
+     "nextWinChance": 0.5648,
+     "ifWin": 0.8596,
+     "ifLoss": 0.6689
     },
     "7": {
      "playoff": 0.0129,
      "first": 0.0001,
-     "last": 0.6189
+     "last": 0.6189,
+     "nextWeek": 5,
+     "nextWinChance": 0.4709,
+     "ifWin": 0.0208,
+     "ifLoss": 0.0059
     },
     "8": {
      "playoff": 0.663,
      "first": 0.0424,
-     "last": 0.007
+     "last": 0.007,
+     "nextWeek": 5,
+     "nextWinChance": 0.4289,
+     "ifWin": 0.7738,
+     "ifLoss": 0.5798
     }
    },
    "5": {
     "1": {
      "playoff": 0.9291,
      "first": 0.1775,
-     "last": 0.0004
+     "last": 0.0004,
+     "nextWeek": 6,
+     "nextWinChance": 0.4964,
+     "ifWin": 0.968,
+     "ifLoss": 0.8908
     },
     "2": {
      "playoff": 0.1587,
      "first": 0.0007,
-     "last": 0.0731
+     "last": 0.0731,
+     "nextWeek": 6,
+     "nextWinChance": 0.4524,
+     "ifWin": 0.2518,
+     "ifLoss": 0.0818
     },
     "3": {
      "playoff": 0.722,
      "first": 0.0287,
-     "last": 0.0029
+     "last": 0.0029,
+     "nextWeek": 6,
+     "nextWinChance": 0.5219,
+     "ifWin": 0.8289,
+     "ifLoss": 0.6053
     },
     "4": {
      "playoff": 0.996,
      "first": 0.7267,
-     "last": 0.0
+     "last": 0.0,
+     "nextWeek": 6,
+     "nextWinChance": 0.5036,
+     "ifWin": 0.9988,
+     "ifLoss": 0.9932
     },
     "5": {
      "playoff": 0.0778,
      "first": 0.0001,
-     "last": 0.1674
+     "last": 0.1674,
+     "nextWeek": 6,
+     "nextWinChance": 0.5682,
+     "ifWin": 0.113,
+     "ifLoss": 0.0315
     },
     "6": {
      "playoff": 0.8239,
      "first": 0.0644,
-     "last": 0.0011
+     "last": 0.0011,
+     "nextWeek": 6,
+     "nextWinChance": 0.4781,
+     "ifWin": 0.9128,
+     "ifLoss": 0.7425
     },
     "7": {
      "playoff": 0.0042,
      "first": 0.0,
-     "last": 0.7249
+     "last": 0.7249,
+     "nextWeek": 6,
+     "nextWinChance": 0.4318,
+     "ifWin": 0.0079,
+     "ifLoss": 0.0014
     },
     "8": {
      "playoff": 0.2883,
      "first": 0.0019,
-     "last": 0.0302
+     "last": 0.0302,
+     "nextWeek": 6,
+     "nextWinChance": 0.5476,
+     "ifWin": 0.3839,
+     "ifLoss": 0.1726
     }
    },
    "6": {
     "1": {
      "playoff": 0.9756,
      "first": 0.3022,
-     "last": 0.0
+     "last": 0.0,
+     "nextWeek": 7,
+     "nextWinChance": 0.6982,
+     "ifWin": 0.9898,
+     "ifLoss": 0.9427
     },
     "2": {
      "playoff": 0.2488,
      "first": 0.0022,
-     "last": 0.0469
+     "last": 0.0469,
+     "nextWeek": 7,
+     "nextWinChance": 0.5332,
+     "ifWin": 0.337,
+     "ifLoss": 0.148
     },
     "3": {
      "playoff": 0.6438,
      "first": 0.0112,
-     "last": 0.0073
+     "last": 0.0073,
+     "nextWeek": 7,
+     "nextWinChance": 0.6189,
+     "ifWin": 0.736,
+     "ifLoss": 0.4941
     },
     "4": {
      "playoff": 0.9942,
      "first": 0.5387,
-     "last": 0.0
+     "last": 0.0,
+     "nextWeek": 7,
+     "nextWinChance": 0.6262,
+     "ifWin": 0.999,
+     "ifLoss": 0.9861
     },
     "5": {
      "playoff": 0.0194,
      "first": 0.0,
-     "last": 0.4191
+     "last": 0.4191,
+     "nextWeek": 7,
+     "nextWinChance": 0.4668,
+     "ifWin": 0.0375,
+     "ifLoss": 0.0036
     },
     "6": {
      "playoff": 0.9446,
      "first": 0.145,
-     "last": 0.0001
+     "last": 0.0001,
+     "nextWeek": 7,
+     "nextWinChance": 0.3738,
+     "ifWin": 0.9837,
+     "ifLoss": 0.9213
     },
     "7": {
      "playoff": 0.0195,
      "first": 0.0,
-     "last": 0.4396
+     "last": 0.4396,
+     "nextWeek": 7,
+     "nextWinChance": 0.3811,
+     "ifWin": 0.0436,
+     "ifLoss": 0.0047
     },
     "8": {
      "playoff": 0.1541,
      "first": 0.0007,
-     "last": 0.087
+     "last": 0.087,
+     "nextWeek": 7,
+     "nextWinChance": 0.3018,
+     "ifWin": 0.277,
+     "ifLoss": 0.101
     }
    },
    "7": {
     "1": {
      "playoff": 0.9888,
      "first": 0.2358,
-     "last": 0.0
+     "last": 0.0,
+     "nextWeek": 8,
+     "nextWinChance": 0.7049,
+     "ifWin": 0.9991,
+     "ifLoss": 0.9641
     },
     "2": {
      "playoff": 0.1307,
      "first": 0.0006,
-     "last": 0.0594
+     "last": 0.0594,
+     "nextWeek": 8,
+     "nextWinChance": 0.2951,
+     "ifWin": 0.2413,
+     "ifLoss": 0.0844
     },
     "3": {
      "playoff": 0.8461,
      "first": 0.0159,
-     "last": 0.0007
+     "last": 0.0007,
+     "nextWeek": 8,
+     "nextWinChance": 0.6244,
+     "ifWin": 0.917,
+     "ifLoss": 0.7282
     },
     "4": {
      "playoff": 0.9991,
      "first": 0.6848,
-     "last": 0.0
+     "last": 0.0,
+     "nextWeek": 8,
+     "nextWinChance": 0.7362,
+     "ifWin": 0.9999,
+     "ifLoss": 0.997
     },
     "5": {
      "playoff": 0.0313,
      "first": 0.0,
-     "last": 0.2165
+     "last": 0.2165,
+     "nextWeek": 8,
+     "nextWinChance": 0.3756,
+     "ifWin": 0.0759,
+     "ifLoss": 0.0045
     },
     "6": {
      "playoff": 0.9553,
      "first": 0.0629,
-     "last": 0.0001
+     "last": 0.0001,
+     "nextWeek": 8,
+     "nextWinChance": 0.6155,
+     "ifWin": 0.9838,
+     "ifLoss": 0.9098
     },
     "7": {
      "playoff": 0.0046,
      "first": 0.0,
-     "last": 0.541
+     "last": 0.541,
+     "nextWeek": 8,
+     "nextWinChance": 0.2638,
+     "ifWin": 0.0114,
+     "ifLoss": 0.0022
     },
     "8": {
      "playoff": 0.0441,
      "first": 0.0,
-     "last": 0.1823
+     "last": 0.1823,
+     "nextWeek": 8,
+     "nextWinChance": 0.3845,
+     "ifWin": 0.0871,
+     "ifLoss": 0.0172
     }
    },
    "8": {
     "1": {
      "playoff": 0.9555,
      "first": 0.1742,
-     "last": 0.0
+     "last": 0.0,
+     "nextWeek": 9,
+     "nextWinChance": 0.553,
+     "ifWin": 0.9884,
+     "ifLoss": 0.9148
     },
     "2": {
      "playoff": 0.1666,
      "first": 0.0014,
-     "last": 0.0253
+     "last": 0.0253,
+     "nextWeek": 9,
+     "nextWinChance": 0.3739,
+     "ifWin": 0.3423,
+     "ifLoss": 0.0617
     },
     "3": {
      "playoff": 0.8838,
      "first": 0.0808,
-     "last": 0.0
+     "last": 0.0,
+     "nextWeek": 9,
+     "nextWinChance": 0.6261,
+     "ifWin": 0.9756,
+     "ifLoss": 0.7301
     },
     "4": {
      "playoff": 0.9916,
      "first": 0.4984,
-     "last": 0.0
+     "last": 0.0,
+     "nextWeek": 9,
+     "nextWinChance": 0.6944,
+     "ifWin": 0.998,
+     "ifLoss": 0.9771
     },
     "5": {
      "playoff": 0.0047,
      "first": 0.0,
-     "last": 0.4251
+     "last": 0.4251,
+     "nextWeek": 9,
+     "nextWinChance": 0.3056,
+     "ifWin": 0.0137,
+     "ifLoss": 0.0007
     },
     "6": {
      "playoff": 0.9781,
      "first": 0.2452,
-     "last": 0.0
+     "last": 0.0,
+     "nextWeek": 9,
+     "nextWinChance": 0.447,
+     "ifWin": 0.9962,
+     "ifLoss": 0.9635
     },
     "7": {
      "playoff": 0.0109,
      "first": 0.0,
-     "last": 0.2482
+     "last": 0.2482,
+     "nextWeek": 9,
+     "nextWinChance": 0.5119,
+     "ifWin": 0.0205,
+     "ifLoss": 0.0008
     },
     "8": {
      "playoff": 0.0088,
      "first": 0.0,
-     "last": 0.3014
+     "last": 0.3014,
+     "nextWeek": 9,
+     "nextWinChance": 0.4881,
+     "ifWin": 0.0162,
+     "ifLoss": 0.0018
     }
    },
    "9": {
     "1": {
      "playoff": 0.9774,
      "first": 0.3361,
-     "last": 0.0
+     "last": 0.0,
+     "nextWeek": 10,
+     "nextWinChance": 0.685,
+     "ifWin": 0.994,
+     "ifLoss": 0.9413
     },
     "2": {
      "playoff": 0.3506,
      "first": 0.0034,
-     "last": 0.0012
+     "last": 0.0012,
+     "nextWeek": 10,
+     "nextWinChance": 0.4097,
+     "ifWin": 0.5692,
+     "ifLoss": 0.1989
     },
     "3": {
      "playoff": 0.7511,
      "first": 0.0371,
-     "last": 0.0
+     "last": 0.0,
+     "nextWeek": 10,
+     "nextWinChance": 0.4632,
+     "ifWin": 0.881,
+     "ifLoss": 0.639
     },
     "4": {
      "playoff": 0.992,
      "first": 0.5475,
-     "last": 0.0
+     "last": 0.0,
+     "nextWeek": 10,
+     "nextWinChance": 0.5368,
+     "ifWin": 1.0,
+     "ifLoss": 0.9827
     },
     "5": {
      "playoff": 0.0005,
      "first": 0.0,
-     "last": 0.5267
+     "last": 0.5267,
+     "nextWeek": 10,
+     "nextWinChance": 0.488,
+     "ifWin": 0.001,
+     "ifLoss": 0.0
     },
     "6": {
      "playoff": 0.907,
      "first": 0.0759,
-     "last": 0.0
+     "last": 0.0,
+     "nextWeek": 10,
+     "nextWinChance": 0.5903,
+     "ifWin": 0.989,
+     "ifLoss": 0.7889
     },
     "7": {
      "playoff": 0.019,
      "first": 0.0,
-     "last": 0.0922
+     "last": 0.0922,
+     "nextWeek": 10,
+     "nextWinChance": 0.315,
+     "ifWin": 0.053,
+     "ifLoss": 0.0034
     },
     "8": {
      "playoff": 0.0024,
      "first": 0.0,
-     "last": 0.3799
+     "last": 0.3799,
+     "nextWeek": 10,
+     "nextWinChance": 0.512,
+     "ifWin": 0.0047,
+     "ifLoss": 0.0
     }
    }
   },

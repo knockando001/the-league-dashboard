@@ -19,6 +19,18 @@ class LineupTests(unittest.TestCase):
         # QB 20 + RB 15+10 + WR 12+8 + TE 30 + FLEX rb3 9 (TE not flex-eligible) + K 7 + DEF 4
         self.assertEqual(total, 115)
 
+    def test_lineup_mistakes_pair_bench_player_with_starter_he_should_replace(self):
+        positions = {"rb1": ["RB"], "rb2": ["RB"], "wr1": ["WR"], "te1": ["TE"], "te2": ["TE"]}
+        starters = [{"playerId": "rb1", "points": 3}, {"playerId": "wr1", "points": 10}, {"playerId": "te1", "points": 2}]
+        bench = [{"playerId": "rb2", "points": 20}, {"playerId": "te2", "points": 9}]
+        slots = ["RB", "WR", "TE"]
+        total, ids = build_stats.optimal_lineup({p["playerId"]: p["points"] for p in starters + bench},
+                                                [p["playerId"] for p in starters + bench], slots, positions)
+        self.assertEqual((total, ids), (39, {"rb2", "wr1", "te2"}))
+        mistakes = build_stats.lineup_mistakes(starters, bench, ids, slots, positions)
+        pairs = [(m["start"]["playerId"], m["instead"]["playerId"], m["gain"]) for m in mistakes]
+        self.assertEqual(pairs, [("rb2", "rb1", 17), ("te2", "te1", 7)])
+
     def test_all_play_counts_ties(self):
         self.assertEqual(build_stats.all_play({1: 100, 2: 90, 3: 90}), {1: (2, 0, 0), 2: (0, 1, 1), 3: (0, 1, 1)})
 
@@ -158,6 +170,23 @@ class BuildTests(unittest.TestCase):
         odds = self.stats["odds"]["byWeek"]["2"]
         self.assertAlmostEqual(sum(v["playoff"] for v in odds.values()), 2, places=6)
         self.assertAlmostEqual(sum(v["first"] for v in odds.values()), 1, places=6)
+
+    def test_what_if_odds_split_the_overall_odds_by_next_result(self):
+        for rid, odds in self.stats["odds"]["byWeek"]["2"].items():
+            self.assertEqual(odds["nextWeek"], 3)
+            p = odds["nextWinChance"]
+            blended = (odds["ifWin"] or 0) * p + (odds["ifLoss"] or 0) * (1 - p)
+            self.assertAlmostEqual(blended, odds["playoff"], places=3, msg=f"roster {rid}")
+            self.assertGreaterEqual(odds["ifWin"], odds["ifLoss"])
+
+    def test_team_card(self):
+        card = self.stats["teamCards"]["1"]
+        self.assertEqual([g["week"] for g in card["last5"]], [2, 1])  # newest first
+        self.assertEqual(card["last5"][1], {"week": 1, "opponent": 2, "points": 90, "opponentPoints": 100,
+                                            "result": "L", "weekRank": 3, "teams": 4})
+        self.assertEqual(card["next"]["week"], 3)
+        self.assertEqual(card["next"]["opponent"], 2)
+        self.assertEqual(card["topPlayers"][0]["name"], "S1")
 
     def test_pickup_value_counts_points_started_for_new_team(self):
         pickup = self.stats["transactions"]["bestPickups"][0]

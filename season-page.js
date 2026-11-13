@@ -76,13 +76,13 @@
         `<th${k ? ` data-sort="${k}"${d ? ` data-dir="${d}"` : ''}` : ''} class="${['pointsFor', 'pointsAgainst', 'coach', 'luck', 'last3', 'trueScore', 'allPlay.pct'].includes(k) ? 'num' : ''}${key === k ? ' is-sorted' : ''}">${label}${key === k ? (dir > 0 ? ' ▲' : ' ▼') : ''}</th>`).join('')}</tr></thead><tbody>${
         list.map(r => `<tr class="${r.rank <= stats.playoffTeams ? 'is-playoff' : ''}">
           <td class="s-rank">${r.trueRank}</td>
-          <td>${S.teamCell(stats, r.rosterId)}</td>
+          <td data-card="team:${r.rosterId}" class="s-has-card" tabindex="0">${S.teamCell(stats, r.rosterId)}</td>
           <td class="s-rank">${r.rank}</td>
           <td class="s-strong">${r.wins}-${r.losses}${r.ties ? `-${r.ties}` : ''}</td>
           <td class="num">${num(r.pointsFor)}</td>
           <td class="num">${num(r.pointsAgainst)}</td>
           <td class="num">${r.allPlay.wins}-${r.allPlay.losses}${r.allPlay.ties ? `-${r.allPlay.ties}` : ''} <span class="muted">(${pct(r.allPlay.pct, 0)})</span></td>
-          <td class="num">${pct(r.coach)}</td>
+          <td class="num s-has-card" data-card="coach:${r.rosterId}" tabindex="0"><span class="s-hc-hint">${pct(r.coach)}</span></td>
           <td class="num ${r.luck > 0 ? 's-up' : r.luck < 0 ? 's-down' : ''}">${signed(r.luck)}</td>
           <td class="num">${num(r.last3)}</td>
           <td>${S.formChips(r.form)}</td>
@@ -92,6 +92,7 @@
     rows.sort((a, b) => a.trueRank - b.trueRank);
     render(rows);
     S.sortable($('#true-table'), rows, render);
+    S.hoverCards($('#true-table'), S.teamCardBuilders(stats));
   }
 
   function renderOdds(stats) {
@@ -114,13 +115,14 @@
       return `<span class="${d > 0 ? 's-up' : 's-down'}">${d > 0 ? '▲' : '▼'} ${Math.abs(d).toFixed(1)}</span>`;
     };
     $('#odds-table').innerHTML = `<table class="s-table" style="min-width:520px"><thead><tr><th>Team</th><th>Record</th><th class="num">Playoffs</th><th class="num">vs week ${prev ?? '—'}</th><th class="num">1st place</th><th class="num">Last place</th></tr></thead><tbody>${
-      rows.map(r => `<tr><td>${S.teamCell(stats, r.rosterId, { short: true })}</td><td>${r.wins}-${r.losses}</td>
-        <td class="num s-strong">${oddsText(r.odds.playoff)}<span class="s-meter"><i style="width:${(r.odds.playoff * 100).toFixed(1)}%"></i></span></td>
+      rows.map(r => `<tr><td data-card="team:${r.rosterId}">${S.teamCell(stats, r.rosterId, { short: true })}</td><td>${r.wins}-${r.losses}</td>
+        <td class="num s-strong" data-card="odds:${r.rosterId}"><span class="s-hc-hint">${oddsText(r.odds.playoff)}</span><span class="s-meter"><i style="width:${(r.odds.playoff * 100).toFixed(1)}%"></i></span></td>
         <td class="num">${change(r.odds.playoff, r.before?.playoff)}</td>
         <td class="num">${oddsText(r.odds.first)}</td><td class="num">${oddsText(r.odds.last)}</td></tr>`).join('')}</tbody></table>`;
 
     const firsts = rows.filter(r => r.odds.first >= 0.001).sort((a, b) => b.odds.first - a.odds.first);
     $('#first-note').textContent = `after week ${last}`;
+    S.hoverCards($('#odds-table'), S.teamCardBuilders(stats));
     S.bars($('#first-bars'), firsts.map(r => ({
       label: S.team(stats, r.rosterId).short, value: r.odds.first, color: '#f6c453',
       tip: [['#f6c453', 'first place', oddsText(r.odds.first)], ['', 'playoffs', oddsText(r.odds.playoff)]],

@@ -50,18 +50,20 @@ def norm(text):
 
 # ---------------------------------------------------------------- lineups
 
-def optimal_points(players_points, player_ids, slots, positions):
-    """Best possible starting lineup from the roster that week.
+def player_positions(pid, positions):
+    pos = set(positions.get(str(pid)) or [])
+    if not pos and str(pid).isalpha():
+        pos = {"DEF"}  # team defences use the team abbreviation as id
+    return pos
+
+
+def optimal_lineup(players_points, player_ids, slots, positions):
+    """Best possible starting lineup from the roster that week: (points, ids).
 
     Slots are filled from the most restrictive to the most flexible, which is
     optimal for nested eligibility sets like QB/RB/WR/TE/K/DEF + RB/WR flex.
     """
-    pool = []
-    for pid in player_ids:
-        pos = set(positions.get(str(pid)) or [])
-        if not pos and str(pid).isalpha():
-            pos = {"DEF"}  # team defences use the team abbreviation as id
-        pool.append((float(players_points.get(str(pid)) or 0), str(pid), pos))
+    pool = [(float(players_points.get(str(pid)) or 0), str(pid), player_positions(pid, positions)) for pid in player_ids]
     pool.sort(reverse=True)
     used = set()
     total = 0.0
@@ -72,7 +74,29 @@ def optimal_points(players_points, player_ids, slots, positions):
                 used.add(pid)
                 total += points
                 break
-    return total
+    return total, used
+
+
+def optimal_points(players_points, player_ids, slots, positions):
+    return optimal_lineup(players_points, player_ids, slots, positions)[0]
+
+
+def lineup_mistakes(starters, bench, optimal_ids, slots, positions):
+    """Pair each benched player who belonged in the best lineup with the
+    starter he should have replaced (same slot type, lowest scorer first)."""
+    should_start = sorted((b for b in bench if str(b["playerId"]) in optimal_ids), key=lambda p: -p["points"])
+    benchable = sorted((s for s in starters if str(s["playerId"]) not in optimal_ids), key=lambda p: p["points"])
+    slot_sets = [SLOT_ELIGIBILITY.get(s, {s}) for s in slots]
+    mistakes = []
+    for b in should_start:
+        b_pos = player_positions(b["playerId"], positions)
+        for s in benchable:
+            s_pos = player_positions(s["playerId"], positions)
+            if any(b_pos & e and s_pos & e for e in slot_sets):
+                benchable.remove(s)
+                mistakes.append({"start": b, "instead": s, "gain": round(b["points"] - s["points"], 2)})
+                break
+    return [m for m in mistakes if m["gain"] > 0]
 
 
 def all_play(scores):
@@ -272,7 +296,7 @@ class Season:
         for row in rows:
             rid = int(row["rosterId"])
             player_ids = [s["playerId"] for s in row.get("starters") or []] + [b["playerId"] for b in row.get("bench") or []]
-            optimal = optimal_points(row.get("playersPoints") or {}, player_ids, self.slots, self.positions)
+            optimal, optimal_ids = optimal_lineup(row.get("playersPoints") or {}, player_ids, self.slots, self.positions)
             bench_points = sum(float(b.get("points") or 0) for b in row.get("bench") or [])
             starters = sorted(
                 ({"playerId": s["playerId"], "points": float(s.get("points") or 0)} for s in row.get("starters") or []),
@@ -294,6 +318,7 @@ class Season:
                 "starters": starters,
                 "bench": bench,
                 "starterIds": {str(s["playerId"]) for s in row.get("starters") or []},
+                "mistakes": lineup_mistakes(starters, bench, optimal_ids, self.slots, self.positions),
             }
         matchups = []
         groups = defaultdict(list)
@@ -578,29 +603,54 @@ def simulate(season, weeks, through_week, sims=SIMULATIONS, seed=SIM_SEED):
     for week_no in range(through_week + 1, season.regular_end + 1):
         for pair in (season.live.get("schedule") or {}).get(str(week_no)) or []:
             remaining.append((int(pair[0]), int(pair[1])))
+    next_week = through_week + 1
+    next_games = len((season.live.get("schedule") or {}).get(str(next_week)) or []) if next_week <= season.regular_end else 0
     rng = random.Random(seed + through_week)
     playoff = defaultdict(int)
     first = defaultdict(int)
     last = defaultdict(int)
+    # What-if: playoff count split by the result of each team's next game.
+    next_wins = defaultdict(int)
+    playoff_if_win = defaultdict(int)
+    playoff_if_loss = defaultdict(int)
     for _ in range(sims):
         w = dict(wins)
         p = dict(pf)
-        for a, b in remaining:
+        won_next = {}
+        for index, (a, b) in enumerate(remaining):
             sa = rng.gauss(strength[a], spread)
             sb = rng.gauss(strength[b], spread)
             p[a] += sa
             p[b] += sb
-            if sa > sb:
-                w[a] += 1
-            else:
-                w[b] += 1
+            winner = a if sa > sb else b
+            w[winner] += 1
+            if index < next_games:
+                won_next[a] = winner == a
+                won_next[b] = winner == b
         order = sorted(teams, key=lambda rid: (-w[rid], -p[rid]))
-        for rid in order[:season.playoff_teams]:
+        in_playoffs = set(order[:season.playoff_teams])
+        for rid in in_playoffs:
             playoff[rid] += 1
         first[order[0]] += 1
         last[order[-1]] += 1
-    return {str(rid): {"playoff": round(playoff[rid] / sims, 4), "first": round(first[rid] / sims, 4),
-                       "last": round(last[rid] / sims, 4)} for rid in teams}
+        for rid, won in won_next.items():
+            if won:
+                next_wins[rid] += 1
+                playoff_if_win[rid] += rid in in_playoffs
+            else:
+                playoff_if_loss[rid] += rid in in_playoffs
+    result = {}
+    for rid in teams:
+        entry = {"playoff": round(playoff[rid] / sims, 4), "first": round(first[rid] / sims, 4),
+                 "last": round(last[rid] / sims, 4)}
+        if any(rid in pair for pair in remaining[:next_games]):
+            losses = sims - next_wins[rid]
+            entry["nextWeek"] = next_week
+            entry["nextWinChance"] = round(next_wins[rid] / sims, 4)
+            entry["ifWin"] = round(playoff_if_win[rid] / next_wins[rid], 4) if next_wins[rid] else None
+            entry["ifLoss"] = round(playoff_if_loss[rid] / losses, 4) if losses else None
+        result[str(rid)] = entry
+    return result
 
 
 def odds_history(season, weeks):
@@ -849,6 +899,57 @@ def history_corner(season):
 
 # ---------------------------------------------------------------- main
 
+def team_cards(season, weeks, table):
+    """Everything the hover card on a team shows."""
+    finished = [w for w in weeks if not w["live"]]
+    rows = {r["rosterId"]: r for r in table}
+    cards = {}
+    for rid in season.teams:
+        games, player_totals, mistakes, costly = [], defaultdict(lambda: [0.0, 0]), [], []
+        for week in finished:
+            tw = week["teamWeeks"].get(rid)
+            if not tw:
+                continue
+            scores = sorted((t["points"] for t in week["teamWeeks"].values()), reverse=True)
+            games.append({"week": week["week"], "opponent": tw.get("opponent"), "points": round2(tw["points"]),
+                          "opponentPoints": round2(tw.get("opponentPoints")), "result": tw.get("result"),
+                          "weekRank": scores.index(tw["points"]) + 1, "teams": len(scores)})
+            for s in tw["starters"]:
+                total = player_totals[str(s["playerId"])]
+                total[0] += s["points"]
+                total[1] += 1
+            margin = (tw.get("opponentPoints") or 0) - tw["points"]
+            if tw.get("result") == "L" and (tw["optimal"] or 0) - tw["points"] > margin:
+                costly.append({"week": week["week"], "margin": round2(margin),
+                               "left": round2((tw["optimal"] or 0) - tw["points"])})
+            for m in tw["mistakes"]:
+                mistakes.append({"week": week["week"], "gain": m["gain"],
+                                 "lost": tw.get("result") == "L" and m["gain"] > margin,
+                                 "start": season.player_line(m["start"]), "instead": season.player_line(m["instead"])})
+        top = sorted(player_totals.items(), key=lambda kv: -kv[1][0])[:3]
+        next_game = None
+        current = season.current_week if any(w["live"] for w in weeks) else (max((w["week"] for w in finished), default=0) + 1)
+        for week_no in range(current, season.regular_end + 1):
+            pair = next((p for p in (season.live.get("schedule") or {}).get(str(week_no)) or [] if rid in p), None)
+            if pair:
+                opp = pair[0] if pair[1] == rid else pair[1]
+                o = rows.get(opp) or {}
+                next_game = {"week": week_no, "opponent": opp, "live": week_no == season.current_week and any(w["live"] for w in weeks),
+                             "opponentRecord": f"{o.get('wins', 0)}-{o.get('losses', 0)}", "opponentAvg": o.get("avgPoints")}
+                break
+        cards[str(rid)] = {
+            "last5": games[-5:][::-1],
+            "topPlayers": [{"name": season.player_name(pid), "position": season.player_position(pid),
+                            "points": round2(points), "starts": starts} for pid, (points, starts) in top],
+            "next": next_game,
+            "mistakes": sorted(mistakes, key=lambda m: -m["gain"])[:3],
+            "mistakeCount": len(mistakes),
+            # Losses the best possible lineup would have won.
+            "costlyLosses": costly,
+        }
+    return cards
+
+
 def build(data_dir=DATA):
     season = Season(data_dir)
     week_numbers = sorted(set(season.archives) | {int(w) for w in (season.live.get("matchupsByWeek") or {})})
@@ -867,6 +968,7 @@ def build(data_dir=DATA):
             "allPlay": {str(rid): tw["allPlay"] for rid, tw in week["teamWeeks"].items()},
         })
     finished = [w["week"] for w in weeks if not w["live"]]
+    table = season_table(season, weeks)
     return {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "season": season.season,
@@ -878,7 +980,8 @@ def build(data_dir=DATA):
         "tradeDeadline": season.settings.get("trade_deadline"),
         "waiverType": season.settings.get("waiver_type"),
         "teams": list(season.teams.values()),
-        "table": season_table(season, weeks),
+        "table": table,
+        "teamCards": team_cards(season, weeks, table),
         "rankByWeek": rank_by_week(season, weeks),
         "odds": odds_history(season, weeks),
         "weeks": out_weeks,
