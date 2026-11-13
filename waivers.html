@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Waiver Wire | The League</title>
+  <link rel="stylesheet" href="styles.css?v=4.3">
+  <link rel="stylesheet" href="season.css?v=1.0">
+</head>
+<body data-page="waivers">
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark"><img src="logos/logo.png" alt="The League logo" style="display:block;width:100%;height:100%;object-fit:cover;border-radius:inherit"></span>
+      <span><strong>The League</strong><small>Est. 2011</small></span>
+    </a>
+    <button class="nav-toggle" type="button">Menu</button>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="season.html">Season</a>
+      <a href="week.html">Week</a>
+      <a class="active" href="waivers.html">Waivers</a>
+      <a href="hall-of-fame.html">Hall of Fame</a>
+      <a href="hall-of-shame.html">Hall of Shame</a>
+      <a href="history.html">History</a>
+      <a href="records.html">Records</a>
+      <a href="franchise.html">Franchises</a>
+      <a href="draft.html">Draft Centre</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="page-hero">
+    <p class="eyebrow" id="wire-eyebrow">Transactions</p>
+    <h1>Waiver Wire</h1>
+    <p class="lede">Every waiver claim, free-agent pickup and trade, archived week by week, and which pickups actually paid off.</p>
+  </section>
+
+  <section><div id="wire-tiles" class="s-tiles"><div class="s-tile"><p class="muted">Loading transactions...</p></div></div></section>
+
+  <section>
+    <div class="section-heading">
+      <div><p class="eyebrow">Ruch sezonu</p><h2>Best pickups</h2></div>
+      <span class="metric-label muted">How it works <span id="pickup-info"></span></span>
+    </div>
+    <div class="card s-chart-card"><div id="best-pickups"></div></div>
+  </section>
+
+  <div class="s-two">
+    <section>
+      <div class="section-heading"><div><p class="eyebrow">Same player, same week</p><h2>Waiver battles</h2></div></div>
+      <div id="battles" class="card table-wrap"></div>
+    </section>
+    <section>
+      <div class="section-heading"><div><p class="eyebrow">Activity</p><h2>Moves by team</h2></div></div>
+      <div id="per-team" class="card table-wrap"></div>
+    </section>
+  </div>
+
+  <section>
+    <div class="section-heading">
+      <div><p class="eyebrow">Full log</p><h2>Every transaction</h2></div>
+      <span class="muted" id="feed-count"></span>
+    </div>
+    <div class="s-filters">
+      <label>Team<select id="f-team"><option value="">All teams</option></select></label>
+      <label>Type<select id="f-type">
+        <option value="">All types</option><option value="waiver">Waiver claims (won)</option>
+        <option value="free_agent">Free agents</option><option value="trade">Trades</option><option value="failed">Failed claims</option>
+      </select></label>
+      <label>Week<select id="f-week"><option value="">All weeks</option></select></label>
+    </div>
+    <div class="card table-wrap"><ul id="feed" class="s-feed"></ul></div>
+  </section>
+</main>
+
+<footer><div class="wrap">The League Dashboard <span class="version">v6.0</span></div></footer>
+<script src="season-core.js?v=1.0"></script>
+<script src="waivers-page.js?v=1.0"></script>
+</body>
+</html>

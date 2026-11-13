@@ -4,6 +4,10 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 */2 * * *'
+    # Every 30 minutes while NFL games are on (UTC): Sunday afternoon and
+    # evening US time, plus the late Thursday, Sunday and Monday night games.
+    - cron: '30 17-23 * * 0'
+    - cron: '30 0-4 * * 1,2,5'
   push:
     paths:
       - "source/**"
@@ -47,6 +51,12 @@ jobs:
       - name: Fetch current league data
         run: python scripts/fetch_live.py
 
+      - name: Fetch NFL game context (teams and kickoff times)
+        run: python scripts/fetch_nfl.py
+
+      - name: Build season stats
+        run: python scripts/build_stats.py
+
       - name: Commit generated data
         if: github.ref == 'refs/heads/main'
         run: |
@@ -54,7 +64,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git pull --rebase --autostash origin main
           git add data/franchises.json data/history.json data/live.json
-          git add data/weekly.json data/transactions.json data/players.json
+          git add data/weekly.json data/transactions.json data/players.json data/stats.json
           git add data/seasons/
           if git diff --cached --quiet; then
             echo "No generated data changes to commit."

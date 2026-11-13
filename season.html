@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Season Stats | The League</title>
+  <link rel="stylesheet" href="styles.css?v=4.3">
+  <link rel="stylesheet" href="season.css?v=1.0">
+</head>
+<body data-page="season">
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark"><img src="logos/logo.png" alt="The League logo" style="display:block;width:100%;height:100%;object-fit:cover;border-radius:inherit"></span>
+      <span><strong>The League</strong><small>Est. 2011</small></span>
+    </a>
+    <button class="nav-toggle" type="button">Menu</button>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a class="active" href="season.html">Season</a>
+      <a href="week.html">Week</a>
+      <a href="waivers.html">Waivers</a>
+      <a href="hall-of-fame.html">Hall of Fame</a>
+      <a href="hall-of-shame.html">Hall of Shame</a>
+      <a href="history.html">History</a>
+      <a href="records.html">Records</a>
+      <a href="franchise.html">Franchises</a>
+      <a href="draft.html">Draft Centre</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="page-hero">
+    <p class="eyebrow" id="season-eyebrow">Current season</p>
+    <h1>Season Stats</h1>
+    <p class="lede">Ranking True, the luck counter, playoff odds and every number the Sleeper table doesn't show. Updated automatically after every round.</p>
+  </section>
+
+  <section><div id="season-tiles" class="s-tiles"><div class="s-tile"><p class="muted">Loading season data...</p></div></div></section>
+
+  <section>
+    <div class="section-heading">
+      <div><p class="eyebrow">Power table</p><h2>Ranking True</h2></div>
+      <span class="metric-label muted">How it works <span id="true-info"></span></span>
+    </div>
+    <div id="true-table" class="card table-wrap"></div>
+    <p class="s-note">Click a column header to sort. Green edge = current playoff place. All-play = your record if you played every team every week.</p>
+  </section>
+
+  <section>
+    <div class="section-heading">
+      <div><p class="eyebrow">Playoff race</p><h2>Playoff odds</h2></div>
+      <span class="metric-label muted"><span id="odds-sims"></span> <span id="odds-info"></span></span>
+    </div>
+    <div class="two-col">
+      <div id="odds-table" class="card table-wrap"></div>
+      <div class="card s-chart-card">
+        <div class="s-chart-head"><h3>Odds of first place</h3><span class="muted" id="first-note"></span></div>
+        <div id="first-bars"></div>
+      </div>
+    </div>
+    <div class="card s-chart-card" style="margin-top:16px">
+      <div class="s-chart-head"><h3>Playoff odds week by week</h3><span class="muted">Pick a team to follow its line</span></div>
+      <div id="odds-picker" class="s-chips"></div>
+      <div id="odds-chart"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-heading">
+      <div><p class="eyebrow">Licznik farta</p><h2>Luck counter</h2></div>
+      <span class="metric-label muted">How it works <span id="luck-info"></span></span>
+    </div>
+    <div class="card s-chart-card">
+      <div class="s-legend"><span><i class="s-swatch" style="background:#3987e5"></i>More wins than the scores deserve</span><span><i class="s-swatch" style="background:#e66767"></i>Fewer wins than the scores deserve</span></div>
+      <div id="luck-chart"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-heading">
+      <div><p class="eyebrow">Table history</p><h2>Standings week by week</h2></div>
+      <span class="muted">Position after each round</span>
+    </div>
+    <div class="card s-chart-card">
+      <div id="bump-picker" class="s-chips"></div>
+      <div id="bump-chart"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-heading">
+      <div><p class="eyebrow">Scoreboard</p><h2>Every score of the season</h2></div>
+      <span class="muted">👑 = top score of the week</span>
+    </div>
+    <div class="card table-wrap" style="padding:16px"><div id="heatmap"></div></div>
+  </section>
+
+  <section>
+    <div class="section-heading">
+      <div><p class="eyebrow">Record book</p><h2>Season records</h2></div>
+      <span class="scope-pill" id="records-scope"></span>
+    </div>
+    <div id="season-records" class="s-cards"></div>
+  </section>
+</main>
+
+<footer><div class="wrap">The League Dashboard <span class="version">v6.0</span></div></footer>
+<script src="season-core.js?v=1.0"></script>
+<script src="season-page.js?v=1.0"></script>
+</body>
+</html>

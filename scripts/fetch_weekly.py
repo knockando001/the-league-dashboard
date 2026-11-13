@@ -1,7 +1,6 @@
 import json
 import os
-import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
@@ -141,6 +140,45 @@ def normalise_matchup(row, season, week, teams):
     }
 
 
+FANTASY_POSITIONS = {"QB", "RB", "WR", "TE", "K", "DEF"}
+PLAYERS_MAX_AGE = timedelta(hours=23)
+
+
+def players_cache_is_stale(path, now=None):
+    """Decide from the generatedAt stored in the file, not the file time.
+
+    A fresh git checkout gives every file the current time, so a file-time
+    check never fires on GitHub Actions.
+    """
+    if not path.exists():
+        return True
+    try:
+        generated = datetime.fromisoformat(json.loads(path.read_text(encoding="utf-8"))["generatedAt"])
+    except (ValueError, KeyError, TypeError):
+        return True
+    return (now or datetime.now(timezone.utc)) - generated > PLAYERS_MAX_AGE
+
+
+def slim_players(players):
+    """Keep fantasy-relevant players and only the fields the dashboard uses."""
+    result = {}
+    for player_id, player in (players or {}).items():
+        positions = [p for p in (player.get("fantasy_positions") or []) if p in FANTASY_POSITIONS]
+        if not positions:
+            continue
+        name = player.get("full_name") or " ".join(
+            part for part in (player.get("first_name"), player.get("last_name")) if part
+        )
+        result[str(player_id)] = {
+            "name": name or str(player_id),
+            "position": player.get("position") or positions[0],
+            "fantasyPositions": positions,
+            "team": player.get("team"),
+            "active": bool(player.get("active")),
+        }
+    return result
+
+
 def main():
     DATA.mkdir(parents=True, exist_ok=True)
     now = datetime.now(timezone.utc).isoformat()
@@ -217,16 +255,13 @@ def main():
         "transactions": transactions,
     })
 
-    players_path = DATA / "players.json"
-    should_refresh_players = not players_path.exists() or time.time() - players_path.stat().st_mtime > 23 * 3600
-    if should_refresh_players:
-        players = get_json("/players/nfl?active=true")
+    if players_cache_is_stale(DATA / "players.json"):
         write_json("players.json", {
             "generatedAt": now,
-            "players": players,
+            "players": slim_players(get_json("/players/nfl")),
         })
     else:
-        print("Kept existing data/players.json; cache is less than 23 hours old.")
+        print("Kept existing data/players.json; refreshed less than 23 hours ago.")
 
     print(f"League: {league.get('name')} ({season})")
     print(f"League status: {league.get('status')}")

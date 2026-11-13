@@ -50,6 +50,16 @@ def load_archive(season, week):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def pairings(rows):
+    """Group matchup rows into [rosterId, rosterId] pairs by matchupId."""
+    groups = {}
+    for row in rows or []:
+        if row.get("matchupId") is None or row.get("rosterId") is None:
+            continue
+        groups.setdefault(row["matchupId"], []).append(int(row["rosterId"]))
+    return [sorted(ids) for _, ids in sorted(groups.items()) if len(ids) == 2]
+
+
 def main():
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -111,6 +121,18 @@ def main():
         if transactions:
             transaction_weeks[str(week)] = transactions
 
+    # Regular-season pairings for every week. Sleeper publishes future weeks as
+    # 0-point matchups, which is exactly what the playoff-odds simulation needs.
+    settings = league.get("settings") or {}
+    regular_season_end = max(1, min(MAX_WEEK, int(settings.get("playoff_week_start") or 15) - 1))
+    schedule = {}
+    for week in range(1, regular_season_end + 1):
+        rows = matchup_weeks.get(str(week))
+        if rows is None:
+            raw = get_json(f"/league/{LEAGUE_ID}/matchups/{week}") or []
+            rows = [{"rosterId": r.get("roster_id"), "matchupId": r.get("matchup_id")} for r in raw]
+        schedule[str(week)] = pairings(rows)
+
     draft_picks = {}
     for draft in drafts:
         draft_id = str(draft.get("draft_id") or "")
@@ -128,6 +150,8 @@ def main():
         "standings": standings,
         "matchupsByWeek": matchup_weeks,
         "transactionsByWeek": transaction_weeks,
+        "regularSeasonEnd": regular_season_end,
+        "schedule": schedule,
         "drafts": drafts,
         "draftPicks": draft_picks,
     }

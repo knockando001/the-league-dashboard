@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Week Centre | The League</title>
+  <link rel="stylesheet" href="styles.css?v=4.3">
+  <link rel="stylesheet" href="season.css?v=1.0">
+</head>
+<body data-page="week">
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark"><img src="logos/logo.png" alt="The League logo" style="display:block;width:100%;height:100%;object-fit:cover;border-radius:inherit"></span>
+      <span><strong>The League</strong><small>Est. 2011</small></span>
+    </a>
+    <button class="nav-toggle" type="button">Menu</button>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="season.html">Season</a>
+      <a class="active" href="week.html">Week</a>
+      <a href="waivers.html">Waivers</a>
+      <a href="hall-of-fame.html">Hall of Fame</a>
+      <a href="hall-of-shame.html">Hall of Shame</a>
+      <a href="history.html">History</a>
+      <a href="records.html">Records</a>
+      <a href="franchise.html">Franchises</a>
+      <a href="draft.html">Draft Centre</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="page-hero">
+    <p class="eyebrow" id="week-eyebrow">Week Centre</p>
+    <h1 id="week-title">Week Centre</h1>
+    <p class="lede" id="week-lede">Every matchup, game window by game window, with the week's awards.</p>
+  </section>
+
+  <nav id="week-tabs" class="s-week-tabs" aria-label="Choose a week"></nav>
+
+  <section><div id="week-tiles" class="s-tiles"><div class="s-tile"><p class="muted">Loading the week...</p></div></div></section>
+
+  <section>
+    <div class="section-heading">
+      <div><p class="eyebrow">Scoreboard</p><h2>Matchups</h2></div>
+      <span class="muted">Lines show each team's score after every NFL game window</span>
+    </div>
+    <div id="matchups" class="s-matchups"></div>
+  </section>
+
+  <section>
+    <div class="section-heading">
+      <div><p class="eyebrow">Klątwa czwartku</p><h2>The Thursday curse</h2></div>
+      <span class="metric-label muted">How it works <span id="curse-info"></span></span>
+    </div>
+    <div class="two-col">
+      <div id="curse" class="card s-curse"></div>
+      <div id="curse-season" class="card"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-heading">
+      <div><p class="eyebrow">Gala tygodnia</p><h2>Awards of the week</h2></div>
+      <span class="metric-label muted">How it works <span id="awards-info"></span></span>
+    </div>
+    <div id="awards" class="s-cards"></div>
+  </section>
+
+  <section>
+    <div class="section-heading">
+      <div><p class="eyebrow">If everyone played everyone</p><h2>All-play this week</h2></div>
+    </div>
+    <div id="all-play" class="card table-wrap"></div>
+  </section>
+</main>
+
+<footer><div class="wrap">The League Dashboard <span class="version">v6.0</span></div></footer>
+<script src="season-core.js?v=1.0"></script>
+<script src="week-page.js?v=1.0"></script>
+</body>
+</html>
