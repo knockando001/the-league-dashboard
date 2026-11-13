@@ -1,8 +1,12 @@
 import datetime
 import json
 import pathlib
+import sys
 import urllib.error
 import urllib.request
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from fetch_weekly import normalise_matchup, roster_map  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
@@ -87,22 +91,25 @@ def main():
 
     season = int(league.get("season") or state.get("season"))
     current_week = max(1, min(MAX_WEEK, int(state.get("week") or 1)))
+    teams = roster_map(rosters, users)
     matchup_weeks = {}
     transaction_weeks = {}
     for week in range(1, current_week + 1):
-        archive = load_archive(season, week)
+        # Finished weeks come from the archive; the week in progress (and any
+        # week not archived yet) is read live so scores keep updating.
+        archive = load_archive(season, week) if week < current_week else None
         if archive:
-            if archive.get("matchups"):
-                matchup_weeks[str(week)] = archive["matchups"]
-            if archive.get("transactions"):
-                transaction_weeks[str(week)] = archive["transactions"]
-        elif week == current_week:
-            matchups = get_json(f"/league/{LEAGUE_ID}/matchups/{week}") or []
-            transactions = get_json(f"/league/{LEAGUE_ID}/transactions/{week}") or []
-            if matchups:
-                matchup_weeks[str(week)] = matchups
-            if transactions:
-                transaction_weeks[str(week)] = transactions
+            matchups = archive.get("matchups") or []
+            transactions = archive.get("transactions") or []
+        else:
+            raw_matchups = get_json(f"/league/{LEAGUE_ID}/matchups/{week}") or []
+            raw_transactions = get_json(f"/league/{LEAGUE_ID}/transactions/{week}") or []
+            matchups = [normalise_matchup(row, season, week, teams) for row in raw_matchups]
+            transactions = [{"week": week, **tx} for tx in raw_transactions]
+        if matchups:
+            matchup_weeks[str(week)] = matchups
+        if transactions:
+            transaction_weeks[str(week)] = transactions
 
     draft_picks = {}
     for draft in drafts:

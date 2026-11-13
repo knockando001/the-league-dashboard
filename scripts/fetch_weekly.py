@@ -56,40 +56,27 @@ def read_archives(season):
     return result
 
 
-def migrate_legacy_weekly(season, league, nfl_state, teams, now):
-    legacy_path = DATA / "weekly.json"
-    if not legacy_path.exists():
-        return
-    legacy = json.loads(legacy_path.read_text(encoding="utf-8"))
-    if int(legacy.get("season") or 0) != season:
-        return
-    transactions_path = DATA / "transactions.json"
-    legacy_transactions = []
-    if transactions_path.exists():
-        legacy_transactions = json.loads(
-            transactions_path.read_text(encoding="utf-8")
-        ).get("transactions", [])
-    transactions_by_week = {}
-    for transaction in legacy_transactions:
-        transactions_by_week.setdefault(int(transaction.get("week", 0)), []).append(transaction)
-    for entry in legacy.get("weeks", []):
-        week = int(entry.get("week", 0))
-        matchups = entry.get("matchups") or []
-        if week not in range(1, MAX_WEEK + 1) or not matchups or archive_path(season, week).exists():
-            continue
-        write_archive(season, week, {
-            "generatedAt": legacy.get("generatedAt") or now,
-            "leagueId": LEAGUE_ID,
-            "leagueName": league.get("name"),
-            "leagueStatus": league.get("status"),
-            "season": season,
-            "week": week,
-            "currentWeekAtFetch": nfl_state.get("week"),
-            "nflState": nfl_state,
-            "teams": legacy.get("teams") or teams,
-            "matchups": matchups,
-            "transactions": transactions_by_week.get(week, []),
-        })
+def last_completed_week(league, nfl_state, season):
+    """Return the last week of this league season that is fully scored.
+
+    Sleeper schedules matchups for every week up front, so a matchup response
+    alone does not mean a week has been played. A week may only be archived
+    once Sleeper has finished scoring it.
+    """
+    if league.get("status") == "complete":
+        return MAX_WEEK
+    last_scored = (league.get("settings") or {}).get("last_scored_leg")
+    if last_scored is not None:
+        return max(0, min(MAX_WEEK, int(last_scored)))
+    # Fallback when the league does not report last_scored_leg.
+    nfl_season = int(nfl_state.get("season") or 0)
+    if nfl_season > season:
+        return MAX_WEEK
+    if nfl_season < season or nfl_state.get("season_type") == "pre":
+        return 0
+    if nfl_state.get("season_type") in ("post", "off"):
+        return MAX_WEEK
+    return max(0, min(MAX_WEEK, int(nfl_state.get("week") or 0) - 1))
 
 
 def valid_matchups(rows):
@@ -98,6 +85,11 @@ def valid_matchups(rows):
         and bool(rows)
         and all(isinstance(row, dict) and row.get("roster_id") is not None for row in rows)
     )
+
+
+def has_scores(rows):
+    """True when at least one team scored, i.e. the week was actually played."""
+    return any(float(row.get("points") or 0) != 0 for row in rows)
 
 
 def roster_map(rosters, users):
@@ -163,14 +155,18 @@ def main():
     if current_week is None:
         raise RuntimeError("Sleeper did not provide the current NFL week")
     current_week = max(1, min(MAX_WEEK, int(current_week)))
-    migrate_legacy_weekly(season, league, nfl_state, teams, now)
+    completed_week = last_completed_week(league, nfl_state, season)
+    print(f"Current NFL week: {current_week}; last fully scored week: {completed_week}")
     archives = read_archives(season)
-    weeks_to_fetch = [week for week in range(1, current_week + 1) if week not in archives]
+    weeks_to_fetch = [week for week in range(1, completed_week + 1) if week not in archives]
     for week in weeks_to_fetch:
         raw_matchups = get_json(f"/league/{LEAGUE_ID}/matchups/{week}")
         raw_transactions = get_json(f"/league/{LEAGUE_ID}/transactions/{week}")
         if not valid_matchups(raw_matchups):
             print(f"Skipped empty or incomplete matchup response for week {week}.")
+            continue
+        if not has_scores(raw_matchups):
+            print(f"Skipped week {week}: no team has points (week not played by this league).")
             continue
         if not isinstance(raw_transactions, list) or not all(
             isinstance(transaction, dict) for transaction in raw_transactions
@@ -184,6 +180,7 @@ def main():
             "season": season,
             "week": week,
             "currentWeekAtFetch": current_week,
+            "lastScoredWeekAtFetch": completed_week,
             "nflState": nfl_state,
             "teams": teams,
             "matchups": [normalise_matchup(x, season, week, teams) for x in raw_matchups],
