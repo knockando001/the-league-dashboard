@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T11:57:45.229949+00:00",
+  "generatedAt": "2026-11-13T19:31:18.613232+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -73,10 +73,6 @@
     "avatar": "8da7991069e3a7217718ff56366005c6",
     "company_id": null,
     "league_id": "1397593463293239296",
-    "shard": 125,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -227,23 +223,22 @@
       "st_ff": 0.0,
       "idp_tkl_ast": 0.0
     },
-    "last_message_id": "1426693491756371968",
-    "draft_id": "1397593466170523648",
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 125,
+    "sport": "nfl",
+    "last_message_id": "1426969250156785664",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1794512744420,
+    "last_message_time": 1794578490346,
     "last_pinned_message_id": "1398407155169656845",
     "last_read_id": null,
+    "draft_id": "1397593466170523648",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -262,6 +257,11 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 8
   },
   "nflState": {
@@ -657,9 +657,7 @@
       "players": [
         "10232",
         "11581",
-        "11620",
         "12474",
-        "12534",
         "13279",
         "4046",
         "6083",
@@ -667,21 +665,23 @@
         "7547",
         "7600",
         "8126",
+        "8134",
         "8155",
         "9509",
         "9758",
-        "CHI"
+        "CHI",
+        "NO"
       ],
       "starters": [
-        "4046",
+        "9758",
         "9509",
         "11581",
-        "10232",
-        "7547",
+        "8126",
+        "8134",
         "7002",
-        "11620",
+        "8155",
         "6083",
-        "CHI"
+        "NO"
       ]
     },
     {
