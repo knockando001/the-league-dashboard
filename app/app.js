@@ -5,7 +5,7 @@ const titleEl = document.getElementById('title');
 const subEl = document.getElementById('subtitle');
 const backEl = document.querySelector('.back');
 const PAGE = 20;
-const state = { stats: null, posts: null, filter: 'all', shown: PAGE, feedScroll: 0, open: {} };
+const state = { stats: null, posts: null, filter: 'all', shown: PAGE, feedScroll: 0, open: {}, openMatch: {} };
 
 /* ---------- pomocnicze ---------- */
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -228,13 +228,142 @@ function mecze(wArg) {
       const loser = m.teams.find(x => x.rosterId !== m.winner);
       foot = `<span>Różnica ${n2(m.margin)} pkt</span><span>${loser && loser.optimal > (m.teams.find(x => x.rosterId === m.winner) || {}).points ? 'Przegrany miał wygraną na ławce' : ''}</span>`;
     } else foot = '<span>Mecz jeszcze się nie zaczął</span><span></span>';
-    return `<div class="box match">${rowsHtml}<div class="mfoot">${foot}</div></div>`;
+    const key = `${w}-${m.matchupId}`, open = !!state.openMatch[key];
+    return `<div class="box match ${open ? 'open' : ''}" data-m="${key}">
+      <div class="mhead">${rowsHtml}<div class="mfoot">${foot}<span class="caret" aria-hidden="true">▾</span></div></div>
+      <div class="mdet">${matchDetail(wk, m, s)}</div>
+    </div>`;
   }).join('');
 
   view.innerHTML = `<div class="chips" id="wk">${chips}</div>
     ${wk.live ? `<div class="sec"><p>Wyniki na żywo najlepiej śledzić w Sleeperze. Tu dane odświeżają się co pół godziny w trakcie meczów. Stan z ${esc(timeFmt.format(new Date(s.generatedAt)))}.</p></div>` : '<div style="height:12px"></div>'}
-    ${cards}`;
+    ${weekTiles(wk, s)}
+    <div class="sec"><h2>Mecze</h2><p>Stuknij mecz, żeby zobaczyć przebieg i zawodników.</p></div>
+    ${cards}
+    ${curseSection(wk, s)}
+    ${awardsSection(wk, s)}
+    ${allPlaySection(wk, s)}`;
   const on = document.querySelector('#wk .on'); if (on) on.scrollIntoView({ inline: 'center', block: 'nearest' });
+  view.querySelectorAll('.match .mhead').forEach(h => h.onclick = () => {
+    const box = h.parentElement, key = box.dataset.m;
+    state.openMatch[key] = !state.openMatch[key];
+    box.classList.toggle('open', state.openMatch[key]);
+  });
+}
+
+/* kafelki, klątwa czwartku, nagrody, każdy z każdym */
+const windowPl = w => String(w || '').replace(/Wednesday/g, 'środzie').replace(/Thursday/g, 'czwartku').replace(/Friday/g, 'piątku').replace(/Saturday/g, 'sobocie').replace(/\s*\+\s*/g, ' i ');
+const posPl = p => p ? ` (${p})` : '';
+function tile(label, value, sub) {
+  return `<div class="tile"><span class="tl">${label}</span><b class="tv num">${value}</b><span class="ts">${sub}</span></div>`;
+}
+function weekTiles(wk, s) {
+  const a = wk.awards || {}, c = wk.curse;
+  const total = wk.matchups.reduce((x, m) => x + m.total, 0);
+  const teams = wk.matchups.length * 2 || 1;
+  const t = [];
+  if (a.topScore) t.push(tile(wk.live ? 'Prowadzi' : 'Najlepszy wynik', n2(a.topScore.points), esc(team(a.topScore.rosterId).short)));
+  if (a.playerOfWeek) t.push(tile('Zawodnik tygodnia', n2(a.playerOfWeek.points), `${esc(a.playerOfWeek.name)}${posPl(a.playerOfWeek.position)}, ${esc(team(a.playerOfWeek.rosterId).short)}`));
+  if (c) t.push(tile('Klątwa czwartku', wk.live ? `${c.leaders.length} ${c.leaders.length === 1 ? 'lider' : 'liderów'}` : `${c.leadersLost} z ${c.leadersDecided}`, wk.live ? `prowadzi po ${esc(windowPl(c.window))}` : 'liderów po czwartku przegrało'));
+  t.push(tile('Punkty w kolejce', n1(total), `średnio ${n2(total / teams)} na drużynę`));
+  return `<div class="tiles">${t.join('')}</div>`;
+}
+function curseSection(wk, s) {
+  const c = wk.curse;
+  let body;
+  if (!c) body = '<p class="mnote" style="padding:0 14px 14px">Brak danych o meczach NFL w tej kolejce.</p>';
+  else {
+    const verdict = l => l.held === null ? '<span class="vd open">czeka</span>' : l.held ? '<span class="vd held">✔ utrzymał</span>' : '<span class="vd lost">🧿 przegrał</span>';
+    const rows = c.leaders.map(l => `<div class="cr">${logo(team(l.rosterId))}<span><b>${esc(team(l.rosterId).short)}</b><br><span class="det">+${n2(l.lead)} z ${esc(team(l.opponent).short)}</span></span>${verdict(l)}</div>`).join('');
+    const intro = wk.live ? 'Czy klątwa uderzy znowu?' : c.leadersDecided ? `${c.leadersLost} z ${c.leadersDecided} liderów przegrało.` : 'Po pierwszych meczach nikt nie prowadził.';
+    const cb = c.biggestComeback ? `<p class="mnote" style="padding:0 14px 14px">Największy powrót: <b style="color:var(--ink)">${esc(team(c.biggestComeback.rosterId).short)}</b> przegrywał z ${esc(shortOf(c.biggestComeback.opponentTeam))} o ${n2(c.biggestComeback.deficit)} i wygrał.</p>` : '';
+    body = `<p class="mnote" style="padding:12px 14px 4px;margin:0">Prowadzący po ${esc(windowPl(c.window))}. ${intro}</p>${rows || '<p class="mnote" style="padding:0 14px">Wszystkie mecze były remisowe.</p>'}${cb}`;
+  }
+  const done = s.weeks.filter(w => !w.live && w.curse);
+  const lost = done.reduce((x, w) => x + w.curse.leadersLost, 0), dec = done.reduce((x, w) => x + w.curse.leadersDecided, 0);
+  const best = done.map(w => w.curse.biggestComeback && { ...w.curse.biggestComeback, week: w.week }).filter(Boolean).sort((x, y) => y.deficit - x.deficit)[0];
+  const season = dec ? `<div class="cseason"><b class="num">${Math.round(lost / dec * 100)}%</b><p>liderów po czwartku przegrało w tym sezonie (${lost} z ${dec}, week 1 do ${s.lastFinishedWeek}). Przy rzucie monetą byłoby około 50%.${best ? ` Powrót sezonu: ${esc(team(best.rosterId).short)} odrobił ${n2(best.deficit)} z ${esc(shortOf(best.opponentTeam))} w week ${best.week}.` : ''}</p></div>` : '';
+  return `<div class="sec"><h2>Klątwa czwartku</h2><p>Czy drużyna prowadząca po czwartkowym meczu wygrywa całą kolejkę</p></div>
+    <div class="box">${body}${season}</div>`;
+}
+const shortOf = full => (state.stats.teams.find(t => t.team === full) || {}).short || full;
+function awardsSection(wk, s) {
+  const a = wk.awards || {}, others = s.teams.length - 1, live = wk.live;
+  const row = (icon, title, rid, detail, val) => `<div class="rc"><span class="aw">${icon}</span><span><span class="lbl">${title}</span><br><span class="who">${esc(team(rid).short)}</span>${detail ? `<br><span class="det">${detail}</span>` : ''}</span><span class="val">${val}</span></div>`;
+  const pts = v => `${n2(v)}<small>pkt</small>`;
+  const vs = x => `${esc(team(x.winner).short)} ${n2(x.score[0])} : ${n2(x.score[1])} ${esc(team(x.loser).short)}`;
+  const r = [
+    a.playerOfWeek && row('⭐', 'Zawodnik tygodnia', a.playerOfWeek.rosterId, `${esc(a.playerOfWeek.name)}${posPl(a.playerOfWeek.position)}`, pts(a.playerOfWeek.points)),
+    a.benchOfWeek && row('🪑', 'Ławka tygodnia', a.benchOfWeek.rosterId, `${esc(a.benchOfWeek.name)}${posPl(a.benchOfWeek.position)}${a.benchOfWeek.lostBy !== undefined ? `, a mecz przegrany o ${n2(a.benchOfWeek.lostBy)}` : ''}`, pts(a.benchOfWeek.points)),
+    a.moveOfWeek && row('🔄', 'Ruch tygodnia', a.moveOfWeek.rosterId, `${esc(a.moveOfWeek.name)}${posPl(a.moveOfWeek.position)}, ${a.moveOfWeek.type === 'waiver' ? 'z waivera' : 'wolny agent'} w tym tygodniu`, pts(a.moveOfWeek.weekPoints)),
+    a.bestCoach && !live && row('🧠', 'Coach najlepszy %', a.bestCoach.rosterId, 'najlepszego możliwego składu', `${n1(a.bestCoach.coach * 100)}%`),
+    a.mostLeftOnBench && !live && row('🤦', 'Najwięcej zostawione na ławce', a.mostLeftOnBench.rosterId, `coach ${n1(a.mostLeftOnBench.coach * 100)}%`, pts(a.mostLeftOnBench.left)),
+    a.topScore && row('🚀', live ? 'Prowadzi' : 'Najwyższy wynik', a.topScore.rosterId, '', pts(a.topScore.points)),
+    a.lowScore && !live && row('🧊', 'Najniższy wynik', a.lowScore.rosterId, '', pts(a.lowScore.points)),
+    a.blowout && row('💥', 'Pogrom', a.blowout.winner, vs(a.blowout), `${n2(a.blowout.margin)}<small>pkt różnicy</small>`),
+    a.closest && row('😬', 'Najbliższy mecz', a.closest.winner, vs(a.closest), `${n2(a.closest.margin)}<small>pkt różnicy</small>`),
+    a.unluckiest && row('💔', 'Pechowiec', a.unluckiest.rosterId, `przegrał, a pokonałby ${a.unluckiest.allPlayWins} z ${others} drużyn`, pts(a.unluckiest.points)),
+    a.luckiest && row('🍀', 'Szczęściarz', a.luckiest.rosterId, `wygrał, choć pokonałby tylko ${a.luckiest.allPlayWins} z ${others} drużyn`, pts(a.luckiest.points))
+  ].filter(Boolean);
+  if (!r.length) return '';
+  return `<div class="sec"><h2>Nagrody tygodnia</h2>${live ? '<p>Stan na teraz, kolejka trwa</p>' : ''}</div><div class="box rec-list">${r.join('')}</div>`;
+}
+function allPlaySection(wk, s) {
+  if (!wk.allPlay) return '';
+  const rows = wk.matchups.flatMap(m => m.teams.map(t => ({ ...t, ap: wk.allPlay[t.rosterId] || [0, 0, 0], won: m.winner === t.rosterId })))
+    .sort((x, y) => y.points - x.points);
+  const res = r => wk.live ? '<span class="flat">trwa</span>' : r.won ? '<span class="up">W</span>' : '<span class="down">P</span>';
+  return `<div class="sec"><h2>Każdy z każdym</h2><p>Bilans, gdyby w tej kolejce każdy zagrał z całą ligą. W/P: prawdziwy wynik meczu.</p></div>
+    <div class="box ap">
+      <div class="ap-r ap-h"><span>#</span><span>Drużyna</span><span>Pkt</span><span>Bilans</span><span>Mecz</span><span>Coach</span></div>
+      ${rows.map((r, i) => `<div class="ap-r"><span class="pos">${i + 1}</span><span class="nm">${esc(team(r.rosterId).short)}</span><span class="num b">${n2(r.points)}</span><span class="num">${r.ap[0]}-${r.ap[1]}${r.ap[2] ? '-' + r.ap[2] : ''}</span><span>${res(r)}</span><span class="num">${wk.live || r.coach == null ? '–' : Math.round(r.coach * 100) + '%'}</span></div>`).join('')}
+    </div>`;
+}
+
+/* szczegóły meczu: przebieg okno po oknie i najlepsi zawodnicy */
+const WINDOWS = {
+  'Wednesday': 'Śr', 'Thursday': 'Czw', 'Friday': 'Pt', 'Saturday': 'Sob',
+  'Sunday morning': 'Nd rano', 'Sunday early': 'Nd 19', 'Sunday late': 'Nd 22',
+  'Sunday night': 'Nd noc', 'Monday night': 'Pn noc', 'Tuesday': 'Wt'
+};
+function duelChart(wk, a, b, s) {
+  const wins = wk.windows || [];
+  if (!wins.length || !(a.timeline || []).length) return '<p class="mnote">Brak danych o godzinach meczów NFL w tej kolejce, więc bez wykresu.</p>';
+  let n = wins.length;
+  if (wk.live) {
+    const now = new Date(s.generatedAt);
+    n = wins.filter(x => new Date(x.start) <= now).length;
+    if (!n) return '<p class="mnote">Wykres pojawi się po pierwszych meczach NFL tej kolejki.</p>';
+  }
+  const labels = ['Start', ...wins.slice(0, n).map(x => WINDOWS[x.name] || x.name)];
+  const va = [0, ...a.timeline.slice(0, n)], vb = [0, ...b.timeline.slice(0, n)];
+  const max = Math.max(50, Math.ceil(Math.max(...va, ...vb) / 50) * 50);
+  const W = 320, H = 150, L = 30, R = 20, T = 10, B = 122;
+  const x = i => L + (W - L - R) * (labels.length > 1 ? i / (labels.length - 1) : 0);
+  const y = v => B - (B - T) * v / max;
+  const line = (v, cls) => `<polyline class="${cls}" points="${v.map((p, i) => `${x(i).toFixed(1)},${y(p).toFixed(1)}`).join(' ')}"/><circle class="${cls}" cx="${x(v.length - 1).toFixed(1)}" cy="${y(v[v.length - 1]).toFixed(1)}" r="3.5"/>`;
+  const grid = [0, max / 2, max].map(g => `<line class="gl" x1="${L}" x2="${W - R}" y1="${y(g)}" y2="${y(g)}"/><text class="ax" x="${L - 6}" y="${y(g) + 3.5}" text-anchor="end">${g}</text>`).join('');
+  const xl = labels.map((t, i) => `<text class="ax" x="${x(i)}" y="${H - 8}" text-anchor="${i === 0 ? 'start' : 'middle'}">${esc(t)}</text>`).join('');
+  return `<div class="legend2"><span><i class="la"></i>${esc(team(a.rosterId).short)}</span><span><i class="lb"></i>${esc(team(b.rosterId).short)}</span></div>
+    <svg class="duel" viewBox="0 0 ${W} ${H}" role="img" aria-label="Przebieg meczu po kolejnych meczach NFL">${grid}${line(vb, 'lb')}${line(va, 'la')}${xl}</svg>`;
+}
+function players(title, list, bench) {
+  if (!list || !list.length) return '';
+  return `<div class="plist"><h4>${esc(title)}</h4>${list.map(p => `<div class="pl ${bench ? 'bench' : ''}"><span>${esc(p.name)} <em>${esc(p.position || '')}</em></span><b class="num">${n2(p.points)}</b></div>`).join('')}</div>`;
+}
+function matchDetail(wk, m, s) {
+  const [a, b] = m.teams, ta = team(a.rosterId), tb = team(b.rosterId);
+  const temp = wk.live ? '' : m.margin < 5 ? '🔥🔥🔥 thriller' : m.margin < 15 ? '🔥🔥 wyrównany' : m.margin < 30 ? '🔥 pewna wygrana' : '🌡️ jednostronny';
+  const coach = t => (t.coach != null && !wk.live) ? ` · coach ${n1(t.coach * 100)}%` : '';
+  return `${temp ? `<p class="temp">${temp}</p>` : ''}
+    ${duelChart(wk, a, b, s)}
+    <div class="pgrid">
+      ${players(`Najlepsi: ${ta.short}`, a.topStarters)}
+      ${players(`Najlepsi: ${tb.short}`, b.topStarters)}
+      ${players(`Ławka: ${ta.short}`, a.topBench, true)}
+      ${players(`Ławka: ${tb.short}`, b.topBench, true)}
+    </div>
+    <p class="mnote">Najlepszy możliwy skład: ${esc(ta.short)} ${n2(a.optimal)}${coach(a)}, ${esc(tb.short)} ${n2(b.optimal)}${coach(b)}</p>`;
 }
 
 /* ---------- REKORDY ---------- */
