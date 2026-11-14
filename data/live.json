@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T16:26:15.723006+00:00",
+  "generatedAt": "2026-11-14T22:05:18.566145+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -236,9 +236,10 @@
     "last_message_text_map": null,
     "last_message_time": 1794578490346,
     "last_pinned_message_id": "1398407155169656845",
-    "last_read_id": null,
     "draft_id": "1397593466170523648",
+    "last_read_id": null,
     "previous_league_id": null,
+    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -259,7 +260,6 @@
     ],
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 8
@@ -471,12 +471,12 @@
       ],
       "starters": [
         "12545",
-        "8151",
+        "11586",
         "9221",
         "12526",
         "8167",
         "4217",
-        "11586",
+        "7569",
         "11786",
         "HOU"
       ]
@@ -7910,7 +7910,7 @@
             "points": 0.0
           },
           {
-            "playerId": "8151",
+            "playerId": "11586",
             "points": 0.0
           },
           {
@@ -7930,7 +7930,7 @@
             "points": 0.0
           },
           {
-            "playerId": "11586",
+            "playerId": "7569",
             "points": 0.0
           },
           {
@@ -7964,11 +7964,11 @@
             "points": 0.0
           },
           {
-            "playerId": "7569",
+            "playerId": "8146",
             "points": 0.0
           },
           {
-            "playerId": "8146",
+            "playerId": "8151",
             "points": 0.0
           },
           {
