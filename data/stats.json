@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-15T05:28:25.646884+00:00",
+ "generatedAt": "2026-11-15T13:38:45.875957+00:00",
  "season": 2026,
  "leagueName": "The League",
  "currentWeek": 10,
@@ -8217,8 +8217,8 @@
          "points": 0.0
         },
         {
-         "playerId": "11586",
-         "name": "Blake Corum",
+         "playerId": "13337",
+         "name": "Emmett Johnson",
          "position": "RB",
          "points": 0.0
         },
@@ -8555,6 +8555,61 @@
  ],
  "transactions": {
   "feed": [
+   {
+    "transactionId": "1427614632763195392",
+    "week": 10,
+    "type": "free_agent",
+    "status": "complete",
+    "time": 1794732361549,
+    "rosterIds": [
+     1
+    ],
+    "adds": [
+     {
+      "playerId": "13337",
+      "name": "Emmett Johnson",
+      "position": "RB",
+      "rosterId": 1,
+      "startedPoints": 0.0,
+      "starts": 1,
+      "weekPoints": 0.0
+     }
+    ],
+    "drops": [
+     {
+      "playerId": "8146",
+      "name": "Garrett Wilson",
+      "position": "WR",
+      "rosterId": 1
+     }
+    ],
+    "waiverBid": null,
+    "draftPicks": []
+   },
+   {
+    "transactionId": "1427597440583757824",
+    "week": 10,
+    "type": "free_agent",
+    "status": "complete",
+    "time": 1794728262614,
+    "rosterIds": [
+     6
+    ],
+    "adds": [
+     {
+      "playerId": "8408",
+      "name": "Jordan Mason",
+      "position": "RB",
+      "rosterId": 6,
+      "startedPoints": 0.0,
+      "starts": 0,
+      "weekPoints": null
+     }
+    ],
+    "drops": [],
+    "waiverBid": null,
+    "draftPicks": []
+   },
    {
     "transactionId": "1427493906819325952",
     "week": 10,
@@ -14028,14 +14083,14 @@
    "1": {
     "waiverClaims": 17,
     "waiverWins": 11,
-    "freeAgents": 5,
+    "freeAgents": 6,
     "trades": 0,
     "pickupPoints": 110.96
    },
    "6": {
     "waiverClaims": 14,
     "waiverWins": 7,
-    "freeAgents": 10,
+    "freeAgents": 11,
     "trades": 0,
     "pickupPoints": 122.24
    },
