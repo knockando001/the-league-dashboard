@@ -1,27 +1,17 @@
 {
-  "generatedAt": "2026-11-15T13:38:45.732166+00:00",
+  "generatedAt": "2026-11-15T19:37:15.102905+00:00",
   "season": 2026,
   "week": 10,
   "complete": false,
   "games": [
-    {
-      "espnId": "401873053",
-      "name": "NE VS DET",
-      "kickoff": "2026-11-15T14:30Z",
-      "home": "DET",
-      "away": "NE",
-      "homeScore": 0,
-      "awayScore": 0,
-      "final": false
-    },
     {
       "espnId": "401873058",
       "name": "KC @ ATL",
       "kickoff": "2026-11-15T18:00Z",
       "home": "ATL",
       "away": "KC",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 3,
+      "awayScore": 14,
       "final": false
     },
     {
@@ -30,8 +20,8 @@
       "kickoff": "2026-11-15T18:00Z",
       "home": "CLE",
       "away": "HOU",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 10,
+      "awayScore": 17,
       "final": false
     },
     {
@@ -41,7 +31,7 @@
       "home": "GB",
       "away": "MIN",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 17,
       "final": false
     },
     {
@@ -50,8 +40,8 @@
       "kickoff": "2026-11-15T18:00Z",
       "home": "TEN",
       "away": "JAX",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 10,
+      "awayScore": 16,
       "final": false
     },
     {
@@ -60,8 +50,8 @@
       "kickoff": "2026-11-15T18:00Z",
       "home": "IND",
       "away": "MIA",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 14,
+      "awayScore": 7,
       "final": false
     },
     {
@@ -71,7 +61,7 @@
       "home": "NO",
       "away": "CAR",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 7,
       "final": false
     },
     {
@@ -80,9 +70,19 @@
       "kickoff": "2026-11-15T18:00Z",
       "home": "NYJ",
       "away": "BUF",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 6,
+      "awayScore": 10,
       "final": false
+    },
+    {
+      "espnId": "401873053",
+      "name": "NE VS DET",
+      "kickoff": "2026-11-15T14:30Z",
+      "home": "DET",
+      "away": "NE",
+      "homeScore": 35,
+      "awayScore": 10,
+      "final": true
     },
     {
       "espnId": "401873062",
@@ -180,6 +180,346 @@
       "team": "NYG",
       "opponent": "WAS",
       "date": "2026-11-12"
+    },
+    "10229": {
+      "team": "KC",
+      "opponent": "ATL",
+      "date": "2026-11-15"
+    },
+    "11579": {
+      "team": "NO",
+      "opponent": "CAR",
+      "date": "2026-11-15"
+    },
+    "11786": {
+      "team": "JAX",
+      "opponent": "TEN",
+      "date": "2026-11-15"
+    },
+    "12495": {
+      "team": "MIA",
+      "opponent": "IND",
+      "date": "2026-11-15"
+    },
+    "12526": {
+      "team": "CAR",
+      "opponent": "NO",
+      "date": "2026-11-15"
+    },
+    "6804": {
+      "team": "GB",
+      "opponent": "MIN",
+      "date": "2026-11-15"
+    },
+    "7042": {
+      "team": "BUF",
+      "opponent": "NYJ",
+      "date": "2026-11-15"
+    },
+    "7523": {
+      "team": "JAX",
+      "opponent": "TEN",
+      "date": "2026-11-15"
+    },
+    "7547": {
+      "team": "DET",
+      "opponent": "NE",
+      "date": "2026-11-15"
+    },
+    "7611": {
+      "team": "NE",
+      "opponent": "DET",
+      "date": "2026-11-15"
+    },
+    "8126": {
+      "team": "TEN",
+      "opponent": "JAX",
+      "date": "2026-11-15"
+    },
+    "8134": {
+      "team": "BUF",
+      "opponent": "NYJ",
+      "date": "2026-11-15"
+    },
+    "8138": {
+      "team": "BUF",
+      "opponent": "NYJ",
+      "date": "2026-11-15"
+    },
+    "11792": {
+      "team": "MIN",
+      "opponent": "GB",
+      "date": "2026-11-15"
+    },
+    "13276": {
+      "team": "NYJ",
+      "opponent": "BUF",
+      "date": "2026-11-15"
+    },
+    "3163": {
+      "team": "DET",
+      "opponent": "NE",
+      "date": "2026-11-15"
+    },
+    "3451": {
+      "team": "HOU",
+      "opponent": "CLE",
+      "date": "2026-11-15"
+    },
+    "6794": {
+      "team": "MIN",
+      "opponent": "GB",
+      "date": "2026-11-15"
+    },
+    "6813": {
+      "team": "IND",
+      "opponent": "MIA",
+      "date": "2026-11-15"
+    },
+    "9221": {
+      "team": "DET",
+      "opponent": "NE",
+      "date": "2026-11-15"
+    },
+    "IND": {
+      "team": "IND",
+      "opponent": "MIA",
+      "date": "2026-11-15"
+    },
+    "10859": {
+      "team": "DET",
+      "opponent": "NE",
+      "date": "2026-11-15"
+    },
+    "11564": {
+      "team": "NE",
+      "opponent": "DET",
+      "date": "2026-11-15"
+    },
+    "11646": {
+      "team": "CAR",
+      "opponent": "NO",
+      "date": "2026-11-15"
+    },
+    "12474": {
+      "team": "HOU",
+      "opponent": "CLE",
+      "date": "2026-11-15"
+    },
+    "12490": {
+      "team": "JAX",
+      "opponent": "TEN",
+      "date": "2026-11-15"
+    },
+    "12518": {
+      "team": "IND",
+      "opponent": "MIA",
+      "date": "2026-11-15"
+    },
+    "JAX": {
+      "team": "JAX",
+      "opponent": "TEN",
+      "date": "2026-11-15"
+    },
+    "KC": {
+      "team": "KC",
+      "opponent": "ATL",
+      "date": "2026-11-15"
+    },
+    "MIN": {
+      "team": "MIN",
+      "opponent": "GB",
+      "date": "2026-11-15"
+    },
+    "10236": {
+      "team": "BUF",
+      "opponent": "NYJ",
+      "date": "2026-11-15"
+    },
+    "11581": {
+      "team": "GB",
+      "opponent": "MIN",
+      "date": "2026-11-15"
+    },
+    "11834": {
+      "team": "NO",
+      "opponent": "CAR",
+      "date": "2026-11-15"
+    },
+    "12501": {
+      "team": "GB",
+      "opponent": "MIN",
+      "date": "2026-11-15"
+    },
+    "12506": {
+      "team": "CLE",
+      "opponent": "HOU",
+      "date": "2026-11-15"
+    },
+    "13346": {
+      "team": "CLE",
+      "opponent": "HOU",
+      "date": "2026-11-15"
+    },
+    "1466": {
+      "team": "KC",
+      "opponent": "ATL",
+      "date": "2026-11-15"
+    },
+    "4046": {
+      "team": "KC",
+      "opponent": "ATL",
+      "date": "2026-11-15"
+    },
+    "4984": {
+      "team": "BUF",
+      "opponent": "NYJ",
+      "date": "2026-11-15"
+    },
+    "5967": {
+      "team": "TEN",
+      "opponent": "JAX",
+      "date": "2026-11-15"
+    },
+    "7002": {
+      "team": "NO",
+      "opponent": "CAR",
+      "date": "2026-11-15"
+    },
+    "8155": {
+      "team": "NYJ",
+      "opponent": "BUF",
+      "date": "2026-11-15"
+    },
+    "9484": {
+      "team": "GB",
+      "opponent": "MIN",
+      "date": "2026-11-15"
+    },
+    "BUF": {
+      "team": "BUF",
+      "opponent": "NYJ",
+      "date": "2026-11-15"
+    },
+    "GB": {
+      "team": "GB",
+      "opponent": "MIN",
+      "date": "2026-11-15"
+    },
+    "1166": {
+      "team": "MIN",
+      "opponent": "GB",
+      "date": "2026-11-15"
+    },
+    "12512": {
+      "team": "CLE",
+      "opponent": "HOU",
+      "date": "2026-11-15"
+    },
+    "13337": {
+      "team": "KC",
+      "opponent": "ATL",
+      "date": "2026-11-15"
+    },
+    "4227": {
+      "team": "KC",
+      "opponent": "ATL",
+      "date": "2026-11-15"
+    },
+    "5859": {
+      "team": "NE",
+      "opponent": "DET",
+      "date": "2026-11-15"
+    },
+    "7594": {
+      "team": "CAR",
+      "opponent": "NO",
+      "date": "2026-11-15"
+    },
+    "8148": {
+      "team": "DET",
+      "opponent": "NE",
+      "date": "2026-11-15"
+    },
+    "8408": {
+      "team": "MIN",
+      "opponent": "GB",
+      "date": "2026-11-15"
+    },
+    "9228": {
+      "team": "CAR",
+      "opponent": "NO",
+      "date": "2026-11-15"
+    },
+    "9487": {
+      "team": "JAX",
+      "opponent": "TEN",
+      "date": "2026-11-15"
+    },
+    "HOU": {
+      "team": "HOU",
+      "opponent": "CLE",
+      "date": "2026-11-15"
+    },
+    "12491": {
+      "team": "NE",
+      "opponent": "DET",
+      "date": "2026-11-15"
+    },
+    "12545": {
+      "team": "NO",
+      "opponent": "CAR",
+      "date": "2026-11-15"
+    },
+    "4983": {
+      "team": "BUF",
+      "opponent": "NYJ",
+      "date": "2026-11-15"
+    },
+    "7543": {
+      "team": "NO",
+      "opponent": "CAR",
+      "date": "2026-11-15"
+    },
+    "7569": {
+      "team": "HOU",
+      "opponent": "CLE",
+      "date": "2026-11-15"
+    },
+    "8112": {
+      "team": "ATL",
+      "opponent": "KC",
+      "date": "2026-11-15"
+    },
+    "8144": {
+      "team": "NO",
+      "opponent": "CAR",
+      "date": "2026-11-15"
+    },
+    "8167": {
+      "team": "GB",
+      "opponent": "MIN",
+      "date": "2026-11-15"
+    },
+    "9502": {
+      "team": "HOU",
+      "opponent": "CLE",
+      "date": "2026-11-15"
+    },
+    "9509": {
+      "team": "ATL",
+      "opponent": "KC",
+      "date": "2026-11-15"
+    },
+    "9758": {
+      "team": "HOU",
+      "opponent": "CLE",
+      "date": "2026-11-15"
+    },
+    "NO": {
+      "team": "NO",
+      "opponent": "CAR",
+      "date": "2026-11-15"
     }
   }
 }
