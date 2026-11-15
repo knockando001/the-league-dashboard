@@ -1,19 +1,9 @@
 {
-  "generatedAt": "2026-11-14T22:05:18.942171+00:00",
+  "generatedAt": "2026-11-15T05:28:25.528850+00:00",
   "season": 2026,
   "week": 10,
   "complete": false,
   "games": [
-    {
-      "espnId": "401873052",
-      "name": "WSH @ NYG",
-      "kickoff": "2026-11-13T01:15Z",
-      "home": "NYG",
-      "away": "WAS",
-      "homeScore": 21,
-      "awayScore": 24,
-      "final": true
-    },
     {
       "espnId": "401873053",
       "name": "NE VS DET",
@@ -133,6 +123,16 @@
       "homeScore": 0,
       "awayScore": 0,
       "final": false
+    },
+    {
+      "espnId": "401873052",
+      "name": "WSH @ NYG",
+      "kickoff": "2026-11-13T01:15Z",
+      "home": "NYG",
+      "away": "WAS",
+      "homeScore": 21,
+      "awayScore": 24,
+      "final": true
     },
     {
       "espnId": "401873065",

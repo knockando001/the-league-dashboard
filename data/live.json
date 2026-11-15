@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T22:05:18.566145+00:00",
+  "generatedAt": "2026-11-15T05:28:25.254451+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -227,19 +227,23 @@
     "season_type": "regular",
     "shard": 125,
     "sport": "nfl",
-    "last_message_id": "1426969250156785664",
+    "last_message_id": "1427493906894819328",
+    "draft_id": "1397593466170523648",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1794578490346,
+    "last_message_time": 1794703578259,
     "last_pinned_message_id": "1398407155169656845",
-    "draft_id": "1397593466170523648",
     "last_read_id": null,
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
     "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -258,10 +262,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 8
   },
   "nflState": {
@@ -615,7 +615,6 @@
       "waiverPosition": 4,
       "players": [
         "11566",
-        "11576",
         "11646",
         "12495",
         "1466",
@@ -637,7 +636,7 @@
         "7594",
         "8228",
         "7564",
-        "4983",
+        "8137",
         "8131",
         "12495",
         "7839",
@@ -8524,7 +8523,7 @@
             "points": 0.0
           },
           {
-            "playerId": "4983",
+            "playerId": "8137",
             "points": 0.0
           },
           {
@@ -8546,10 +8545,6 @@
         ],
         "bench": [
           {
-            "playerId": "11576",
-            "points": 0.0
-          },
-          {
             "playerId": "11646",
             "points": 0.0
           },
@@ -8562,15 +8557,15 @@
             "points": 0.0
           },
           {
+            "playerId": "4983",
+            "points": 0.0
+          },
+          {
             "playerId": "5859",
             "points": 0.0
           },
           {
             "playerId": "7543",
-            "points": 0.0
-          },
-          {
-            "playerId": "8137",
             "points": 0.0
           },
           {
@@ -8580,7 +8575,6 @@
         ],
         "playersPoints": {
           "11566": 18.76,
-          "11576": 0.0,
           "11646": 0.0,
           "12495": 0.0,
           "1466": 0.0,
@@ -13722,6 +13716,30 @@
         "status": "complete",
         "type": "free_agent",
         "metadata": null,
+        "created": 1794703578241,
+        "settings": null,
+        "leg": 10,
+        "draft_picks": [],
+        "creator": "1398370307936354304",
+        "transaction_id": "1427493906819325952",
+        "adds": null,
+        "consenter_ids": [
+          7
+        ],
+        "drops": {
+          "11576": 7
+        },
+        "roster_ids": [
+          7
+        ],
+        "status_updated": 1794703578241,
+        "waiver_budget": []
+      },
+      {
+        "week": 10,
+        "status": "complete",
+        "type": "free_agent",
+        "metadata": null,
         "created": 1794578490316,
         "settings": null,
         "leg": 10,
@@ -13731,12 +13749,12 @@
         "adds": {
           "8134": 8
         },
-        "drops": {
-          "11620": 8
-        },
         "consenter_ids": [
           8
         ],
+        "drops": {
+          "11620": 8
+        },
         "roster_ids": [
           8
         ],
@@ -13757,12 +13775,12 @@
         "adds": {
           "NO": 8
         },
-        "drops": {
-          "12534": 8
-        },
         "consenter_ids": [
           8
         ],
+        "drops": {
+          "12534": 8
+        },
         "roster_ids": [
           8
         ],
@@ -13783,12 +13801,12 @@
         "adds": {
           "6804": 3
         },
-        "drops": {
-          "8408": 3
-        },
         "consenter_ids": [
           3
         ],
+        "drops": {
+          "8408": 3
+        },
         "roster_ids": [
           3
         ],
@@ -13809,12 +13827,12 @@
         "adds": {
           "BUF": 3
         },
-        "drops": {
-          "CIN": 3
-        },
         "consenter_ids": [
           3
         ],
+        "drops": {
+          "CIN": 3
+        },
         "roster_ids": [
           3
         ],
@@ -13835,12 +13853,12 @@
         "adds": {
           "IND": 3
         },
-        "drops": {
-          "NO": 3
-        },
         "consenter_ids": [
           3
         ],
+        "drops": {
+          "NO": 3
+        },
         "roster_ids": [
           3
         ],

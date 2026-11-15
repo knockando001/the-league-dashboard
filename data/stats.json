@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14T22:05:19.045582+00:00",
+ "generatedAt": "2026-11-15T05:28:25.646884+00:00",
  "season": 2026,
  "leagueName": "The League",
  "currentWeek": 10,
@@ -8556,6 +8556,27 @@
  "transactions": {
   "feed": [
    {
+    "transactionId": "1427493906819325952",
+    "week": 10,
+    "type": "free_agent",
+    "status": "complete",
+    "time": 1794703578241,
+    "rosterIds": [
+     7
+    ],
+    "adds": [],
+    "drops": [
+     {
+      "playerId": "11576",
+      "name": "Braelon Allen",
+      "position": "RB",
+      "rosterId": 7
+     }
+    ],
+    "waiverBid": null,
+    "draftPicks": []
+   },
+   {
     "transactionId": "1426969250035142656",
     "week": 10,
     "type": "free_agent",
@@ -14035,7 +14056,7 @@
    "7": {
     "waiverClaims": 19,
     "waiverWins": 15,
-    "freeAgents": 4,
+    "freeAgents": 5,
     "trades": 0,
     "pickupPoints": 352.6
    },
