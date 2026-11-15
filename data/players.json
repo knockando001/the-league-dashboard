@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T22:05:16.988748+00:00",
+  "generatedAt": "2026-11-15T21:55:50.346714+00:00",
   "players": {
     "6462": {
       "name": "Ellis Richardson",
@@ -9262,7 +9262,7 @@
       "fantasyPositions": [
         "RB"
       ],
-      "team": "TEN",
+      "team": null,
       "active": true
     },
     "8167": {
@@ -22981,7 +22981,7 @@
       "fantasyPositions": [
         "WR"
       ],
-      "team": "GB",
+      "team": null,
       "active": true
     },
     "13677": {
@@ -37276,7 +37276,7 @@
       "fantasyPositions": [
         "WR"
       ],
-      "team": "HOU",
+      "team": null,
       "active": true
     },
     "691": {
@@ -38096,6 +38096,15 @@
         "WR"
       ],
       "team": null,
+      "active": true
+    },
+    "13200": {
+      "name": "Max Hurleman",
+      "position": "WR",
+      "fantasyPositions": [
+        "WR"
+      ],
+      "team": "PIT",
       "active": true
     },
     "7716": {
