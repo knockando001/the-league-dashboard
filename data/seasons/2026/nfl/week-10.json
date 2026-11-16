@@ -1,37 +1,17 @@
 {
-  "generatedAt": "2026-11-15T23:50:13.703023+00:00",
+  "generatedAt": "2026-11-16T02:17:05.647779+00:00",
   "season": 2026,
   "week": 10,
   "complete": false,
   "games": [
     {
-      "espnId": "401873062",
-      "name": "SEA @ LV",
-      "kickoff": "2026-11-15T21:05Z",
-      "home": "LV",
-      "away": "SEA",
-      "homeScore": 13,
-      "awayScore": 21,
-      "final": false
-    },
-    {
-      "espnId": "401873061",
-      "name": "LAR @ ARI",
-      "kickoff": "2026-11-15T21:05Z",
-      "home": "ARI",
-      "away": "LAR",
-      "homeScore": 6,
-      "awayScore": 34,
-      "final": false
-    },
-    {
-      "espnId": "401873063",
-      "name": "SF @ DAL",
-      "kickoff": "2026-11-15T21:25Z",
-      "home": "DAL",
-      "away": "SF",
-      "homeScore": 19,
-      "awayScore": 31,
+      "espnId": "401873064",
+      "name": "PIT @ CIN",
+      "kickoff": "2026-11-16T01:20Z",
+      "home": "CIN",
+      "away": "PIT",
+      "homeScore": 10,
+      "awayScore": 0,
       "final": false
     },
     {
@@ -115,14 +95,34 @@
       "final": true
     },
     {
-      "espnId": "401873064",
-      "name": "PIT @ CIN",
-      "kickoff": "2026-11-16T01:20Z",
-      "home": "CIN",
-      "away": "PIT",
-      "homeScore": 0,
-      "awayScore": 0,
-      "final": false
+      "espnId": "401873062",
+      "name": "SEA @ LV",
+      "kickoff": "2026-11-15T21:05Z",
+      "home": "LV",
+      "away": "SEA",
+      "homeScore": 13,
+      "awayScore": 21,
+      "final": true
+    },
+    {
+      "espnId": "401873061",
+      "name": "LAR @ ARI",
+      "kickoff": "2026-11-15T21:05Z",
+      "home": "ARI",
+      "away": "LAR",
+      "homeScore": 6,
+      "awayScore": 34,
+      "final": true
+    },
+    {
+      "espnId": "401873063",
+      "name": "SF @ DAL",
+      "kickoff": "2026-11-15T21:25Z",
+      "home": "DAL",
+      "away": "SF",
+      "homeScore": 40,
+      "awayScore": 46,
+      "final": true
     },
     {
       "espnId": "401873052",
@@ -301,6 +301,11 @@
       "opponent": "ARI",
       "date": "2026-11-15"
     },
+    "5846": {
+      "team": "PIT",
+      "opponent": "CIN",
+      "date": "2026-11-15"
+    },
     "6794": {
       "team": "MIN",
       "opponent": "GB",
@@ -319,6 +324,11 @@
     "9221": {
       "team": "DET",
       "opponent": "NE",
+      "date": "2026-11-15"
+    },
+    "9224": {
+      "team": "CIN",
+      "opponent": "PIT",
       "date": "2026-11-15"
     },
     "IND": {
@@ -356,6 +366,16 @@
       "opponent": "MIA",
       "date": "2026-11-15"
     },
+    "6770": {
+      "team": "CIN",
+      "opponent": "PIT",
+      "date": "2026-11-15"
+    },
+    "6801": {
+      "team": "CIN",
+      "opponent": "PIT",
+      "date": "2026-11-15"
+    },
     "8137": {
       "team": "DAL",
       "opponent": "SF",
@@ -374,6 +394,11 @@
     "MIN": {
       "team": "MIN",
       "opponent": "GB",
+      "date": "2026-11-15"
+    },
+    "PIT": {
+      "team": "PIT",
+      "opponent": "CIN",
       "date": "2026-11-15"
     },
     "SEA": {
@@ -456,6 +481,11 @@
       "opponent": "CAR",
       "date": "2026-11-15"
     },
+    "7564": {
+      "team": "CIN",
+      "opponent": "PIT",
+      "date": "2026-11-15"
+    },
     "8130": {
       "team": "ARI",
       "opponent": "LAR",
@@ -469,6 +499,11 @@
     "8155": {
       "team": "NYJ",
       "opponent": "BUF",
+      "date": "2026-11-15"
+    },
+    "8228": {
+      "team": "PIT",
+      "opponent": "CIN",
       "date": "2026-11-15"
     },
     "9484": {
@@ -541,6 +576,16 @@
       "opponent": "NO",
       "date": "2026-11-15"
     },
+    "7600": {
+      "team": "PIT",
+      "opponent": "CIN",
+      "date": "2026-11-15"
+    },
+    "7839": {
+      "team": "CIN",
+      "opponent": "PIT",
+      "date": "2026-11-15"
+    },
     "8148": {
       "team": "DET",
       "opponent": "NE",
@@ -604,6 +649,11 @@
     "4983": {
       "team": "BUF",
       "opponent": "NYJ",
+      "date": "2026-11-15"
+    },
+    "7021": {
+      "team": "PIT",
+      "opponent": "CIN",
       "date": "2026-11-15"
     },
     "7543": {
