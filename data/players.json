@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T21:55:50.346714+00:00",
+  "generatedAt": "2026-11-17T00:02:23.324097+00:00",
   "players": {
     "6462": {
       "name": "Ellis Richardson",
@@ -2834,7 +2834,7 @@
       "fantasyPositions": [
         "WR"
       ],
-      "team": null,
+      "team": "TEN",
       "active": true
     },
     "194": {
@@ -5840,7 +5840,7 @@
       "fantasyPositions": [
         "QB"
       ],
-      "team": null,
+      "team": "TB",
       "active": true
     },
     "626": {
@@ -15216,7 +15216,7 @@
       "active": true
     },
     "13356": {
-      "name": "Trebor Pena",
+      "name": "Trebor Peña",
       "position": "WR",
       "fantasyPositions": [
         "WR"
@@ -19451,7 +19451,7 @@
       "fantasyPositions": [
         "QB"
       ],
-      "team": null,
+      "team": "LV",
       "active": true
     },
     "5357": {
@@ -26455,7 +26455,7 @@
       "fantasyPositions": [
         "WR"
       ],
-      "team": "PHI",
+      "team": "NYG",
       "active": true
     },
     "4596": {
@@ -26842,7 +26842,7 @@
       "fantasyPositions": [
         "WR"
       ],
-      "team": null,
+      "team": "TB",
       "active": true
     },
     "6931": {
@@ -31434,7 +31434,7 @@
       "fantasyPositions": [
         "WR"
       ],
-      "team": null,
+      "team": "IND",
       "active": true
     },
     "13122": {
@@ -32019,7 +32019,7 @@
       "fantasyPositions": [
         "TE"
       ],
-      "team": null,
+      "team": "IND",
       "active": true
     },
     "5096": {
