@@ -1,0 +1,1318 @@
+{
+  "generatedAt": "2026-11-17T08:20:52.735070+00:00",
+  "leagueId": "1397593463293239296",
+  "leagueName": "The League",
+  "leagueStatus": "in_season",
+  "season": 2026,
+  "week": 10,
+  "currentWeekAtFetch": 11,
+  "lastScoredWeekAtFetch": 10,
+  "nflState": {
+    "week": 11,
+    "leg": 11,
+    "season": "2026",
+    "season_type": "regular",
+    "league_season": "2026",
+    "previous_season": "2025",
+    "season_start_date": "2026-09-09",
+    "display_week": 10,
+    "league_create_season": "2026",
+    "season_has_scores": true
+  },
+  "teams": {
+    "1": {
+      "rosterId": 1,
+      "ownerId": "1397299609897836544",
+      "ownerName": "milijon",
+      "teamName": "Zamek Pancerne Dziki",
+      "players": [
+        "10859",
+        "11560",
+        "11586",
+        "11786",
+        "12512",
+        "12526",
+        "12527",
+        "12545",
+        "13337",
+        "4217",
+        "4881",
+        "7569",
+        "8151",
+        "8167",
+        "9221",
+        "HOU",
+        "SF"
+      ],
+      "starters": [
+        "12545",
+        "13337",
+        "9221",
+        "12526",
+        "8167",
+        "4217",
+        "11586",
+        "11786",
+        "HOU"
+      ]
+    },
+    "2": {
+      "rosterId": 2,
+      "ownerId": "1397712793855139840",
+      "ownerName": "Saszewski",
+      "teamName": "Vegablanca Boars",
+      "players": [
+        "10213",
+        "11579",
+        "12491",
+        "12501",
+        "12533",
+        "13345",
+        "3163",
+        "3198",
+        "3451",
+        "6770",
+        "7611",
+        "8112",
+        "8130",
+        "8132",
+        "9502",
+        "PIT",
+        "SEA"
+      ],
+      "starters": [
+        "6770",
+        "3198",
+        "7611",
+        "8112",
+        "12501",
+        "8130",
+        "9502",
+        "3451",
+        "SEA"
+      ]
+    },
+    "3": {
+      "rosterId": 3,
+      "ownerId": "1395937838859579392",
+      "ownerName": "knockando",
+      "teamName": "Flota Oksywie",
+      "players": [
+        "10229",
+        "11584",
+        "11604",
+        "12490",
+        "421",
+        "5850",
+        "5872",
+        "6801",
+        "6804",
+        "7042",
+        "7588",
+        "8138",
+        "9228",
+        "9493",
+        "9753",
+        "BUF",
+        "IND"
+      ],
+      "starters": [
+        "9228",
+        "8138",
+        "7588",
+        "10229",
+        "6801",
+        "11604",
+        "12490",
+        "7042",
+        "IND"
+      ]
+    },
+    "4": {
+      "rosterId": 4,
+      "ownerId": "1398407279245524992",
+      "ownerName": "kiler7775",
+      "teamName": "Gdynia Moustache Admirers",
+      "players": [
+        "11564",
+        "12518",
+        "12519",
+        "13287",
+        "2133",
+        "2449",
+        "2747",
+        "4034",
+        "5022",
+        "7021",
+        "8148",
+        "8150",
+        "8183",
+        "9488",
+        "9997",
+        "DEN",
+        "KC"
+      ],
+      "starters": [
+        "8183",
+        "4034",
+        "8150",
+        "9488",
+        "8148",
+        "12518",
+        "9997",
+        "2747",
+        "KC"
+      ]
+    },
+    "5": {
+      "rosterId": 5,
+      "ownerId": "1399810563806142464",
+      "ownerName": "DonTeamKielce",
+      "teamName": "DonTeam Kielce",
+      "players": [
+        "11533",
+        "11834",
+        "12481",
+        "12506",
+        "12507",
+        "13276",
+        "13346",
+        "4227",
+        "4984",
+        "5012",
+        "5846",
+        "8136",
+        "8144",
+        "9487",
+        "LAR",
+        "MIN"
+      ],
+      "starters": [
+        "4984",
+        "12481",
+        "8136",
+        "9487",
+        "5846",
+        "12506",
+        "8144",
+        "11533",
+        "LAR"
+      ]
+    },
+    "6": {
+      "rosterId": 6,
+      "ownerId": "1399409218053783552",
+      "ownerName": "AgroplonGluszyna",
+      "teamName": "Agroplon Gluszyna",
+      "players": [
+        "10236",
+        "11632",
+        "1166",
+        "11792",
+        "12517",
+        "2216",
+        "4866",
+        "5967",
+        "6786",
+        "6790",
+        "6794",
+        "6813",
+        "7523",
+        "8408",
+        "9484",
+        "GB",
+        "JAX"
+      ],
+      "starters": [
+        "7523",
+        "6813",
+        "5967",
+        "11632",
+        "6786",
+        "10236",
+        "6794",
+        "11792",
+        "JAX"
+      ]
+    },
+    "7": {
+      "rosterId": 7,
+      "ownerId": "1398370307936354304",
+      "ownerName": "PotegaWesiory",
+      "teamName": "Potega Wesiory",
+      "players": [
+        "11566",
+        "11646",
+        "12495",
+        "1466",
+        "3294",
+        "4983",
+        "5859",
+        "7543",
+        "7564",
+        "7594",
+        "7839",
+        "8131",
+        "8137",
+        "8228",
+        "9224",
+        "BAL"
+      ],
+      "starters": [
+        "11566",
+        "7594",
+        "8228",
+        "7564",
+        "8137",
+        "8131",
+        "12495",
+        "7839",
+        "BAL"
+      ]
+    },
+    "8": {
+      "rosterId": 8,
+      "ownerId": "1398643051898880000",
+      "ownerName": "Janaka7",
+      "teamName": "Kiki Owls",
+      "players": [
+        "10232",
+        "11581",
+        "12474",
+        "13279",
+        "4046",
+        "6083",
+        "7002",
+        "7547",
+        "7600",
+        "8126",
+        "8134",
+        "8155",
+        "9509",
+        "9758",
+        "CHI",
+        "NO"
+      ],
+      "starters": [
+        "9758",
+        "9509",
+        "11581",
+        "8126",
+        "8134",
+        "7002",
+        "8155",
+        "6083",
+        "NO"
+      ]
+    }
+  },
+  "matchups": [
+    {
+      "season": 2026,
+      "week": 10,
+      "matchupId": 3,
+      "rosterId": 1,
+      "ownerId": "1397299609897836544",
+      "ownerName": "milijon",
+      "teamName": "Zamek Pancerne Dziki",
+      "points": 132.9,
+      "customPoints": null,
+      "starters": [
+        {
+          "playerId": "12545",
+          "points": 7.98
+        },
+        {
+          "playerId": "13337",
+          "points": 28.1
+        },
+        {
+          "playerId": "9221",
+          "points": 37.2
+        },
+        {
+          "playerId": "12526",
+          "points": 3.5
+        },
+        {
+          "playerId": "8167",
+          "points": 3.7
+        },
+        {
+          "playerId": "4217",
+          "points": 7.4
+        },
+        {
+          "playerId": "11586",
+          "points": 17.9
+        },
+        {
+          "playerId": "11786",
+          "points": 19.0
+        },
+        {
+          "playerId": "HOU",
+          "points": 8.12
+        }
+      ],
+      "bench": [
+        {
+          "playerId": "10859",
+          "points": 1.6
+        },
+        {
+          "playerId": "11560",
+          "points": 0.0
+        },
+        {
+          "playerId": "12512",
+          "points": 13.1
+        },
+        {
+          "playerId": "12527",
+          "points": 6.4
+        },
+        {
+          "playerId": "4881",
+          "points": 0.0
+        },
+        {
+          "playerId": "7569",
+          "points": 15.4
+        },
+        {
+          "playerId": "8151",
+          "points": 0.0
+        },
+        {
+          "playerId": "SF",
+          "points": 4.0
+        }
+      ],
+      "playersPoints": {
+        "10859": 1.6,
+        "11560": 0.0,
+        "11586": 17.9,
+        "11786": 19.0,
+        "12512": 13.1,
+        "12526": 3.5,
+        "12527": 6.4,
+        "12545": 7.98,
+        "13337": 28.1,
+        "4217": 7.4,
+        "4881": 0.0,
+        "7569": 15.4,
+        "8151": 0.0,
+        "8167": 3.7,
+        "9221": 37.2,
+        "HOU": 8.12,
+        "SF": 4.0
+      }
+    },
+    {
+      "season": 2026,
+      "week": 10,
+      "matchupId": 1,
+      "rosterId": 2,
+      "ownerId": "1397712793855139840",
+      "ownerName": "Saszewski",
+      "teamName": "Vegablanca Boars",
+      "points": 90.36,
+      "customPoints": null,
+      "starters": [
+        {
+          "playerId": "6770",
+          "points": 33.16
+        },
+        {
+          "playerId": "3198",
+          "points": 14.0
+        },
+        {
+          "playerId": "7611",
+          "points": 0.5
+        },
+        {
+          "playerId": "8112",
+          "points": 10.9
+        },
+        {
+          "playerId": "12501",
+          "points": 7.0
+        },
+        {
+          "playerId": "8130",
+          "points": 3.7
+        },
+        {
+          "playerId": "9502",
+          "points": 2.1
+        },
+        {
+          "playerId": "3451",
+          "points": 7.0
+        },
+        {
+          "playerId": "SEA",
+          "points": 12.0
+        }
+      ],
+      "bench": [
+        {
+          "playerId": "10213",
+          "points": 0.9
+        },
+        {
+          "playerId": "11579",
+          "points": 1.1
+        },
+        {
+          "playerId": "12491",
+          "points": 2.5
+        },
+        {
+          "playerId": "12533",
+          "points": 0.0
+        },
+        {
+          "playerId": "13345",
+          "points": 0.0
+        },
+        {
+          "playerId": "3163",
+          "points": 18.42
+        },
+        {
+          "playerId": "8132",
+          "points": 1.4
+        },
+        {
+          "playerId": "PIT",
+          "points": -4.0
+        }
+      ],
+      "playersPoints": {
+        "10213": 0.9,
+        "11579": 1.1,
+        "12491": 2.5,
+        "12501": 7.0,
+        "12533": 0.0,
+        "13345": 0.0,
+        "3163": 18.42,
+        "3198": 14.0,
+        "3451": 7.0,
+        "6770": 33.16,
+        "7611": 0.5,
+        "8112": 10.9,
+        "8130": 3.7,
+        "8132": 1.4,
+        "9502": 2.1,
+        "PIT": -4.0,
+        "SEA": 12.0
+      }
+    },
+    {
+      "season": 2026,
+      "week": 10,
+      "matchupId": 2,
+      "rosterId": 3,
+      "ownerId": "1395937838859579392",
+      "ownerName": "knockando",
+      "teamName": "Flota Oksywie",
+      "points": 90.4,
+      "customPoints": null,
+      "starters": [
+        {
+          "playerId": "9228",
+          "points": 8.1
+        },
+        {
+          "playerId": "8138",
+          "points": 21.7
+        },
+        {
+          "playerId": "7588",
+          "points": 5.7
+        },
+        {
+          "playerId": "10229",
+          "points": 8.2
+        },
+        {
+          "playerId": "6801",
+          "points": 6.6
+        },
+        {
+          "playerId": "11604",
+          "points": 1.8
+        },
+        {
+          "playerId": "12490",
+          "points": 17.3
+        },
+        {
+          "playerId": "7042",
+          "points": 7.0
+        },
+        {
+          "playerId": "IND",
+          "points": 14.0
+        }
+      ],
+      "bench": [
+        {
+          "playerId": "11584",
+          "points": 0.0
+        },
+        {
+          "playerId": "421",
+          "points": 18.76
+        },
+        {
+          "playerId": "5850",
+          "points": 0.0
+        },
+        {
+          "playerId": "5872",
+          "points": 22.9
+        },
+        {
+          "playerId": "6804",
+          "points": 9.8
+        },
+        {
+          "playerId": "9493",
+          "points": 0.0
+        },
+        {
+          "playerId": "9753",
+          "points": 9.4
+        },
+        {
+          "playerId": "BUF",
+          "points": 14.68
+        }
+      ],
+      "playersPoints": {
+        "10229": 8.2,
+        "11584": 0.0,
+        "11604": 1.8,
+        "12490": 17.3,
+        "421": 18.76,
+        "5850": 0.0,
+        "5872": 22.9,
+        "6801": 6.6,
+        "6804": 9.8,
+        "7042": 7.0,
+        "7588": 5.7,
+        "8138": 21.7,
+        "9228": 8.1,
+        "9493": 0.0,
+        "9753": 9.4,
+        "BUF": 14.68,
+        "IND": 14.0
+      }
+    },
+    {
+      "season": 2026,
+      "week": 10,
+      "matchupId": 2,
+      "rosterId": 4,
+      "ownerId": "1398407279245524992",
+      "ownerName": "kiler7775",
+      "teamName": "Gdynia Moustache Admirers",
+      "points": 126.86,
+      "customPoints": null,
+      "starters": [
+        {
+          "playerId": "8183",
+          "points": 31.66
+        },
+        {
+          "playerId": "4034",
+          "points": 42.3
+        },
+        {
+          "playerId": "8150",
+          "points": 3.2
+        },
+        {
+          "playerId": "9488",
+          "points": 23.1
+        },
+        {
+          "playerId": "8148",
+          "points": 5.0
+        },
+        {
+          "playerId": "12518",
+          "points": 0.4
+        },
+        {
+          "playerId": "9997",
+          "points": 4.4
+        },
+        {
+          "playerId": "2747",
+          "points": 3.0
+        },
+        {
+          "playerId": "KC",
+          "points": 13.8
+        }
+      ],
+      "bench": [
+        {
+          "playerId": "11564",
+          "points": 3.02
+        },
+        {
+          "playerId": "12519",
+          "points": 0.0
+        },
+        {
+          "playerId": "13287",
+          "points": 0.0
+        },
+        {
+          "playerId": "2133",
+          "points": 0.0
+        },
+        {
+          "playerId": "2449",
+          "points": 14.3
+        },
+        {
+          "playerId": "5022",
+          "points": 0.0
+        },
+        {
+          "playerId": "7021",
+          "points": 3.4
+        },
+        {
+          "playerId": "DEN",
+          "points": 0.0
+        }
+      ],
+      "playersPoints": {
+        "11564": 3.02,
+        "12518": 0.4,
+        "12519": 0.0,
+        "13287": 0.0,
+        "2133": 0.0,
+        "2449": 14.3,
+        "2747": 3.0,
+        "4034": 42.3,
+        "5022": 0.0,
+        "7021": 3.4,
+        "8148": 5.0,
+        "8150": 3.2,
+        "8183": 31.66,
+        "9488": 23.1,
+        "9997": 4.4,
+        "DEN": 0.0,
+        "KC": 13.8
+      }
+    },
+    {
+      "season": 2026,
+      "week": 10,
+      "matchupId": 4,
+      "rosterId": 5,
+      "ownerId": "1399810563806142464",
+      "ownerName": "DonTeamKielce",
+      "teamName": "DonTeam Kielce",
+      "points": 131.2,
+      "customPoints": null,
+      "starters": [
+        {
+          "playerId": "4984",
+          "points": 21.34
+        },
+        {
+          "playerId": "12481",
+          "points": 24.2
+        },
+        {
+          "playerId": "8136",
+          "points": 5.2
+        },
+        {
+          "playerId": "9487",
+          "points": 21.2
+        },
+        {
+          "playerId": "5846",
+          "points": 13.4
+        },
+        {
+          "playerId": "12506",
+          "points": 9.1
+        },
+        {
+          "playerId": "8144",
+          "points": 3.0
+        },
+        {
+          "playerId": "11533",
+          "points": 11.0
+        },
+        {
+          "playerId": "LAR",
+          "points": 22.76
+        }
+      ],
+      "bench": [
+        {
+          "playerId": "11834",
+          "points": 1.4
+        },
+        {
+          "playerId": "12507",
+          "points": 15.5
+        },
+        {
+          "playerId": "13276",
+          "points": 0.0
+        },
+        {
+          "playerId": "13346",
+          "points": 1.6
+        },
+        {
+          "playerId": "4227",
+          "points": 5.0
+        },
+        {
+          "playerId": "5012",
+          "points": 8.2
+        },
+        {
+          "playerId": "MIN",
+          "points": 24.0
+        }
+      ],
+      "playersPoints": {
+        "11533": 11.0,
+        "11834": 1.4,
+        "12481": 24.2,
+        "12506": 9.1,
+        "12507": 15.5,
+        "13276": 0.0,
+        "13346": 1.6,
+        "4227": 5.0,
+        "4984": 21.34,
+        "5012": 8.2,
+        "5846": 13.4,
+        "8136": 5.2,
+        "8144": 3.0,
+        "9487": 21.2,
+        "LAR": 22.76,
+        "MIN": 24.0
+      }
+    },
+    {
+      "season": 2026,
+      "week": 10,
+      "matchupId": 1,
+      "rosterId": 6,
+      "ownerId": "1399409218053783552",
+      "ownerName": "AgroplonGluszyna",
+      "teamName": "Agroplon Gluszyna",
+      "points": 94.78,
+      "customPoints": null,
+      "starters": [
+        {
+          "playerId": "7523",
+          "points": 25.78
+        },
+        {
+          "playerId": "6813",
+          "points": 9.3
+        },
+        {
+          "playerId": "5967",
+          "points": 15.9
+        },
+        {
+          "playerId": "11632",
+          "points": 1.4
+        },
+        {
+          "playerId": "6786",
+          "points": 13.2
+        },
+        {
+          "playerId": "10236",
+          "points": 5.8
+        },
+        {
+          "playerId": "6794",
+          "points": 7.4
+        },
+        {
+          "playerId": "11792",
+          "points": 12.0
+        },
+        {
+          "playerId": "JAX",
+          "points": 4.0
+        }
+      ],
+      "bench": [
+        {
+          "playerId": "1166",
+          "points": 14.38
+        },
+        {
+          "playerId": "12517",
+          "points": 0.0
+        },
+        {
+          "playerId": "2216",
+          "points": 0.0
+        },
+        {
+          "playerId": "4866",
+          "points": 0.0
+        },
+        {
+          "playerId": "6790",
+          "points": 0.0
+        },
+        {
+          "playerId": "8408",
+          "points": 5.9
+        },
+        {
+          "playerId": "9484",
+          "points": 1.9
+        },
+        {
+          "playerId": "GB",
+          "points": 5.0
+        }
+      ],
+      "playersPoints": {
+        "10236": 5.8,
+        "11632": 1.4,
+        "1166": 14.38,
+        "11792": 12.0,
+        "12517": 0.0,
+        "2216": 0.0,
+        "4866": 0.0,
+        "5967": 15.9,
+        "6786": 13.2,
+        "6790": 0.0,
+        "6794": 7.4,
+        "6813": 9.3,
+        "7523": 25.78,
+        "8408": 5.9,
+        "9484": 1.9,
+        "GB": 5.0,
+        "JAX": 4.0
+      }
+    },
+    {
+      "season": 2026,
+      "week": 10,
+      "matchupId": 3,
+      "rosterId": 7,
+      "ownerId": "1398370307936354304",
+      "ownerName": "PotegaWesiory",
+      "teamName": "Potega Wesiory",
+      "points": 147.86,
+      "customPoints": null,
+      "starters": [
+        {
+          "playerId": "11566",
+          "points": 18.76
+        },
+        {
+          "playerId": "7594",
+          "points": 29.2
+        },
+        {
+          "playerId": "8228",
+          "points": 3.1
+        },
+        {
+          "playerId": "7564",
+          "points": 22.1
+        },
+        {
+          "playerId": "8137",
+          "points": 32.5
+        },
+        {
+          "playerId": "8131",
+          "points": 17.7
+        },
+        {
+          "playerId": "12495",
+          "points": 11.5
+        },
+        {
+          "playerId": "7839",
+          "points": 8.0
+        },
+        {
+          "playerId": "BAL",
+          "points": 5.0
+        }
+      ],
+      "bench": [
+        {
+          "playerId": "11646",
+          "points": 0.3
+        },
+        {
+          "playerId": "1466",
+          "points": 3.0
+        },
+        {
+          "playerId": "3294",
+          "points": 33.42
+        },
+        {
+          "playerId": "4983",
+          "points": 15.4
+        },
+        {
+          "playerId": "5859",
+          "points": 2.7
+        },
+        {
+          "playerId": "7543",
+          "points": 3.4
+        },
+        {
+          "playerId": "9224",
+          "points": 20.3
+        }
+      ],
+      "playersPoints": {
+        "11566": 18.76,
+        "11646": 0.3,
+        "12495": 11.5,
+        "1466": 3.0,
+        "3294": 33.42,
+        "4983": 15.4,
+        "5859": 2.7,
+        "7543": 3.4,
+        "7564": 22.1,
+        "7594": 29.2,
+        "7839": 8.0,
+        "8131": 17.7,
+        "8137": 32.5,
+        "8228": 3.1,
+        "9224": 20.3,
+        "BAL": 5.0
+      }
+    },
+    {
+      "season": 2026,
+      "week": 10,
+      "matchupId": 4,
+      "rosterId": 8,
+      "ownerId": "1398643051898880000",
+      "ownerName": "Janaka7",
+      "teamName": "Kiki Owls",
+      "points": 70.14,
+      "customPoints": null,
+      "starters": [
+        {
+          "playerId": "9758",
+          "points": 19.44
+        },
+        {
+          "playerId": "9509",
+          "points": 13.7
+        },
+        {
+          "playerId": "11581",
+          "points": 3.9
+        },
+        {
+          "playerId": "8126",
+          "points": 1.0
+        },
+        {
+          "playerId": "8134",
+          "points": 5.5
+        },
+        {
+          "playerId": "7002",
+          "points": 2.8
+        },
+        {
+          "playerId": "8155",
+          "points": 10.8
+        },
+        {
+          "playerId": "6083",
+          "points": 8.0
+        },
+        {
+          "playerId": "NO",
+          "points": 5.0
+        }
+      ],
+      "bench": [
+        {
+          "playerId": "10232",
+          "points": 0.0
+        },
+        {
+          "playerId": "12474",
+          "points": 6.5
+        },
+        {
+          "playerId": "13279",
+          "points": 0.0
+        },
+        {
+          "playerId": "4046",
+          "points": 35.42
+        },
+        {
+          "playerId": "7547",
+          "points": 21.8
+        },
+        {
+          "playerId": "7600",
+          "points": 9.5
+        },
+        {
+          "playerId": "CHI",
+          "points": 0.0
+        }
+      ],
+      "playersPoints": {
+        "10232": 0.0,
+        "11581": 3.9,
+        "12474": 6.5,
+        "13279": 0.0,
+        "4046": 35.42,
+        "6083": 8.0,
+        "7002": 2.8,
+        "7547": 21.8,
+        "7600": 9.5,
+        "8126": 1.0,
+        "8134": 5.5,
+        "8155": 10.8,
+        "9509": 13.7,
+        "9758": 19.44,
+        "CHI": 0.0,
+        "NO": 5.0
+      }
+    }
+  ],
+  "transactions": [
+    {
+      "week": 10,
+      "status": "complete",
+      "type": "free_agent",
+      "metadata": null,
+      "created": 1794732361549,
+      "settings": null,
+      "leg": 10,
+      "draft_picks": [],
+      "creator": "1397299609897836544",
+      "transaction_id": "1427614632763195392",
+      "adds": {
+        "13337": 1
+      },
+      "drops": {
+        "8146": 1
+      },
+      "consenter_ids": [
+        1
+      ],
+      "roster_ids": [
+        1
+      ],
+      "status_updated": 1794732361549,
+      "waiver_budget": []
+    },
+    {
+      "week": 10,
+      "status": "complete",
+      "type": "free_agent",
+      "metadata": null,
+      "created": 1794728262614,
+      "settings": null,
+      "leg": 10,
+      "draft_picks": [],
+      "creator": "1399409218053783552",
+      "transaction_id": "1427597440583757824",
+      "adds": {
+        "8408": 6
+      },
+      "drops": null,
+      "consenter_ids": [
+        6
+      ],
+      "roster_ids": [
+        6
+      ],
+      "status_updated": 1794728262614,
+      "waiver_budget": []
+    },
+    {
+      "week": 10,
+      "status": "complete",
+      "type": "free_agent",
+      "metadata": null,
+      "created": 1794703578241,
+      "settings": null,
+      "leg": 10,
+      "draft_picks": [],
+      "creator": "1398370307936354304",
+      "transaction_id": "1427493906819325952",
+      "adds": null,
+      "drops": {
+        "11576": 7
+      },
+      "consenter_ids": [
+        7
+      ],
+      "roster_ids": [
+        7
+      ],
+      "status_updated": 1794703578241,
+      "waiver_budget": []
+    },
+    {
+      "week": 10,
+      "status": "complete",
+      "type": "free_agent",
+      "metadata": null,
+      "created": 1794578490316,
+      "settings": null,
+      "leg": 10,
+      "draft_picks": [],
+      "creator": "1398643051898880000",
+      "transaction_id": "1426969250035142656",
+      "adds": {
+        "8134": 8
+      },
+      "drops": {
+        "11620": 8
+      },
+      "consenter_ids": [
+        8
+      ],
+      "roster_ids": [
+        8
+      ],
+      "status_updated": 1794578490316,
+      "waiver_budget": []
+    },
+    {
+      "week": 10,
+      "status": "complete",
+      "type": "free_agent",
+      "metadata": null,
+      "created": 1794578366141,
+      "settings": null,
+      "leg": 10,
+      "draft_picks": [],
+      "creator": "1398643051898880000",
+      "transaction_id": "1426968729207443456",
+      "adds": {
+        "NO": 8
+      },
+      "drops": {
+        "12534": 8
+      },
+      "consenter_ids": [
+        8
+      ],
+      "roster_ids": [
+        8
+      ],
+      "status_updated": 1794578366141,
+      "waiver_budget": []
+    },
+    {
+      "week": 10,
+      "status": "complete",
+      "type": "free_agent",
+      "metadata": null,
+      "created": 1794512744387,
+      "settings": null,
+      "leg": 10,
+      "draft_picks": [],
+      "creator": "1395937838859579392",
+      "transaction_id": "1426693491617968128",
+      "adds": {
+        "6804": 3
+      },
+      "drops": {
+        "8408": 3
+      },
+      "consenter_ids": [
+        3
+      ],
+      "roster_ids": [
+        3
+      ],
+      "status_updated": 1794512744387,
+      "waiver_budget": []
+    },
+    {
+      "week": 10,
+      "status": "complete",
+      "type": "free_agent",
+      "metadata": null,
+      "created": 1794476614138,
+      "settings": null,
+      "leg": 10,
+      "draft_picks": [],
+      "creator": "1395937838859579392",
+      "transaction_id": "1426541950370082816",
+      "adds": {
+        "BUF": 3
+      },
+      "drops": {
+        "CIN": 3
+      },
+      "consenter_ids": [
+        3
+      ],
+      "roster_ids": [
+        3
+      ],
+      "status_updated": 1794476614138,
+      "waiver_budget": []
+    },
+    {
+      "week": 10,
+      "status": "complete",
+      "type": "free_agent",
+      "metadata": null,
+      "created": 1794476490695,
+      "settings": null,
+      "leg": 10,
+      "draft_picks": [],
+      "creator": "1395937838859579392",
+      "transaction_id": "1426541432616800256",
+      "adds": {
+        "IND": 3
+      },
+      "drops": {
+        "NO": 3
+      },
+      "consenter_ids": [
+        3
+      ],
+      "roster_ids": [
+        3
+      ],
+      "status_updated": 1794476490695,
+      "waiver_budget": []
+    }
+  ]
+}

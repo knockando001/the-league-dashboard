@@ -1,19 +1,9 @@
 {
-  "generatedAt": "2026-11-17T00:02:25.624163+00:00",
+  "generatedAt": "2026-11-17T08:20:53.853216+00:00",
   "season": 2026,
   "week": 10,
-  "complete": false,
+  "complete": true,
   "games": [
-    {
-      "espnId": "401873065",
-      "name": "LAC @ BAL",
-      "kickoff": "2026-11-17T01:15Z",
-      "home": "BAL",
-      "away": "LAC",
-      "homeScore": 0,
-      "awayScore": 0,
-      "final": false
-    },
     {
       "espnId": "401873052",
       "name": "WSH @ NYG",
@@ -142,6 +132,16 @@
       "away": "PIT",
       "homeScore": 38,
       "awayScore": 18,
+      "final": true
+    },
+    {
+      "espnId": "401873065",
+      "name": "LAC @ BAL",
+      "kickoff": "2026-11-17T01:15Z",
+      "home": "BAL",
+      "away": "LAC",
+      "homeScore": 20,
+      "awayScore": 23,
       "final": true
     }
   ],
@@ -710,6 +710,36 @@
       "team": "NO",
       "opponent": "CAR",
       "date": "2026-11-15"
+    },
+    "4881": {
+      "team": "BAL",
+      "opponent": "LAC",
+      "date": "2026-11-16"
+    },
+    "BAL": {
+      "team": "BAL",
+      "opponent": "LAC",
+      "date": "2026-11-16"
+    },
+    "5012": {
+      "team": "BAL",
+      "opponent": "LAC",
+      "date": "2026-11-16"
+    },
+    "3198": {
+      "team": "BAL",
+      "opponent": "LAC",
+      "date": "2026-11-16"
+    },
+    "9997": {
+      "team": "BAL",
+      "opponent": "LAC",
+      "date": "2026-11-16"
+    },
+    "12507": {
+      "team": "LAC",
+      "opponent": "BAL",
+      "date": "2026-11-16"
     }
   }
 }
