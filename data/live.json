@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T08:20:53.661838+00:00",
+  "generatedAt": "2026-11-17T10:21:26.210942+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -511,13 +511,13 @@
         "SF"
       ],
       "starters": [
-        "12545",
-        "13337",
+        "11560",
+        "8151",
         "9221",
         "12526",
-        "8167",
+        "7569",
         "4217",
-        "11586",
+        "12527",
         "11786",
         "HOU"
       ]
@@ -8709,11 +8709,11 @@
         "customPoints": null,
         "starters": [
           {
-            "playerId": "12545",
+            "playerId": "11560",
             "points": 0.0
           },
           {
-            "playerId": "13337",
+            "playerId": "8151",
             "points": 0.0
           },
           {
@@ -8725,7 +8725,7 @@
             "points": 0.0
           },
           {
-            "playerId": "8167",
+            "playerId": "7569",
             "points": 0.0
           },
           {
@@ -8733,7 +8733,7 @@
             "points": 0.0
           },
           {
-            "playerId": "11586",
+            "playerId": "12527",
             "points": 0.0
           },
           {
@@ -8751,7 +8751,7 @@
             "points": 0.0
           },
           {
-            "playerId": "11560",
+            "playerId": "11586",
             "points": 0.0
           },
           {
@@ -8759,7 +8759,11 @@
             "points": 0.0
           },
           {
-            "playerId": "12527",
+            "playerId": "12545",
+            "points": 0.0
+          },
+          {
+            "playerId": "13337",
             "points": 0.0
           },
           {
@@ -8767,11 +8771,7 @@
             "points": 0.0
           },
           {
-            "playerId": "7569",
-            "points": 0.0
-          },
-          {
-            "playerId": "8151",
+            "playerId": "8167",
             "points": 0.0
           },
           {
