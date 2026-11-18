@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T12:45:11.149692+00:00",
+  "generatedAt": "2026-11-18T21:43:54.273576+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -73,10 +73,6 @@
     "avatar": "8da7991069e3a7217718ff56366005c6",
     "company_id": null,
     "league_id": "1397593463293239296",
-    "shard": 125,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -227,6 +223,10 @@
       "st_ff": 0.0,
       "idp_tkl_ast": 0.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
+    "shard": 125,
     "last_message_id": "1428458156928815104",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
@@ -234,16 +234,11 @@
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "draft_id": "1397593466170523648",
     "last_message_time": 1794933473383,
     "last_pinned_message_id": "1398407155169656845",
+    "draft_id": "1397593466170523648",
     "last_read_id": null,
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -262,6 +257,11 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 8
   },
   "nflState": {
@@ -558,9 +558,9 @@
         "10229",
         "6801",
         "11604",
-        "12490",
+        "11584",
         "7042",
-        "IND"
+        "BUF"
       ]
     },
     {
@@ -8937,7 +8937,7 @@
             "points": 0.0
           },
           {
-            "playerId": "12490",
+            "playerId": "11584",
             "points": 0.0
           },
           {
@@ -8945,13 +8945,13 @@
             "points": 0.0
           },
           {
-            "playerId": "IND",
+            "playerId": "BUF",
             "points": 0.0
           }
         ],
         "bench": [
           {
-            "playerId": "11584",
+            "playerId": "12490",
             "points": 0.0
           },
           {
@@ -8979,7 +8979,7 @@
             "points": 0.0
           },
           {
-            "playerId": "BUF",
+            "playerId": "IND",
             "points": 0.0
           }
         ],
