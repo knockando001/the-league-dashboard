@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T00:02:23.324097+00:00",
+  "generatedAt": "2026-11-18T03:23:23.690431+00:00",
   "players": {
     "6462": {
       "name": "Ellis Richardson",
@@ -2654,7 +2654,7 @@
       "fantasyPositions": [
         "WR"
       ],
-      "team": "NYG",
+      "team": null,
       "active": true
     },
     "4026": {
@@ -5894,7 +5894,7 @@
       "fantasyPositions": [
         "TE"
       ],
-      "team": null,
+      "team": "KC",
       "active": true
     },
     "4037": {
@@ -7361,7 +7361,7 @@
       "fantasyPositions": [
         "WR"
       ],
-      "team": null,
+      "team": "MIA",
       "active": true
     },
     "8177": {
@@ -7911,7 +7911,7 @@
       "fantasyPositions": [
         "WR"
       ],
-      "team": null,
+      "team": "TEN",
       "active": true
     },
     "13964": {
@@ -10252,7 +10252,7 @@
       "fantasyPositions": [
         "WR"
       ],
-      "team": null,
+      "team": "ARI",
       "active": true
     },
     "658": {
@@ -11143,7 +11143,7 @@
       "fantasyPositions": [
         "K"
       ],
-      "team": "MIA",
+      "team": null,
       "active": true
     },
     "11146": {
@@ -18677,7 +18677,7 @@
       "fantasyPositions": [
         "RB"
       ],
-      "team": null,
+      "team": "PHI",
       "active": true
     },
     "7578": {
@@ -22981,7 +22981,7 @@
       "fantasyPositions": [
         "WR"
       ],
-      "team": null,
+      "team": "GB",
       "active": true
     },
     "13677": {
@@ -29903,7 +29903,7 @@
       "fantasyPositions": [
         "TE"
       ],
-      "team": null,
+      "team": "PHI",
       "active": true
     },
     "4610": {
@@ -32127,7 +32127,7 @@
       "fantasyPositions": [
         "TE"
       ],
-      "team": null,
+      "team": "CAR",
       "active": true
     },
     "12156": {
@@ -35124,7 +35124,7 @@
       "fantasyPositions": [
         "K"
       ],
-      "team": null,
+      "team": "MIA",
       "active": true
     },
     "1849": {
@@ -35214,7 +35214,7 @@
       "fantasyPositions": [
         "RB"
       ],
-      "team": null,
+      "team": "KC",
       "active": true
     },
     "12510": {

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-17T20:36:33.026581+00:00",
+ "generatedAt": "2026-11-18T03:23:26.168494+00:00",
  "season": 2026,
  "leagueName": "The League",
  "currentWeek": 11,
@@ -8679,8 +8679,24 @@
    "playoffs": false,
    "windows": [
     {
+     "name": "Thursday",
+     "start": "2026-11-20T01:15:00+00:00"
+    },
+    {
+     "name": "Sunday early",
+     "start": "2026-11-22T18:00:00+00:00"
+    },
+    {
      "name": "Sunday late",
-     "start": "1993-01-31T23:30:00+00:00"
+     "start": "2026-11-22T21:05:00+00:00"
+    },
+    {
+     "name": "Sunday night",
+     "start": "2026-11-23T01:20:00+00:00"
+    },
+    {
+     "name": "Monday night",
+     "start": "2026-11-24T01:15:00+00:00"
     }
    ],
    "matchups": [
@@ -8694,6 +8710,10 @@
        "coach": null,
        "benchPoints": 0.0,
        "timeline": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         0.0
        ],
        "topStarters": [
@@ -8725,6 +8745,10 @@
        "coach": null,
        "benchPoints": 0.0,
        "timeline": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         0.0
        ],
        "topStarters": [
@@ -8765,6 +8789,10 @@
        "coach": null,
        "benchPoints": 0.0,
        "timeline": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         0.0
        ],
        "topStarters": [
@@ -8796,6 +8824,10 @@
        "coach": null,
        "benchPoints": 0.0,
        "timeline": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         0.0
        ],
        "topStarters": [
@@ -8836,6 +8868,10 @@
        "coach": null,
        "benchPoints": 0.0,
        "timeline": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         0.0
        ],
        "topStarters": [
@@ -8867,6 +8903,10 @@
        "coach": null,
        "benchPoints": 0.0,
        "timeline": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         0.0
        ],
        "topStarters": [
@@ -8907,6 +8947,10 @@
        "coach": null,
        "benchPoints": 0.0,
        "timeline": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         0.0
        ],
        "topStarters": [
@@ -8938,6 +8982,10 @@
        "coach": null,
        "benchPoints": 0.0,
        "timeline": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         0.0
        ],
        "topStarters": [
@@ -8989,7 +9037,13 @@
      "team": "Zamek Pancerne Dziki"
     }
    },
-   "curse": null,
+   "curse": {
+    "window": "Thursday",
+    "leaders": [],
+    "leadersLost": 0,
+    "leadersDecided": 0,
+    "biggestComeback": null
+   },
    "allPlay": {
     "1": [
      0,
