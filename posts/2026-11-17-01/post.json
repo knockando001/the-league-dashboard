@@ -1,0 +1,18 @@
+{
+ "id": "2026-11-17-01",
+ "date": "2026-11-17",
+ "edition": "2026-11-17-podsumowanie",
+ "outlet": "8SPN",
+ "outletStyle": "o1",
+ "author": {
+  "name": "Reporter 8SPN",
+  "photo": "posts/autorzy/48f01b07c4.jpg"
+ },
+ "kicker": "Wyniki i tabela",
+ "title": "Dziesiąta kolejka w liczbach",
+ "byline": "8SPN Fantasy · wyniki oficjalne po poniedziałkowym meczu",
+ "lead": null,
+ "cover": null,
+ "variant": null,
+ "body": "<h3 class=\"tbl-title\">Wyniki week 10</h3>\n  <div class=\"tbl-wrap\"><table class=\"tbl\">\n    <thead><tr><th>Zwycięzca</th><th>Przegrany</th><th>Wynik</th></tr></thead>\n    <tbody>\n      <tr><td>Potega Wesiory</td><td>Zamek Pancerne Dziki</td><td>147,86 : 132,90</td></tr>\n      <tr><td>Gdynia Moustache Admirers</td><td>Flota Oksywie</td><td>126,86 : 90,40</td></tr>\n      <tr><td>DonTeam Kielce</td><td>Kiki Owls</td><td>131,20 : 70,14</td></tr>\n      <tr><td>Agroplon Gluszyna</td><td>Vegablanca Boars</td><td>94,78 : 90,36</td></tr>\n    </tbody>\n  </table></div>\n\n  <h3 class=\"tbl-title\">Tabela po week 10</h3>\n  <div class=\"tbl-wrap\"><table class=\"tbl\">\n    <thead><tr><th>#</th><th>Drużyna</th><th>Bilans</th><th>PF</th><th>Playoffy</th></tr></thead>\n    <tbody>\n      <tr><td>1</td><td>Gdynia</td><td>8-2</td><td>1135,88</td><td>&gt;99,9%</td></tr>\n      <tr><td>2</td><td>Agroplon</td><td>7-3</td><td>1031,32</td><td>96,7%</td></tr>\n      <tr><td>3</td><td>Zamek</td><td>6-4</td><td>1170,52</td><td>96,1%</td></tr>\n      <tr><td>4</td><td>Flota</td><td>5-5</td><td>1067,44</td><td>69,7%</td></tr>\n      <tr><td>5</td><td>Vegablanca</td><td>5-5</td><td>945,22</td><td>27,8%</td></tr>\n      <tr><td>6</td><td>Potęga</td><td>4-6</td><td>986,50</td><td>9,7%</td></tr>\n      <tr><td>7</td><td>DonTeam</td><td>3-7</td><td>927,56</td><td>0,1%</td></tr>\n      <tr><td>8</td><td>Kiki</td><td>2-8</td><td>892,48</td><td>&lt;0,1%</td></tr>\n    </tbody>\n  </table></div>\n  <p style=\"font-size:13px;color:var(--muted)\">Szanse na playoffy z 20 000 symulacji: dotychczasowe wyniki, siła obecnych składów i pozostały terminarz. Zmiany tydzień do tygodnia w dziale analiz.</p>"
+}
