@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-19T02:58:16.910091+00:00",
+ "generatedAt": "2026-11-19T12:36:28.291923+00:00",
  "season": 2026,
  "leagueName": "The League",
  "currentWeek": 11,
@@ -9210,6 +9210,68 @@
  "transactions": {
   "feed": [
    {
+    "transactionId": "1429078360633376768",
+    "week": 11,
+    "type": "free_agent",
+    "status": "complete",
+    "time": 1795081341468,
+    "rosterIds": [
+     7
+    ],
+    "adds": [
+     {
+      "playerId": "DET",
+      "name": "Detroit Lions",
+      "position": "DEF",
+      "rosterId": 7,
+      "startedPoints": 0.0,
+      "starts": 1,
+      "weekPoints": 0.0
+     }
+    ],
+    "drops": [
+     {
+      "playerId": "BAL",
+      "name": "Baltimore Ravens",
+      "position": "DEF",
+      "rosterId": 7
+     }
+    ],
+    "waiverBid": null,
+    "draftPicks": []
+   },
+   {
+    "transactionId": "1429053286538842117",
+    "week": 11,
+    "type": "free_agent",
+    "status": "complete",
+    "time": 1795075363338,
+    "rosterIds": [
+     1
+    ],
+    "adds": [
+     {
+      "playerId": "11620",
+      "name": "Rome Odunze",
+      "position": "WR",
+      "rosterId": 1,
+      "startedPoints": 0.0,
+      "starts": 0,
+      "weekPoints": null
+     }
+    ],
+    "drops": [
+     {
+      "playerId": "12545",
+      "name": "Tyler Shough",
+      "position": "QB",
+      "rosterId": 1
+     }
+    ],
+    "waiverBid": null,
+    "draftPicks": []
+   },
+   {
     "transactionId": "1427614632763195392",
     "week": 10,
     "type": "free_agent",
@@ -9688,7 +9750,7 @@
       "position": "DEF",
       "rosterId": 7,
       "startedPoints": 5.0,
-      "starts": 2,
+      "starts": 1,
       "weekPoints": null
      }
     ],
@@ -12484,7 +12546,7 @@
       "position": "RB",
       "rosterId": 7,
       "startedPoints": 17.9,
-      "starts": 3,
+      "starts": 2,
       "weekPoints": null
      }
     ],
@@ -14045,7 +14107,7 @@
       "position": "WR",
       "rosterId": 2,
       "startedPoints": 77.9,
-      "starts": 7,
+      "starts": 6,
       "weekPoints": null
      }
     ],
@@ -14445,7 +14507,7 @@
     "position": "WR",
     "rosterId": 2,
     "startedPoints": 77.9,
-    "starts": 7,
+    "starts": 6,
     "weekPoints": null,
     "week": 1,
     "type": "waiver",
@@ -14744,7 +14806,7 @@
    "1": {
     "waiverClaims": 17,
     "waiverWins": 11,
-    "freeAgents": 6,
+    "freeAgents": 7,
     "trades": 0,
     "pickupPoints": 173.06
    },
@@ -14765,7 +14827,7 @@
    "7": {
     "waiverClaims": 19,
     "waiverWins": 15,
-    "freeAgents": 5,
+    "freeAgents": 6,
     "trades": 0,
     "pickupPoints": 377.1
    },
