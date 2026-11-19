@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-18T21:43:54.619041+00:00",
+ "generatedAt": "2026-11-19T02:58:16.910091+00:00",
  "season": 2026,
  "leagueName": "The League",
  "currentWeek": 11,
@@ -8917,14 +8917,14 @@
          "points": 0.0
         },
         {
-         "playerId": "9509",
-         "name": "Bijan Robinson",
+         "playerId": "11581",
+         "name": "MarShawn Lloyd",
          "position": "RB",
          "points": 0.0
         },
         {
-         "playerId": "11581",
-         "name": "MarShawn Lloyd",
+         "playerId": "9509",
+         "name": "Bijan Robinson",
          "position": "RB",
          "points": 0.0
         }
@@ -10241,7 +10241,7 @@
       "position": "WR",
       "rosterId": 8,
       "startedPoints": 9.7,
-      "starts": 3,
+      "starts": 2,
       "weekPoints": 8.7
      }
     ],
