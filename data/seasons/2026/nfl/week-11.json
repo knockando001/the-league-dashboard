@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T03:00:04.599829+00:00",
+  "generatedAt": "2026-11-20T07:39:25.915344+00:00",
   "season": 2026,
   "week": 11,
   "complete": false,
@@ -10,9 +10,9 @@
       "kickoff": "2026-11-20T01:15Z",
       "home": "HOU",
       "away": "IND",
-      "homeScore": 17,
+      "homeScore": 26,
       "awayScore": 3,
-      "final": false
+      "final": true
     },
     {
       "espnId": "401873070",

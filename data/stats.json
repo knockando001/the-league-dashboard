@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T03:00:04.710279+00:00",
+ "generatedAt": "2026-11-20T07:39:26.018573+00:00",
  "season": 2026,
  "leagueName": "The League",
  "currentWeek": 11,
@@ -8705,34 +8705,34 @@
      "teams": [
       {
        "rosterId": 2,
-       "points": 5.0,
-       "optimal": 5.0,
+       "points": 8.7,
+       "optimal": 8.7,
        "coach": 1.0,
        "benchPoints": 0.0,
        "timeline": [
-        5.0,
-        5.0,
-        5.0,
-        5.0,
-        5.0
+        8.7,
+        8.7,
+        8.7,
+        8.7,
+        8.7
        ],
        "topStarters": [
         {
          "playerId": "3451",
          "name": "Ka'imi Fairbairn",
          "position": "K",
-         "points": 5.0
+         "points": 6.0
+        },
+        {
+         "playerId": "9502",
+         "name": "Tank Dell",
+         "position": "WR",
+         "points": 2.7
         },
         {
          "playerId": "6770",
          "name": "Joe Burrow",
          "position": "QB",
-         "points": 0.0
-        },
-        {
-         "playerId": "3198",
-         "name": "Derrick Henry",
-         "position": "RB",
          "points": 0.0
         }
        ],
@@ -8776,31 +8776,31 @@
      ],
      "winner": null,
      "leader": 2,
-     "margin": 2.8,
-     "total": 7.2
+     "margin": 6.5,
+     "total": 10.9
     },
     {
      "matchupId": 2,
      "teams": [
       {
        "rosterId": 6,
-       "points": 1.6,
-       "optimal": 1.6,
+       "points": 2.7,
+       "optimal": 2.7,
        "coach": 1.0,
        "benchPoints": 0.0,
        "timeline": [
-        1.6,
-        1.6,
-        1.6,
-        1.6,
-        1.6
+        2.7,
+        2.7,
+        2.7,
+        2.7,
+        2.7
        ],
        "topStarters": [
         {
          "playerId": "6813",
          "name": "Jonathan Taylor",
          "position": "RB",
-         "points": 1.6
+         "points": 2.7
         },
         {
          "playerId": "7523",
@@ -8855,31 +8855,31 @@
      ],
      "winner": null,
      "leader": 6,
-     "margin": 1.6,
-     "total": 1.6
+     "margin": 2.7,
+     "total": 2.7
     },
     {
      "matchupId": 3,
      "teams": [
       {
        "rosterId": 8,
-       "points": 10.76,
-       "optimal": 10.76,
+       "points": 19.46,
+       "optimal": 19.46,
        "coach": 1.0,
        "benchPoints": 0.0,
        "timeline": [
-        10.76,
-        10.76,
-        10.76,
-        10.76,
-        10.76
+        19.46,
+        19.46,
+        19.46,
+        19.46,
+        19.46
        ],
        "topStarters": [
         {
          "playerId": "9758",
          "name": "C.J. Stroud",
          "position": "QB",
-         "points": 10.76
+         "points": 19.46
         },
         {
          "playerId": "11581",
@@ -8934,43 +8934,43 @@
      ],
      "winner": null,
      "leader": 8,
-     "margin": 10.76,
-     "total": 10.76
+     "margin": 19.46,
+     "total": 19.46
     },
     {
      "matchupId": 4,
      "teams": [
       {
        "rosterId": 1,
-       "points": 31.5,
-       "optimal": 31.5,
+       "points": 42.2,
+       "optimal": 42.2,
        "coach": 1.0,
        "benchPoints": 0.0,
        "timeline": [
-        31.5,
-        31.5,
-        31.5,
-        31.5,
-        31.5
+        42.2,
+        42.2,
+        42.2,
+        42.2,
+        42.2
        ],
        "topStarters": [
         {
          "playerId": "HOU",
          "name": "Houston Texans",
          "position": "DEF",
-         "points": 15.0
-        },
-        {
-         "playerId": "7569",
-         "name": "Nico Collins",
-         "position": "WR",
-         "points": 10.8
+         "points": 18.0
         },
         {
          "playerId": "5892",
          "name": "David Montgomery",
          "position": "RB",
-         "points": 5.7
+         "points": 12.4
+        },
+        {
+         "playerId": "7569",
+         "name": "Nico Collins",
+         "position": "WR",
+         "points": 11.8
         }
        ],
        "topBench": []
@@ -9013,15 +9013,15 @@
      ],
      "winner": null,
      "leader": 1,
-     "margin": 31.5,
-     "total": 31.5
+     "margin": 42.2,
+     "total": 42.2
     }
    ],
    "awards": {
     "topScore": {
      "rosterId": 1,
      "team": "Zamek Pancerne Dziki",
-     "points": 31.5
+     "points": 42.2
     },
     "lowScore": {
      "rosterId": 7,
@@ -9040,21 +9040,21 @@
      "coach": 1.0
     },
     "playerOfWeek": {
-     "playerId": "HOU",
-     "name": "Houston Texans",
-     "position": "DEF",
-     "points": 15.0,
-     "rosterId": 1,
-     "team": "Zamek Pancerne Dziki"
+     "playerId": "9758",
+     "name": "C.J. Stroud",
+     "position": "QB",
+     "points": 19.46,
+     "rosterId": 8,
+     "team": "Kiki Owls"
     },
     "moveOfWeek": {
      "playerId": "5892",
      "name": "David Montgomery",
      "position": "RB",
      "rosterId": 1,
-     "startedPoints": 5.7,
+     "startedPoints": 12.4,
      "starts": 1,
-     "weekPoints": 5.7,
+     "weekPoints": 12.4,
      "type": "free_agent",
      "team": "Zamek Pancerne Dziki"
     }
@@ -9067,7 +9067,7 @@
       "team": "Zamek Pancerne Dziki",
       "opponent": 5,
       "opponentTeam": "DonTeam Kielce",
-      "lead": 31.5,
+      "lead": 42.2,
       "held": null
      },
      {
@@ -9075,7 +9075,7 @@
       "team": "Kiki Owls",
       "opponent": 3,
       "opponentTeam": "Flota Oksywie",
-      "lead": 10.76,
+      "lead": 19.46,
       "held": null
      },
      {
@@ -9083,7 +9083,7 @@
       "team": "Vegablanca Boars",
       "opponent": 4,
       "opponentTeam": "Gdynia Moustache Admirers",
-      "lead": 2.8,
+      "lead": 6.5,
       "held": null
      },
      {
@@ -9091,7 +9091,7 @@
       "team": "Agroplon Gluszyna",
       "opponent": 7,
       "opponentTeam": "Potega Wesiory",
-      "lead": 1.6,
+      "lead": 2.7,
       "held": null
      }
     ],
@@ -9116,8 +9116,8 @@
      2
     ],
     "4": [
-     4,
      3,
+     4,
      0
     ],
     "5": [
@@ -9126,8 +9126,8 @@
      2
     ],
     "6": [
-     3,
      4,
+     3,
      0
     ],
     "7": [
@@ -9279,9 +9279,9 @@
       "name": "David Montgomery",
       "position": "RB",
       "rosterId": 1,
-      "startedPoints": 5.7,
+      "startedPoints": 12.4,
       "starts": 1,
-      "weekPoints": 5.7
+      "weekPoints": 12.4
      }
     ],
     "drops": [
@@ -11055,7 +11055,7 @@
       "name": "Houston Texans",
       "position": "DEF",
       "rosterId": 1,
-      "startedPoints": 39.12,
+      "startedPoints": 42.12,
       "starts": 4,
       "weekPoints": 2.0
      }
@@ -12797,7 +12797,7 @@
       "name": "C.J. Stroud",
       "position": "QB",
       "rosterId": 8,
-      "startedPoints": 66.66,
+      "startedPoints": 75.36,
       "starts": 4,
       "weekPoints": null
      }
@@ -14600,6 +14600,18 @@
     "team": "Vegablanca Boars"
    },
    {
+    "playerId": "9758",
+    "name": "C.J. Stroud",
+    "position": "QB",
+    "rosterId": 8,
+    "startedPoints": 75.36,
+    "starts": 4,
+    "weekPoints": null,
+    "week": 4,
+    "type": "free_agent",
+    "team": "Kiki Owls"
+   },
+   {
     "playerId": "9228",
     "name": "Bryce Young",
     "position": "QB",
@@ -14610,18 +14622,6 @@
     "week": 2,
     "type": "free_agent",
     "team": "Flota Oksywie"
-   },
-   {
-    "playerId": "9758",
-    "name": "C.J. Stroud",
-    "position": "QB",
-    "rosterId": 8,
-    "startedPoints": 66.66,
-    "starts": 4,
-    "weekPoints": null,
-    "week": 4,
-    "type": "free_agent",
-    "team": "Kiki Owls"
    },
    {
     "playerId": "3163",
@@ -14894,7 +14894,7 @@
     "waiverWins": 11,
     "freeAgents": 8,
     "trades": 0,
-    "pickupPoints": 193.76
+    "pickupPoints": 203.46
    },
    "3": {
     "waiverClaims": 14,
@@ -14929,7 +14929,7 @@
     "waiverWins": 1,
     "freeAgents": 15,
     "trades": 0,
-    "pickupPoints": 370.16
+    "pickupPoints": 378.86
    }
   }
  },
