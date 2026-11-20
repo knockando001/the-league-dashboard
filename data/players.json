@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T02:58:14.543843+00:00",
+  "generatedAt": "2026-11-20T03:00:02.165917+00:00",
   "players": {
     "6462": {
       "name": "Ellis Richardson",
@@ -16085,7 +16085,7 @@
       "fantasyPositions": [
         "WR"
       ],
-      "team": "PIT",
+      "team": null,
       "active": true
     },
     "3485": {
@@ -24079,7 +24079,7 @@
       "fantasyPositions": [
         "WR"
       ],
-      "team": "ATL",
+      "team": "WAS",
       "active": true
     },
     "4636": {
@@ -30948,7 +30948,7 @@
       "fantasyPositions": [
         "TE"
       ],
-      "team": null,
+      "team": "LAC",
       "active": true
     },
     "7903": {
@@ -35934,7 +35934,7 @@
       "fantasyPositions": [
         "TE"
       ],
-      "team": null,
+      "team": "CLE",
       "active": true
     },
     "1236": {

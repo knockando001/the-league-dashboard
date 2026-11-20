@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T22:00:00.418709+00:00",
+  "generatedAt": "2026-11-20T03:00:04.599829+00:00",
   "season": 2026,
   "week": 11,
   "complete": false,
@@ -10,8 +10,8 @@
       "kickoff": "2026-11-20T01:15Z",
       "home": "HOU",
       "away": "IND",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 17,
+      "awayScore": 3,
       "final": false
     },
     {
@@ -135,5 +135,46 @@
       "final": false
     }
   ],
-  "players": {}
+  "players": {
+    "5892": {
+      "team": "HOU",
+      "opponent": "IND",
+      "date": "2026-11-19"
+    },
+    "HOU": {
+      "team": "HOU",
+      "opponent": "IND",
+      "date": "2026-11-19"
+    },
+    "3451": {
+      "team": "HOU",
+      "opponent": "IND",
+      "date": "2026-11-19"
+    },
+    "9758": {
+      "team": "HOU",
+      "opponent": "IND",
+      "date": "2026-11-19"
+    },
+    "12518": {
+      "team": "IND",
+      "opponent": "HOU",
+      "date": "2026-11-19"
+    },
+    "6813": {
+      "team": "IND",
+      "opponent": "HOU",
+      "date": "2026-11-19"
+    },
+    "7569": {
+      "team": "HOU",
+      "opponent": "IND",
+      "date": "2026-11-19"
+    },
+    "9502": {
+      "team": "HOU",
+      "opponent": "IND",
+      "date": "2026-11-19"
+    }
+  }
 }

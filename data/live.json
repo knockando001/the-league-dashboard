@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T22:00:00.082327+00:00",
+  "generatedAt": "2026-11-20T03:00:04.157166+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -8704,7 +8704,7 @@
         "ownerId": "1397299609897836544",
         "ownerName": "milijon",
         "teamName": "Zamek Pancerne Dziki",
-        "points": 0.0,
+        "points": 31.5,
         "customPoints": null,
         "starters": [
           {
@@ -8713,7 +8713,7 @@
           },
           {
             "playerId": "5892",
-            "points": 0.0
+            "points": 5.7
           },
           {
             "playerId": "9221",
@@ -8725,7 +8725,7 @@
           },
           {
             "playerId": "7569",
-            "points": 0.0
+            "points": 10.8
           },
           {
             "playerId": "4217",
@@ -8741,7 +8741,7 @@
           },
           {
             "playerId": "HOU",
-            "points": 0.0
+            "points": 15.0
           }
         ],
         "bench": [
@@ -8789,12 +8789,12 @@
           "13337": 0.0,
           "4217": 0.0,
           "4881": 0.0,
-          "5892": 0.0,
-          "7569": 0.0,
+          "5892": 5.7,
+          "7569": 10.8,
           "8151": 0.0,
           "8167": 0.0,
           "9221": 0.0,
-          "HOU": 0.0,
+          "HOU": 15.0,
           "SF": 0.0
         }
       },
@@ -8806,7 +8806,7 @@
         "ownerId": "1397712793855139840",
         "ownerName": "Saszewski",
         "teamName": "Vegablanca Boars",
-        "points": 0.0,
+        "points": 5.0,
         "customPoints": null,
         "starters": [
           {
@@ -8839,7 +8839,7 @@
           },
           {
             "playerId": "3451",
-            "points": 0.0
+            "points": 5.0
           },
           {
             "playerId": "PIT",
@@ -8888,7 +8888,7 @@
           "13345": 0.0,
           "3163": 0.0,
           "3198": 0.0,
-          "3451": 0.0,
+          "3451": 5.0,
           "6770": 0.0,
           "7611": 0.0,
           "8112": 0.0,
@@ -9010,7 +9010,7 @@
         "ownerId": "1398407279245524992",
         "ownerName": "kiler7775",
         "teamName": "Gdynia Moustache Admirers",
-        "points": 0.0,
+        "points": 2.2,
         "customPoints": null,
         "starters": [
           {
@@ -9035,7 +9035,7 @@
           },
           {
             "playerId": "12518",
-            "points": 0.0
+            "points": 2.2
           },
           {
             "playerId": "9997",
@@ -9086,7 +9086,7 @@
         ],
         "playersPoints": {
           "11564": 0.0,
-          "12518": 0.0,
+          "12518": 2.2,
           "12519": 0.0,
           "13287": 0.0,
           "2133": 0.0,
@@ -9209,7 +9209,7 @@
         "ownerId": "1399409218053783552",
         "ownerName": "AgroplonGluszyna",
         "teamName": "Agroplon Gluszyna",
-        "points": 0.0,
+        "points": 1.6,
         "customPoints": null,
         "starters": [
           {
@@ -9218,7 +9218,7 @@
           },
           {
             "playerId": "6813",
-            "points": 0.0
+            "points": 1.6
           },
           {
             "playerId": "5967",
@@ -9291,7 +9291,7 @@
           "6786": 0.0,
           "6790": 0.0,
           "6794": 0.0,
-          "6813": 0.0,
+          "6813": 1.6,
           "7523": 0.0,
           "8408": 0.0,
           "9484": 0.0,
@@ -9403,12 +9403,12 @@
         "ownerId": "1398643051898880000",
         "ownerName": "Janaka7",
         "teamName": "Kiki Owls",
-        "points": 0.0,
+        "points": 10.76,
         "customPoints": null,
         "starters": [
           {
             "playerId": "9758",
-            "points": 0.0
+            "points": 10.76
           },
           {
             "playerId": "11581",
@@ -9487,7 +9487,7 @@
           "8134": 0.0,
           "8155": 0.0,
           "9509": 0.0,
-          "9758": 0.0,
+          "9758": 10.76,
           "CHI": 0.0,
           "NO": 0.0
         }

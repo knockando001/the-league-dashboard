@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-19T22:00:00.557280+00:00",
+ "generatedAt": "2026-11-20T03:00:04.710279+00:00",
  "season": 2026,
  "leagueName": "The League",
  "currentWeek": 11,
@@ -8705,18 +8705,24 @@
      "teams": [
       {
        "rosterId": 2,
-       "points": 0.0,
-       "optimal": 0.0,
-       "coach": null,
+       "points": 5.0,
+       "optimal": 5.0,
+       "coach": 1.0,
        "benchPoints": 0.0,
        "timeline": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
        ],
        "topStarters": [
+        {
+         "playerId": "3451",
+         "name": "Ka'imi Fairbairn",
+         "position": "K",
+         "points": 5.0
+        },
         {
          "playerId": "6770",
          "name": "Joe Burrow",
@@ -8728,30 +8734,30 @@
          "name": "Derrick Henry",
          "position": "RB",
          "points": 0.0
-        },
-        {
-         "playerId": "13345",
-         "name": "Jonah Coleman",
-         "position": "RB",
-         "points": 0.0
         }
        ],
        "topBench": []
       },
       {
        "rosterId": 4,
-       "points": 0.0,
-       "optimal": 0.0,
-       "coach": null,
+       "points": 2.2,
+       "optimal": 2.2,
+       "coach": 1.0,
        "benchPoints": 0.0,
        "timeline": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
+        2.2,
+        2.2,
+        2.2,
+        2.2,
+        2.2
        ],
        "topStarters": [
+        {
+         "playerId": "12518",
+         "name": "Tyler Warren",
+         "position": "TE",
+         "points": 2.2
+        },
         {
          "playerId": "8183",
          "name": "Brock Purdy",
@@ -8763,49 +8769,43 @@
          "name": "Christian McCaffrey",
          "position": "RB",
          "points": 0.0
-        },
-        {
-         "playerId": "8150",
-         "name": "Kyren Williams",
-         "position": "RB",
-         "points": 0.0
         }
        ],
        "topBench": []
       }
      ],
      "winner": null,
-     "leader": null,
-     "margin": 0.0,
-     "total": 0.0
+     "leader": 2,
+     "margin": 2.8,
+     "total": 7.2
     },
     {
      "matchupId": 2,
      "teams": [
       {
        "rosterId": 6,
-       "points": 0.0,
-       "optimal": 0.0,
-       "coach": null,
+       "points": 1.6,
+       "optimal": 1.6,
+       "coach": 1.0,
        "benchPoints": 0.0,
        "timeline": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
+        1.6,
+        1.6,
+        1.6,
+        1.6,
+        1.6
        ],
        "topStarters": [
-        {
-         "playerId": "7523",
-         "name": "Trevor Lawrence",
-         "position": "QB",
-         "points": 0.0
-        },
         {
          "playerId": "6813",
          "name": "Jonathan Taylor",
          "position": "RB",
+         "points": 1.6
+        },
+        {
+         "playerId": "7523",
+         "name": "Trevor Lawrence",
+         "position": "QB",
          "points": 0.0
         },
         {
@@ -8854,13 +8854,48 @@
       }
      ],
      "winner": null,
-     "leader": null,
-     "margin": 0.0,
-     "total": 0.0
+     "leader": 6,
+     "margin": 1.6,
+     "total": 1.6
     },
     {
      "matchupId": 3,
      "teams": [
+      {
+       "rosterId": 8,
+       "points": 10.76,
+       "optimal": 10.76,
+       "coach": 1.0,
+       "benchPoints": 0.0,
+       "timeline": [
+        10.76,
+        10.76,
+        10.76,
+        10.76,
+        10.76
+       ],
+       "topStarters": [
+        {
+         "playerId": "9758",
+         "name": "C.J. Stroud",
+         "position": "QB",
+         "points": 10.76
+        },
+        {
+         "playerId": "11581",
+         "name": "MarShawn Lloyd",
+         "position": "RB",
+         "points": 0.0
+        },
+        {
+         "playerId": "9509",
+         "name": "Bijan Robinson",
+         "position": "RB",
+         "points": 0.0
+        }
+       ],
+       "topBench": []
+      },
       {
        "rosterId": 3,
        "points": 0.0,
@@ -8895,82 +8930,47 @@
         }
        ],
        "topBench": []
-      },
-      {
-       "rosterId": 8,
-       "points": 0.0,
-       "optimal": 0.0,
-       "coach": null,
-       "benchPoints": 0.0,
-       "timeline": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-       ],
-       "topStarters": [
-        {
-         "playerId": "9758",
-         "name": "C.J. Stroud",
-         "position": "QB",
-         "points": 0.0
-        },
-        {
-         "playerId": "11581",
-         "name": "MarShawn Lloyd",
-         "position": "RB",
-         "points": 0.0
-        },
-        {
-         "playerId": "9509",
-         "name": "Bijan Robinson",
-         "position": "RB",
-         "points": 0.0
-        }
-       ],
-       "topBench": []
       }
      ],
      "winner": null,
-     "leader": null,
-     "margin": 0.0,
-     "total": 0.0
+     "leader": 8,
+     "margin": 10.76,
+     "total": 10.76
     },
     {
      "matchupId": 4,
      "teams": [
       {
        "rosterId": 1,
-       "points": 0.0,
-       "optimal": 0.0,
-       "coach": null,
+       "points": 31.5,
+       "optimal": 31.5,
+       "coach": 1.0,
        "benchPoints": 0.0,
        "timeline": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
+        31.5,
+        31.5,
+        31.5,
+        31.5,
+        31.5
        ],
        "topStarters": [
         {
-         "playerId": "11560",
-         "name": "Caleb Williams",
-         "position": "QB",
-         "points": 0.0
+         "playerId": "HOU",
+         "name": "Houston Texans",
+         "position": "DEF",
+         "points": 15.0
+        },
+        {
+         "playerId": "7569",
+         "name": "Nico Collins",
+         "position": "WR",
+         "points": 10.8
         },
         {
          "playerId": "5892",
          "name": "David Montgomery",
          "position": "RB",
-         "points": 0.0
-        },
-        {
-         "playerId": "9221",
-         "name": "Jahmyr Gibbs",
-         "position": "RB",
-         "points": 0.0
+         "points": 5.7
         }
        ],
        "topBench": []
@@ -9012,78 +9012,133 @@
       }
      ],
      "winner": null,
-     "leader": null,
-     "margin": 0.0,
-     "total": 0.0
+     "leader": 1,
+     "margin": 31.5,
+     "total": 31.5
     }
    ],
    "awards": {
     "topScore": {
      "rosterId": 1,
      "team": "Zamek Pancerne Dziki",
-     "points": 0.0
+     "points": 31.5
     },
     "lowScore": {
-     "rosterId": 8,
-     "team": "Kiki Owls",
+     "rosterId": 7,
+     "team": "Potega Wesiory",
      "points": 0.0
     },
-    "playerOfWeek": {
-     "playerId": "11560",
-     "name": "Caleb Williams",
-     "position": "QB",
-     "points": 0.0,
+    "bestCoach": {
      "rosterId": 1,
+     "team": "Zamek Pancerne Dziki",
+     "coach": 1.0
+    },
+    "mostLeftOnBench": {
+     "rosterId": 1,
+     "team": "Zamek Pancerne Dziki",
+     "left": 0.0,
+     "coach": 1.0
+    },
+    "playerOfWeek": {
+     "playerId": "HOU",
+     "name": "Houston Texans",
+     "position": "DEF",
+     "points": 15.0,
+     "rosterId": 1,
+     "team": "Zamek Pancerne Dziki"
+    },
+    "moveOfWeek": {
+     "playerId": "5892",
+     "name": "David Montgomery",
+     "position": "RB",
+     "rosterId": 1,
+     "startedPoints": 5.7,
+     "starts": 1,
+     "weekPoints": 5.7,
+     "type": "free_agent",
      "team": "Zamek Pancerne Dziki"
     }
    },
    "curse": {
     "window": "Thursday",
-    "leaders": [],
+    "leaders": [
+     {
+      "rosterId": 1,
+      "team": "Zamek Pancerne Dziki",
+      "opponent": 5,
+      "opponentTeam": "DonTeam Kielce",
+      "lead": 31.5,
+      "held": null
+     },
+     {
+      "rosterId": 8,
+      "team": "Kiki Owls",
+      "opponent": 3,
+      "opponentTeam": "Flota Oksywie",
+      "lead": 10.76,
+      "held": null
+     },
+     {
+      "rosterId": 2,
+      "team": "Vegablanca Boars",
+      "opponent": 4,
+      "opponentTeam": "Gdynia Moustache Admirers",
+      "lead": 2.8,
+      "held": null
+     },
+     {
+      "rosterId": 6,
+      "team": "Agroplon Gluszyna",
+      "opponent": 7,
+      "opponentTeam": "Potega Wesiory",
+      "lead": 1.6,
+      "held": null
+     }
+    ],
     "leadersLost": 0,
     "leadersDecided": 0,
     "biggestComeback": null
    },
    "allPlay": {
     "1": [
+     7,
      0,
-     0,
-     7
+     0
     ],
     "2": [
-     0,
-     0,
-     7
+     5,
+     2,
+     0
     ],
     "3": [
      0,
-     0,
-     7
+     5,
+     2
     ],
     "4": [
-     0,
-     0,
-     7
+     4,
+     3,
+     0
     ],
     "5": [
      0,
-     0,
-     7
+     5,
+     2
     ],
     "6": [
-     0,
-     0,
-     7
+     3,
+     4,
+     0
     ],
     "7": [
      0,
-     0,
-     7
+     5,
+     2
     ],
     "8": [
-     0,
-     0,
-     7
+     6,
+     1,
+     0
     ]
    }
   }
@@ -9224,9 +9279,9 @@
       "name": "David Montgomery",
       "position": "RB",
       "rosterId": 1,
-      "startedPoints": 0.0,
+      "startedPoints": 5.7,
       "starts": 1,
-      "weekPoints": 0.0
+      "weekPoints": 5.7
      }
     ],
     "drops": [
@@ -11000,7 +11055,7 @@
       "name": "Houston Texans",
       "position": "DEF",
       "rosterId": 1,
-      "startedPoints": 24.12,
+      "startedPoints": 39.12,
       "starts": 4,
       "weekPoints": 2.0
      }
@@ -12742,7 +12797,7 @@
       "name": "C.J. Stroud",
       "position": "QB",
       "rosterId": 8,
-      "startedPoints": 55.9,
+      "startedPoints": 66.66,
       "starts": 4,
       "weekPoints": null
      }
@@ -14561,7 +14616,7 @@
     "name": "C.J. Stroud",
     "position": "QB",
     "rosterId": 8,
-    "startedPoints": 55.9,
+    "startedPoints": 66.66,
     "starts": 4,
     "weekPoints": null,
     "week": 4,
@@ -14839,7 +14894,7 @@
     "waiverWins": 11,
     "freeAgents": 8,
     "trades": 0,
-    "pickupPoints": 173.06
+    "pickupPoints": 193.76
    },
    "3": {
     "waiverClaims": 14,
@@ -14874,7 +14929,7 @@
     "waiverWins": 1,
     "freeAgents": 15,
     "trades": 0,
-    "pickupPoints": 359.4
+    "pickupPoints": 370.16
    }
   }
  },
