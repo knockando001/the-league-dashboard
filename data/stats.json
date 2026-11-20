@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T12:36:10.443190+00:00",
+ "generatedAt": "2026-11-20T21:42:26.878089+00:00",
  "season": 2026,
  "leagueName": "The League",
  "currentWeek": 11,
@@ -8587,7 +8587,7 @@
      "position": "RB",
      "rosterId": 1,
      "startedPoints": 28.1,
-     "starts": 1,
+     "starts": 2,
      "weekPoints": 28.1,
      "type": "free_agent",
      "team": "Zamek Pancerne Dziki"
@@ -8882,14 +8882,14 @@
          "points": 19.46
         },
         {
-         "playerId": "11581",
-         "name": "MarShawn Lloyd",
+         "playerId": "8155",
+         "name": "Breece Hall",
          "position": "RB",
          "points": 0.0
         },
         {
-         "playerId": "9509",
-         "name": "Bijan Robinson",
+         "playerId": "4199",
+         "name": "Aaron Jones Sr.",
          "position": "RB",
          "points": 0.0
         }
@@ -9265,6 +9265,130 @@
  "transactions": {
   "feed": [
    {
+    "transactionId": "1429604424837234688",
+    "week": 11,
+    "type": "free_agent",
+    "status": "complete",
+    "time": 1795206764948,
+    "rosterIds": [
+     3
+    ],
+    "adds": [
+     {
+      "playerId": "TB",
+      "name": "Tampa Bay Buccaneers",
+      "position": "DEF",
+      "rosterId": 3,
+      "startedPoints": 0.0,
+      "starts": 0,
+      "weekPoints": null
+     }
+    ],
+    "drops": [
+     {
+      "playerId": "9493",
+      "name": "Puka Nacua",
+      "position": "WR",
+      "rosterId": 3
+     }
+    ],
+    "waiverBid": null,
+    "draftPicks": []
+   },
+   {
+    "transactionId": "1429522407508430848",
+    "week": 11,
+    "type": "free_agent",
+    "status": "complete",
+    "time": 1795187210493,
+    "rosterIds": [
+     8
+    ],
+    "adds": [
+     {
+      "playerId": "4199",
+      "name": "Aaron Jones Sr.",
+      "position": "RB",
+      "rosterId": 8,
+      "startedPoints": 0.0,
+      "starts": 1,
+      "weekPoints": 0.0
+     }
+    ],
+    "drops": [
+     {
+      "playerId": "NO",
+      "name": "New Orleans Saints",
+      "position": "DEF",
+      "rosterId": 8
+     }
+    ],
+    "waiverBid": null,
+    "draftPicks": []
+   },
+   {
+    "transactionId": "1429522020697133056",
+    "week": 11,
+    "type": "free_agent",
+    "status": "complete",
+    "time": 1795187118270,
+    "rosterIds": [
+     8
+    ],
+    "adds": [
+     {
+      "playerId": "11620",
+      "name": "Rome Odunze",
+      "position": "WR",
+      "rosterId": 8,
+      "startedPoints": 0.0,
+      "starts": 0,
+      "weekPoints": null
+     }
+    ],
+    "drops": [
+     {
+      "playerId": "10232",
+      "name": "Michael Wilson",
+      "position": "WR",
+      "rosterId": 8
+     }
+    ],
+    "waiverBid": null,
+    "draftPicks": []
+   },
+   {
+    "transactionId": "1429521985125249024",
+    "week": 11,
+    "type": "free_agent",
+    "status": "complete",
+    "time": 1795187109789,
+    "rosterIds": [
+     8
+    ],
+    "adds": [
+     {
+      "playerId": "7525",
+      "name": "DeVonta Smith",
+      "position": "WR",
+      "rosterId": 8,
+      "startedPoints": 0.0,
+      "starts": 1,
+      "weekPoints": 0.0
+     }
+    ],
+    "drops": [
+     {
+      "playerId": "8126",
+      "name": "Wan'Dale Robinson",
+      "position": "WR",
+      "rosterId": 8
+     }
+    ],
+    "waiverBid": null,
+    "draftPicks": []
+   },
+   {
     "transactionId": "1429216881608241152",
     "week": 11,
     "type": "free_agent",
@@ -9373,7 +9497,7 @@
       "position": "RB",
       "rosterId": 1,
       "startedPoints": 28.1,
-      "starts": 1,
+      "starts": 2,
       "weekPoints": 28.1
      }
     ],
@@ -9480,7 +9604,7 @@
       "position": "DEF",
       "rosterId": 8,
       "startedPoints": 5.0,
-      "starts": 2,
+      "starts": 1,
       "weekPoints": 5.0
      }
     ],
@@ -12860,7 +12984,7 @@
       "position": "DEF",
       "rosterId": 8,
       "startedPoints": 40.32,
-      "starts": 4,
+      "starts": 5,
       "weekPoints": 9.0
      }
     ],
@@ -14899,7 +15023,7 @@
    "3": {
     "waiverClaims": 14,
     "waiverWins": 9,
-    "freeAgents": 18,
+    "freeAgents": 19,
     "trades": 0,
     "pickupPoints": 295.66
    },
@@ -14927,7 +15051,7 @@
    "8": {
     "waiverClaims": 1,
     "waiverWins": 1,
-    "freeAgents": 15,
+    "freeAgents": 18,
     "trades": 0,
     "pickupPoints": 378.86
    }
