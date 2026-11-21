@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T03:00:02.165917+00:00",
+  "generatedAt": "2026-11-21T03:00:32.652826+00:00",
   "players": {
     "6462": {
       "name": "Ellis Richardson",
@@ -1448,7 +1448,7 @@
       "fantasyPositions": [
         "RB"
       ],
-      "team": "GB",
+      "team": null,
       "active": true
     },
     "6823": {
@@ -10373,7 +10373,7 @@
       "active": true
     },
     "13603": {
-      "name": "Gregory Desrosiers",
+      "name": "Gregory Desrosiers Jr.",
       "position": "RB",
       "fantasyPositions": [
         "RB"
@@ -35880,7 +35880,7 @@
       "fantasyPositions": [
         "WR"
       ],
-      "team": "PIT",
+      "team": null,
       "active": true
     },
     "11092": {
