@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T03:00:32.652826+00:00",
+  "generatedAt": "2026-11-22T09:37:54.048040+00:00",
   "players": {
     "6462": {
       "name": "Ellis Richardson",
@@ -1448,7 +1448,7 @@
       "fantasyPositions": [
         "RB"
       ],
-      "team": null,
+      "team": "GB",
       "active": true
     },
     "6823": {
@@ -4085,7 +4085,7 @@
       "fantasyPositions": [
         "QB"
       ],
-      "team": "IND",
+      "team": null,
       "active": true
     },
     "8905": {
@@ -32298,7 +32298,7 @@
       "fantasyPositions": [
         "WR"
       ],
-      "team": "CAR",
+      "team": null,
       "active": true
     },
     "11536": {
