@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-22T09:37:55.887613+00:00",
+ "generatedAt": "2026-11-22T17:40:02.008496+00:00",
  "season": 2026,
  "leagueName": "The League",
  "currentWeek": 11,
@@ -9265,6 +9265,37 @@
  "transactions": {
   "feed": [
    {
+    "transactionId": "1430211798706958336",
+    "week": 11,
+    "type": "free_agent",
+    "status": "complete",
+    "time": 1795351574164,
+    "rosterIds": [
+     4
+    ],
+    "adds": [
+     {
+      "playerId": "2020",
+      "name": "Cairo Santos",
+      "position": "K",
+      "rosterId": 4,
+      "startedPoints": 0.0,
+      "starts": 1,
+      "weekPoints": 0.0
+     }
+    ],
+    "drops": [
+     {
+      "playerId": "2747",
+      "name": "Jason Myers",
+      "position": "K",
+      "rosterId": 4
+     }
+    ],
+    "waiverBid": null,
+    "draftPicks": []
+   },
+   {
     "transactionId": "1429604424837234688",
     "week": 11,
     "type": "free_agent",
@@ -10012,7 +10043,7 @@
       "position": "RB",
       "rosterId": 4,
       "startedPoints": 0.0,
-      "starts": 0,
+      "starts": 1,
       "weekPoints": null
      }
     ],
@@ -11567,7 +11598,7 @@
       "position": "WR",
       "rosterId": 4,
       "startedPoints": 9.8,
-      "starts": 1,
+      "starts": 2,
       "weekPoints": null
      }
     ],
@@ -11957,7 +11988,7 @@
       "position": "K",
       "rosterId": 4,
       "startedPoints": 26.0,
-      "starts": 6,
+      "starts": 5,
       "weekPoints": null
      }
     ],
@@ -15002,7 +15033,7 @@
    "4": {
     "waiverClaims": 18,
     "waiverWins": 11,
-    "freeAgents": 3,
+    "freeAgents": 4,
     "trades": 0,
     "pickupPoints": 303.96
    },
