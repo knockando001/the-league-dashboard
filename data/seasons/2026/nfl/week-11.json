@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T22:37:55.037057+00:00",
+  "generatedAt": "2026-11-22T23:23:13.449112+00:00",
   "season": 2026,
   "week": 11,
   "complete": false,
@@ -10,8 +10,8 @@
       "kickoff": "2026-11-22T21:05Z",
       "home": "LAC",
       "away": "NYJ",
-      "homeScore": 10,
-      "awayScore": 17,
+      "homeScore": 17,
+      "awayScore": 27,
       "final": false
     },
     {
@@ -21,7 +21,7 @@
       "home": "DEN",
       "away": "LV",
       "homeScore": 17,
-      "awayScore": 3,
+      "awayScore": 10,
       "final": false
     },
     {
@@ -30,7 +30,7 @@
       "kickoff": "2026-11-22T21:25Z",
       "home": "NYG",
       "away": "JAX",
-      "homeScore": 10,
+      "homeScore": 20,
       "awayScore": 6,
       "final": false
     },

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-22T22:37:55.178990+00:00",
+ "generatedAt": "2026-11-22T23:23:13.600167+00:00",
  "season": 2026,
  "leagueName": "The League",
  "currentWeek": 11,
@@ -8705,16 +8705,16 @@
      "teams": [
       {
        "rosterId": 2,
-       "points": 51.2,
-       "optimal": 72.76,
-       "coach": 0.7037,
+       "points": 55.1,
+       "optimal": 76.66,
+       "coach": 0.7188,
        "benchPoints": 23.66,
        "timeline": [
         8.7,
         38.7,
-        51.2,
-        51.2,
-        51.2
+        55.1,
+        55.1,
+        55.1
        ],
        "topStarters": [
         {
@@ -8727,7 +8727,7 @@
          "playerId": "13345",
          "name": "Jonah Coleman",
          "position": "RB",
-         "points": 10.5
+         "points": 12.5
         },
         {
          "playerId": "PIT",
@@ -8754,9 +8754,9 @@
       {
        "rosterId": 4,
        "points": 45.3,
-       "optimal": 51.2,
-       "coach": 0.8848,
-       "benchPoints": 17.1,
+       "optimal": 48.2,
+       "coach": 0.9398,
+       "benchPoints": 14.1,
        "timeline": [
         2.2,
         45.3,
@@ -8789,7 +8789,7 @@
          "playerId": "DEN",
          "name": "Denver Broncos",
          "position": "DEF",
-         "points": 12.0
+         "points": 9.0
         },
         {
          "playerId": "5022",
@@ -8802,24 +8802,24 @@
      ],
      "winner": null,
      "leader": 2,
-     "margin": 5.9,
-     "total": 96.5
+     "margin": 9.8,
+     "total": 100.4
     },
     {
      "matchupId": 2,
      "teams": [
       {
        "rosterId": 6,
-       "points": 59.62,
-       "optimal": 72.0,
-       "coach": 0.8281,
-       "benchPoints": 15.0,
+       "points": 55.64,
+       "optimal": 77.14,
+       "coach": 0.7213,
+       "benchPoints": 24.2,
        "timeline": [
         2.7,
         50.7,
-        59.62,
-        59.62,
-        59.62
+        55.64,
+        55.64,
+        55.64
        ],
        "topStarters": [
         {
@@ -8835,10 +8835,10 @@
          "points": 11.0
         },
         {
-         "playerId": "JAX",
-         "name": "Jacksonville Jaguars",
-         "position": "DEF",
-         "points": 9.0
+         "playerId": "12517",
+         "name": "Colston Loveland",
+         "position": "TE",
+         "points": 8.9
         }
        ],
        "topBench": [
@@ -8852,22 +8852,22 @@
          "playerId": "11632",
          "name": "Malik Nabers",
          "position": "WR",
-         "points": 1.5
+         "points": 10.7
         }
        ]
       },
       {
        "rosterId": 7,
-       "points": 51.7,
+       "points": 55.2,
        "optimal": 133.5,
-       "coach": 0.3873,
+       "coach": 0.4135,
        "benchPoints": 89.4,
        "timeline": [
         0.0,
         51.7,
-        51.7,
-        51.7,
-        51.7
+        55.2,
+        55.2,
+        55.2
        ],
        "topStarters": [
         {
@@ -8907,8 +8907,8 @@
      ],
      "winner": null,
      "leader": 6,
-     "margin": 7.92,
-     "total": 111.32
+     "margin": 0.44,
+     "total": 110.84
     },
     {
      "matchupId": 3,
@@ -8918,7 +8918,7 @@
        "points": 101.56,
        "optimal": 101.56,
        "coach": 1.0,
-       "benchPoints": 3.3,
+       "benchPoints": 5.0,
        "timeline": [
         0.0,
         101.56,
@@ -8948,31 +8948,31 @@
        ],
        "topBench": [
         {
+         "playerId": "12490",
+         "name": "Bhayshul Tuten",
+         "position": "RB",
+         "points": 3.2
+        },
+        {
          "playerId": "12534",
          "name": "Kyle Monangai",
          "position": "RB",
          "points": 1.8
-        },
-        {
-         "playerId": "12490",
-         "name": "Bhayshul Tuten",
-         "position": "RB",
-         "points": 1.5
         }
        ]
       },
       {
        "rosterId": 8,
-       "points": 74.46,
-       "optimal": 91.66,
-       "coach": 0.8123,
+       "points": 80.16,
+       "optimal": 97.36,
+       "coach": 0.8233,
        "benchPoints": 45.26,
        "timeline": [
         19.46,
         61.56,
-        74.46,
-        74.46,
-        74.46
+        80.16,
+        80.16,
+        80.16
        ],
        "topStarters": [
         {
@@ -8988,10 +8988,10 @@
          "points": 18.0
         },
         {
-         "playerId": "8134",
-         "name": "Khalil Shakir",
-         "position": "WR",
-         "points": 10.3
+         "playerId": "8155",
+         "name": "Breece Hall",
+         "position": "RB",
+         "points": 14.6
         }
        ],
        "topBench": [
@@ -9012,8 +9012,8 @@
      ],
      "winner": null,
      "leader": 3,
-     "margin": 27.1,
-     "total": 176.02
+     "margin": 21.4,
+     "total": 181.72
     },
     {
      "matchupId": 4,
@@ -9021,9 +9021,9 @@
       {
        "rosterId": 1,
        "points": 119.74,
-       "optimal": 125.94,
-       "coach": 0.9508,
-       "benchPoints": 13.6,
+       "optimal": 134.94,
+       "coach": 0.8874,
+       "benchPoints": 27.6,
        "timeline": [
         42.2,
         112.74,
@@ -9056,7 +9056,7 @@
          "playerId": "12527",
          "name": "Ashton Jeanty",
          "position": "RB",
-         "points": 7.4
+         "points": 21.4
         },
         {
          "playerId": "10859",
@@ -9068,16 +9068,16 @@
       },
       {
        "rosterId": 5,
-       "points": 42.26,
-       "optimal": 51.66,
-       "coach": 0.818,
+       "points": 48.66,
+       "optimal": 58.06,
+       "coach": 0.8381,
        "benchPoints": 19.6,
        "timeline": [
         0.0,
         31.96,
-        42.26,
-        42.26,
-        42.26
+        48.66,
+        48.66,
+        48.66
        ],
        "topStarters": [
         {
@@ -9117,8 +9117,8 @@
      ],
      "winner": null,
      "leader": 1,
-     "margin": 77.48,
-     "total": 162.0
+     "margin": 71.08,
+     "total": 168.4
     }
    ],
    "awards": {
@@ -9128,9 +9128,9 @@
      "points": 119.74
     },
     "lowScore": {
-     "rosterId": 5,
-     "team": "DonTeam Kielce",
-     "points": 42.26
+     "rosterId": 4,
+     "team": "Gdynia Moustache Admirers",
+     "points": 45.3
     },
     "bestCoach": {
      "rosterId": 3,
@@ -9140,8 +9140,8 @@
     "mostLeftOnBench": {
      "rosterId": 7,
      "team": "Potega Wesiory",
-     "left": 81.8,
-     "coach": 0.3873
+     "left": 78.3,
+     "coach": 0.4135
     },
     "playerOfWeek": {
      "playerId": "7594",
@@ -9228,13 +9228,13 @@
      0
     ],
     "4": [
-     1,
-     6,
+     0,
+     7,
      0
     ],
     "5": [
-     0,
-     7,
+     1,
+     6,
      0
     ],
     "6": [
@@ -10976,7 +10976,7 @@
       "name": "Jonah Coleman",
       "position": "RB",
       "rosterId": 2,
-      "startedPoints": 25.3,
+      "startedPoints": 27.3,
       "starts": 2,
       "weekPoints": null
      }
@@ -11298,7 +11298,7 @@
       "name": "Jacksonville Jaguars",
       "position": "DEF",
       "rosterId": 6,
-      "startedPoints": 55.44,
+      "startedPoints": 50.44,
       "starts": 4,
       "weekPoints": null
      }
@@ -12504,7 +12504,7 @@
       "name": "Isaiah Likely",
       "position": "TE",
       "rosterId": 7,
-      "startedPoints": 48.1,
+      "startedPoints": 51.6,
       "starts": 5,
       "weekPoints": null
      }
@@ -14279,7 +14279,7 @@
       "name": "Matt Gay",
       "position": "K",
       "rosterId": 8,
-      "startedPoints": 91.0,
+      "startedPoints": 92.0,
       "starts": 10,
       "weekPoints": 8.0
      }
@@ -14878,7 +14878,7 @@
     "name": "Matt Gay",
     "position": "K",
     "rosterId": 8,
-    "startedPoints": 91.0,
+    "startedPoints": 92.0,
     "starts": 10,
     "weekPoints": 8.0,
     "week": 2,
@@ -14946,28 +14946,28 @@
     "team": "Gdynia Moustache Admirers"
    },
    {
+    "playerId": "8131",
+    "name": "Isaiah Likely",
+    "position": "TE",
+    "rosterId": 7,
+    "startedPoints": 51.6,
+    "starts": 5,
+    "weekPoints": null,
+    "week": 5,
+    "type": "waiver",
+    "team": "Potega Wesiory"
+   },
+   {
     "playerId": "JAX",
     "name": "Jacksonville Jaguars",
     "position": "DEF",
     "rosterId": 6,
-    "startedPoints": 55.44,
+    "startedPoints": 50.44,
     "starts": 4,
     "weekPoints": null,
     "week": 7,
     "type": "free_agent",
     "team": "Agroplon Gluszyna"
-   },
-   {
-    "playerId": "3163",
-    "name": "Jared Goff",
-    "position": "QB",
-    "rosterId": 2,
-    "startedPoints": 48.42,
-    "starts": 2,
-    "weekPoints": null,
-    "week": 3,
-    "type": "waiver",
-    "team": "Vegablanca Boars"
    }
   ],
   "waiverBattles": [
@@ -15185,7 +15185,7 @@
     "waiverWins": 7,
     "freeAgents": 11,
     "trades": 0,
-    "pickupPoints": 161.94
+    "pickupPoints": 156.94
    },
    "1": {
     "waiverClaims": 17,
@@ -15206,14 +15206,14 @@
     "waiverWins": 21,
     "freeAgents": 3,
     "trades": 0,
-    "pickupPoints": 280.52
+    "pickupPoints": 282.52
    },
    "7": {
     "waiverClaims": 19,
     "waiverWins": 15,
     "freeAgents": 6,
     "trades": 0,
-    "pickupPoints": 383.1
+    "pickupPoints": 386.6
    },
    "5": {
     "waiverClaims": 0,
@@ -15227,7 +15227,7 @@
     "waiverWins": 1,
     "freeAgents": 18,
     "trades": 0,
-    "pickupPoints": 414.26
+    "pickupPoints": 415.26
    }
   }
  },
