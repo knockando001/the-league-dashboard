@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T09:37:54.048040+00:00",
+  "generatedAt": "2026-11-23T19:56:43.316107+00:00",
   "players": {
     "6462": {
       "name": "Ellis Richardson",
@@ -4049,7 +4049,7 @@
       "fantasyPositions": [
         "WR"
       ],
-      "team": "SF",
+      "team": null,
       "active": true
     },
     "1718": {

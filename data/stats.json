@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-23T08:01:52.101812+00:00",
+ "generatedAt": "2026-11-23T19:56:45.673406+00:00",
  "season": 2026,
  "leagueName": "The League",
  "currentWeek": 11,
@@ -9377,6 +9377,27 @@
  "transactions": {
   "feed": [
    {
+    "transactionId": "1430515930445680640",
+    "week": 11,
+    "type": "waiver",
+    "status": "failed",
+    "time": 1795461642683,
+    "rosterIds": [
+     6
+    ],
+    "adds": [
+     {
+      "playerId": "9753",
+      "name": "Zach Charbonnet",
+      "position": "RB",
+      "rosterId": 6
+     }
+    ],
+    "drops": [],
+    "waiverBid": null,
+    "draftPicks": []
+   },
+   {
     "transactionId": "1430323808933273600",
     "week": 11,
     "type": "free_agent",
@@ -15181,7 +15202,7 @@
     "pickupPoints": 360.86
    },
    "6": {
-    "waiverClaims": 14,
+    "waiverClaims": 15,
     "waiverWins": 7,
     "freeAgents": 11,
     "trades": 0,
