@@ -1,37 +1,17 @@
 {
-  "generatedAt": "2026-11-22T23:23:13.449112+00:00",
+  "generatedAt": "2026-11-23T03:51:32.240638+00:00",
   "season": 2026,
   "week": 11,
   "complete": false,
   "games": [
     {
-      "espnId": "401873074",
-      "name": "NYJ @ LAC",
-      "kickoff": "2026-11-22T21:05Z",
-      "home": "LAC",
-      "away": "NYJ",
-      "homeScore": 17,
-      "awayScore": 27,
-      "final": false
-    },
-    {
-      "espnId": "401873075",
-      "name": "LV @ DEN",
-      "kickoff": "2026-11-22T21:25Z",
-      "home": "DEN",
-      "away": "LV",
-      "homeScore": 17,
+      "espnId": "401873077",
+      "name": "MIN VS SF",
+      "kickoff": "2026-11-23T01:20Z",
+      "home": "SF",
+      "away": "MIN",
+      "homeScore": 28,
       "awayScore": 10,
-      "final": false
-    },
-    {
-      "espnId": "401873069",
-      "name": "JAX @ NYG",
-      "kickoff": "2026-11-22T21:25Z",
-      "home": "NYG",
-      "away": "JAX",
-      "homeScore": 20,
-      "awayScore": 6,
       "final": false
     },
     {
@@ -105,14 +85,34 @@
       "final": true
     },
     {
-      "espnId": "401873077",
-      "name": "MIN VS SF",
-      "kickoff": "2026-11-23T01:20Z",
-      "home": "SF",
-      "away": "MIN",
-      "homeScore": 0,
-      "awayScore": 0,
-      "final": false
+      "espnId": "401873074",
+      "name": "NYJ @ LAC",
+      "kickoff": "2026-11-22T21:05Z",
+      "home": "LAC",
+      "away": "NYJ",
+      "homeScore": 24,
+      "awayScore": 27,
+      "final": true
+    },
+    {
+      "espnId": "401873075",
+      "name": "LV @ DEN",
+      "kickoff": "2026-11-22T21:25Z",
+      "home": "DEN",
+      "away": "LV",
+      "homeScore": 38,
+      "awayScore": 24,
+      "final": true
+    },
+    {
+      "espnId": "401873069",
+      "name": "JAX @ NYG",
+      "kickoff": "2026-11-22T21:25Z",
+      "home": "NYG",
+      "away": "JAX",
+      "homeScore": 23,
+      "awayScore": 18,
+      "final": true
     },
     {
       "espnId": "401873066",
@@ -181,6 +181,11 @@
       "opponent": "BAL",
       "date": "2026-11-22"
     },
+    "11792": {
+      "team": "MIN",
+      "opponent": "SF",
+      "date": "2026-11-22"
+    },
     "12534": {
       "team": "CHI",
       "opponent": "NO",
@@ -191,6 +196,11 @@
       "opponent": "DAL",
       "date": "2026-11-22"
     },
+    "2216": {
+      "team": "SF",
+      "opponent": "MIN",
+      "date": "2026-11-22"
+    },
     "3198": {
       "team": "BAL",
       "opponent": "CAR",
@@ -199,6 +209,11 @@
     "4046": {
       "team": "KC",
       "opponent": "ARI",
+      "date": "2026-11-22"
+    },
+    "4199": {
+      "team": "MIN",
+      "opponent": "SF",
       "date": "2026-11-22"
     },
     "5012": {
@@ -244,6 +259,11 @@
     "BUF": {
       "team": "BUF",
       "opponent": "MIA",
+      "date": "2026-11-22"
+    },
+    "SF": {
+      "team": "SF",
+      "opponent": "MIN",
       "date": "2026-11-22"
     },
     "12495": {
@@ -301,6 +321,11 @@
       "opponent": "MIA",
       "date": "2026-11-22"
     },
+    "5872": {
+      "team": "SF",
+      "opponent": "MIN",
+      "date": "2026-11-22"
+    },
     "6083": {
       "team": "LV",
       "opponent": "DEN",
@@ -326,6 +351,11 @@
       "opponent": "LAC",
       "date": "2026-11-22"
     },
+    "8183": {
+      "team": "SF",
+      "opponent": "MIN",
+      "date": "2026-11-22"
+    },
     "JAX": {
       "team": "JAX",
       "opponent": "NYG",
@@ -344,6 +374,11 @@
     "11560": {
       "team": "CHI",
       "opponent": "NO",
+      "date": "2026-11-22"
+    },
+    "1166": {
+      "team": "MIN",
+      "opponent": "SF",
       "date": "2026-11-22"
     },
     "11783": {
@@ -366,6 +401,21 @@
       "opponent": "TEN",
       "date": "2026-11-22"
     },
+    "4034": {
+      "team": "SF",
+      "opponent": "MIN",
+      "date": "2026-11-22"
+    },
+    "4217": {
+      "team": "SF",
+      "opponent": "MIN",
+      "date": "2026-11-22"
+    },
+    "5844": {
+      "team": "MIN",
+      "opponent": "SF",
+      "date": "2026-11-22"
+    },
     "5967": {
       "team": "TEN",
       "opponent": "DAL",
@@ -379,6 +429,11 @@
     "8144": {
       "team": "NO",
       "opponent": "CHI",
+      "date": "2026-11-22"
+    },
+    "8408": {
+      "team": "MIN",
+      "opponent": "SF",
       "date": "2026-11-22"
     },
     "9487": {
@@ -516,6 +571,11 @@
       "opponent": "PIT",
       "date": "2026-11-22"
     },
+    "6794": {
+      "team": "MIN",
+      "opponent": "SF",
+      "date": "2026-11-22"
+    },
     "7523": {
       "team": "JAX",
       "opponent": "NYG",
@@ -549,6 +609,11 @@
     "KC": {
       "team": "KC",
       "opponent": "ARI",
+      "date": "2026-11-22"
+    },
+    "MIN": {
+      "team": "MIN",
+      "opponent": "SF",
       "date": "2026-11-22"
     },
     "TB": {

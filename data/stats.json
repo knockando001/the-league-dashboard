@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-22T23:23:13.600167+00:00",
+ "generatedAt": "2026-11-23T03:51:32.355420+00:00",
  "season": 2026,
  "leagueName": "The League",
  "currentWeek": 11,
@@ -8705,29 +8705,29 @@
      "teams": [
       {
        "rosterId": 2,
-       "points": 55.1,
-       "optimal": 76.66,
-       "coach": 0.7188,
+       "points": 73.5,
+       "optimal": 95.06,
+       "coach": 0.7732,
        "benchPoints": 23.66,
        "timeline": [
         8.7,
         38.7,
-        55.1,
-        55.1,
-        55.1
+        73.5,
+        73.5,
+        73.5
        ],
        "topStarters": [
+        {
+         "playerId": "13345",
+         "name": "Jonah Coleman",
+         "position": "RB",
+         "points": 30.9
+        },
         {
          "playerId": "3198",
          "name": "Derrick Henry",
          "position": "RB",
          "points": 14.1
-        },
-        {
-         "playerId": "13345",
-         "name": "Jonah Coleman",
-         "position": "RB",
-         "points": 12.5
         },
         {
          "playerId": "PIT",
@@ -8753,18 +8753,24 @@
       },
       {
        "rosterId": 4,
-       "points": 45.3,
-       "optimal": 48.2,
-       "coach": 0.9398,
-       "benchPoints": 14.1,
+       "points": 71.0,
+       "optimal": 81.3,
+       "coach": 0.8733,
+       "benchPoints": 21.5,
        "timeline": [
         2.2,
         45.3,
         45.3,
-        45.3,
-        45.3
+        71.0,
+        71.0
        ],
        "topStarters": [
+        {
+         "playerId": "8183",
+         "name": "Brock Purdy",
+         "position": "QB",
+         "points": 21.4
+        },
         {
          "playerId": "8148",
          "name": "Jameson Williams",
@@ -8776,12 +8782,6 @@
          "name": "Kansas City Chiefs",
          "position": "DEF",
          "points": 9.0
-        },
-        {
-         "playerId": "9997",
-         "name": "Zay Flowers",
-         "position": "WR",
-         "points": 8.4
         }
        ],
        "topBench": [
@@ -8789,7 +8789,7 @@
          "playerId": "DEN",
          "name": "Denver Broncos",
          "position": "DEF",
-         "points": 9.0
+         "points": 16.4
         },
         {
          "playerId": "5022",
@@ -8802,24 +8802,24 @@
      ],
      "winner": null,
      "leader": 2,
-     "margin": 9.8,
-     "total": 100.4
+     "margin": 2.5,
+     "total": 144.5
     },
     {
      "matchupId": 2,
      "teams": [
       {
        "rosterId": 6,
-       "points": 55.64,
-       "optimal": 77.14,
-       "coach": 0.7213,
-       "benchPoints": 24.2,
+       "points": 73.74,
+       "optimal": 99.74,
+       "coach": 0.7393,
+       "benchPoints": 47.44,
        "timeline": [
         2.7,
         50.7,
-        55.64,
-        55.64,
-        55.64
+        64.44,
+        73.74,
+        73.74
        ],
        "topStarters": [
         {
@@ -8843,16 +8843,16 @@
        ],
        "topBench": [
         {
+         "playerId": "2216",
+         "name": "Mike Evans",
+         "position": "WR",
+         "points": 16.9
+        },
+        {
          "playerId": "4866",
          "name": "Saquon Barkley",
          "position": "RB",
          "points": 13.5
-        },
-        {
-         "playerId": "11632",
-         "name": "Malik Nabers",
-         "position": "WR",
-         "points": 10.7
         }
        ]
       },
@@ -8907,24 +8907,24 @@
      ],
      "winner": null,
      "leader": 6,
-     "margin": 0.44,
-     "total": 110.84
+     "margin": 18.54,
+     "total": 128.94
     },
     {
      "matchupId": 3,
      "teams": [
       {
        "rosterId": 3,
-       "points": 101.56,
-       "optimal": 101.56,
-       "coach": 1.0,
-       "benchPoints": 5.0,
+       "points": 106.36,
+       "optimal": 110.56,
+       "coach": 0.962,
+       "benchPoints": 11.3,
        "timeline": [
         0.0,
         101.56,
         101.56,
-        101.56,
-        101.56
+        106.36,
+        106.36
        ],
        "topStarters": [
         {
@@ -8951,28 +8951,28 @@
          "playerId": "12490",
          "name": "Bhayshul Tuten",
          "position": "RB",
-         "points": 3.2
+         "points": 5.3
         },
         {
-         "playerId": "12534",
-         "name": "Kyle Monangai",
-         "position": "RB",
-         "points": 1.8
+         "playerId": "5872",
+         "name": "Deebo Samuel Sr.",
+         "position": "WR",
+         "points": 4.2
         }
        ]
       },
       {
        "rosterId": 8,
-       "points": 80.16,
-       "optimal": 97.36,
-       "coach": 0.8233,
+       "points": 93.26,
+       "optimal": 110.46,
+       "coach": 0.8443,
        "benchPoints": 45.26,
        "timeline": [
         19.46,
         61.56,
-        80.16,
-        80.16,
-        80.16
+        83.56,
+        93.26,
+        93.26
        ],
        "topStarters": [
         {
@@ -8991,7 +8991,7 @@
          "playerId": "8155",
          "name": "Breece Hall",
          "position": "RB",
-         "points": 14.6
+         "points": 16.0
         }
        ],
        "topBench": [
@@ -9012,24 +9012,24 @@
      ],
      "winner": null,
      "leader": 3,
-     "margin": 21.4,
-     "total": 181.72
+     "margin": 13.1,
+     "total": 199.62
     },
     {
      "matchupId": 4,
      "teams": [
       {
        "rosterId": 1,
-       "points": 119.74,
-       "optimal": 134.94,
-       "coach": 0.8874,
-       "benchPoints": 27.6,
+       "points": 141.14,
+       "optimal": 152.36,
+       "coach": 0.9264,
+       "benchPoints": 47.82,
        "timeline": [
         42.2,
         112.74,
-        119.74,
-        119.74,
-        119.74
+        125.74,
+        141.14,
+        141.14
        ],
        "topStarters": [
         {
@@ -9056,30 +9056,36 @@
          "playerId": "12527",
          "name": "Ashton Jeanty",
          "position": "RB",
-         "points": 21.4
+         "points": 22.9
         },
         {
-         "playerId": "10859",
-         "name": "Sam LaPorta",
-         "position": "TE",
-         "points": 6.2
+         "playerId": "SF",
+         "name": "San Francisco 49ers",
+         "position": "DEF",
+         "points": 18.72
         }
        ]
       },
       {
        "rosterId": 5,
-       "points": 48.66,
-       "optimal": 58.06,
-       "coach": 0.8381,
+       "points": 54.36,
+       "optimal": 63.76,
+       "coach": 0.8526,
        "benchPoints": 19.6,
        "timeline": [
         0.0,
         31.96,
-        48.66,
-        48.66,
-        48.66
+        53.36,
+        54.36,
+        54.36
        ],
        "topStarters": [
+        {
+         "playerId": "9487",
+         "name": "Parker Washington",
+         "position": "WR",
+         "points": 10.3
+        },
         {
          "playerId": "8144",
          "name": "Chris Olave",
@@ -9091,12 +9097,6 @@
          "name": "Josh Allen",
          "position": "QB",
          "points": 10.16
-        },
-        {
-         "playerId": "11533",
-         "name": "Brandon Aubrey",
-         "position": "K",
-         "points": 10.0
         }
        ],
        "topBench": [
@@ -9117,25 +9117,25 @@
      ],
      "winner": null,
      "leader": 1,
-     "margin": 71.08,
-     "total": 168.4
+     "margin": 86.78,
+     "total": 195.5
     }
    ],
    "awards": {
     "topScore": {
      "rosterId": 1,
      "team": "Zamek Pancerne Dziki",
-     "points": 119.74
+     "points": 141.14
     },
     "lowScore": {
-     "rosterId": 4,
-     "team": "Gdynia Moustache Admirers",
-     "points": 45.3
+     "rosterId": 5,
+     "team": "DonTeam Kielce",
+     "points": 54.36
     },
     "bestCoach": {
      "rosterId": 3,
      "team": "Flota Oksywie",
-     "coach": 1.0
+     "coach": 0.962
     },
     "mostLeftOnBench": {
      "rosterId": 7,
@@ -9144,12 +9144,12 @@
      "coach": 0.4135
     },
     "playerOfWeek": {
-     "playerId": "7594",
-     "name": "Chuba Hubbard",
+     "playerId": "13345",
+     "name": "Jonah Coleman",
      "position": "RB",
-     "points": 26.0,
-     "rosterId": 7,
-     "team": "Potega Wesiory"
+     "points": 30.9,
+     "rosterId": 2,
+     "team": "Vegablanca Boars"
     },
     "benchOfWeek": {
      "playerId": "3294",
@@ -9218,8 +9218,8 @@
      0
     ],
     "2": [
-     2,
-     5,
+     3,
+     4,
      0
     ],
     "3": [
@@ -9228,13 +9228,13 @@
      0
     ],
     "4": [
-     0,
-     7,
+     2,
+     5,
      0
     ],
     "5": [
-     1,
-     6,
+     0,
+     7,
      0
     ],
     "6": [
@@ -9243,8 +9243,8 @@
      0
     ],
     "7": [
-     3,
-     4,
+     1,
+     6,
      0
     ],
     "8": [
@@ -9391,9 +9391,9 @@
       "name": "T.J. Hockenson",
       "position": "TE",
       "rosterId": 3,
-      "startedPoints": 0.0,
+      "startedPoints": 4.8,
       "starts": 1,
-      "weekPoints": 0.0
+      "weekPoints": 4.8
      }
     ],
     "drops": [
@@ -9484,9 +9484,9 @@
       "name": "Aaron Jones Sr.",
       "position": "RB",
       "rosterId": 8,
-      "startedPoints": 0.0,
+      "startedPoints": 9.7,
       "starts": 1,
-      "weekPoints": 0.0
+      "weekPoints": 9.7
      }
     ],
     "drops": [
@@ -10976,7 +10976,7 @@
       "name": "Jonah Coleman",
       "position": "RB",
       "rosterId": 2,
-      "startedPoints": 27.3,
+      "startedPoints": 45.7,
       "starts": 2,
       "weekPoints": null
      }
@@ -11298,7 +11298,7 @@
       "name": "Jacksonville Jaguars",
       "position": "DEF",
       "rosterId": 6,
-      "startedPoints": 50.44,
+      "startedPoints": 51.44,
       "starts": 4,
       "weekPoints": null
      }
@@ -12452,7 +12452,7 @@
       "name": "Will Reichard",
       "position": "K",
       "rosterId": 6,
-      "startedPoints": 35.0,
+      "startedPoints": 40.0,
       "starts": 5,
       "weekPoints": null
      }
@@ -14279,7 +14279,7 @@
       "name": "Matt Gay",
       "position": "K",
       "rosterId": 8,
-      "startedPoints": 92.0,
+      "startedPoints": 94.0,
       "starts": 10,
       "weekPoints": 8.0
      }
@@ -14542,7 +14542,7 @@
       "name": "Brock Purdy",
       "position": "QB",
       "rosterId": 4,
-      "startedPoints": 162.7,
+      "startedPoints": 184.1,
       "starts": 8,
       "weekPoints": null
      }
@@ -14854,7 +14854,7 @@
     "name": "Brock Purdy",
     "position": "QB",
     "rosterId": 4,
-    "startedPoints": 162.7,
+    "startedPoints": 184.1,
     "starts": 8,
     "weekPoints": null,
     "week": 1,
@@ -14878,7 +14878,7 @@
     "name": "Matt Gay",
     "position": "K",
     "rosterId": 8,
-    "startedPoints": 92.0,
+    "startedPoints": 94.0,
     "starts": 10,
     "weekPoints": 8.0,
     "week": 2,
@@ -14962,7 +14962,7 @@
     "name": "Jacksonville Jaguars",
     "position": "DEF",
     "rosterId": 6,
-    "startedPoints": 50.44,
+    "startedPoints": 51.44,
     "starts": 4,
     "weekPoints": null,
     "week": 7,
@@ -15178,14 +15178,14 @@
     "waiverWins": 11,
     "freeAgents": 4,
     "trades": 0,
-    "pickupPoints": 338.66
+    "pickupPoints": 360.06
    },
    "6": {
     "waiverClaims": 14,
     "waiverWins": 7,
     "freeAgents": 11,
     "trades": 0,
-    "pickupPoints": 156.94
+    "pickupPoints": 162.94
    },
    "1": {
     "waiverClaims": 17,
@@ -15199,14 +15199,14 @@
     "waiverWins": 9,
     "freeAgents": 20,
     "trades": 0,
-    "pickupPoints": 344.92
+    "pickupPoints": 349.72
    },
    "2": {
     "waiverClaims": 34,
     "waiverWins": 21,
     "freeAgents": 3,
     "trades": 0,
-    "pickupPoints": 282.52
+    "pickupPoints": 300.92
    },
    "7": {
     "waiverClaims": 19,
@@ -15227,7 +15227,7 @@
     "waiverWins": 1,
     "freeAgents": 18,
     "trades": 0,
-    "pickupPoints": 415.26
+    "pickupPoints": 426.96
    }
   }
  },
