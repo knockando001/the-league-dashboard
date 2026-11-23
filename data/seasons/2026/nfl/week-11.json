@@ -1,18 +1,28 @@
 {
-  "generatedAt": "2026-11-23T03:51:32.240638+00:00",
+  "generatedAt": "2026-11-23T06:27:44.446391+00:00",
   "season": 2026,
   "week": 11,
   "complete": false,
   "games": [
     {
-      "espnId": "401873077",
-      "name": "MIN VS SF",
-      "kickoff": "2026-11-23T01:20Z",
-      "home": "SF",
-      "away": "MIN",
-      "homeScore": 28,
-      "awayScore": 10,
+      "espnId": "401873078",
+      "name": "CIN @ WSH",
+      "kickoff": "2026-11-24T01:15Z",
+      "home": "WAS",
+      "away": "CIN",
+      "homeScore": 0,
+      "awayScore": 0,
       "final": false
+    },
+    {
+      "espnId": "401873066",
+      "name": "IND @ HOU",
+      "kickoff": "2026-11-20T01:15Z",
+      "home": "HOU",
+      "away": "IND",
+      "homeScore": 26,
+      "awayScore": 3,
+      "final": true
     },
     {
       "espnId": "401873070",
@@ -115,24 +125,14 @@
       "final": true
     },
     {
-      "espnId": "401873066",
-      "name": "IND @ HOU",
-      "kickoff": "2026-11-20T01:15Z",
-      "home": "HOU",
-      "away": "IND",
-      "homeScore": 26,
-      "awayScore": 3,
+      "espnId": "401873077",
+      "name": "MIN VS SF",
+      "kickoff": "2026-11-23T01:20Z",
+      "home": "SF",
+      "away": "MIN",
+      "homeScore": 35,
+      "awayScore": 10,
       "final": true
-    },
-    {
-      "espnId": "401873078",
-      "name": "CIN @ WSH",
-      "kickoff": "2026-11-24T01:15Z",
-      "home": "WAS",
-      "away": "CIN",
-      "homeScore": 0,
-      "awayScore": 0,
-      "final": false
     }
   ],
   "players": {

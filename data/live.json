@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T03:51:31.443445+00:00",
+  "generatedAt": "2026-11-23T06:27:44.050473+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -73,11 +73,10 @@
     "avatar": "8da7991069e3a7217718ff56366005c6",
     "company_id": null,
     "league_id": "1397593463293239296",
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "shard": 125,
-    "last_message_id": "1430323809113616384",
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -228,6 +227,7 @@
       "st_ff": 0.0,
       "idp_tkl_ast": 0.0
     },
+    "last_message_id": "1430323809113616384",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -236,8 +236,8 @@
     "last_message_text_map": null,
     "last_message_time": 1795378279525,
     "last_pinned_message_id": "1398407155169656845",
-    "draft_id": "1397593466170523648",
     "last_read_id": null,
+    "draft_id": "1397593466170523648",
     "previous_league_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
@@ -8775,7 +8775,7 @@
           },
           {
             "playerId": "SF",
-            "points": 18.72
+            "points": 17.72
           }
         ],
         "playersPoints": {
@@ -8795,7 +8795,7 @@
           "8167": 0.0,
           "9221": 23.8,
           "HOU": 18.0,
-          "SF": 18.72
+          "SF": 17.72
         }
       },
       {
@@ -8908,7 +8908,7 @@
         "ownerId": "1395937838859579392",
         "ownerName": "knockando",
         "teamName": "Flota Oksywie",
-        "points": 106.36,
+        "points": 107.06,
         "customPoints": null,
         "starters": [
           {
@@ -8933,7 +8933,7 @@
           },
           {
             "playerId": "5844",
-            "points": 4.8
+            "points": 5.5
           },
           {
             "playerId": "11584",
@@ -8971,7 +8971,7 @@
           },
           {
             "playerId": "5872",
-            "points": 4.2
+            "points": 4.7
           },
           {
             "playerId": "6804",
@@ -8989,9 +8989,9 @@
           "12490": 5.3,
           "12534": 1.8,
           "421": 0.0,
-          "5844": 4.8,
+          "5844": 5.5,
           "5850": 0.0,
-          "5872": 4.2,
+          "5872": 4.7,
           "6801": 0.0,
           "6804": 0.0,
           "7042": 18.0,
@@ -9010,16 +9010,16 @@
         "ownerId": "1398407279245524992",
         "ownerName": "kiler7775",
         "teamName": "Gdynia Moustache Admirers",
-        "points": 71.0,
+        "points": 79.7,
         "customPoints": null,
         "starters": [
           {
             "playerId": "8183",
-            "points": 21.4
+            "points": 22.2
           },
           {
             "playerId": "4034",
-            "points": 4.3
+            "points": 12.2
           },
           {
             "playerId": "7021",
@@ -9092,12 +9092,12 @@
           "2020": 7.0,
           "2133": 0.0,
           "2449": 0.0,
-          "4034": 4.3,
+          "4034": 12.2,
           "5022": 3.8,
           "7021": 3.4,
           "8148": 15.3,
           "8150": 0.0,
-          "8183": 21.4,
+          "8183": 22.2,
           "9488": 0.0,
           "9997": 8.4,
           "DEN": 16.4,
@@ -9112,7 +9112,7 @@
         "ownerId": "1399810563806142464",
         "ownerName": "DonTeamKielce",
         "teamName": "DonTeam Kielce",
-        "points": 54.36,
+        "points": 53.36,
         "customPoints": null,
         "starters": [
           {
@@ -9149,7 +9149,7 @@
           },
           {
             "playerId": "MIN",
-            "points": 1.0
+            "points": 0.0
           }
         ],
         "bench": [
@@ -9198,7 +9198,7 @@
           "8144": 10.2,
           "9487": 10.3,
           "LAR": 0.0,
-          "MIN": 1.0
+          "MIN": 0.0
         }
       },
       {
@@ -9209,7 +9209,7 @@
         "ownerId": "1399409218053783552",
         "ownerName": "AgroplonGluszyna",
         "teamName": "Agroplon Gluszyna",
-        "points": 73.74,
+        "points": 75.14,
         "customPoints": null,
         "starters": [
           {
@@ -9226,7 +9226,7 @@
           },
           {
             "playerId": "6794",
-            "points": 4.3
+            "points": 5.7
           },
           {
             "playerId": "6786",
@@ -9260,7 +9260,7 @@
           },
           {
             "playerId": "1166",
-            "points": 3.24
+            "points": 5.4
           },
           {
             "playerId": "2216",
@@ -9272,7 +9272,7 @@
           },
           {
             "playerId": "8408",
-            "points": 2.3
+            "points": 3.7
           },
           {
             "playerId": "9484",
@@ -9282,7 +9282,7 @@
         "playersPoints": {
           "10236": 0.0,
           "11632": 11.5,
-          "1166": 3.24,
+          "1166": 5.4,
           "11792": 5.0,
           "12517": 8.9,
           "2216": 16.9,
@@ -9290,10 +9290,10 @@
           "5967": 11.0,
           "6786": 19.2,
           "6790": 8.9,
-          "6794": 4.3,
+          "6794": 5.7,
           "6813": 2.7,
           "7523": 8.74,
-          "8408": 2.3,
+          "8408": 3.7,
           "9484": 0.0,
           "JAX": 5.0
         }
@@ -9403,7 +9403,7 @@
         "ownerId": "1398643051898880000",
         "ownerName": "Janaka7",
         "teamName": "Kiki Owls",
-        "points": 93.26,
+        "points": 93.86,
         "customPoints": null,
         "starters": [
           {
@@ -9416,7 +9416,7 @@
           },
           {
             "playerId": "4199",
-            "points": 9.7
+            "points": 10.3
           },
           {
             "playerId": "7547",
@@ -9479,7 +9479,7 @@
           "12474": 0.0,
           "13279": 11.8,
           "4046": 24.96,
-          "4199": 9.7,
+          "4199": 10.3,
           "6083": 6.0,
           "7002": 0.0,
           "7525": 4.1,
@@ -14734,12 +14734,12 @@
         "adds": {
           "5844": 3
         },
-        "consenter_ids": [
-          3
-        ],
         "drops": {
           "9753": 3
         },
+        "consenter_ids": [
+          3
+        ],
         "roster_ids": [
           3
         ],
@@ -14760,12 +14760,12 @@
         "adds": {
           "2020": 4
         },
-        "consenter_ids": [
-          4
-        ],
         "drops": {
           "2747": 4
         },
+        "consenter_ids": [
+          4
+        ],
         "roster_ids": [
           4
         ],
@@ -14786,12 +14786,12 @@
         "adds": {
           "TB": 3
         },
-        "consenter_ids": [
-          3
-        ],
         "drops": {
           "9493": 3
         },
+        "consenter_ids": [
+          3
+        ],
         "roster_ids": [
           3
         ],
@@ -14812,12 +14812,12 @@
         "adds": {
           "4199": 8
         },
-        "consenter_ids": [
-          8
-        ],
         "drops": {
           "NO": 8
         },
+        "consenter_ids": [
+          8
+        ],
         "roster_ids": [
           8
         ],
@@ -14838,12 +14838,12 @@
         "adds": {
           "11620": 8
         },
-        "consenter_ids": [
-          8
-        ],
         "drops": {
           "10232": 8
         },
+        "consenter_ids": [
+          8
+        ],
         "roster_ids": [
           8
         ],
@@ -14864,12 +14864,12 @@
         "adds": {
           "7525": 8
         },
-        "consenter_ids": [
-          8
-        ],
         "drops": {
           "8126": 8
         },
+        "consenter_ids": [
+          8
+        ],
         "roster_ids": [
           8
         ],
@@ -14890,12 +14890,12 @@
         "adds": {
           "5892": 1
         },
-        "consenter_ids": [
-          1
-        ],
         "drops": {
           "11620": 1
         },
+        "consenter_ids": [
+          1
+        ],
         "roster_ids": [
           1
         ],
@@ -14916,12 +14916,12 @@
         "adds": {
           "DET": 7
         },
-        "consenter_ids": [
-          7
-        ],
         "drops": {
           "BAL": 7
         },
+        "consenter_ids": [
+          7
+        ],
         "roster_ids": [
           7
         ],
@@ -14942,12 +14942,12 @@
         "adds": {
           "11620": 1
         },
-        "consenter_ids": [
-          1
-        ],
         "drops": {
           "12545": 1
         },
+        "consenter_ids": [
+          1
+        ],
         "roster_ids": [
           1
         ],
