@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-24T04:41:16.964101+00:00",
+ "generatedAt": "2026-11-24T10:18:07.967329+00:00",
  "season": 2026,
  "leagueName": "The League",
- "currentWeek": 11,
- "lastFinishedWeek": 10,
+ "currentWeek": 12,
+ "lastFinishedWeek": 11,
  "regularSeasonEnd": 13,
  "playoffTeams": 4,
  "tradeDeadline": 10,
@@ -18,20 +18,20 @@
    "franchiseId": "4"
   },
   {
-   "rosterId": 6,
-   "team": "Agroplon Gluszyna",
-   "short": "Agroplon",
-   "sleeperUser": "AgroplonGluszyna",
-   "manager": "Paweł",
-   "franchiseId": "6"
-  },
-  {
    "rosterId": 1,
    "team": "Zamek Pancerne Dziki",
    "short": "Zamek",
    "sleeperUser": "milijon",
    "manager": "Konrad",
    "franchiseId": "1"
+  },
+  {
+   "rosterId": 6,
+   "team": "Agroplon Gluszyna",
+   "short": "Agroplon",
+   "sleeperUser": "AgroplonGluszyna",
+   "manager": "Paweł",
+   "franchiseId": "6"
   },
   {
    "rosterId": 3,
@@ -79,32 +79,32 @@
    "rosterId": 4,
    "team": "Gdynia Moustache Admirers",
    "wins": 8,
-   "losses": 2,
+   "losses": 3,
    "ties": 0,
-   "pointsFor": 1135.88,
-   "pointsAgainst": 954.5,
-   "avgPoints": 113.59,
+   "pointsFor": 1220.08,
+   "pointsAgainst": 1047.9,
+   "avgPoints": 110.92,
    "allPlay": {
-    "wins": 42,
-    "losses": 28,
+    "wins": 44,
+    "losses": 33,
     "ties": 0,
-    "pct": 0.6
+    "pct": 0.5714
    },
-   "expectedWins": 6.0,
-   "luck": 2.0,
-   "coach": 0.9188,
-   "benchPoints": 430.6,
-   "leftOnBench": 100.36,
+   "expectedWins": 6.29,
+   "luck": 1.71,
+   "coach": 0.9177,
+   "benchPoints": 452.1,
+   "leftOnBench": 109.36,
    "high": 149.68,
    "low": 69.46,
-   "last3": 97.53,
-   "streak": "W2",
+   "last3": 102.45,
+   "streak": "L1",
    "form": [
-    "L",
     "W",
     "L",
     "W",
-    "W"
+    "W",
+    "L"
    ],
    "scores": [
     98.02,
@@ -116,35 +116,36 @@
     108.22,
     69.46,
     96.28,
-    126.86
+    126.86,
+    84.2
    ],
    "trueScore": 6.0,
    "trueRank": 2,
    "rank": 1
   },
   {
-   "rosterId": 6,
-   "team": "Agroplon Gluszyna",
+   "rosterId": 1,
+   "team": "Zamek Pancerne Dziki",
    "wins": 7,
-   "losses": 3,
+   "losses": 4,
    "ties": 0,
-   "pointsFor": 1031.32,
-   "pointsAgainst": 976.56,
-   "avgPoints": 103.13,
+   "pointsFor": 1311.66,
+   "pointsAgainst": 1043.78,
+   "avgPoints": 119.24,
    "allPlay": {
-    "wins": 36,
-    "losses": 34,
+    "wins": 54,
+    "losses": 23,
     "ties": 0,
-    "pct": 0.5143
+    "pct": 0.7013
    },
-   "expectedWins": 5.14,
-   "luck": 1.86,
-   "coach": 0.8519,
-   "benchPoints": 529.74,
-   "leftOnBench": 179.24,
-   "high": 152.22,
-   "low": 69.62,
-   "last3": 98.97,
+   "expectedWins": 7.71,
+   "luck": -0.71,
+   "coach": 0.863,
+   "benchPoints": 513.9,
+   "leftOnBench": 208.3,
+   "high": 141.94,
+   "low": 77.82,
+   "last3": 134.8,
    "streak": "W1",
    "form": [
     "W",
@@ -152,53 +153,6 @@
     "W",
     "L",
     "W"
-   ],
-   "scores": [
-    152.22,
-    108.96,
-    69.62,
-    100.68,
-    96.5,
-    100.84,
-    105.6,
-    125.14,
-    76.98,
-    94.78
-   ],
-   "trueScore": 13.0,
-   "trueRank": 4,
-   "rank": 2
-  },
-  {
-   "rosterId": 1,
-   "team": "Zamek Pancerne Dziki",
-   "wins": 6,
-   "losses": 4,
-   "ties": 0,
-   "pointsFor": 1170.52,
-   "pointsAgainst": 990.42,
-   "avgPoints": 117.05,
-   "allPlay": {
-    "wins": 47,
-    "losses": 23,
-    "ties": 0,
-    "pct": 0.6714
-   },
-   "expectedWins": 6.71,
-   "luck": -0.71,
-   "coach": 0.8554,
-   "benchPoints": 467.08,
-   "leftOnBench": 197.8,
-   "high": 141.94,
-   "low": 77.82,
-   "last3": 113.91,
-   "streak": "L1",
-   "form": [
-    "W",
-    "W",
-    "L",
-    "W",
-    "L"
    ],
    "scores": [
     141.06,
@@ -210,42 +164,91 @@
     77.82,
     78.48,
     130.36,
-    132.9
+    132.9,
+    141.14
    ],
    "trueScore": 5.0,
    "trueRank": 1,
+   "rank": 2
+  },
+  {
+   "rosterId": 6,
+   "team": "Agroplon Gluszyna",
+   "wins": 7,
+   "losses": 4,
+   "ties": 0,
+   "pointsFor": 1106.46,
+   "pointsAgainst": 1065.52,
+   "avgPoints": 100.59,
+   "allPlay": {
+    "wins": 37,
+    "losses": 40,
+    "ties": 0,
+    "pct": 0.4805
+   },
+   "expectedWins": 5.29,
+   "luck": 1.71,
+   "coach": 0.8444,
+   "benchPoints": 580.74,
+   "leftOnBench": 203.84,
+   "high": 152.22,
+   "low": 69.62,
+   "last3": 82.3,
+   "streak": "L1",
+   "form": [
+    "L",
+    "W",
+    "L",
+    "W",
+    "L"
+   ],
+   "scores": [
+    152.22,
+    108.96,
+    69.62,
+    100.68,
+    96.5,
+    100.84,
+    105.6,
+    125.14,
+    76.98,
+    94.78,
+    75.14
+   ],
+   "trueScore": 15.0,
+   "trueRank": 4,
    "rank": 3
   },
   {
    "rosterId": 3,
    "team": "Flota Oksywie",
-   "wins": 5,
+   "wins": 6,
    "losses": 5,
    "ties": 0,
-   "pointsFor": 1067.44,
-   "pointsAgainst": 1080.8,
-   "avgPoints": 106.74,
+   "pointsFor": 1184.8,
+   "pointsAgainst": 1174.66,
+   "avgPoints": 107.71,
    "allPlay": {
-    "wins": 42,
-    "losses": 27,
+    "wins": 48,
+    "losses": 28,
     "ties": 1,
-    "pct": 0.6071
+    "pct": 0.6299
    },
-   "expectedWins": 6.07,
-   "luck": -1.07,
-   "coach": 0.8398,
-   "benchPoints": 570.48,
+   "expectedWins": 6.93,
+   "luck": -0.93,
+   "coach": 0.8534,
+   "benchPoints": 582.28,
    "leftOnBench": 203.56,
    "high": 141.82,
    "low": 82.98,
-   "last3": 109.7,
-   "streak": "L2",
+   "last3": 109.83,
+   "streak": "W1",
    "form": [
-    "L",
     "W",
     "W",
     "L",
-    "L"
+    "L",
+    "W"
    ],
    "scores": [
     83.48,
@@ -257,42 +260,43 @@
     110.92,
     116.98,
     121.72,
-    90.4
+    90.4,
+    117.36
    ],
-   "trueScore": 11.0,
+   "trueScore": 10.0,
    "trueRank": 3,
    "rank": 4
   },
   {
    "rosterId": 2,
    "team": "Vegablanca Boars",
-   "wins": 5,
+   "wins": 6,
    "losses": 5,
    "ties": 0,
-   "pointsFor": 945.22,
-   "pointsAgainst": 971.54,
-   "avgPoints": 94.52,
+   "pointsFor": 1038.62,
+   "pointsAgainst": 1055.74,
+   "avgPoints": 94.42,
    "allPlay": {
-    "wins": 27,
-    "losses": 43,
+    "wins": 31,
+    "losses": 46,
     "ties": 0,
-    "pct": 0.3857
+    "pct": 0.4026
    },
-   "expectedWins": 3.86,
-   "luck": 1.14,
-   "coach": 0.8531,
-   "benchPoints": 425.68,
-   "leftOnBench": 162.76,
+   "expectedWins": 4.43,
+   "luck": 1.57,
+   "coach": 0.8552,
+   "benchPoints": 463.04,
+   "leftOnBench": 175.82,
    "high": 128.64,
    "low": 64.3,
-   "last3": 103.02,
-   "streak": "L1",
+   "last3": 103.03,
+   "streak": "W1",
    "form": [
-    "W",
     "L",
     "W",
     "W",
-    "L"
+    "L",
+    "W"
    ],
    "scores": [
     112.46,
@@ -304,39 +308,40 @@
     92.26,
     93.38,
     125.32,
-    90.36
+    90.36,
+    93.4
    ],
-   "trueScore": 16.0,
+   "trueScore": 16.5,
    "trueRank": 5,
    "rank": 5
   },
   {
    "rosterId": 7,
    "team": "Potega Wesiory",
-   "wins": 4,
+   "wins": 5,
    "losses": 6,
    "ties": 0,
-   "pointsFor": 986.5,
-   "pointsAgainst": 1047.1,
-   "avgPoints": 98.65,
+   "pointsFor": 1075.46,
+   "pointsAgainst": 1122.24,
+   "avgPoints": 97.77,
    "allPlay": {
-    "wins": 35,
-    "losses": 34,
+    "wins": 38,
+    "losses": 38,
     "ties": 1,
-    "pct": 0.5071
+    "pct": 0.5
    },
-   "expectedWins": 5.07,
-   "luck": -1.07,
-   "coach": 0.8284,
-   "benchPoints": 464.82,
-   "leftOnBench": 204.32,
+   "expectedWins": 5.5,
+   "luck": -0.5,
+   "coach": 0.806,
+   "benchPoints": 554.22,
+   "leftOnBench": 258.86,
    "high": 147.86,
    "low": 61.9,
-   "last3": 125.24,
-   "streak": "W3",
+   "last3": 111.99,
+   "streak": "W4",
    "form": [
-    "W",
     "L",
+    "W",
     "W",
     "W",
     "W"
@@ -351,42 +356,43 @@
     87.48,
     128.7,
     99.16,
-    147.86
+    147.86,
+    88.96
    ],
-   "trueScore": 18.0,
-   "trueRank": 7,
+   "trueScore": 17.0,
+   "trueRank": 6,
    "rank": 6
   },
   {
    "rosterId": 5,
    "team": "DonTeam Kielce",
    "wins": 3,
-   "losses": 7,
+   "losses": 8,
    "ties": 0,
-   "pointsFor": 927.56,
-   "pointsAgainst": 1029.76,
-   "avgPoints": 92.76,
+   "pointsFor": 980.92,
+   "pointsAgainst": 1170.9,
+   "avgPoints": 89.17,
    "allPlay": {
     "wins": 24,
-    "losses": 46,
+    "losses": 53,
     "ties": 0,
-    "pct": 0.3429
+    "pct": 0.3117
    },
    "expectedWins": 3.43,
    "luck": -0.43,
-   "coach": 0.894,
-   "benchPoints": 334.98,
-   "leftOnBench": 110.02,
+   "coach": 0.8915,
+   "benchPoints": 354.58,
+   "leftOnBench": 119.42,
    "high": 131.2,
    "low": 47.5,
-   "last3": 100.45,
-   "streak": "W1",
+   "last3": 89.74,
+   "streak": "L1",
    "form": [
-    "L",
     "W",
     "L",
     "L",
-    "W"
+    "W",
+    "L"
    ],
    "scores": [
     101.98,
@@ -398,36 +404,37 @@
     99.68,
     85.5,
     84.66,
-    131.2
+    131.2,
+    53.36
    ],
-   "trueScore": 17.0,
-   "trueRank": 6,
+   "trueScore": 18.0,
+   "trueRank": 7,
    "rank": 7
   },
   {
    "rosterId": 8,
    "team": "Kiki Owls",
    "wins": 2,
-   "losses": 8,
+   "losses": 9,
    "ties": 0,
-   "pointsFor": 892.48,
-   "pointsAgainst": 1106.24,
-   "avgPoints": 89.25,
+   "pointsFor": 986.34,
+   "pointsAgainst": 1223.6,
+   "avgPoints": 89.67,
    "allPlay": {
-    "wins": 26,
-    "losses": 44,
+    "wins": 31,
+    "losses": 46,
     "ties": 0,
-    "pct": 0.3714
+    "pct": 0.4026
    },
-   "expectedWins": 3.71,
-   "luck": -1.71,
-   "coach": 0.8356,
-   "benchPoints": 341.68,
-   "leftOnBench": 175.58,
+   "expectedWins": 4.43,
+   "luck": -2.43,
+   "coach": 0.8365,
+   "benchPoints": 386.94,
+   "leftOnBench": 192.78,
    "high": 126.8,
    "low": 58.02,
-   "last3": 88.33,
-   "streak": "L7",
+   "last3": 86.95,
+   "streak": "L8",
    "form": [
     "L",
     "L",
@@ -445,9 +452,10 @@
     58.02,
     97.98,
     96.86,
-    70.14
+    70.14,
+    93.86
    ],
-   "trueScore": 22.0,
+   "trueScore": 20.5,
    "trueRank": 8,
    "rank": 8
   }
@@ -455,6 +463,15 @@
  "teamCards": {
   "4": {
    "last5": [
+    {
+     "week": 11,
+     "opponent": 2,
+     "points": 84.2,
+     "opponentPoints": 93.4,
+     "result": "L",
+     "weekRank": 6,
+     "teams": 8
+    },
     {
      "week": 10,
      "opponent": 3,
@@ -490,43 +507,34 @@
      "result": "W",
      "weekRank": 2,
      "teams": 8
-    },
-    {
-     "week": 6,
-     "opponent": 1,
-     "points": 96.68,
-     "opponentPoints": 113.6,
-     "result": "L",
-     "weekRank": 4,
-     "teams": 8
     }
    ],
    "topPlayers": [
+    {
+     "name": "Brock Purdy",
+     "position": "QB",
+     "points": 184.9,
+     "starts": 8
+    },
+    {
+     "name": "Christian McCaffrey",
+     "position": "RB",
+     "points": 184.2,
+     "starts": 10
+    },
     {
      "name": "Jaxon Smith-Njigba",
      "position": "WR",
      "points": 184.16,
      "starts": 10
-    },
-    {
-     "name": "Christian McCaffrey",
-     "position": "RB",
-     "points": 172.0,
-     "starts": 9
-    },
-    {
-     "name": "Brock Purdy",
-     "position": "QB",
-     "points": 162.7,
-     "starts": 7
     }
    ],
    "next": {
-    "week": 11,
-    "opponent": 2,
+    "week": 12,
+    "opponent": 8,
     "live": true,
-    "opponentRecord": "5-5",
-    "opponentAvg": 94.52
+    "opponentRecord": "2-9",
+    "opponentAvg": 89.67
    },
    "mistakes": [
     {
@@ -581,153 +589,20 @@
      }
     }
    ],
-   "mistakeCount": 16,
+   "mistakeCount": 18,
    "costlyLosses": []
-  },
-  "6": {
-   "last5": [
-    {
-     "week": 10,
-     "opponent": 2,
-     "points": 94.78,
-     "opponentPoints": 90.36,
-     "result": "W",
-     "weekRank": 5,
-     "teams": 8
-    },
-    {
-     "week": 9,
-     "opponent": 1,
-     "points": 76.98,
-     "opponentPoints": 130.36,
-     "result": "L",
-     "weekRank": 8,
-     "teams": 8
-    },
-    {
-     "week": 8,
-     "opponent": 8,
-     "points": 125.14,
-     "opponentPoints": 97.98,
-     "result": "W",
-     "weekRank": 2,
-     "teams": 8
-    },
-    {
-     "week": 7,
-     "opponent": 4,
-     "points": 105.6,
-     "opponentPoints": 108.22,
-     "result": "L",
-     "weekRank": 3,
-     "teams": 8
-    },
-    {
-     "week": 6,
-     "opponent": 3,
-     "points": 100.84,
-     "opponentPoints": 82.98,
-     "result": "W",
-     "weekRank": 2,
-     "teams": 8
-    }
-   ],
-   "topPlayers": [
-    {
-     "name": "CeeDee Lamb",
-     "position": "WR",
-     "points": 144.0,
-     "starts": 10
-    },
-    {
-     "name": "Jonathan Taylor",
-     "position": "RB",
-     "points": 132.9,
-     "starts": 10
-    },
-    {
-     "name": "D'Andre Swift",
-     "position": "RB",
-     "points": 127.8,
-     "starts": 9
-    }
-   ],
-   "next": {
-    "week": 11,
-    "opponent": 7,
-    "live": true,
-    "opponentRecord": "4-6",
-    "opponentAvg": 98.65
-   },
-   "mistakes": [
-    {
-     "week": 7,
-     "gain": 29.1,
-     "lost": true,
-     "start": {
-      "playerId": "5967",
-      "name": "Tony Pollard",
-      "position": "RB",
-      "points": 33.5
-     },
-     "instead": {
-      "playerId": "6794",
-      "name": "Justin Jefferson",
-      "position": "WR",
-      "points": 4.4
-     }
-    },
-    {
-     "week": 5,
-     "gain": 18.4,
-     "lost": false,
-     "start": {
-      "playerId": "2216",
-      "name": "Mike Evans",
-      "position": "WR",
-      "points": 19.3
-     },
-     "instead": {
-      "playerId": "6786",
-      "name": "CeeDee Lamb",
-      "position": "WR",
-      "points": 0.9
-     }
-    },
-    {
-     "week": 2,
-     "gain": 14.3,
-     "lost": false,
-     "start": {
-      "playerId": "2449",
-      "name": "Stefon Diggs",
-      "position": "WR",
-      "points": 16.7
-     },
-     "instead": {
-      "playerId": "5892",
-      "name": "David Montgomery",
-      "position": "RB",
-      "points": 2.4
-     }
-    }
-   ],
-   "mistakeCount": 26,
-   "costlyLosses": [
-    {
-     "week": 3,
-     "margin": 10.46,
-     "left": 19.96
-    },
-    {
-     "week": 7,
-     "margin": 2.62,
-     "left": 35.6
-    }
-   ]
   },
   "1": {
    "last5": [
+    {
+     "week": 11,
+     "opponent": 5,
+     "points": 141.14,
+     "opponentPoints": 53.36,
+     "result": "W",
+     "weekRank": 1,
+     "teams": 8
+    },
     {
      "week": 10,
      "opponent": 7,
@@ -763,23 +638,14 @@
      "result": "W",
      "weekRank": 7,
      "teams": 8
-    },
-    {
-     "week": 6,
-     "opponent": 4,
-     "points": 113.6,
-     "opponentPoints": 96.68,
-     "result": "W",
-     "weekRank": 1,
-     "teams": 8
     }
    ],
    "topPlayers": [
     {
      "name": "Jahmyr Gibbs",
      "position": "RB",
-     "points": 210.4,
-     "starts": 9
+     "points": 234.2,
+     "starts": 10
     },
     {
      "name": "Kenneth Walker III",
@@ -788,18 +654,18 @@
      "starts": 8
     },
     {
-     "name": "Christian Watson",
-     "position": "WR",
-     "points": 103.9,
-     "starts": 9
+     "name": "Cam Little",
+     "position": "K",
+     "points": 112.0,
+     "starts": 10
     }
    ],
    "next": {
-    "week": 11,
-    "opponent": 5,
+    "week": 12,
+    "opponent": 3,
     "live": true,
-    "opponentRecord": "3-7",
-    "opponentAvg": 92.76
+    "opponentRecord": "6-5",
+    "opponentAvg": 107.71
    },
    "mistakes": [
     {
@@ -854,7 +720,7 @@
      }
     }
    ],
-   "mistakeCount": 22,
+   "mistakeCount": 23,
    "costlyLosses": [
     {
      "week": 2,
@@ -873,8 +739,164 @@
     }
    ]
   },
+  "6": {
+   "last5": [
+    {
+     "week": 11,
+     "opponent": 7,
+     "points": 75.14,
+     "opponentPoints": 88.96,
+     "result": "L",
+     "weekRank": 7,
+     "teams": 8
+    },
+    {
+     "week": 10,
+     "opponent": 2,
+     "points": 94.78,
+     "opponentPoints": 90.36,
+     "result": "W",
+     "weekRank": 5,
+     "teams": 8
+    },
+    {
+     "week": 9,
+     "opponent": 1,
+     "points": 76.98,
+     "opponentPoints": 130.36,
+     "result": "L",
+     "weekRank": 8,
+     "teams": 8
+    },
+    {
+     "week": 8,
+     "opponent": 8,
+     "points": 125.14,
+     "opponentPoints": 97.98,
+     "result": "W",
+     "weekRank": 2,
+     "teams": 8
+    },
+    {
+     "week": 7,
+     "opponent": 4,
+     "points": 105.6,
+     "opponentPoints": 108.22,
+     "result": "L",
+     "weekRank": 3,
+     "teams": 8
+    }
+   ],
+   "topPlayers": [
+    {
+     "name": "CeeDee Lamb",
+     "position": "WR",
+     "points": 163.2,
+     "starts": 11
+    },
+    {
+     "name": "D'Andre Swift",
+     "position": "RB",
+     "points": 136.7,
+     "starts": 10
+    },
+    {
+     "name": "Jonathan Taylor",
+     "position": "RB",
+     "points": 135.6,
+     "starts": 11
+    }
+   ],
+   "next": {
+    "week": 12,
+    "opponent": 5,
+    "live": true,
+    "opponentRecord": "3-8",
+    "opponentAvg": 89.17
+   },
+   "mistakes": [
+    {
+     "week": 7,
+     "gain": 29.1,
+     "lost": true,
+     "start": {
+      "playerId": "5967",
+      "name": "Tony Pollard",
+      "position": "RB",
+      "points": 33.5
+     },
+     "instead": {
+      "playerId": "6794",
+      "name": "Justin Jefferson",
+      "position": "WR",
+      "points": 4.4
+     }
+    },
+    {
+     "week": 5,
+     "gain": 18.4,
+     "lost": false,
+     "start": {
+      "playerId": "2216",
+      "name": "Mike Evans",
+      "position": "WR",
+      "points": 19.3
+     },
+     "instead": {
+      "playerId": "6786",
+      "name": "CeeDee Lamb",
+      "position": "WR",
+      "points": 0.9
+     }
+    },
+    {
+     "week": 2,
+     "gain": 14.3,
+     "lost": false,
+     "start": {
+      "playerId": "2449",
+      "name": "Stefon Diggs",
+      "position": "WR",
+      "points": 16.7
+     },
+     "instead": {
+      "playerId": "5892",
+      "name": "David Montgomery",
+      "position": "RB",
+      "points": 2.4
+     }
+    }
+   ],
+   "mistakeCount": 29,
+   "costlyLosses": [
+    {
+     "week": 3,
+     "margin": 10.46,
+     "left": 19.96
+    },
+    {
+     "week": 7,
+     "margin": 2.62,
+     "left": 35.6
+    },
+    {
+     "week": 11,
+     "margin": 13.82,
+     "left": 24.6
+    }
+   ]
+  },
   "3": {
    "last5": [
+    {
+     "week": 11,
+     "opponent": 8,
+     "points": 117.36,
+     "opponentPoints": 93.86,
+     "result": "W",
+     "weekRank": 2,
+     "teams": 8
+    },
     {
      "week": 10,
      "opponent": 4,
@@ -910,43 +932,34 @@
      "result": "W",
      "weekRank": 1,
      "teams": 8
-    },
-    {
-     "week": 6,
-     "opponent": 6,
-     "points": 82.98,
-     "opponentPoints": 100.84,
-     "result": "L",
-     "weekRank": 5,
-     "teams": 8
     }
    ],
    "topPlayers": [
     {
      "name": "James Cook III",
      "position": "RB",
-     "points": 154.1,
-     "starts": 9
+     "points": 169.3,
+     "starts": 10
     },
     {
      "name": "Javonte Williams",
      "position": "RB",
-     "points": 139.3,
-     "starts": 10
+     "points": 160.4,
+     "starts": 11
     },
     {
      "name": "Tee Higgins",
      "position": "WR",
-     "points": 118.4,
-     "starts": 9
+     "points": 128.7,
+     "starts": 10
     }
    ],
    "next": {
-    "week": 11,
-    "opponent": 8,
+    "week": 12,
+    "opponent": 1,
     "live": true,
-    "opponentRecord": "2-8",
-    "opponentAvg": 89.25
+    "opponentRecord": "7-4",
+    "opponentAvg": 119.24
    },
    "mistakes": [
     {
@@ -1018,6 +1031,15 @@
   "2": {
    "last5": [
     {
+     "week": 11,
+     "opponent": 4,
+     "points": 93.4,
+     "opponentPoints": 84.2,
+     "result": "W",
+     "weekRank": 4,
+     "teams": 8
+    },
+    {
      "week": 10,
      "opponent": 6,
      "points": 90.36,
@@ -1052,43 +1074,34 @@
      "result": "L",
      "weekRank": 5,
      "teams": 8
-    },
-    {
-     "week": 6,
-     "opponent": 8,
-     "points": 73.24,
-     "opponentPoints": 63.28,
-     "result": "W",
-     "weekRank": 6,
-     "teams": 8
     }
    ],
    "topPlayers": [
     {
      "name": "Derrick Henry",
      "position": "RB",
-     "points": 143.28,
-     "starts": 10
+     "points": 157.38,
+     "starts": 11
     },
     {
      "name": "Joe Burrow",
      "position": "QB",
-     "points": 133.92,
-     "starts": 5
+     "points": 153.82,
+     "starts": 6
     },
     {
      "name": "Ka'imi Fairbairn",
      "position": "K",
-     "points": 100.0,
-     "starts": 9
+     "points": 106.0,
+     "starts": 10
     }
    ],
    "next": {
-    "week": 11,
-    "opponent": 4,
+    "week": 12,
+    "opponent": 7,
     "live": true,
-    "opponentRecord": "8-2",
-    "opponentAvg": 113.59
+    "opponentRecord": "5-6",
+    "opponentAvg": 97.77
    },
    "mistakes": [
     {
@@ -1143,7 +1156,7 @@
      }
     }
    ],
-   "mistakeCount": 22,
+   "mistakeCount": 24,
    "costlyLosses": [
     {
      "week": 7,
@@ -1154,6 +1167,15 @@
   },
   "7": {
    "last5": [
+    {
+     "week": 11,
+     "opponent": 6,
+     "points": 88.96,
+     "opponentPoints": 75.14,
+     "result": "W",
+     "weekRank": 5,
+     "teams": 8
+    },
     {
      "week": 10,
      "opponent": 1,
@@ -1189,43 +1211,34 @@
      "result": "L",
      "weekRank": 6,
      "teams": 8
-    },
-    {
-     "week": 6,
-     "opponent": 5,
-     "points": 98.22,
-     "opponentPoints": 47.5,
-     "result": "W",
-     "weekRank": 3,
-     "teams": 8
     }
    ],
    "topPlayers": [
     {
      "name": "Chuba Hubbard",
      "position": "RB",
-     "points": 128.1,
-     "starts": 8
+     "points": 154.1,
+     "starts": 9
     },
     {
      "name": "Ja'Marr Chase",
      "position": "WR",
-     "points": 115.1,
-     "starts": 8
+     "points": 118.2,
+     "starts": 9
     },
     {
-     "name": "Jaylen Warren",
-     "position": "RB",
-     "points": 104.9,
-     "starts": 7
+     "name": "George Pickens",
+     "position": "WR",
+     "points": 114.6,
+     "starts": 11
     }
    ],
    "next": {
-    "week": 11,
-    "opponent": 6,
+    "week": 12,
+    "opponent": 2,
     "live": true,
-    "opponentRecord": "7-3",
-    "opponentAvg": 103.13
+    "opponentRecord": "6-5",
+    "opponentAvg": 94.42
    },
    "mistakes": [
     {
@@ -1263,24 +1276,24 @@
      }
     },
     {
-     "week": 10,
-     "gain": 17.2,
+     "week": 11,
+     "gain": 18.84,
      "lost": false,
      "start": {
-      "playerId": "9224",
-      "name": "Chase Brown",
-      "position": "RB",
-      "points": 20.3
+      "playerId": "3294",
+      "name": "Dak Prescott",
+      "position": "QB",
+      "points": 35.9
      },
      "instead": {
-      "playerId": "8228",
-      "name": "Jaylen Warren",
-      "position": "RB",
-      "points": 3.1
+      "playerId": "11566",
+      "name": "Jayden Daniels",
+      "position": "QB",
+      "points": 17.06
      }
     }
    ],
-   "mistakeCount": 22,
+   "mistakeCount": 27,
    "costlyLosses": [
     {
      "week": 1,
@@ -1301,6 +1314,15 @@
   },
   "5": {
    "last5": [
+    {
+     "week": 11,
+     "opponent": 1,
+     "points": 53.36,
+     "opponentPoints": 141.14,
+     "result": "L",
+     "weekRank": 8,
+     "teams": 8
+    },
     {
      "week": 10,
      "opponent": 8,
@@ -1336,43 +1358,34 @@
      "result": "W",
      "weekRank": 4,
      "teams": 8
-    },
-    {
-     "week": 6,
-     "opponent": 7,
-     "points": 47.5,
-     "opponentPoints": 98.22,
-     "result": "L",
-     "weekRank": 8,
-     "teams": 8
     }
    ],
    "topPlayers": [
     {
      "name": "Josh Allen",
      "position": "QB",
-     "points": 211.02,
-     "starts": 9
+     "points": 221.18,
+     "starts": 10
     },
     {
      "name": "Brandon Aubrey",
      "position": "K",
-     "points": 95.0,
-     "starts": 10
+     "points": 105.0,
+     "starts": 11
     },
     {
      "name": "Chris Olave",
      "position": "WR",
-     "points": 88.4,
-     "starts": 9
+     "points": 98.6,
+     "starts": 10
     }
    ],
    "next": {
-    "week": 11,
-    "opponent": 1,
+    "week": 12,
+    "opponent": 6,
     "live": true,
-    "opponentRecord": "6-4",
-    "opponentAvg": 117.05
+    "opponentRecord": "7-4",
+    "opponentAvg": 100.59
    },
    "mistakes": [
     {
@@ -1427,7 +1440,7 @@
      }
     }
    ],
-   "mistakeCount": 17,
+   "mistakeCount": 19,
    "costlyLosses": [
     {
      "week": 3,
@@ -1438,6 +1451,15 @@
   },
   "8": {
    "last5": [
+    {
+     "week": 11,
+     "opponent": 3,
+     "points": 93.86,
+     "opponentPoints": 117.36,
+     "result": "L",
+     "weekRank": 3,
+     "teams": 8
+    },
     {
      "week": 10,
      "opponent": 5,
@@ -1473,15 +1495,6 @@
      "result": "L",
      "weekRank": 8,
      "teams": 8
-    },
-    {
-     "week": 6,
-     "opponent": 2,
-     "points": 63.28,
-     "opponentPoints": 73.24,
-     "result": "L",
-     "weekRank": 7,
-     "teams": 8
     }
    ],
    "topPlayers": [
@@ -1500,16 +1513,16 @@
     {
      "name": "Matt Gay",
      "position": "K",
-     "points": 88.0,
-     "starts": 9
+     "points": 94.0,
+     "starts": 10
     }
    ],
    "next": {
-    "week": 11,
-    "opponent": 3,
+    "week": 12,
+    "opponent": 4,
     "live": true,
-    "opponentRecord": "5-5",
-    "opponentAvg": 106.74
+    "opponentRecord": "8-3",
+    "opponentAvg": 110.92
    },
    "mistakes": [
     {
@@ -1564,7 +1577,7 @@
      }
     }
    ],
-   "mistakeCount": 19,
+   "mistakeCount": 22,
    "costlyLosses": [
     {
      "week": 4,
@@ -1595,7 +1608,8 @@
    7,
    8,
    9,
-   10
+   10,
+   11
   ],
   "byTeam": {
    "6": [
@@ -1608,7 +1622,8 @@
     3,
     2,
     3,
-    2
+    2,
+    3
    ],
    "1": [
     2,
@@ -1620,7 +1635,8 @@
     2,
     3,
     2,
-    3
+    3,
+    2
    ],
    "5": [
     3,
@@ -1632,11 +1648,13 @@
     7,
     8,
     8,
+    7,
     7
    ],
    "4": [
     4,
     2,
+    1,
     1,
     1,
     1,
@@ -1656,6 +1674,7 @@
     6,
     7,
     7,
+    8,
     8
    ],
    "2": [
@@ -1668,6 +1687,7 @@
     5,
     5,
     5,
+    5,
     5
    ],
    "3": [
@@ -1675,6 +1695,7 @@
     6,
     6,
     5,
+    4,
     4,
     4,
     4,
@@ -1692,6 +1713,7 @@
     8,
     6,
     6,
+    6,
     6
    ]
   }
@@ -1707,7 +1729,8 @@
    7,
    8,
    9,
-   10
+   10,
+   11
   ],
   "byWeek": {
    "1": {
@@ -2446,6 +2469,80 @@
      "last": 0.8044,
      "nextWeek": 11,
      "nextWinChance": 0.3575,
+     "ifWin": 0.0,
+     "ifLoss": 0.0
+    }
+   },
+   "11": {
+    "1": {
+     "playoff": 0.9844,
+     "first": 0.3898,
+     "last": 0.0,
+     "nextWeek": 12,
+     "nextWinChance": 0.5941,
+     "ifWin": 1.0,
+     "ifLoss": 0.9616
+    },
+    "2": {
+     "playoff": 0.3285,
+     "first": 0.0,
+     "last": 0.0,
+     "nextWeek": 12,
+     "nextWinChance": 0.4726,
+     "ifWin": 0.624,
+     "ifLoss": 0.0637
+    },
+    "3": {
+     "playoff": 0.6721,
+     "first": 0.0001,
+     "last": 0.0,
+     "nextWeek": 12,
+     "nextWinChance": 0.4059,
+     "ifWin": 0.8909,
+     "ifLoss": 0.5226
+    },
+    "4": {
+     "playoff": 1.0,
+     "first": 0.588,
+     "last": 0.0,
+     "nextWeek": 12,
+     "nextWinChance": 0.6853,
+     "ifWin": 1.0,
+     "ifLoss": 1.0
+    },
+    "5": {
+     "playoff": 0.0,
+     "first": 0.0,
+     "last": 0.2451,
+     "nextWeek": 12,
+     "nextWinChance": 0.3986,
+     "ifWin": 0.0,
+     "ifLoss": 0.0
+    },
+    "6": {
+     "playoff": 0.8822,
+     "first": 0.0221,
+     "last": 0.0,
+     "nextWeek": 12,
+     "nextWinChance": 0.6014,
+     "ifWin": 0.9937,
+     "ifLoss": 0.714
+    },
+    "7": {
+     "playoff": 0.1328,
+     "first": 0.0,
+     "last": 0.0,
+     "nextWeek": 12,
+     "nextWinChance": 0.5274,
+     "ifWin": 0.2518,
+     "ifLoss": 0.0
+    },
+    "8": {
+     "playoff": 0.0,
+     "first": 0.0,
+     "last": 0.7549,
+     "nextWeek": 12,
+     "nextWinChance": 0.3147,
      "ifWin": 0.0,
      "ifLoss": 0.0
     }
@@ -3612,7 +3709,7 @@
      "position": "QB",
      "rosterId": 3,
      "startedPoints": 83.66,
-     "starts": 6,
+     "starts": 7,
      "weekPoints": 24.08,
      "type": "free_agent",
      "team": "Flota Oksywie"
@@ -7962,7 +8059,7 @@
      "position": "K",
      "rosterId": 7,
      "startedPoints": 31.0,
-     "starts": 3,
+     "starts": 4,
      "weekPoints": 13.0,
      "type": "waiver",
      "team": "Potega Wesiory"
@@ -8675,7 +8772,7 @@
   },
   {
    "week": 11,
-   "live": true,
+   "live": false,
    "playoffs": false,
    "windows": [
     {
@@ -8800,7 +8897,7 @@
        ]
       }
      ],
-     "winner": null,
+     "winner": 2,
      "leader": 2,
      "margin": 9.2,
      "total": 177.6
@@ -8905,7 +9002,7 @@
        ]
       }
      ],
-     "winner": null,
+     "winner": 7,
      "leader": 7,
      "margin": 13.82,
      "total": 164.1
@@ -9010,7 +9107,7 @@
        ]
       }
      ],
-     "winner": null,
+     "winner": 3,
      "leader": 3,
      "margin": 23.5,
      "total": 211.22
@@ -9115,7 +9212,7 @@
        ]
       }
      ],
-     "winner": null,
+     "winner": 1,
      "leader": 1,
      "margin": 87.78,
      "total": 194.5
@@ -9159,6 +9256,40 @@
      "rosterId": 7,
      "team": "Potega Wesiory"
     },
+    "closest": {
+     "winner": 2,
+     "loser": 4,
+     "winnerTeam": "Vegablanca Boars",
+     "loserTeam": "Gdynia Moustache Admirers",
+     "score": [
+      93.4,
+      84.2
+     ],
+     "margin": 9.2
+    },
+    "blowout": {
+     "winner": 1,
+     "loser": 5,
+     "winnerTeam": "Zamek Pancerne Dziki",
+     "loserTeam": "DonTeam Kielce",
+     "score": [
+      141.14,
+      53.36
+     ],
+     "margin": 87.78
+    },
+    "unluckiest": {
+     "rosterId": 8,
+     "team": "Kiki Owls",
+     "points": 93.86,
+     "allPlayWins": 5
+    },
+    "luckiest": {
+     "rosterId": 7,
+     "team": "Potega Wesiory",
+     "points": 88.96,
+     "allPlayWins": 3
+    },
     "moveOfWeek": {
      "playerId": "5892",
      "name": "David Montgomery",
@@ -9180,7 +9311,7 @@
       "opponent": 5,
       "opponentTeam": "DonTeam Kielce",
       "lead": 42.2,
-      "held": null
+      "held": true
      },
      {
       "rosterId": 8,
@@ -9188,7 +9319,7 @@
       "opponent": 3,
       "opponentTeam": "Flota Oksywie",
       "lead": 19.46,
-      "held": null
+      "held": false
      },
      {
       "rosterId": 2,
@@ -9196,7 +9327,7 @@
       "opponent": 4,
       "opponentTeam": "Gdynia Moustache Admirers",
       "lead": 6.5,
-      "held": null
+      "held": true
      },
      {
       "rosterId": 6,
@@ -9204,12 +9335,17 @@
       "opponent": 7,
       "opponentTeam": "Potega Wesiory",
       "lead": 2.7,
-      "held": null
+      "held": false
      }
     ],
-    "leadersLost": 0,
-    "leadersDecided": 0,
-    "biggestComeback": null
+    "leadersLost": 2,
+    "leadersDecided": 4,
+    "biggestComeback": {
+     "rosterId": 7,
+     "team": "Potega Wesiory",
+     "opponentTeam": "Agroplon Gluszyna",
+     "deficit": 19.94
+    }
    },
    "allPlay": {
     "1": [
@@ -9251,6 +9387,444 @@
      5,
      2,
      0
+    ]
+   }
+  },
+  {
+   "week": 12,
+   "live": true,
+   "playoffs": false,
+   "windows": [
+    {
+     "name": "Wednesday",
+     "start": "2026-11-26T01:00:00+00:00"
+    },
+    {
+     "name": "Thursday",
+     "start": "2026-11-26T18:00:00+00:00"
+    },
+    {
+     "name": "Friday",
+     "start": "2026-11-27T20:00:00+00:00"
+    },
+    {
+     "name": "Sunday early",
+     "start": "2026-11-29T18:00:00+00:00"
+    },
+    {
+     "name": "Sunday late",
+     "start": "2026-11-29T21:05:00+00:00"
+    },
+    {
+     "name": "Sunday night",
+     "start": "2026-11-30T01:20:00+00:00"
+    },
+    {
+     "name": "Monday night",
+     "start": "2026-12-01T01:15:00+00:00"
+    }
+   ],
+   "matchups": [
+    {
+     "matchupId": 1,
+     "teams": [
+      {
+       "rosterId": 2,
+       "points": 0.0,
+       "optimal": 0.0,
+       "coach": null,
+       "benchPoints": 0.0,
+       "timeline": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "topStarters": [
+        {
+         "playerId": "6770",
+         "name": "Joe Burrow",
+         "position": "QB",
+         "points": 0.0
+        },
+        {
+         "playerId": "3198",
+         "name": "Derrick Henry",
+         "position": "RB",
+         "points": 0.0
+        },
+        {
+         "playerId": "13345",
+         "name": "Jonah Coleman",
+         "position": "RB",
+         "points": 0.0
+        }
+       ],
+       "topBench": []
+      },
+      {
+       "rosterId": 7,
+       "points": 0.0,
+       "optimal": 0.0,
+       "coach": null,
+       "benchPoints": 0.0,
+       "timeline": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "topStarters": [
+        {
+         "playerId": "11566",
+         "name": "Jayden Daniels",
+         "position": "QB",
+         "points": 0.0
+        },
+        {
+         "playerId": "7594",
+         "name": "Chuba Hubbard",
+         "position": "RB",
+         "points": 0.0
+        },
+        {
+         "playerId": "8228",
+         "name": "Jaylen Warren",
+         "position": "RB",
+         "points": 0.0
+        }
+       ],
+       "topBench": []
+      }
+     ],
+     "winner": null,
+     "leader": null,
+     "margin": 0.0,
+     "total": 0.0
+    },
+    {
+     "matchupId": 2,
+     "teams": [
+      {
+       "rosterId": 4,
+       "points": 0.0,
+       "optimal": 0.0,
+       "coach": null,
+       "benchPoints": 0.0,
+       "timeline": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "topStarters": [
+        {
+         "playerId": "8183",
+         "name": "Brock Purdy",
+         "position": "QB",
+         "points": 0.0
+        },
+        {
+         "playerId": "4034",
+         "name": "Christian McCaffrey",
+         "position": "RB",
+         "points": 0.0
+        },
+        {
+         "playerId": "7021",
+         "name": "Rico Dowdle",
+         "position": "RB",
+         "points": 0.0
+        }
+       ],
+       "topBench": []
+      },
+      {
+       "rosterId": 8,
+       "points": 0.0,
+       "optimal": 0.0,
+       "coach": null,
+       "benchPoints": 0.0,
+       "timeline": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "topStarters": [
+        {
+         "playerId": "9758",
+         "name": "C.J. Stroud",
+         "position": "QB",
+         "points": 0.0
+        },
+        {
+         "playerId": "8155",
+         "name": "Breece Hall",
+         "position": "RB",
+         "points": 0.0
+        },
+        {
+         "playerId": "4199",
+         "name": "Aaron Jones Sr.",
+         "position": "RB",
+         "points": 0.0
+        }
+       ],
+       "topBench": []
+      }
+     ],
+     "winner": null,
+     "leader": null,
+     "margin": 0.0,
+     "total": 0.0
+    },
+    {
+     "matchupId": 3,
+     "teams": [
+      {
+       "rosterId": 5,
+       "points": 0.0,
+       "optimal": 0.0,
+       "coach": null,
+       "benchPoints": 0.0,
+       "timeline": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "topStarters": [
+        {
+         "playerId": "4984",
+         "name": "Josh Allen",
+         "position": "QB",
+         "points": 0.0
+        },
+        {
+         "playerId": "12481",
+         "name": "Cam Skattebo",
+         "position": "RB",
+         "points": 0.0
+        },
+        {
+         "playerId": "12507",
+         "name": "Omarion Hampton",
+         "position": "RB",
+         "points": 0.0
+        }
+       ],
+       "topBench": []
+      },
+      {
+       "rosterId": 6,
+       "points": 0.0,
+       "optimal": 0.0,
+       "coach": null,
+       "benchPoints": 0.0,
+       "timeline": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "topStarters": [
+        {
+         "playerId": "7523",
+         "name": "Trevor Lawrence",
+         "position": "QB",
+         "points": 0.0
+        },
+        {
+         "playerId": "6813",
+         "name": "Jonathan Taylor",
+         "position": "RB",
+         "points": 0.0
+        },
+        {
+         "playerId": "6790",
+         "name": "D'Andre Swift",
+         "position": "RB",
+         "points": 0.0
+        }
+       ],
+       "topBench": []
+      }
+     ],
+     "winner": null,
+     "leader": null,
+     "margin": 0.0,
+     "total": 0.0
+    },
+    {
+     "matchupId": 4,
+     "teams": [
+      {
+       "rosterId": 1,
+       "points": 0.0,
+       "optimal": 0.0,
+       "coach": null,
+       "benchPoints": 0.0,
+       "timeline": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "topStarters": [
+        {
+         "playerId": "11560",
+         "name": "Caleb Williams",
+         "position": "QB",
+         "points": 0.0
+        },
+        {
+         "playerId": "8151",
+         "name": "Kenneth Walker III",
+         "position": "RB",
+         "points": 0.0
+        },
+        {
+         "playerId": "9221",
+         "name": "Jahmyr Gibbs",
+         "position": "RB",
+         "points": 0.0
+        }
+       ],
+       "topBench": []
+      },
+      {
+       "rosterId": 3,
+       "points": 0.0,
+       "optimal": 0.0,
+       "coach": null,
+       "benchPoints": 0.0,
+       "timeline": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+       ],
+       "topStarters": [
+        {
+         "playerId": "9228",
+         "name": "Bryce Young",
+         "position": "QB",
+         "points": 0.0
+        },
+        {
+         "playerId": "8138",
+         "name": "James Cook III",
+         "position": "RB",
+         "points": 0.0
+        },
+        {
+         "playerId": "7588",
+         "name": "Javonte Williams",
+         "position": "RB",
+         "points": 0.0
+        }
+       ],
+       "topBench": []
+      }
+     ],
+     "winner": null,
+     "leader": null,
+     "margin": 0.0,
+     "total": 0.0
+    }
+   ],
+   "awards": {
+    "topScore": {
+     "rosterId": 1,
+     "team": "Zamek Pancerne Dziki",
+     "points": 0.0
+    },
+    "lowScore": {
+     "rosterId": 8,
+     "team": "Kiki Owls",
+     "points": 0.0
+    },
+    "playerOfWeek": {
+     "playerId": "11560",
+     "name": "Caleb Williams",
+     "position": "QB",
+     "points": 0.0,
+     "rosterId": 1,
+     "team": "Zamek Pancerne Dziki"
+    }
+   },
+   "curse": {
+    "window": "Wednesday + Thursday + Friday",
+    "leaders": [],
+    "leadersLost": 0,
+    "leadersDecided": 0,
+    "biggestComeback": null
+   },
+   "allPlay": {
+    "1": [
+     0,
+     0,
+     7
+    ],
+    "2": [
+     0,
+     0,
+     7
+    ],
+    "3": [
+     0,
+     0,
+     7
+    ],
+    "4": [
+     0,
+     0,
+     7
+    ],
+    "5": [
+     0,
+     0,
+     7
+    ],
+    "6": [
+     0,
+     0,
+     7
+    ],
+    "7": [
+     0,
+     0,
+     7
+    ],
+    "8": [
+     0,
+     0,
+     7
     ]
    }
   }
@@ -9313,10 +9887,10 @@
   {
    "key": "bench",
    "title": "Most points on the bench",
-   "week": 1,
-   "rosterId": 1,
-   "team": "Zamek Pancerne Dziki",
-   "value": 88.46,
+   "week": 11,
+   "rosterId": 7,
+   "team": "Potega Wesiory",
+   "value": 89.4,
    "detail": ""
   },
   {
@@ -9370,7 +9944,7 @@
    "week": null,
    "rosterId": 8,
    "team": "Kiki Owls",
-   "value": 7,
+   "value": 8,
    "detail": "games"
   }
  ],
@@ -9413,7 +9987,7 @@
       "position": "TE",
       "rosterId": 3,
       "startedPoints": 5.5,
-      "starts": 1,
+      "starts": 2,
       "weekPoints": 5.5
      }
     ],
@@ -9444,7 +10018,7 @@
       "position": "K",
       "rosterId": 4,
       "startedPoints": 7.0,
-      "starts": 1,
+      "starts": 2,
       "weekPoints": 7.0
      }
     ],
@@ -9506,7 +10080,7 @@
       "position": "RB",
       "rosterId": 8,
       "startedPoints": 10.3,
-      "starts": 1,
+      "starts": 2,
       "weekPoints": 10.3
      }
     ],
@@ -9568,7 +10142,7 @@
       "position": "WR",
       "rosterId": 8,
       "startedPoints": 4.1,
-      "starts": 1,
+      "starts": 2,
       "weekPoints": 4.1
      }
     ],
@@ -9630,7 +10204,7 @@
       "position": "DEF",
       "rosterId": 7,
       "startedPoints": 6.0,
-      "starts": 1,
+      "starts": 2,
       "weekPoints": 6.0
      }
     ],
@@ -9768,7 +10342,7 @@
       "position": "WR",
       "rosterId": 8,
       "startedPoints": 15.8,
-      "starts": 2,
+      "starts": 3,
       "weekPoints": 5.5
      }
     ],
@@ -9861,7 +10435,7 @@
       "position": "DEF",
       "rosterId": 3,
       "startedPoints": 11.0,
-      "starts": 1,
+      "starts": 2,
       "weekPoints": null
      }
     ],
@@ -10103,7 +10677,7 @@
       "position": "DEF",
       "rosterId": 2,
       "startedPoints": 9.0,
-      "starts": 1,
+      "starts": 2,
       "weekPoints": null
      }
     ],
@@ -10207,7 +10781,7 @@
       "position": "RB",
       "rosterId": 4,
       "startedPoints": 3.4,
-      "starts": 1,
+      "starts": 2,
       "weekPoints": null
      }
     ],
@@ -10238,7 +10812,7 @@
       "position": "K",
       "rosterId": 7,
       "startedPoints": 31.0,
-      "starts": 3,
+      "starts": 4,
       "weekPoints": 13.0
      }
     ],
@@ -10269,7 +10843,7 @@
       "position": "K",
       "rosterId": 3,
       "startedPoints": 38.0,
-      "starts": 3,
+      "starts": 4,
       "weekPoints": 13.0
      }
     ],
@@ -10832,7 +11406,7 @@
       "position": "WR",
       "rosterId": 5,
       "startedPoints": 14.0,
-      "starts": 3,
+      "starts": 4,
       "weekPoints": 0.4
      }
     ],
@@ -10998,7 +11572,7 @@
       "position": "RB",
       "rosterId": 2,
       "startedPoints": 45.7,
-      "starts": 2,
+      "starts": 3,
       "weekPoints": null
      }
     ],
@@ -11164,7 +11738,7 @@
       "position": "WR",
       "rosterId": 3,
       "startedPoints": 13.5,
-      "starts": 2,
+      "starts": 3,
       "weekPoints": null
      }
     ],
@@ -11216,7 +11790,7 @@
       "position": "TE",
       "rosterId": 6,
       "startedPoints": 8.9,
-      "starts": 1,
+      "starts": 2,
       "weekPoints": null
      }
     ],
@@ -11320,7 +11894,7 @@
       "position": "DEF",
       "rosterId": 6,
       "startedPoints": 51.44,
-      "starts": 4,
+      "starts": 5,
       "weekPoints": null
      }
     ],
@@ -11375,7 +11949,7 @@
       "position": "DEF",
       "rosterId": 1,
       "startedPoints": 42.12,
-      "starts": 4,
+      "starts": 5,
       "weekPoints": 2.0
      }
     ],
@@ -11762,7 +12336,7 @@
       "position": "WR",
       "rosterId": 4,
       "startedPoints": 14.3,
-      "starts": 2,
+      "starts": 3,
       "weekPoints": null
      }
     ],
@@ -12121,7 +12695,7 @@
       "position": "DEF",
       "rosterId": 4,
       "startedPoints": 55.72,
-      "starts": 4,
+      "starts": 5,
       "weekPoints": null
      }
     ],
@@ -12183,7 +12757,7 @@
       "position": "WR",
       "rosterId": 4,
       "startedPoints": 24.3,
-      "starts": 3,
+      "starts": 4,
       "weekPoints": null
      }
     ],
@@ -12474,7 +13048,7 @@
       "position": "K",
       "rosterId": 6,
       "startedPoints": 40.0,
-      "starts": 5,
+      "starts": 6,
       "weekPoints": null
      }
     ],
@@ -12526,7 +13100,7 @@
       "position": "TE",
       "rosterId": 7,
       "startedPoints": 51.6,
-      "starts": 5,
+      "starts": 6,
       "weekPoints": null
      }
     ],
@@ -13117,7 +13691,7 @@
       "position": "QB",
       "rosterId": 8,
       "startedPoints": 75.36,
-      "starts": 4,
+      "starts": 5,
       "weekPoints": null
      }
     ],
@@ -13148,7 +13722,7 @@
       "position": "TE",
       "rosterId": 8,
       "startedPoints": 20.4,
-      "starts": 7,
+      "starts": 8,
       "weekPoints": 5.9
      }
     ],
@@ -13179,7 +13753,7 @@
       "position": "DEF",
       "rosterId": 8,
       "startedPoints": 58.32,
-      "starts": 5,
+      "starts": 6,
       "weekPoints": 9.0
      }
     ],
@@ -14301,7 +14875,7 @@
       "position": "K",
       "rosterId": 8,
       "startedPoints": 94.0,
-      "starts": 10,
+      "starts": 11,
       "weekPoints": 8.0
      }
     ],
@@ -14346,7 +14920,7 @@
       "position": "QB",
       "rosterId": 3,
       "startedPoints": 83.66,
-      "starts": 6,
+      "starts": 7,
       "weekPoints": 24.08
      }
     ],
@@ -14564,7 +15138,7 @@
       "position": "QB",
       "rosterId": 4,
       "startedPoints": 184.9,
-      "starts": 8,
+      "starts": 9,
       "weekPoints": null
      }
     ],
@@ -14876,7 +15450,7 @@
     "position": "QB",
     "rosterId": 4,
     "startedPoints": 184.9,
-    "starts": 8,
+    "starts": 9,
     "weekPoints": null,
     "week": 1,
     "type": "waiver",
@@ -14900,7 +15474,7 @@
     "position": "K",
     "rosterId": 8,
     "startedPoints": 94.0,
-    "starts": 10,
+    "starts": 11,
     "weekPoints": 8.0,
     "week": 2,
     "type": "free_agent",
@@ -14912,7 +15486,7 @@
     "position": "QB",
     "rosterId": 3,
     "startedPoints": 83.66,
-    "starts": 6,
+    "starts": 7,
     "weekPoints": 24.08,
     "week": 2,
     "type": "free_agent",
@@ -14936,7 +15510,7 @@
     "position": "QB",
     "rosterId": 8,
     "startedPoints": 75.36,
-    "starts": 4,
+    "starts": 5,
     "weekPoints": null,
     "week": 4,
     "type": "free_agent",
@@ -14948,7 +15522,7 @@
     "position": "DEF",
     "rosterId": 8,
     "startedPoints": 58.32,
-    "starts": 5,
+    "starts": 6,
     "weekPoints": 9.0,
     "week": 4,
     "type": "free_agent",
@@ -14960,7 +15534,7 @@
     "position": "DEF",
     "rosterId": 4,
     "startedPoints": 55.72,
-    "starts": 4,
+    "starts": 5,
     "weekPoints": null,
     "week": 5,
     "type": "waiver",
@@ -14972,7 +15546,7 @@
     "position": "TE",
     "rosterId": 7,
     "startedPoints": 51.6,
-    "starts": 5,
+    "starts": 6,
     "weekPoints": null,
     "week": 5,
     "type": "waiver",
@@ -14984,7 +15558,7 @@
     "position": "DEF",
     "rosterId": 6,
     "startedPoints": 51.44,
-    "starts": 4,
+    "starts": 5,
     "weekPoints": null,
     "week": 7,
     "type": "free_agent",
@@ -15201,19 +15775,19 @@
     "trades": 0,
     "pickupPoints": 365.36
    },
-   "6": {
-    "waiverClaims": 15,
-    "waiverWins": 7,
-    "freeAgents": 11,
-    "trades": 0,
-    "pickupPoints": 162.94
-   },
    "1": {
     "waiverClaims": 17,
     "waiverWins": 11,
     "freeAgents": 8,
     "trades": 0,
     "pickupPoints": 223.76
+   },
+   "6": {
+    "waiverClaims": 15,
+    "waiverWins": 7,
+    "freeAgents": 11,
+    "trades": 0,
+    "pickupPoints": 162.94
    },
    "3": {
     "waiverClaims": 14,
