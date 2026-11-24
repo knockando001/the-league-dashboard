@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T19:56:45.540188+00:00",
+  "generatedAt": "2026-11-24T04:41:16.825813+00:00",
   "season": 2026,
   "week": 11,
   "complete": false,
@@ -10,9 +10,9 @@
       "kickoff": "2026-11-24T01:15Z",
       "home": "WAS",
       "away": "CIN",
-      "homeScore": 0,
-      "awayScore": 0,
-      "final": false
+      "homeScore": 22,
+      "awayScore": 20,
+      "final": true
     },
     {
       "espnId": "401873066",
@@ -620,6 +620,51 @@
       "team": "TB",
       "opponent": "DET",
       "date": "2026-11-22"
+    },
+    "6801": {
+      "team": "CIN",
+      "opponent": "WAS",
+      "date": "2026-11-23"
+    },
+    "7839": {
+      "team": "CIN",
+      "opponent": "WAS",
+      "date": "2026-11-23"
+    },
+    "8136": {
+      "team": "WAS",
+      "opponent": "CIN",
+      "date": "2026-11-23"
+    },
+    "7564": {
+      "team": "CIN",
+      "opponent": "WAS",
+      "date": "2026-11-23"
+    },
+    "11566": {
+      "team": "WAS",
+      "opponent": "CIN",
+      "date": "2026-11-23"
+    },
+    "12533": {
+      "team": "WAS",
+      "opponent": "CIN",
+      "date": "2026-11-23"
+    },
+    "6770": {
+      "team": "CIN",
+      "opponent": "WAS",
+      "date": "2026-11-23"
+    },
+    "9224": {
+      "team": "CIN",
+      "opponent": "WAS",
+      "date": "2026-11-23"
+    },
+    "2449": {
+      "team": "WAS",
+      "opponent": "CIN",
+      "date": "2026-11-23"
     }
   }
 }

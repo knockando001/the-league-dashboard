@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-23T19:56:45.673406+00:00",
+ "generatedAt": "2026-11-24T04:41:16.964101+00:00",
  "season": 2026,
  "leagueName": "The League",
  "currentWeek": 11,
@@ -7961,7 +7961,7 @@
      "name": "Evan McPherson",
      "position": "K",
      "rosterId": 7,
-     "startedPoints": 21.0,
+     "startedPoints": 31.0,
      "starts": 3,
      "weekPoints": 13.0,
      "type": "waiver",
@@ -8704,17 +8704,65 @@
      "matchupId": 1,
      "teams": [
       {
+       "rosterId": 2,
+       "points": 93.4,
+       "optimal": 106.46,
+       "coach": 0.8773,
+       "benchPoints": 37.36,
+       "timeline": [
+        8.7,
+        38.7,
+        73.5,
+        73.5,
+        93.4
+       ],
+       "topStarters": [
+        {
+         "playerId": "13345",
+         "name": "Jonah Coleman",
+         "position": "RB",
+         "points": 30.9
+        },
+        {
+         "playerId": "6770",
+         "name": "Joe Burrow",
+         "position": "QB",
+         "points": 19.9
+        },
+        {
+         "playerId": "3198",
+         "name": "Derrick Henry",
+         "position": "RB",
+         "points": 14.1
+        }
+       ],
+       "topBench": [
+        {
+         "playerId": "3163",
+         "name": "Jared Goff",
+         "position": "QB",
+         "points": 20.36
+        },
+        {
+         "playerId": "12533",
+         "name": "Jacory Croskey-Merritt",
+         "position": "RB",
+         "points": 13.7
+        }
+       ]
+      },
+      {
        "rosterId": 4,
-       "points": 79.7,
-       "optimal": 90.0,
-       "coach": 0.8856,
+       "points": 84.2,
+       "optimal": 93.2,
+       "coach": 0.9034,
        "benchPoints": 21.5,
        "timeline": [
         2.2,
         45.3,
         45.3,
         79.7,
-        79.7
+        84.2
        ],
        "topStarters": [
         {
@@ -8750,64 +8798,64 @@
          "points": 3.8
         }
        ]
-      },
-      {
-       "rosterId": 2,
-       "points": 73.5,
-       "optimal": 95.06,
-       "coach": 0.7732,
-       "benchPoints": 23.66,
-       "timeline": [
-        8.7,
-        38.7,
-        73.5,
-        73.5,
-        73.5
-       ],
-       "topStarters": [
-        {
-         "playerId": "13345",
-         "name": "Jonah Coleman",
-         "position": "RB",
-         "points": 30.9
-        },
-        {
-         "playerId": "3198",
-         "name": "Derrick Henry",
-         "position": "RB",
-         "points": 14.1
-        },
-        {
-         "playerId": "PIT",
-         "name": "Pittsburgh Steelers",
-         "position": "DEF",
-         "points": 9.0
-        }
-       ],
-       "topBench": [
-        {
-         "playerId": "3163",
-         "name": "Jared Goff",
-         "position": "QB",
-         "points": 20.36
-        },
-        {
-         "playerId": "8132",
-         "name": "Tyler Allgeier",
-         "position": "RB",
-         "points": 2.3
-        }
-       ]
       }
      ],
      "winner": null,
-     "leader": 4,
-     "margin": 6.2,
-     "total": 153.2
+     "leader": 2,
+     "margin": 9.2,
+     "total": 177.6
     },
     {
      "matchupId": 2,
      "teams": [
+      {
+       "rosterId": 7,
+       "points": 88.96,
+       "optimal": 143.5,
+       "coach": 0.6199,
+       "benchPoints": 89.4,
+       "timeline": [
+        0.0,
+        51.7,
+        55.2,
+        55.2,
+        88.96
+       ],
+       "topStarters": [
+        {
+         "playerId": "7594",
+         "name": "Chuba Hubbard",
+         "position": "RB",
+         "points": 26.0
+        },
+        {
+         "playerId": "11566",
+         "name": "Jayden Daniels",
+         "position": "QB",
+         "points": 17.06
+        },
+        {
+         "playerId": "8137",
+         "name": "George Pickens",
+         "position": "WR",
+         "points": 16.8
+        }
+       ],
+       "topBench": [
+        {
+         "playerId": "3294",
+         "name": "Dak Prescott",
+         "position": "QB",
+         "points": 35.9
+        },
+        {
+         "playerId": "1466",
+         "name": "Travis Kelce",
+         "position": "TE",
+         "points": 19.4
+        }
+       ]
+      },
       {
        "rosterId": 6,
        "points": 75.14,
@@ -8855,76 +8903,28 @@
          "points": 13.5
         }
        ]
-      },
-      {
-       "rosterId": 7,
-       "points": 55.2,
-       "optimal": 133.5,
-       "coach": 0.4135,
-       "benchPoints": 89.4,
-       "timeline": [
-        0.0,
-        51.7,
-        55.2,
-        55.2,
-        55.2
-       ],
-       "topStarters": [
-        {
-         "playerId": "7594",
-         "name": "Chuba Hubbard",
-         "position": "RB",
-         "points": 26.0
-        },
-        {
-         "playerId": "8137",
-         "name": "George Pickens",
-         "position": "WR",
-         "points": 16.8
-        },
-        {
-         "playerId": "DET",
-         "name": "Detroit Lions",
-         "position": "DEF",
-         "points": 6.0
-        }
-       ],
-       "topBench": [
-        {
-         "playerId": "3294",
-         "name": "Dak Prescott",
-         "position": "QB",
-         "points": 35.9
-        },
-        {
-         "playerId": "1466",
-         "name": "Travis Kelce",
-         "position": "TE",
-         "points": 19.4
-        }
-       ]
       }
      ],
      "winner": null,
-     "leader": 6,
-     "margin": 19.94,
-     "total": 130.34
+     "leader": 7,
+     "margin": 13.82,
+     "total": 164.1
     },
     {
      "matchupId": 3,
      "teams": [
       {
        "rosterId": 3,
-       "points": 107.06,
-       "optimal": 111.76,
-       "coach": 0.9579,
+       "points": 117.36,
+       "optimal": 117.36,
+       "coach": 1.0,
        "benchPoints": 11.8,
        "timeline": [
         0.0,
         101.56,
         101.56,
         107.06,
-        107.06
+        117.36
        ],
        "topStarters": [
         {
@@ -9012,8 +9012,8 @@
      ],
      "winner": null,
      "leader": 3,
-     "margin": 13.2,
-     "total": 200.92
+     "margin": 23.5,
+     "total": 211.22
     },
     {
      "matchupId": 4,
@@ -9135,13 +9135,13 @@
     "bestCoach": {
      "rosterId": 3,
      "team": "Flota Oksywie",
-     "coach": 0.9579
+     "coach": 1.0
     },
     "mostLeftOnBench": {
      "rosterId": 7,
      "team": "Potega Wesiory",
-     "left": 78.3,
-     "coach": 0.4135
+     "left": 54.54,
+     "coach": 0.6199
     },
     "playerOfWeek": {
      "playerId": "13345",
@@ -9218,8 +9218,8 @@
      0
     ],
     "2": [
-     2,
-     5,
+     4,
+     3,
      0
     ],
     "3": [
@@ -9228,8 +9228,8 @@
      0
     ],
     "4": [
-     4,
-     3,
+     2,
+     5,
      0
     ],
     "5": [
@@ -9238,13 +9238,13 @@
      0
     ],
     "6": [
-     3,
-     4,
+     1,
+     6,
      0
     ],
     "7": [
-     1,
-     6,
+     3,
+     4,
      0
     ],
     "8": [
@@ -10237,7 +10237,7 @@
       "name": "Evan McPherson",
       "position": "K",
       "rosterId": 7,
-      "startedPoints": 21.0,
+      "startedPoints": 31.0,
       "starts": 3,
       "weekPoints": 13.0
      }
@@ -11761,7 +11761,7 @@
       "name": "Stefon Diggs",
       "position": "WR",
       "rosterId": 4,
-      "startedPoints": 9.8,
+      "startedPoints": 14.3,
       "starts": 2,
       "weekPoints": null
      }
@@ -15199,7 +15199,7 @@
     "waiverWins": 11,
     "freeAgents": 4,
     "trades": 0,
-    "pickupPoints": 360.86
+    "pickupPoints": 365.36
    },
    "6": {
     "waiverClaims": 15,
@@ -15234,7 +15234,7 @@
     "waiverWins": 15,
     "freeAgents": 6,
     "trades": 0,
-    "pickupPoints": 386.6
+    "pickupPoints": 396.6
    },
    "5": {
     "waiverClaims": 0,

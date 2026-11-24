@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T19:56:45.094417+00:00",
+  "generatedAt": "2026-11-24T04:41:16.629074+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -73,11 +73,10 @@
     "avatar": "8da7991069e3a7217718ff56366005c6",
     "company_id": null,
     "league_id": "1397593463293239296",
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "shard": 125,
-    "last_message_id": "1430323809113616384",
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -228,6 +227,8 @@
       "st_ff": 0.0,
       "idp_tkl_ast": 0.0
     },
+    "last_message_id": "1430323809113616384",
+    "draft_id": "1397593466170523648",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -236,7 +237,6 @@
     "last_message_text_map": null,
     "last_message_time": 1795378279525,
     "last_pinned_message_id": "1398407155169656845",
-    "draft_id": "1397593466170523648",
     "last_read_id": null,
     "previous_league_id": null,
     "bracket_id": null,
@@ -8806,12 +8806,12 @@
         "ownerId": "1397712793855139840",
         "ownerName": "Saszewski",
         "teamName": "Vegablanca Boars",
-        "points": 73.5,
+        "points": 93.4,
         "customPoints": null,
         "starters": [
           {
             "playerId": "6770",
-            "points": 0.0
+            "points": 19.9
           },
           {
             "playerId": "3198",
@@ -8853,7 +8853,7 @@
           },
           {
             "playerId": "12533",
-            "points": 0.0
+            "points": 13.7
           },
           {
             "playerId": "13281",
@@ -8883,13 +8883,13 @@
         "playersPoints": {
           "11783": 1.1,
           "12501": 0.0,
-          "12533": 0.0,
+          "12533": 13.7,
           "13281": 1.0,
           "13345": 30.9,
           "3163": 20.36,
           "3198": 14.1,
           "3451": 6.0,
-          "6770": 0.0,
+          "6770": 19.9,
           "7611": 0.0,
           "8112": 0.0,
           "8130": 5.8,
@@ -8908,7 +8908,7 @@
         "ownerId": "1395937838859579392",
         "ownerName": "knockando",
         "teamName": "Flota Oksywie",
-        "points": 107.06,
+        "points": 117.36,
         "customPoints": null,
         "starters": [
           {
@@ -8929,7 +8929,7 @@
           },
           {
             "playerId": "6801",
-            "points": 0.0
+            "points": 10.3
           },
           {
             "playerId": "5844",
@@ -8992,7 +8992,7 @@
           "5844": 5.5,
           "5850": 0.0,
           "5872": 4.7,
-          "6801": 0.0,
+          "6801": 10.3,
           "6804": 0.0,
           "7042": 18.0,
           "7588": 21.1,
@@ -9010,7 +9010,7 @@
         "ownerId": "1398407279245524992",
         "ownerName": "kiler7775",
         "teamName": "Gdynia Moustache Admirers",
-        "points": 79.7,
+        "points": 84.2,
         "customPoints": null,
         "starters": [
           {
@@ -9027,7 +9027,7 @@
           },
           {
             "playerId": "2449",
-            "points": 0.0
+            "points": 4.5
           },
           {
             "playerId": "8148",
@@ -9091,7 +9091,7 @@
           "13287": 0.0,
           "2020": 7.0,
           "2133": 0.0,
-          "2449": 0.0,
+          "2449": 4.5,
           "4034": 12.2,
           "5022": 3.8,
           "7021": 3.4,
@@ -9306,12 +9306,12 @@
         "ownerId": "1398370307936354304",
         "ownerName": "PotegaWesiory",
         "teamName": "Potega Wesiory",
-        "points": 55.2,
+        "points": 88.96,
         "customPoints": null,
         "starters": [
           {
             "playerId": "11566",
-            "points": 0.0
+            "points": 17.06
           },
           {
             "playerId": "7594",
@@ -9323,7 +9323,7 @@
           },
           {
             "playerId": "7564",
-            "points": 0.0
+            "points": 3.1
           },
           {
             "playerId": "8137",
@@ -9335,11 +9335,11 @@
           },
           {
             "playerId": "9224",
-            "points": 0.0
+            "points": 3.6
           },
           {
             "playerId": "7839",
-            "points": 0.0
+            "points": 10.0
           },
           {
             "playerId": "DET",
@@ -9377,7 +9377,7 @@
           }
         ],
         "playersPoints": {
-          "11566": 0.0,
+          "11566": 17.06,
           "11646": 4.7,
           "12495": 6.7,
           "1466": 19.4,
@@ -9385,13 +9385,13 @@
           "4983": 15.1,
           "5859": 0.0,
           "7543": 7.6,
-          "7564": 0.0,
+          "7564": 3.1,
           "7594": 26.0,
-          "7839": 0.0,
+          "7839": 10.0,
           "8131": 3.5,
           "8137": 16.8,
           "8228": 2.9,
-          "9224": 0.0,
+          "9224": 3.6,
           "DET": 6.0
         }
       },
