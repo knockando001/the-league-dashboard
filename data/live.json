@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T10:18:07.301820+00:00",
+  "generatedAt": "2026-11-24T17:10:08.294854+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -19,7 +19,7 @@
     },
     "settings": {
       "best_ball": 0,
-      "last_report": 10,
+      "last_report": 11,
       "waiver_budget": 100,
       "disable_adds": 0,
       "capacity_override": 0,
@@ -73,10 +73,6 @@
     "avatar": "8da7991069e3a7217718ff56366005c6",
     "company_id": null,
     "league_id": "1397593463293239296",
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "shard": 125,
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -227,14 +223,18 @@
       "st_ff": 0.0,
       "idp_tkl_ast": 0.0
     },
-    "last_message_id": "1430323809113616384",
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 125,
+    "sport": "nfl",
+    "last_message_id": "1430994883920809984",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1795378279525,
+    "last_message_time": 1795538276228,
     "last_pinned_message_id": "1398407155169656845",
     "draft_id": "1397593466170523648",
     "last_read_id": null,
@@ -242,8 +242,6 @@
     "bracket_id": null,
     "bracket_overrides_id": null,
     "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -262,6 +260,8 @@
       "BN",
       "BN"
     ],
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 8
   },
   "nflState": {
@@ -471,12 +471,12 @@
       ],
       "starters": [
         "11560",
-        "5892",
+        "8151",
         "9221",
-        "12526",
+        "8167",
         "7569",
         "4217",
-        "13337",
+        "11586",
         "11786",
         "HOU"
       ]
@@ -9530,7 +9530,7 @@
             "points": 0.0
           },
           {
-            "playerId": "12512",
+            "playerId": "11586",
             "points": 0.0
           },
           {
@@ -9548,7 +9548,7 @@
             "points": 0.0
           },
           {
-            "playerId": "11586",
+            "playerId": "12512",
             "points": 0.0
           },
           {
