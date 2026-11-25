@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T11:09:15.152554+00:00",
+ "generatedAt": "2026-11-25T21:18:18.773752+00:00",
  "season": 2026,
  "leagueName": "The League",
  "currentWeek": 12,
@@ -3709,7 +3709,7 @@
      "position": "QB",
      "rosterId": 3,
      "startedPoints": 83.66,
-     "starts": 7,
+     "starts": 6,
      "weekPoints": 24.08,
      "type": "free_agent",
      "team": "Flota Oksywie"
@@ -8684,7 +8684,7 @@
      "position": "RB",
      "rosterId": 1,
      "startedPoints": 48.4,
-     "starts": 2,
+     "starts": 3,
      "weekPoints": 28.1,
      "type": "free_agent",
      "team": "Zamek Pancerne Dziki"
@@ -9700,8 +9700,8 @@
          "points": 0.0
         },
         {
-         "playerId": "8151",
-         "name": "Kenneth Walker III",
+         "playerId": "13337",
+         "name": "Emmett Johnson",
          "position": "RB",
          "points": 0.0
         },
@@ -9731,8 +9731,8 @@
        ],
        "topStarters": [
         {
-         "playerId": "9228",
-         "name": "Bryce Young",
+         "playerId": "6804",
+         "name": "Jordan Love",
          "position": "QB",
          "points": 0.0
         },
@@ -9987,7 +9987,7 @@
       "position": "TE",
       "rosterId": 3,
       "startedPoints": 5.5,
-      "starts": 2,
+      "starts": 1,
       "weekPoints": 5.5
      }
     ],
@@ -10049,7 +10049,7 @@
       "position": "DEF",
       "rosterId": 3,
       "startedPoints": 0.0,
-      "starts": 0,
+      "starts": 1,
       "weekPoints": null
      }
     ],
@@ -10266,7 +10266,7 @@
       "position": "RB",
       "rosterId": 1,
       "startedPoints": 48.4,
-      "starts": 2,
+      "starts": 3,
       "weekPoints": 28.1
      }
     ],
@@ -10404,7 +10404,7 @@
       "position": "QB",
       "rosterId": 3,
       "startedPoints": 0.0,
-      "starts": 0,
+      "starts": 1,
       "weekPoints": null
      }
     ],
@@ -10435,7 +10435,7 @@
       "position": "DEF",
       "rosterId": 3,
       "startedPoints": 11.0,
-      "starts": 2,
+      "starts": 1,
       "weekPoints": null
      }
     ],
@@ -14920,7 +14920,7 @@
       "position": "QB",
       "rosterId": 3,
       "startedPoints": 83.66,
-      "starts": 7,
+      "starts": 6,
       "weekPoints": 24.08
      }
     ],
@@ -15486,7 +15486,7 @@
     "position": "QB",
     "rosterId": 3,
     "startedPoints": 83.66,
-    "starts": 7,
+    "starts": 6,
     "weekPoints": 24.08,
     "week": 2,
     "type": "free_agent",
