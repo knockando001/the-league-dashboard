@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T19:56:43.316107+00:00",
+  "generatedAt": "2026-11-25T01:59:38.191103+00:00",
   "players": {
     "6462": {
       "name": "Ellis Richardson",
@@ -4427,7 +4427,7 @@
       "fantasyPositions": [
         "QB"
       ],
-      "team": "CHI",
+      "team": null,
       "active": true
     },
     "12913": {
@@ -14455,7 +14455,7 @@
       "fantasyPositions": [
         "RB"
       ],
-      "team": null,
+      "team": "LAC",
       "active": true
     },
     "5140": {
@@ -15031,7 +15031,7 @@
       "fantasyPositions": [
         "TE"
       ],
-      "team": null,
+      "team": "IND",
       "active": true
     },
     "2048": {
@@ -15049,7 +15049,7 @@
       "fantasyPositions": [
         "QB"
       ],
-      "team": "BAL",
+      "team": null,
       "active": true
     },
     "3214": {
@@ -18443,7 +18443,7 @@
       "fantasyPositions": [
         "QB"
       ],
-      "team": "BUF",
+      "team": "IND",
       "active": true
     },
     "11554": {
@@ -23791,7 +23791,7 @@
       "fantasyPositions": [
         "RB"
       ],
-      "team": null,
+      "team": "IND",
       "active": true
     },
     "7597": {
@@ -30624,7 +30624,7 @@
       "fantasyPositions": [
         "WR"
       ],
-      "team": "SF",
+      "team": null,
       "active": true
     },
     "2928": {
@@ -35214,7 +35214,7 @@
       "fantasyPositions": [
         "RB"
       ],
-      "team": "KC",
+      "team": null,
       "active": true
     },
     "12510": {
@@ -35286,7 +35286,7 @@
       "fantasyPositions": [
         "RB"
       ],
-      "team": "LV",
+      "team": null,
       "active": true
     },
     "1671": {
@@ -35880,7 +35880,7 @@
       "fantasyPositions": [
         "WR"
       ],
-      "team": null,
+      "team": "PIT",
       "active": true
     },
     "11092": {
@@ -38482,7 +38482,7 @@
       "fantasyPositions": [
         "TE"
       ],
-      "team": "CIN",
+      "team": null,
       "active": true
     },
     "8581": {
