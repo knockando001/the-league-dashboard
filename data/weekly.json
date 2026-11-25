@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T01:59:38.191103+00:00",
+  "generatedAt": "2026-11-25T11:09:13.214108+00:00",
   "leagueId": "1397593463293239296",
   "leagueName": "The League",
   "leagueStatus": "in_season",
@@ -12,7 +12,7 @@
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
-    "display_week": 11,
+    "display_week": 12,
     "league_create_season": "2026",
     "season_has_scores": true
   },
@@ -71,7 +71,6 @@
         "7611",
         "8112",
         "8130",
-        "8132",
         "8146",
         "9502",
         "PIT",
@@ -81,10 +80,10 @@
         "6770",
         "3198",
         "13345",
-        "8146",
-        "11783",
+        "12501",
+        "8112",
         "8130",
-        "9502",
+        "12533",
         "3451",
         "PIT"
       ]

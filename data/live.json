@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T01:59:39.575867+00:00",
+  "generatedAt": "2026-11-25T11:09:14.618937+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -226,19 +226,24 @@
     "season": "2026",
     "season_type": "regular",
     "sport": "nfl",
-    "last_message_id": "1430994883920809984",
+    "last_message_id": "1431253152329379840",
     "shard": 125,
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
-    "draft_id": "1397593466170523648",
     "last_message_text_map": null,
-    "last_message_time": 1795538276228,
+    "last_message_time": 1795599852214,
     "last_pinned_message_id": "1398407155169656845",
     "last_read_id": null,
+    "draft_id": "1397593466170523648",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -257,11 +262,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 8
   },
   "nflState": {
@@ -272,7 +272,7 @@
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
-    "display_week": 11,
+    "display_week": 12,
     "league_create_season": "2026",
     "season_has_scores": true
   },
@@ -585,7 +585,6 @@
         "7611",
         "8112",
         "8130",
-        "8132",
         "8146",
         "9502",
         "PIT",
@@ -595,10 +594,10 @@
         "6770",
         "3198",
         "13345",
-        "8146",
-        "11783",
+        "12501",
+        "8112",
         "8130",
-        "9502",
+        "12533",
         "3451",
         "PIT"
       ]
@@ -9620,11 +9619,11 @@
             "points": 0.0
           },
           {
-            "playerId": "8146",
+            "playerId": "12501",
             "points": 0.0
           },
           {
-            "playerId": "11783",
+            "playerId": "8112",
             "points": 0.0
           },
           {
@@ -9632,7 +9631,7 @@
             "points": 0.0
           },
           {
-            "playerId": "9502",
+            "playerId": "12533",
             "points": 0.0
           },
           {
@@ -9646,11 +9645,7 @@
         ],
         "bench": [
           {
-            "playerId": "12501",
-            "points": 0.0
-          },
-          {
-            "playerId": "12533",
+            "playerId": "11783",
             "points": 0.0
           },
           {
@@ -9666,11 +9661,11 @@
             "points": 0.0
           },
           {
-            "playerId": "8112",
+            "playerId": "8146",
             "points": 0.0
           },
           {
-            "playerId": "8132",
+            "playerId": "9502",
             "points": 0.0
           },
           {
@@ -9691,7 +9686,6 @@
           "7611": 0.0,
           "8112": 0.0,
           "8130": 0.0,
-          "8132": 0.0,
           "8146": 0.0,
           "9502": 0.0,
           "PIT": 0.0,

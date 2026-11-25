@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T01:59:40.201865+00:00",
+ "generatedAt": "2026-11-25T11:09:15.152554+00:00",
  "season": 2026,
  "leagueName": "The League",
  "currentWeek": 12,
@@ -15086,7 +15086,7 @@
       "position": "WR",
       "rosterId": 2,
       "startedPoints": 77.9,
-      "starts": 6,
+      "starts": 7,
       "weekPoints": null
      }
     ],
@@ -15498,7 +15498,7 @@
     "position": "WR",
     "rosterId": 2,
     "startedPoints": 77.9,
-    "starts": 6,
+    "starts": 7,
     "weekPoints": null,
     "week": 1,
     "type": "waiver",
