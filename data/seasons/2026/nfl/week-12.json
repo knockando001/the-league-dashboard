@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-11-26T13:46:28.367792+00:00",
+  "generatedAt": "2026-11-26T22:52:11.307671+00:00",
   "season": 2026,
   "week": 12,
   "complete": false,
   "games": [
-    {
-      "espnId": "401873081",
-      "name": "CHI @ DET",
-      "kickoff": "2026-11-26T18:00Z",
-      "home": "DET",
-      "away": "CHI",
-      "homeScore": 0,
-      "awayScore": 0,
-      "final": false
-    },
     {
       "espnId": "401873080",
       "name": "PHI @ DAL",
       "kickoff": "2026-11-26T21:30Z",
       "home": "DAL",
       "away": "PHI",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 14,
+      "awayScore": 3,
       "final": false
+    },
+    {
+      "espnId": "401873081",
+      "name": "CHI @ DET",
+      "kickoff": "2026-11-26T18:00Z",
+      "home": "DET",
+      "away": "CHI",
+      "homeScore": 35,
+      "awayScore": 39,
+      "final": true
     },
     {
       "espnId": "401873082",
@@ -215,6 +215,116 @@
       "team": "LAR",
       "opponent": "GB",
       "date": "2026-11-25"
+    },
+    "6786": {
+      "team": "DAL",
+      "opponent": "PHI",
+      "date": "2026-11-26"
+    },
+    "7588": {
+      "team": "DAL",
+      "opponent": "PHI",
+      "date": "2026-11-26"
+    },
+    "9221": {
+      "team": "DET",
+      "opponent": "CHI",
+      "date": "2026-11-26"
+    },
+    "6790": {
+      "team": "CHI",
+      "opponent": "DET",
+      "date": "2026-11-26"
+    },
+    "8137": {
+      "team": "DAL",
+      "opponent": "PHI",
+      "date": "2026-11-26"
+    },
+    "CHI": {
+      "team": "CHI",
+      "opponent": "DET",
+      "date": "2026-11-26"
+    },
+    "11560": {
+      "team": "CHI",
+      "opponent": "DET",
+      "date": "2026-11-26"
+    },
+    "11620": {
+      "team": "CHI",
+      "opponent": "DET",
+      "date": "2026-11-26"
+    },
+    "12517": {
+      "team": "CHI",
+      "opponent": "DET",
+      "date": "2026-11-26"
+    },
+    "12519": {
+      "team": "CHI",
+      "opponent": "DET",
+      "date": "2026-11-26"
+    },
+    "2020": {
+      "team": "CHI",
+      "opponent": "DET",
+      "date": "2026-11-26"
+    },
+    "5022": {
+      "team": "PHI",
+      "opponent": "DAL",
+      "date": "2026-11-26"
+    },
+    "8148": {
+      "team": "DET",
+      "opponent": "CHI",
+      "date": "2026-11-26"
+    },
+    "4866": {
+      "team": "PHI",
+      "opponent": "DAL",
+      "date": "2026-11-26"
+    },
+    "11533": {
+      "team": "DAL",
+      "opponent": "PHI",
+      "date": "2026-11-26"
+    },
+    "12534": {
+      "team": "CHI",
+      "opponent": "DET",
+      "date": "2026-11-26"
+    },
+    "3163": {
+      "team": "DET",
+      "opponent": "CHI",
+      "date": "2026-11-26"
+    },
+    "3294": {
+      "team": "DAL",
+      "opponent": "PHI",
+      "date": "2026-11-26"
+    },
+    "10859": {
+      "team": "DET",
+      "opponent": "CHI",
+      "date": "2026-11-26"
+    },
+    "11783": {
+      "team": "DAL",
+      "opponent": "PHI",
+      "date": "2026-11-26"
+    },
+    "7525": {
+      "team": "PHI",
+      "opponent": "DAL",
+      "date": "2026-11-26"
+    },
+    "7547": {
+      "team": "DET",
+      "opponent": "CHI",
+      "date": "2026-11-26"
     }
   }
 }
