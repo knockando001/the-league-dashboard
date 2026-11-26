@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T03:59:56.802098+00:00",
+ "generatedAt": "2026-11-26T13:46:28.473298+00:00",
  "season": 2026,
  "leagueName": "The League",
  "currentWeek": 12,
@@ -9514,9 +9514,9 @@
       {
        "rosterId": 4,
        "points": 0.0,
-       "optimal": 10.5,
+       "optimal": 12.5,
        "coach": 0.0,
-       "benchPoints": 10.5,
+       "benchPoints": 12.5,
        "timeline": [
         0.0,
         0.0,
@@ -9551,7 +9551,7 @@
          "playerId": "8150",
          "name": "Kyren Williams",
          "position": "RB",
-         "points": 10.5
+         "points": 12.5
         }
        ]
       },
@@ -9611,9 +9611,9 @@
       {
        "rosterId": 5,
        "points": 0.0,
-       "optimal": 11.56,
+       "optimal": 15.56,
        "coach": 0.0,
-       "benchPoints": 11.56,
+       "benchPoints": 15.56,
        "timeline": [
         0.0,
         0.0,
@@ -9648,7 +9648,7 @@
          "playerId": "LAR",
          "name": "Los Angeles Rams",
          "position": "DEF",
-         "points": 11.56
+         "points": 15.56
         }
        ]
       },
@@ -9700,25 +9700,25 @@
      "teams": [
       {
        "rosterId": 1,
-       "points": 28.9,
-       "optimal": 28.9,
+       "points": 39.0,
+       "optimal": 39.0,
        "coach": 1.0,
        "benchPoints": 0.0,
        "timeline": [
-        28.9,
-        28.9,
-        28.9,
-        28.9,
-        28.9,
-        28.9,
-        28.9
+        39.0,
+        39.0,
+        39.0,
+        39.0,
+        39.0,
+        39.0,
+        39.0
        ],
        "topStarters": [
         {
          "playerId": "11586",
          "name": "Blake Corum",
          "position": "RB",
-         "points": 16.4
+         "points": 26.5
         },
         {
          "playerId": "8167",
@@ -9737,25 +9737,25 @@
       },
       {
        "rosterId": 3,
-       "points": 8.18,
-       "optimal": 8.18,
+       "points": 6.62,
+       "optimal": 6.62,
        "coach": 1.0,
-       "benchPoints": 1.04,
+       "benchPoints": 1.6,
        "timeline": [
-        8.18,
-        8.18,
-        8.18,
-        8.18,
-        8.18,
-        8.18,
-        8.18
+        6.62,
+        6.62,
+        6.62,
+        6.62,
+        6.62,
+        6.62,
+        6.62
        ],
        "topStarters": [
         {
          "playerId": "6804",
          "name": "Jordan Love",
          "position": "QB",
-         "points": 8.18
+         "points": 6.62
         },
         {
          "playerId": "8138",
@@ -9775,22 +9775,22 @@
          "playerId": "421",
          "name": "Matthew Stafford",
          "position": "QB",
-         "points": 1.04
+         "points": 1.6
         }
        ]
       }
      ],
      "winner": null,
      "leader": 1,
-     "margin": 20.72,
-     "total": 37.08
+     "margin": 32.38,
+     "total": 45.62
     }
    ],
    "awards": {
     "topScore": {
      "rosterId": 1,
      "team": "Zamek Pancerne Dziki",
-     "points": 28.9
+     "points": 39.0
     },
     "lowScore": {
      "rosterId": 8,
@@ -9805,14 +9805,14 @@
     "mostLeftOnBench": {
      "rosterId": 5,
      "team": "DonTeam Kielce",
-     "left": 11.56,
+     "left": 15.56,
      "coach": 0.0
     },
     "playerOfWeek": {
      "playerId": "11586",
      "name": "Blake Corum",
      "position": "RB",
-     "points": 16.4,
+     "points": 26.5,
      "rosterId": 1,
      "team": "Zamek Pancerne Dziki"
     },
@@ -9820,7 +9820,7 @@
      "playerId": "LAR",
      "name": "Los Angeles Rams",
      "position": "DEF",
-     "points": 11.56,
+     "points": 15.56,
      "rosterId": 5,
      "team": "DonTeam Kielce"
     }
@@ -9833,7 +9833,7 @@
       "team": "Zamek Pancerne Dziki",
       "opponent": 3,
       "opponentTeam": "Flota Oksywie",
-      "lead": 20.72,
+      "lead": 32.38,
       "held": null
      },
      {
@@ -10015,6 +10015,68 @@
  "transactions": {
   "feed": [
    {
+    "transactionId": "1431602745290280960",
+    "week": 12,
+    "type": "free_agent",
+    "status": "complete",
+    "time": 1795683201672,
+    "rosterIds": [
+     3
+    ],
+    "adds": [
+     {
+      "playerId": "LAC",
+      "name": "Los Angeles Chargers",
+      "position": "DEF",
+      "rosterId": 3,
+      "startedPoints": 0.0,
+      "starts": 1,
+      "weekPoints": 0.0
+     }
+    ],
+    "drops": [
+     {
+      "playerId": "TB",
+      "name": "Tampa Bay Buccaneers",
+      "position": "DEF",
+      "rosterId": 3
+     }
+    ],
+    "waiverBid": null,
+    "draftPicks": []
+   },
+   {
+    "transactionId": "1431592664221908992",
+    "week": 12,
+    "type": "free_agent",
+    "status": "complete",
+    "time": 1795680798157,
+    "rosterIds": [
+     6
+    ],
+    "adds": [
+     {
+      "playerId": "9753",
+      "name": "Zach Charbonnet",
+      "position": "RB",
+      "rosterId": 6,
+      "startedPoints": 0.0,
+      "starts": 0,
+      "weekPoints": null
+     }
+    ],
+    "drops": [
+     {
+      "playerId": "8408",
+      "name": "Jordan Mason",
+      "position": "RB",
+      "rosterId": 6
+     }
+    ],
+    "waiverBid": null,
+    "draftPicks": []
+   },
+   {
     "transactionId": "1430515930445680640",
     "week": 11,
     "type": "waiver",
@@ -10113,7 +10175,7 @@
       "position": "DEF",
       "rosterId": 3,
       "startedPoints": 0.0,
-      "starts": 1,
+      "starts": 0,
       "weekPoints": null
      }
     ],
@@ -10268,7 +10330,7 @@
       "position": "DEF",
       "rosterId": 7,
       "startedPoints": 6.0,
-      "starts": 2,
+      "starts": 1,
       "weekPoints": 6.0
      }
     ],
@@ -10467,7 +10529,7 @@
       "name": "Jordan Love",
       "position": "QB",
       "rosterId": 3,
-      "startedPoints": 8.18,
+      "startedPoints": 6.62,
       "starts": 1,
       "weekPoints": null
      }
@@ -10741,7 +10803,7 @@
       "position": "DEF",
       "rosterId": 2,
       "startedPoints": 9.0,
-      "starts": 2,
+      "starts": 1,
       "weekPoints": null
      }
     ],
@@ -12872,7 +12934,7 @@
       "name": "Blake Corum",
       "position": "RB",
       "rosterId": 1,
-      "startedPoints": 34.3,
+      "startedPoints": 44.4,
       "starts": 2,
       "weekPoints": null
      }
@@ -15844,21 +15906,21 @@
     "waiverWins": 11,
     "freeAgents": 8,
     "trades": 0,
-    "pickupPoints": 240.16
+    "pickupPoints": 250.26
    },
    "6": {
     "waiverClaims": 15,
     "waiverWins": 7,
-    "freeAgents": 11,
+    "freeAgents": 12,
     "trades": 0,
     "pickupPoints": 162.94
    },
    "3": {
     "waiverClaims": 14,
     "waiverWins": 9,
-    "freeAgents": 20,
+    "freeAgents": 21,
     "trades": 0,
-    "pickupPoints": 358.6
+    "pickupPoints": 357.04
    },
    "2": {
     "waiverClaims": 34,

@@ -1,19 +1,9 @@
 {
-  "generatedAt": "2026-11-26T03:59:56.689372+00:00",
+  "generatedAt": "2026-11-26T13:46:28.367792+00:00",
   "season": 2026,
   "week": 12,
   "complete": false,
   "games": [
-    {
-      "espnId": "401873079",
-      "name": "GB @ LAR",
-      "kickoff": "2026-11-26T01:00Z",
-      "home": "LAR",
-      "away": "GB",
-      "homeScore": 20,
-      "awayScore": 13,
-      "final": false
-    },
     {
       "espnId": "401873081",
       "name": "CHI @ DET",
@@ -43,6 +33,16 @@
       "homeScore": 0,
       "awayScore": 0,
       "final": false
+    },
+    {
+      "espnId": "401873079",
+      "name": "GB @ LAR",
+      "kickoff": "2026-11-26T01:00Z",
+      "home": "LAR",
+      "away": "GB",
+      "homeScore": 26,
+      "awayScore": 13,
+      "final": true
     },
     {
       "espnId": "401873083",
