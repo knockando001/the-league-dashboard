@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T21:18:18.593535+00:00",
+  "generatedAt": "2026-11-26T03:59:56.689372+00:00",
   "season": 2026,
   "week": 12,
   "complete": false,
@@ -10,8 +10,8 @@
       "kickoff": "2026-11-26T01:00Z",
       "home": "LAR",
       "away": "GB",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 20,
+      "awayScore": 13,
       "final": false
     },
     {
@@ -165,5 +165,56 @@
       "final": false
     }
   ],
-  "players": {}
+  "players": {
+    "11581": {
+      "team": "GB",
+      "opponent": "LAR",
+      "date": "2026-11-25"
+    },
+    "12501": {
+      "team": "GB",
+      "opponent": "LAR",
+      "date": "2026-11-25"
+    },
+    "2133": {
+      "team": "LAR",
+      "opponent": "GB",
+      "date": "2026-11-25"
+    },
+    "6804": {
+      "team": "GB",
+      "opponent": "LAR",
+      "date": "2026-11-25"
+    },
+    "8150": {
+      "team": "LAR",
+      "opponent": "GB",
+      "date": "2026-11-25"
+    },
+    "9484": {
+      "team": "GB",
+      "opponent": "LAR",
+      "date": "2026-11-25"
+    },
+    "11586": {
+      "team": "LAR",
+      "opponent": "GB",
+      "date": "2026-11-25"
+    },
+    "LAR": {
+      "team": "LAR",
+      "opponent": "GB",
+      "date": "2026-11-25"
+    },
+    "8167": {
+      "team": "GB",
+      "opponent": "LAR",
+      "date": "2026-11-25"
+    },
+    "421": {
+      "team": "LAR",
+      "opponent": "GB",
+      "date": "2026-11-25"
+    }
+  }
 }

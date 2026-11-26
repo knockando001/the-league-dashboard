@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T01:59:38.191103+00:00",
+  "generatedAt": "2026-11-26T03:59:55.307696+00:00",
   "players": {
     "6462": {
       "name": "Ellis Richardson",
@@ -691,7 +691,7 @@
       "fantasyPositions": [
         "WR"
       ],
-      "team": "BAL",
+      "team": null,
       "active": true
     },
     "3488": {
@@ -4049,7 +4049,7 @@
       "fantasyPositions": [
         "WR"
       ],
-      "team": null,
+      "team": "SF",
       "active": true
     },
     "1718": {
@@ -5840,7 +5840,7 @@
       "fantasyPositions": [
         "QB"
       ],
-      "team": "TB",
+      "team": null,
       "active": true
     },
     "626": {
@@ -10162,7 +10162,7 @@
       "fantasyPositions": [
         "RB"
       ],
-      "team": "WAS",
+      "team": null,
       "active": true
     },
     "887": {
@@ -15049,7 +15049,7 @@
       "fantasyPositions": [
         "QB"
       ],
-      "team": null,
+      "team": "ARI",
       "active": true
     },
     "3214": {
@@ -20243,7 +20243,7 @@
       "fantasyPositions": [
         "WR"
       ],
-      "team": null,
+      "team": "SEA",
       "active": true
     },
     "5162": {
@@ -27814,7 +27814,7 @@
       "fantasyPositions": [
         "WR"
       ],
-      "team": "LAC",
+      "team": null,
       "active": true
     },
     "223": {
@@ -30624,7 +30624,7 @@
       "fantasyPositions": [
         "WR"
       ],
-      "team": null,
+      "team": "WAS",
       "active": true
     },
     "2928": {
@@ -30948,7 +30948,7 @@
       "fantasyPositions": [
         "TE"
       ],
-      "team": "LAC",
+      "team": null,
       "active": true
     },
     "7903": {
@@ -32383,12 +32383,12 @@
       "active": true
     },
     "8200": {
-      "name": "Kevin Austin",
+      "name": "Kevin Austin Jr.",
       "position": "WR",
       "fantasyPositions": [
         "WR"
       ],
-      "team": null,
+      "team": "NO",
       "active": true
     },
     "886": {
@@ -36096,7 +36096,7 @@
       "fantasyPositions": [
         "QB"
       ],
-      "team": null,
+      "team": "SEA",
       "active": true
     },
     "5880": {
@@ -37276,7 +37276,7 @@
       "fantasyPositions": [
         "WR"
       ],
-      "team": null,
+      "team": "HOU",
       "active": true
     },
     "691": {
@@ -37582,7 +37582,7 @@
       "fantasyPositions": [
         "TE"
       ],
-      "team": null,
+      "team": "NO",
       "active": true
     },
     "1263": {
