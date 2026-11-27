@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T22:52:11.039624+00:00",
+  "generatedAt": "2026-11-27T07:21:52.130995+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -73,10 +73,11 @@
     "avatar": "8da7991069e3a7217718ff56366005c6",
     "company_id": null,
     "league_id": "1397593463293239296",
-    "shard": 125,
-    "season": "2026",
-    "season_type": "regular",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 125,
+    "last_message_id": "1431941821981786112",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -227,17 +228,16 @@
       "st_ff": 0.0,
       "idp_tkl_ast": 0.0
     },
-    "last_message_id": "1431602745411919872",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1795683201701,
+    "last_message_time": 1795764043854,
     "last_pinned_message_id": "1398407155169656845",
-    "draft_id": "1397593466170523648",
     "last_read_id": null,
+    "draft_id": "1397593466170523648",
     "previous_league_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
@@ -408,9 +408,8 @@
       "losses": 3,
       "ties": 0,
       "pointsFor": 1220.08,
-      "waiverPosition": 6,
+      "waiverPosition": 8,
       "players": [
-        "11564",
         "12518",
         "12519",
         "13287",
@@ -423,6 +422,7 @@
         "8148",
         "8150",
         "8183",
+        "8408",
         "9488",
         "9997",
         "DEN",
@@ -570,7 +570,7 @@
       "losses": 5,
       "ties": 0,
       "pointsFor": 1038.62,
-      "waiverPosition": 8,
+      "waiverPosition": 7,
       "players": [
         "11783",
         "12501",
@@ -610,7 +610,7 @@
       "losses": 6,
       "ties": 0,
       "pointsFor": 1075.46,
-      "waiverPosition": 7,
+      "waiverPosition": 6,
       "players": [
         "11566",
         "11646",
@@ -9500,7 +9500,7 @@
         "ownerId": "1397299609897836544",
         "ownerName": "milijon",
         "teamName": "Zamek Pancerne Dziki",
-        "points": 106.5,
+        "points": 122.1,
         "customPoints": null,
         "starters": [
           {
@@ -9509,7 +9509,7 @@
           },
           {
             "playerId": "13337",
-            "points": 0.0
+            "points": 15.6
           },
           {
             "playerId": "9221",
@@ -9582,7 +9582,7 @@
           "12512": 0.0,
           "12526": 0.0,
           "12527": 0.0,
-          "13337": 0.0,
+          "13337": 15.6,
           "4217": 0.0,
           "4881": 0.0,
           "5892": 0.0,
@@ -9699,7 +9699,7 @@
         "ownerId": "1395937838859579392",
         "ownerName": "knockando",
         "teamName": "Flota Oksywie",
-        "points": 17.22,
+        "points": 68.32,
         "customPoints": null,
         "starters": [
           {
@@ -9708,15 +9708,15 @@
           },
           {
             "playerId": "8138",
-            "points": 0.0
+            "points": 18.5
           },
           {
             "playerId": "7588",
-            "points": 10.6
+            "points": 30.3
           },
           {
             "playerId": "10229",
-            "points": 0.0
+            "points": 1.9
           },
           {
             "playerId": "6801",
@@ -9732,7 +9732,7 @@
           },
           {
             "playerId": "7042",
-            "points": 0.0
+            "points": 11.0
           },
           {
             "playerId": "LAC",
@@ -9770,7 +9770,7 @@
           }
         ],
         "playersPoints": {
-          "10229": 0.0,
+          "10229": 1.9,
           "11584": 0.0,
           "11604": 0.0,
           "12490": 0.0,
@@ -9781,9 +9781,9 @@
           "5872": 0.0,
           "6801": 0.0,
           "6804": 6.62,
-          "7042": 0.0,
-          "7588": 10.6,
-          "8138": 0.0,
+          "7042": 11.0,
+          "7588": 30.3,
+          "8138": 18.5,
           "9228": 0.0,
           "LAC": 0.0
         }
@@ -9838,10 +9838,6 @@
         ],
         "bench": [
           {
-            "playerId": "11564",
-            "points": 0.0
-          },
-          {
             "playerId": "13287",
             "points": 0.0
           },
@@ -9866,12 +9862,15 @@
             "points": 12.5
           },
           {
-            "playerId": "KC",
+            "playerId": "8408",
             "points": 0.0
+          },
+          {
+            "playerId": "KC",
+            "points": 13.28
           }
         ],
         "playersPoints": {
-          "11564": 0.0,
           "12518": 0.0,
           "12519": 4.5,
           "13287": 0.0,
@@ -9884,10 +9883,11 @@
           "8148": 8.0,
           "8150": 12.5,
           "8183": 0.0,
+          "8408": 0.0,
           "9488": 0.0,
           "9997": 0.0,
           "DEN": 0.0,
-          "KC": 0.0
+          "KC": 13.28
         }
       },
       {
@@ -9898,12 +9898,12 @@
         "ownerId": "1399810563806142464",
         "ownerName": "DonTeamKielce",
         "teamName": "DonTeam Kielce",
-        "points": 2.0,
+        "points": 11.54,
         "customPoints": null,
         "starters": [
           {
             "playerId": "4984",
-            "points": 0.0
+            "points": 1.54
           },
           {
             "playerId": "12481",
@@ -9931,7 +9931,7 @@
           },
           {
             "playerId": "11533",
-            "points": 2.0
+            "points": 10.0
           },
           {
             "playerId": "MIN",
@@ -9957,7 +9957,7 @@
           },
           {
             "playerId": "4227",
-            "points": 0.0
+            "points": 4.0
           },
           {
             "playerId": "8136",
@@ -9969,15 +9969,15 @@
           }
         ],
         "playersPoints": {
-          "11533": 2.0,
+          "11533": 10.0,
           "11834": 0.0,
           "12481": 0.0,
           "12506": 0.0,
           "12507": 0.0,
           "13276": 0.0,
           "13346": 0.0,
-          "4227": 0.0,
-          "4984": 0.0,
+          "4227": 4.0,
+          "4984": 1.54,
           "5012": 0.0,
           "5846": 0.0,
           "8136": 0.0,
@@ -9995,7 +9995,7 @@
         "ownerId": "1399409218053783552",
         "ownerName": "AgroplonGluszyna",
         "teamName": "Agroplon Gluszyna",
-        "points": 1.0,
+        "points": 11.6,
         "customPoints": null,
         "starters": [
           {
@@ -10016,7 +10016,7 @@
           },
           {
             "playerId": "6786",
-            "points": 2.8
+            "points": 13.4
           },
           {
             "playerId": "12517",
@@ -10038,7 +10038,7 @@
         "bench": [
           {
             "playerId": "10236",
-            "points": 0.0
+            "points": 1.3
           },
           {
             "playerId": "1166",
@@ -10066,7 +10066,7 @@
           }
         ],
         "playersPoints": {
-          "10236": 0.0,
+          "10236": 1.3,
           "11632": 0.0,
           "1166": 0.0,
           "11792": 0.0,
@@ -10074,7 +10074,7 @@
           "2216": 0.0,
           "4866": 0.7,
           "5967": 0.0,
-          "6786": 2.8,
+          "6786": 13.4,
           "6790": 22.2,
           "6794": 0.0,
           "6813": 0.0,
@@ -10092,12 +10092,12 @@
         "ownerId": "1398370307936354304",
         "ownerName": "PotegaWesiory",
         "teamName": "Potega Wesiory",
-        "points": 11.6,
+        "points": 31.24,
         "customPoints": null,
         "starters": [
           {
             "playerId": "3294",
-            "points": 8.0
+            "points": 24.54
           },
           {
             "playerId": "7594",
@@ -10113,7 +10113,7 @@
           },
           {
             "playerId": "8137",
-            "points": 3.6
+            "points": 6.7
           },
           {
             "playerId": "8131",
@@ -10147,11 +10147,11 @@
           },
           {
             "playerId": "1466",
-            "points": 0.0
+            "points": 7.1
           },
           {
             "playerId": "4983",
-            "points": 0.0
+            "points": 1.5
           },
           {
             "playerId": "5859",
@@ -10166,16 +10166,16 @@
           "11566": 0.0,
           "11646": 0.0,
           "12495": 0.0,
-          "1466": 0.0,
-          "3294": 8.0,
-          "4983": 0.0,
+          "1466": 7.1,
+          "3294": 24.54,
+          "4983": 1.5,
           "5859": 0.0,
           "7543": 0.0,
           "7564": 0.0,
           "7594": 0.0,
           "7839": 0.0,
           "8131": 0.0,
-          "8137": 3.6,
+          "8137": 6.7,
           "8228": 0.0,
           "9224": 0.0,
           "WAS": 0.0
@@ -10189,7 +10189,7 @@
         "ownerId": "1398643051898880000",
         "ownerName": "Janaka7",
         "teamName": "Kiki Owls",
-        "points": 18.82,
+        "points": 49.62,
         "customPoints": null,
         "starters": [
           {
@@ -10210,7 +10210,7 @@
           },
           {
             "playerId": "8134",
-            "points": 0.0
+            "points": 3.3
           },
           {
             "playerId": "7002",
@@ -10218,7 +10218,7 @@
           },
           {
             "playerId": "7525",
-            "points": 4.5
+            "points": 32.0
           },
           {
             "playerId": "6083",
@@ -10248,7 +10248,7 @@
           },
           {
             "playerId": "4046",
-            "points": 0.0
+            "points": 5.16
           },
           {
             "playerId": "7600",
@@ -10264,14 +10264,14 @@
           "11620": 20.7,
           "12474": 0.0,
           "13279": 0.0,
-          "4046": 0.0,
+          "4046": 5.16,
           "4199": 0.0,
           "6083": 0.0,
           "7002": 0.0,
-          "7525": 4.5,
+          "7525": 32.0,
           "7547": 14.6,
           "7600": 0.0,
-          "8134": 0.0,
+          "8134": 3.3,
           "8155": 0.0,
           "9509": 0.0,
           "9758": 0.0,
@@ -15770,6 +15770,36 @@
       }
     ],
     "12": [
+      {
+        "week": 12,
+        "status": "complete",
+        "type": "waiver",
+        "metadata": {
+          "notes": "Your waiver claim was processed successfully!"
+        },
+        "created": 1795707656097,
+        "settings": {
+          "seq": 0
+        },
+        "leg": 12,
+        "draft_picks": [],
+        "creator": "1398407279245524992",
+        "transaction_id": "1431705314587086848",
+        "adds": {
+          "8408": 4
+        },
+        "drops": {
+          "11564": 4
+        },
+        "consenter_ids": [
+          4
+        ],
+        "roster_ids": [
+          4
+        ],
+        "status_updated": 1795764043828,
+        "waiver_budget": []
+      },
       {
         "week": 12,
         "status": "complete",

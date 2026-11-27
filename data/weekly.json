@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T22:52:10.216912+00:00",
+  "generatedAt": "2026-11-27T07:21:50.613334+00:00",
   "leagueId": "1397593463293239296",
   "leagueName": "The League",
   "leagueStatus": "in_season",
@@ -129,7 +129,6 @@
       "ownerName": "kiler7775",
       "teamName": "Gdynia Moustache Admirers",
       "players": [
-        "11564",
         "12518",
         "12519",
         "13287",
@@ -142,6 +141,7 @@
         "8148",
         "8150",
         "8183",
+        "8408",
         "9488",
         "9997",
         "DEN",

@@ -1,35 +1,15 @@
 {
-  "generatedAt": "2026-11-26T22:52:11.307671+00:00",
+  "generatedAt": "2026-11-27T07:21:52.407719+00:00",
   "season": 2026,
   "week": 12,
   "complete": false,
   "games": [
     {
-      "espnId": "401873080",
-      "name": "PHI @ DAL",
-      "kickoff": "2026-11-26T21:30Z",
-      "home": "DAL",
-      "away": "PHI",
-      "homeScore": 14,
-      "awayScore": 3,
-      "final": false
-    },
-    {
-      "espnId": "401873081",
-      "name": "CHI @ DET",
-      "kickoff": "2026-11-26T18:00Z",
-      "home": "DET",
-      "away": "CHI",
-      "homeScore": 35,
-      "awayScore": 39,
-      "final": true
-    },
-    {
-      "espnId": "401873082",
-      "name": "KC @ BUF",
-      "kickoff": "2026-11-27T01:20Z",
-      "home": "BUF",
-      "away": "KC",
+      "espnId": "401873083",
+      "name": "DEN @ PIT",
+      "kickoff": "2026-11-27T20:00Z",
+      "home": "PIT",
+      "away": "DEN",
       "homeScore": 0,
       "awayScore": 0,
       "final": false
@@ -45,14 +25,34 @@
       "final": true
     },
     {
-      "espnId": "401873083",
-      "name": "DEN @ PIT",
-      "kickoff": "2026-11-27T20:00Z",
-      "home": "PIT",
-      "away": "DEN",
-      "homeScore": 0,
-      "awayScore": 0,
-      "final": false
+      "espnId": "401873081",
+      "name": "CHI @ DET",
+      "kickoff": "2026-11-26T18:00Z",
+      "home": "DET",
+      "away": "CHI",
+      "homeScore": 35,
+      "awayScore": 39,
+      "final": true
+    },
+    {
+      "espnId": "401873080",
+      "name": "PHI @ DAL",
+      "kickoff": "2026-11-26T21:30Z",
+      "home": "DAL",
+      "away": "PHI",
+      "homeScore": 38,
+      "awayScore": 39,
+      "final": true
+    },
+    {
+      "espnId": "401873082",
+      "name": "KC @ BUF",
+      "kickoff": "2026-11-27T01:20Z",
+      "home": "BUF",
+      "away": "KC",
+      "homeScore": 13,
+      "awayScore": 10,
+      "final": true
     },
     {
       "espnId": "401873087",
@@ -216,6 +216,11 @@
       "opponent": "GB",
       "date": "2026-11-25"
     },
+    "10236": {
+      "team": "BUF",
+      "opponent": "KC",
+      "date": "2026-11-26"
+    },
     "6786": {
       "team": "DAL",
       "opponent": "PHI",
@@ -229,6 +234,11 @@
     "9221": {
       "team": "DET",
       "opponent": "CHI",
+      "date": "2026-11-26"
+    },
+    "KC": {
+      "team": "KC",
+      "opponent": "BUF",
       "date": "2026-11-26"
     },
     "6790": {
@@ -266,9 +276,24 @@
       "opponent": "DET",
       "date": "2026-11-26"
     },
+    "13337": {
+      "team": "KC",
+      "opponent": "BUF",
+      "date": "2026-11-26"
+    },
     "2020": {
       "team": "CHI",
       "opponent": "DET",
+      "date": "2026-11-26"
+    },
+    "4046": {
+      "team": "KC",
+      "opponent": "BUF",
+      "date": "2026-11-26"
+    },
+    "4984": {
+      "team": "BUF",
+      "opponent": "KC",
       "date": "2026-11-26"
     },
     "5022": {
@@ -276,14 +301,29 @@
       "opponent": "DAL",
       "date": "2026-11-26"
     },
+    "7042": {
+      "team": "BUF",
+      "opponent": "KC",
+      "date": "2026-11-26"
+    },
     "8148": {
       "team": "DET",
       "opponent": "CHI",
       "date": "2026-11-26"
     },
+    "10229": {
+      "team": "KC",
+      "opponent": "BUF",
+      "date": "2026-11-26"
+    },
     "4866": {
       "team": "PHI",
       "opponent": "DAL",
+      "date": "2026-11-26"
+    },
+    "8134": {
+      "team": "BUF",
+      "opponent": "KC",
       "date": "2026-11-26"
     },
     "11533": {
@@ -306,6 +346,16 @@
       "opponent": "PHI",
       "date": "2026-11-26"
     },
+    "4227": {
+      "team": "KC",
+      "opponent": "BUF",
+      "date": "2026-11-26"
+    },
+    "8138": {
+      "team": "BUF",
+      "opponent": "KC",
+      "date": "2026-11-26"
+    },
     "10859": {
       "team": "DET",
       "opponent": "CHI",
@@ -314,6 +364,16 @@
     "11783": {
       "team": "DAL",
       "opponent": "PHI",
+      "date": "2026-11-26"
+    },
+    "1466": {
+      "team": "KC",
+      "opponent": "BUF",
+      "date": "2026-11-26"
+    },
+    "4983": {
+      "team": "BUF",
+      "opponent": "KC",
       "date": "2026-11-26"
     },
     "7525": {

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T22:52:11.419191+00:00",
+ "generatedAt": "2026-11-27T07:21:52.524814+00:00",
  "season": 2026,
  "leagueName": "The League",
  "currentWeek": 12,
@@ -8683,7 +8683,7 @@
      "name": "Emmett Johnson",
      "position": "RB",
      "rosterId": 1,
-     "startedPoints": 48.4,
+     "startedPoints": 64.0,
      "starts": 3,
      "weekPoints": 28.1,
      "type": "free_agent",
@@ -9430,31 +9430,31 @@
      "teams": [
       {
        "rosterId": 7,
-       "points": 11.6,
-       "optimal": 11.6,
-       "coach": 1.0,
-       "benchPoints": 0.0,
+       "points": 31.24,
+       "optimal": 39.84,
+       "coach": 0.7841,
+       "benchPoints": 8.6,
        "timeline": [
         0.0,
-        11.6,
-        11.6,
-        11.6,
-        11.6,
-        11.6,
-        11.6
+        31.24,
+        31.24,
+        31.24,
+        31.24,
+        31.24,
+        31.24
        ],
        "topStarters": [
         {
          "playerId": "3294",
          "name": "Dak Prescott",
          "position": "QB",
-         "points": 8.0
+         "points": 24.54
         },
         {
          "playerId": "8137",
          "name": "George Pickens",
          "position": "WR",
-         "points": 3.6
+         "points": 6.7
         },
         {
          "playerId": "7594",
@@ -9463,7 +9463,20 @@
          "points": 0.0
         }
        ],
-       "topBench": []
+       "topBench": [
+        {
+         "playerId": "1466",
+         "name": "Travis Kelce",
+         "position": "TE",
+         "points": 7.1
+        },
+        {
+         "playerId": "4983",
+         "name": "DJ Moore",
+         "position": "WR",
+         "points": 1.5
+        }
+       ]
       },
       {
        "rosterId": 2,
@@ -9512,28 +9525,34 @@
      ],
      "winner": null,
      "leader": 7,
-     "margin": 7.7,
-     "total": 15.5
+     "margin": 27.34,
+     "total": 35.14
     },
     {
      "matchupId": 2,
      "teams": [
       {
        "rosterId": 8,
-       "points": 18.82,
-       "optimal": 41.12,
-       "coach": 0.4577,
-       "benchPoints": 22.3,
+       "points": 49.62,
+       "optimal": 73.78,
+       "coach": 0.6725,
+       "benchPoints": 27.46,
        "timeline": [
         0.0,
-        18.82,
-        18.82,
-        18.82,
-        18.82,
-        18.82,
-        18.82
+        49.62,
+        49.62,
+        49.62,
+        49.62,
+        49.62,
+        49.62
        ],
        "topStarters": [
+        {
+         "playerId": "7525",
+         "name": "DeVonta Smith",
+         "position": "WR",
+         "points": 32.0
+        },
         {
          "playerId": "7547",
          "name": "Amon-Ra St. Brown",
@@ -9541,16 +9560,10 @@
          "points": 14.6
         },
         {
-         "playerId": "7525",
-         "name": "DeVonta Smith",
+         "playerId": "8134",
+         "name": "Khalil Shakir",
          "position": "WR",
-         "points": 4.5
-        },
-        {
-         "playerId": "9758",
-         "name": "C.J. Stroud",
-         "position": "QB",
-         "points": 0.0
+         "points": 3.3
         }
        ],
        "topBench": [
@@ -9561,19 +9574,19 @@
          "points": 20.7
         },
         {
-         "playerId": "11581",
-         "name": "MarShawn Lloyd",
-         "position": "RB",
-         "points": 1.6
+         "playerId": "4046",
+         "name": "Patrick Mahomes",
+         "position": "QB",
+         "points": 5.16
         }
        ]
       },
       {
        "rosterId": 4,
        "points": 12.5,
-       "optimal": 33.9,
-       "coach": 0.3687,
-       "benchPoints": 21.4,
+       "optimal": 47.18,
+       "coach": 0.2649,
+       "benchPoints": 34.68,
        "timeline": [
         0.0,
         12.5,
@@ -9605,93 +9618,49 @@
        ],
        "topBench": [
         {
+         "playerId": "KC",
+         "name": "Kansas City Chiefs",
+         "position": "DEF",
+         "points": 13.28
+        },
+        {
          "playerId": "8150",
          "name": "Kyren Williams",
          "position": "RB",
          "points": 12.5
-        },
-        {
-         "playerId": "8148",
-         "name": "Jameson Williams",
-         "position": "WR",
-         "points": 8.0
         }
        ]
       }
      ],
      "winner": null,
      "leader": 8,
-     "margin": 6.32,
-     "total": 31.32
+     "margin": 37.12,
+     "total": 62.12
     },
     {
      "matchupId": 3,
      "teams": [
       {
-       "rosterId": 5,
-       "points": 2.0,
-       "optimal": 17.56,
-       "coach": 0.1139,
-       "benchPoints": 15.56,
-       "timeline": [
-        0.0,
-        2.0,
-        2.0,
-        2.0,
-        2.0,
-        2.0,
-        2.0
-       ],
-       "topStarters": [
-        {
-         "playerId": "11533",
-         "name": "Brandon Aubrey",
-         "position": "K",
-         "points": 2.0
-        },
-        {
-         "playerId": "4984",
-         "name": "Josh Allen",
-         "position": "QB",
-         "points": 0.0
-        },
-        {
-         "playerId": "12481",
-         "name": "Cam Skattebo",
-         "position": "RB",
-         "points": 0.0
-        }
-       ],
-       "topBench": [
-        {
-         "playerId": "LAR",
-         "name": "Los Angeles Rams",
-         "position": "DEF",
-         "points": 15.56
-        }
-       ]
-      },
-      {
        "rosterId": 6,
-       "points": 1.0,
-       "optimal": 25.7,
-       "coach": 0.0389,
-       "benchPoints": 21.6,
+       "points": 11.6,
+       "optimal": 37.6,
+       "coach": 0.3085,
+       "benchPoints": 22.9,
        "timeline": [
         0.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0
+        11.6,
+        11.6,
+        11.6,
+        11.6,
+        11.6,
+        11.6
        ],
        "topStarters": [
         {
          "playerId": "6786",
          "name": "CeeDee Lamb",
          "position": "WR",
-         "points": 2.8
+         "points": 13.4
         },
         {
          "playerId": "4866",
@@ -9712,32 +9681,88 @@
          "name": "D'Andre Swift",
          "position": "RB",
          "points": 22.2
+        },
+        {
+         "playerId": "10236",
+         "name": "Dalton Kincaid",
+         "position": "TE",
+         "points": 1.3
+        }
+       ]
+      },
+      {
+       "rosterId": 5,
+       "points": 11.54,
+       "optimal": 27.1,
+       "coach": 0.4258,
+       "benchPoints": 19.56,
+       "timeline": [
+        0.0,
+        11.54,
+        11.54,
+        11.54,
+        11.54,
+        11.54,
+        11.54
+       ],
+       "topStarters": [
+        {
+         "playerId": "11533",
+         "name": "Brandon Aubrey",
+         "position": "K",
+         "points": 10.0
+        },
+        {
+         "playerId": "4984",
+         "name": "Josh Allen",
+         "position": "QB",
+         "points": 1.54
+        },
+        {
+         "playerId": "12481",
+         "name": "Cam Skattebo",
+         "position": "RB",
+         "points": 0.0
+        }
+       ],
+       "topBench": [
+        {
+         "playerId": "LAR",
+         "name": "Los Angeles Rams",
+         "position": "DEF",
+         "points": 15.56
+        },
+        {
+         "playerId": "4227",
+         "name": "Harrison Butker",
+         "position": "K",
+         "points": 4.0
         }
        ]
       }
      ],
      "winner": null,
-     "leader": 5,
-     "margin": 1.0,
-     "total": 3.0
+     "leader": 6,
+     "margin": 0.06,
+     "total": 23.14
     },
     {
      "matchupId": 4,
      "teams": [
       {
        "rosterId": 1,
-       "points": 106.5,
-       "optimal": 116.9,
-       "coach": 0.911,
+       "points": 122.1,
+       "optimal": 132.5,
+       "coach": 0.9215,
        "benchPoints": 10.4,
        "timeline": [
         39.0,
-        106.5,
-        106.5,
-        106.5,
-        106.5,
-        106.5,
-        106.5
+        122.1,
+        122.1,
+        122.1,
+        122.1,
+        122.1,
+        122.1
        ],
        "topStarters": [
         {
@@ -9770,37 +9795,37 @@
       },
       {
        "rosterId": 3,
-       "points": 17.22,
-       "optimal": 32.12,
-       "coach": 0.5361,
+       "points": 68.32,
+       "optimal": 83.22,
+       "coach": 0.821,
        "benchPoints": 16.5,
        "timeline": [
         6.62,
-        17.22,
-        17.22,
-        17.22,
-        17.22,
-        17.22,
-        17.22
+        68.32,
+        68.32,
+        68.32,
+        68.32,
+        68.32,
+        68.32
        ],
        "topStarters": [
         {
          "playerId": "7588",
          "name": "Javonte Williams",
          "position": "RB",
-         "points": 10.6
-        },
-        {
-         "playerId": "6804",
-         "name": "Jordan Love",
-         "position": "QB",
-         "points": 6.62
+         "points": 30.3
         },
         {
          "playerId": "8138",
          "name": "James Cook III",
          "position": "RB",
-         "points": 0.0
+         "points": 18.5
+        },
+        {
+         "playerId": "7042",
+         "name": "Tyler Bass",
+         "position": "K",
+         "points": 11.0
         }
        ],
        "topBench": [
@@ -9821,31 +9846,31 @@
      ],
      "winner": null,
      "leader": 1,
-     "margin": 89.28,
-     "total": 123.72
+     "margin": 53.78,
+     "total": 190.42
     }
    ],
    "awards": {
     "topScore": {
      "rosterId": 1,
      "team": "Zamek Pancerne Dziki",
-     "points": 106.5
+     "points": 122.1
     },
     "lowScore": {
-     "rosterId": 6,
-     "team": "Agroplon Gluszyna",
-     "points": 1.0
+     "rosterId": 2,
+     "team": "Vegablanca Boars",
+     "points": 3.9
     },
     "bestCoach": {
-     "rosterId": 7,
-     "team": "Potega Wesiory",
-     "coach": 1.0
+     "rosterId": 1,
+     "team": "Zamek Pancerne Dziki",
+     "coach": 0.9215
     },
     "mostLeftOnBench": {
-     "rosterId": 6,
-     "team": "Agroplon Gluszyna",
-     "left": 24.7,
-     "coach": 0.0389
+     "rosterId": 4,
+     "team": "Gdynia Moustache Admirers",
+     "left": 34.68,
+     "coach": 0.2649
     },
     "playerOfWeek": {
      "playerId": "9221",
@@ -9872,15 +9897,7 @@
       "team": "Zamek Pancerne Dziki",
       "opponent": 3,
       "opponentTeam": "Flota Oksywie",
-      "lead": 89.28,
-      "held": null
-     },
-     {
-      "rosterId": 7,
-      "team": "Potega Wesiory",
-      "opponent": 2,
-      "opponentTeam": "Vegablanca Boars",
-      "lead": 7.7,
+      "lead": 53.78,
       "held": null
      },
      {
@@ -9888,15 +9905,23 @@
       "team": "Kiki Owls",
       "opponent": 4,
       "opponentTeam": "Gdynia Moustache Admirers",
-      "lead": 6.32,
+      "lead": 37.12,
       "held": null
      },
      {
-      "rosterId": 5,
-      "team": "DonTeam Kielce",
-      "opponent": 6,
-      "opponentTeam": "Agroplon Gluszyna",
-      "lead": 1.0,
+      "rosterId": 7,
+      "team": "Potega Wesiory",
+      "opponent": 2,
+      "opponentTeam": "Vegablanca Boars",
+      "lead": 27.34,
+      "held": null
+     },
+     {
+      "rosterId": 6,
+      "team": "Agroplon Gluszyna",
+      "opponent": 5,
+      "opponentTeam": "DonTeam Kielce",
+      "lead": 0.06,
       "held": null
      }
     ],
@@ -9911,18 +9936,18 @@
      0
     ],
     "2": [
-     2,
-     5,
+     0,
+     7,
      0
     ],
     "3": [
-     5,
-     2,
+     6,
+     1,
      0
     ],
     "4": [
-     4,
      3,
+     4,
      0
     ],
     "5": [
@@ -9931,18 +9956,18 @@
      0
     ],
     "6": [
-     0,
-     7,
+     2,
+     5,
      0
     ],
     "7": [
-     3,
      4,
+     3,
      0
     ],
     "8": [
-     6,
-     1,
+     5,
+     2,
      0
     ]
    }
@@ -10069,6 +10094,37 @@
  ],
  "transactions": {
   "feed": [
+   {
+    "transactionId": "1431705314587086848",
+    "week": 12,
+    "type": "waiver",
+    "status": "complete",
+    "time": 1795764043828,
+    "rosterIds": [
+     4
+    ],
+    "adds": [
+     {
+      "playerId": "8408",
+      "name": "Jordan Mason",
+      "position": "RB",
+      "rosterId": 4,
+      "startedPoints": 0.0,
+      "starts": 0,
+      "weekPoints": null
+     }
+    ],
+    "drops": [
+     {
+      "playerId": "11564",
+      "name": "Drake Maye",
+      "position": "QB",
+      "rosterId": 4
+     }
+    ],
+    "waiverBid": null,
+    "draftPicks": []
+   },
    {
     "transactionId": "1431602745290280960",
     "week": 12,
@@ -10322,7 +10378,7 @@
       "name": "DeVonta Smith",
       "position": "WR",
       "rosterId": 8,
-      "startedPoints": 8.6,
+      "startedPoints": 36.1,
       "starts": 2,
       "weekPoints": 4.1
      }
@@ -10446,7 +10502,7 @@
       "name": "Emmett Johnson",
       "position": "RB",
       "rosterId": 1,
-      "startedPoints": 48.4,
+      "startedPoints": 64.0,
       "starts": 3,
       "weekPoints": 28.1
      }
@@ -10522,7 +10578,7 @@
       "name": "Khalil Shakir",
       "position": "WR",
       "rosterId": 8,
-      "startedPoints": 15.8,
+      "startedPoints": 19.1,
       "starts": 3,
       "weekPoints": 5.5
      }
@@ -11023,7 +11079,7 @@
       "name": "Tyler Bass",
       "position": "K",
       "rosterId": 3,
-      "startedPoints": 38.0,
+      "startedPoints": 49.0,
       "starts": 4,
       "weekPoints": 13.0
      }
@@ -11918,7 +11974,7 @@
       "name": "Rashee Rice",
       "position": "WR",
       "rosterId": 3,
-      "startedPoints": 13.5,
+      "startedPoints": 15.4,
       "starts": 3,
       "weekPoints": null
      }
@@ -14816,7 +14872,7 @@
       "name": "Dak Prescott",
       "position": "QB",
       "rosterId": 7,
-      "startedPoints": 108.18,
+      "startedPoints": 124.72,
       "starts": 7,
       "weekPoints": null
      }
@@ -15642,7 +15698,7 @@
     "name": "Dak Prescott",
     "position": "QB",
     "rosterId": 7,
-    "startedPoints": 108.18,
+    "startedPoints": 124.72,
     "starts": 7,
     "weekPoints": null,
     "week": 2,
@@ -15698,6 +15754,18 @@
     "team": "Kiki Owls"
    },
    {
+    "playerId": "13337",
+    "name": "Emmett Johnson",
+    "position": "RB",
+    "rosterId": 1,
+    "startedPoints": 64.0,
+    "starts": 3,
+    "weekPoints": 28.1,
+    "week": 10,
+    "type": "free_agent",
+    "team": "Zamek Pancerne Dziki"
+   },
+   {
     "playerId": "CHI",
     "name": "Chicago Bears",
     "position": "DEF",
@@ -15732,18 +15800,6 @@
     "week": 5,
     "type": "waiver",
     "team": "Potega Wesiory"
-   },
-   {
-    "playerId": "JAX",
-    "name": "Jacksonville Jaguars",
-    "position": "DEF",
-    "rosterId": 6,
-    "startedPoints": 51.44,
-    "starts": 5,
-    "weekPoints": null,
-    "week": 7,
-    "type": "free_agent",
-    "team": "Agroplon Gluszyna"
    }
   ],
   "waiverBattles": [
@@ -15950,8 +16006,8 @@
   ],
   "perTeam": {
    "4": {
-    "waiverClaims": 18,
-    "waiverWins": 11,
+    "waiverClaims": 19,
+    "waiverWins": 12,
     "freeAgents": 4,
     "trades": 0,
     "pickupPoints": 373.36
@@ -15961,7 +16017,7 @@
     "waiverWins": 11,
     "freeAgents": 8,
     "trades": 0,
-    "pickupPoints": 250.26
+    "pickupPoints": 265.86
    },
    "6": {
     "waiverClaims": 15,
@@ -15975,7 +16031,7 @@
     "waiverWins": 9,
     "freeAgents": 21,
     "trades": 0,
-    "pickupPoints": 357.04
+    "pickupPoints": 369.94
    },
    "2": {
     "waiverClaims": 34,
@@ -15989,7 +16045,7 @@
     "waiverWins": 15,
     "freeAgents": 6,
     "trades": 0,
-    "pickupPoints": 404.6
+    "pickupPoints": 421.14
    },
    "5": {
     "waiverClaims": 0,
@@ -16003,7 +16059,7 @@
     "waiverWins": 1,
     "freeAgents": 18,
     "trades": 0,
-    "pickupPoints": 431.78
+    "pickupPoints": 462.58
    }
   }
  },
