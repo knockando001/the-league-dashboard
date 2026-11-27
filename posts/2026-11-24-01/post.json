@@ -1,0 +1,18 @@
+{
+ "id": "2026-11-24-01",
+ "date": "2026-11-24",
+ "edition": "2026-11-24-podsumowanie",
+ "outlet": "8SPN",
+ "outletStyle": "o1",
+ "author": {
+  "name": "Reporter 8SPN",
+  "photo": "posts/autorzy/48f01b07c4.jpg"
+ },
+ "kicker": "Wyniki i tabela",
+ "title": "Jedenasta kolejka w liczbach",
+ "byline": "8SPN Fantasy · wyniki oficjalne po poniedziałkowym meczu",
+ "lead": null,
+ "cover": null,
+ "variant": null,
+ "body": "<h3 class=\"tbl-title\">Wyniki week 11</h3>\n  <div class=\"tbl-wrap\"><table class=\"tbl\">\n    <thead><tr><th>Zwycięzca</th><th>Przegrany</th><th>Wynik</th></tr></thead>\n    <tbody>\n      <tr><td>Potega Wesiory</td><td>Agroplon Gluszyna</td><td>88,96 : 75,14</td></tr>\n      <tr><td>Vegablanca Boars</td><td>Gdynia Moustache Admirers</td><td>93,40 : 84,20</td></tr>\n      <tr><td>Flota Oksywie</td><td>Kiki Owls</td><td>117,36 : 93,86</td></tr>\n      <tr><td>Zamek Pancerne Dziki</td><td>DonTeam Kielce</td><td>141,14 : 53,36</td></tr>\n    </tbody>\n  </table></div>\n\n  <h3 class=\"tbl-title\">Tabela po week 11</h3>\n  <div class=\"tbl-wrap\"><table class=\"tbl\">\n    <thead><tr><th>#</th><th>Drużyna</th><th>Bilans</th><th>PF</th><th>Playoffy</th></tr></thead>\n    <tbody>\n      <tr><td>1</td><td>Gdynia</td><td>8-3</td><td>1220,08</td><td>&gt;99,9%</td></tr>\n      <tr><td>2</td><td>Zamek</td><td>7-4</td><td>1311,66</td><td>98,3%</td></tr>\n      <tr><td>3</td><td>Agroplon</td><td>7-4</td><td>1106,46</td><td>87,7%</td></tr>\n      <tr><td>4</td><td>Flota</td><td>6-5</td><td>1184,80</td><td>68,2%</td></tr>\n      <tr><td>5</td><td>Vegablanca</td><td>6-5</td><td>1038,62</td><td>33,9%</td></tr>\n      <tr><td>6</td><td>Potęga</td><td>5-6</td><td>1075,46</td><td>11,8%</td></tr>\n      <tr><td>7</td><td>DonTeam</td><td>3-8</td><td>980,92</td><td>0%</td></tr>\n      <tr><td>8</td><td>Kiki</td><td>2-9</td><td>986,34</td><td>0%</td></tr>\n    </tbody>\n  </table></div>\n  <p style=\"font-size:13px;color:var(--muted)\">Szanse na playoffy z 20 000 symulacji: dotychczasowe wyniki, siła obecnych składów i pozostały terminarz. DonTeam i Kiki nie mają już matematycznych szans na czwórkę.</p>"
+}
