@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T07:21:52.524814+00:00",
+ "generatedAt": "2026-11-27T08:57:25.322043+00:00",
  "season": 2026,
  "leagueName": "The League",
  "currentWeek": 12,
@@ -10095,6 +10095,37 @@
  "transactions": {
   "feed": [
    {
+    "transactionId": "1431646636676747264",
+    "week": 12,
+    "type": "waiver",
+    "status": "complete",
+    "time": 1795766441633,
+    "rosterIds": [
+     1
+    ],
+    "adds": [
+     {
+      "playerId": "TB",
+      "name": "Tampa Bay Buccaneers",
+      "position": "DEF",
+      "rosterId": 1,
+      "startedPoints": 0.0,
+      "starts": 1,
+      "weekPoints": 0.0
+     }
+    ],
+    "drops": [
+     {
+      "playerId": "HOU",
+      "name": "Houston Texans",
+      "position": "DEF",
+      "rosterId": 1
+     }
+    ],
+    "waiverBid": null,
+    "draftPicks": []
+   },
+   {
     "transactionId": "1431705314587086848",
     "week": 12,
     "type": "waiver",
@@ -12186,7 +12217,7 @@
       "position": "DEF",
       "rosterId": 1,
       "startedPoints": 42.12,
-      "starts": 5,
+      "starts": 4,
       "weekPoints": 2.0
      }
     ],
@@ -16013,8 +16044,8 @@
     "pickupPoints": 373.36
    },
    "1": {
-    "waiverClaims": 17,
-    "waiverWins": 11,
+    "waiverClaims": 18,
+    "waiverWins": 12,
     "freeAgents": 8,
     "trades": 0,
     "pickupPoints": 265.86
