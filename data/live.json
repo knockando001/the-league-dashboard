@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T08:57:24.889573+00:00",
+  "generatedAt": "2026-11-27T17:55:10.966406+00:00",
   "leagueId": "1397593463293239296",
   "season": "2026",
   "status": "in_season",
@@ -73,6 +73,11 @@
     "avatar": "8da7991069e3a7217718ff56366005c6",
     "company_id": null,
     "league_id": "1397593463293239296",
+    "shard": 125,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
+    "last_message_id": "1431951879092342784",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -223,11 +228,6 @@
       "st_ff": 0.0,
       "idp_tkl_ast": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
-    "shard": 125,
-    "last_message_id": "1431951879092342784",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -239,7 +239,8 @@
     "last_read_id": null,
     "draft_id": "1397593466170523648",
     "previous_league_id": null,
-    "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -258,8 +259,7 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
+    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 8
@@ -15788,12 +15788,12 @@
         "adds": {
           "8408": 4
         },
-        "consenter_ids": [
-          4
-        ],
         "drops": {
           "11564": 4
         },
+        "consenter_ids": [
+          4
+        ],
         "roster_ids": [
           4
         ],
@@ -15818,12 +15818,12 @@
         "adds": {
           "TB": 1
         },
-        "consenter_ids": [
-          1
-        ],
         "drops": {
           "HOU": 1
         },
+        "consenter_ids": [
+          1
+        ],
         "roster_ids": [
           1
         ],
@@ -15844,12 +15844,12 @@
         "adds": {
           "LAC": 3
         },
-        "consenter_ids": [
-          3
-        ],
         "drops": {
           "TB": 3
         },
+        "consenter_ids": [
+          3
+        ],
         "roster_ids": [
           3
         ],
@@ -15870,12 +15870,12 @@
         "adds": {
           "9753": 6
         },
-        "consenter_ids": [
-          6
-        ],
         "drops": {
           "8408": 6
         },
+        "consenter_ids": [
+          6
+        ],
         "roster_ids": [
           6
         ],
