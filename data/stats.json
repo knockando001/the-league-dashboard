@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T17:55:11.302780+00:00",
+ "generatedAt": "2026-11-28T01:14:41.134404+00:00",
  "season": 2026,
  "leagueName": "The League",
  "currentWeek": 12,
@@ -9430,18 +9430,18 @@
      "teams": [
       {
        "rosterId": 7,
-       "points": 31.24,
-       "optimal": 39.84,
-       "coach": 0.7841,
+       "points": 35.84,
+       "optimal": 44.44,
+       "coach": 0.8065,
        "benchPoints": 8.6,
        "timeline": [
         0.0,
         31.24,
-        31.24,
-        31.24,
-        31.24,
-        31.24,
-        31.24
+        35.84,
+        35.84,
+        35.84,
+        35.84,
+        35.84
        ],
        "topStarters": [
         {
@@ -9457,10 +9457,10 @@
          "points": 6.7
         },
         {
-         "playerId": "7594",
-         "name": "Chuba Hubbard",
+         "playerId": "8228",
+         "name": "Jaylen Warren",
          "position": "RB",
-         "points": 0.0
+         "points": 4.6
         }
        ],
        "topBench": [
@@ -9480,20 +9480,26 @@
       },
       {
        "rosterId": 2,
-       "points": 3.9,
-       "optimal": 17.72,
-       "coach": 0.2201,
-       "benchPoints": 13.82,
+       "points": 11.1,
+       "optimal": 58.16,
+       "coach": 0.1909,
+       "benchPoints": 47.06,
        "timeline": [
         3.9,
         3.9,
-        3.9,
-        3.9,
-        3.9,
-        3.9,
-        3.9
+        11.1,
+        11.1,
+        11.1,
+        11.1,
+        11.1
        ],
        "topStarters": [
+        {
+         "playerId": "13345",
+         "name": "Jonah Coleman",
+         "position": "RB",
+         "points": 7.2
+        },
         {
          "playerId": "12501",
          "name": "Matthew Golden",
@@ -9505,15 +9511,15 @@
          "name": "Joe Burrow",
          "position": "QB",
          "points": 0.0
-        },
-        {
-         "playerId": "3198",
-         "name": "Derrick Henry",
-         "position": "RB",
-         "points": 0.0
         }
        ],
        "topBench": [
+        {
+         "playerId": "PIT",
+         "name": "Pittsburgh Steelers",
+         "position": "DEF",
+         "points": 33.24
+        },
         {
          "playerId": "3163",
          "name": "Jared Goff",
@@ -9525,8 +9531,8 @@
      ],
      "winner": null,
      "leader": 7,
-     "margin": 27.34,
-     "total": 35.14
+     "margin": 24.74,
+     "total": 46.94
     },
     {
      "matchupId": 2,
@@ -9534,9 +9540,9 @@
       {
        "rosterId": 8,
        "points": 49.62,
-       "optimal": 73.78,
-       "coach": 0.6725,
-       "benchPoints": 27.46,
+       "optimal": 73.88,
+       "coach": 0.6716,
+       "benchPoints": 27.56,
        "timeline": [
         0.0,
         49.62,
@@ -9583,18 +9589,18 @@
       },
       {
        "rosterId": 4,
-       "points": 12.5,
-       "optimal": 47.18,
-       "coach": 0.2649,
+       "points": 24.9,
+       "optimal": 51.58,
+       "coach": 0.4827,
        "benchPoints": 34.68,
        "timeline": [
         0.0,
         12.5,
-        12.5,
-        12.5,
-        12.5,
-        12.5,
-        12.5
+        24.9,
+        24.9,
+        24.9,
+        24.9,
+        24.9
        ],
        "topStarters": [
         {
@@ -9604,16 +9610,16 @@
          "points": 8.0
         },
         {
+         "playerId": "DEN",
+         "name": "Denver Broncos",
+         "position": "DEF",
+         "points": 8.0
+        },
+        {
          "playerId": "12519",
          "name": "Luther Burden III",
          "position": "WR",
          "points": 4.5
-        },
-        {
-         "playerId": "8183",
-         "name": "Brock Purdy",
-         "position": "QB",
-         "points": 0.0
         }
        ],
        "topBench": [
@@ -9634,12 +9640,62 @@
      ],
      "winner": null,
      "leader": 8,
-     "margin": 37.12,
-     "total": 62.12
+     "margin": 24.72,
+     "total": 74.52
     },
     {
      "matchupId": 3,
      "teams": [
+      {
+       "rosterId": 5,
+       "points": 21.14,
+       "optimal": 36.7,
+       "coach": 0.576,
+       "benchPoints": 19.56,
+       "timeline": [
+        0.0,
+        11.54,
+        21.14,
+        21.14,
+        21.14,
+        21.14,
+        21.14
+       ],
+       "topStarters": [
+        {
+         "playerId": "11533",
+         "name": "Brandon Aubrey",
+         "position": "K",
+         "points": 10.0
+        },
+        {
+         "playerId": "5846",
+         "name": "DK Metcalf",
+         "position": "WR",
+         "points": 9.6
+        },
+        {
+         "playerId": "4984",
+         "name": "Josh Allen",
+         "position": "QB",
+         "points": 1.54
+        }
+       ],
+       "topBench": [
+        {
+         "playerId": "LAR",
+         "name": "Los Angeles Rams",
+         "position": "DEF",
+         "points": 15.56
+        },
+        {
+         "playerId": "4227",
+         "name": "Harrison Butker",
+         "position": "K",
+         "points": 4.0
+        }
+       ]
+      },
       {
        "rosterId": 6,
        "points": 11.6,
@@ -9689,62 +9745,12 @@
          "points": 1.3
         }
        ]
-      },
-      {
-       "rosterId": 5,
-       "points": 11.54,
-       "optimal": 27.1,
-       "coach": 0.4258,
-       "benchPoints": 19.56,
-       "timeline": [
-        0.0,
-        11.54,
-        11.54,
-        11.54,
-        11.54,
-        11.54,
-        11.54
-       ],
-       "topStarters": [
-        {
-         "playerId": "11533",
-         "name": "Brandon Aubrey",
-         "position": "K",
-         "points": 10.0
-        },
-        {
-         "playerId": "4984",
-         "name": "Josh Allen",
-         "position": "QB",
-         "points": 1.54
-        },
-        {
-         "playerId": "12481",
-         "name": "Cam Skattebo",
-         "position": "RB",
-         "points": 0.0
-        }
-       ],
-       "topBench": [
-        {
-         "playerId": "LAR",
-         "name": "Los Angeles Rams",
-         "position": "DEF",
-         "points": 15.56
-        },
-        {
-         "playerId": "4227",
-         "name": "Harrison Butker",
-         "position": "K",
-         "points": 4.0
-        }
-       ]
       }
      ],
      "winner": null,
-     "leader": 6,
-     "margin": 0.06,
-     "total": 23.14
+     "leader": 5,
+     "margin": 9.54,
+     "total": 32.74
     },
     {
      "matchupId": 4,
@@ -9859,7 +9865,7 @@
     "lowScore": {
      "rosterId": 2,
      "team": "Vegablanca Boars",
-     "points": 3.9
+     "points": 11.1
     },
     "bestCoach": {
      "rosterId": 1,
@@ -9867,10 +9873,10 @@
      "coach": 0.9215
     },
     "mostLeftOnBench": {
-     "rosterId": 4,
-     "team": "Gdynia Moustache Admirers",
-     "left": 34.68,
-     "coach": 0.2649
+     "rosterId": 2,
+     "team": "Vegablanca Boars",
+     "left": 47.06,
+     "coach": 0.1909
     },
     "playerOfWeek": {
      "playerId": "9221",
@@ -9881,12 +9887,12 @@
      "team": "Zamek Pancerne Dziki"
     },
     "benchOfWeek": {
-     "playerId": "6790",
-     "name": "D'Andre Swift",
-     "position": "RB",
-     "points": 22.2,
-     "rosterId": 6,
-     "team": "Agroplon Gluszyna"
+     "playerId": "PIT",
+     "name": "Pittsburgh Steelers",
+     "position": "DEF",
+     "points": 33.24,
+     "rosterId": 2,
+     "team": "Vegablanca Boars"
     }
    },
    "curse": {
@@ -9901,27 +9907,27 @@
       "held": null
      },
      {
-      "rosterId": 8,
-      "team": "Kiki Owls",
-      "opponent": 4,
-      "opponentTeam": "Gdynia Moustache Admirers",
-      "lead": 37.12,
-      "held": null
-     },
-     {
       "rosterId": 7,
       "team": "Potega Wesiory",
       "opponent": 2,
       "opponentTeam": "Vegablanca Boars",
-      "lead": 27.34,
+      "lead": 24.74,
       "held": null
      },
      {
-      "rosterId": 6,
-      "team": "Agroplon Gluszyna",
-      "opponent": 5,
-      "opponentTeam": "DonTeam Kielce",
-      "lead": 0.06,
+      "rosterId": 8,
+      "team": "Kiki Owls",
+      "opponent": 4,
+      "opponentTeam": "Gdynia Moustache Admirers",
+      "lead": 24.72,
+      "held": null
+     },
+     {
+      "rosterId": 5,
+      "team": "DonTeam Kielce",
+      "opponent": 6,
+      "opponentTeam": "Agroplon Gluszyna",
+      "lead": 9.54,
       "held": null
      }
     ],
@@ -9951,13 +9957,13 @@
      0
     ],
     "5": [
-     1,
-     6,
+     2,
+     5,
      0
     ],
     "6": [
-     2,
-     5,
+     1,
+     6,
      0
     ],
     "7": [
@@ -11048,7 +11054,7 @@
       "name": "Rico Dowdle",
       "position": "RB",
       "rosterId": 4,
-      "startedPoints": 3.4,
+      "startedPoints": 7.8,
       "starts": 2,
       "weekPoints": null
      }
@@ -11673,7 +11679,7 @@
       "name": "DK Metcalf",
       "position": "WR",
       "rosterId": 5,
-      "startedPoints": 14.0,
+      "startedPoints": 23.6,
       "starts": 4,
       "weekPoints": 0.4
      }
@@ -11839,7 +11845,7 @@
       "name": "Jonah Coleman",
       "position": "RB",
       "rosterId": 2,
-      "startedPoints": 45.7,
+      "startedPoints": 52.9,
       "starts": 3,
       "weekPoints": null
      }
@@ -13990,7 +13996,7 @@
       "position": "TE",
       "rosterId": 8,
       "startedPoints": 20.4,
-      "starts": 8,
+      "starts": 7,
       "weekPoints": 5.9
      }
     ],
@@ -15821,16 +15827,16 @@
     "team": "Gdynia Moustache Admirers"
    },
    {
-    "playerId": "8131",
-    "name": "Isaiah Likely",
-    "position": "TE",
-    "rosterId": 7,
-    "startedPoints": 51.6,
-    "starts": 6,
+    "playerId": "13345",
+    "name": "Jonah Coleman",
+    "position": "RB",
+    "rosterId": 2,
+    "startedPoints": 52.9,
+    "starts": 3,
     "weekPoints": null,
-    "week": 5,
+    "week": 7,
     "type": "waiver",
-    "team": "Potega Wesiory"
+    "team": "Vegablanca Boars"
    }
   ],
   "waiverBattles": [
@@ -16041,7 +16047,7 @@
     "waiverWins": 12,
     "freeAgents": 4,
     "trades": 0,
-    "pickupPoints": 373.36
+    "pickupPoints": 377.76
    },
    "1": {
     "waiverClaims": 18,
@@ -16069,7 +16075,7 @@
     "waiverWins": 21,
     "freeAgents": 3,
     "trades": 0,
-    "pickupPoints": 304.82
+    "pickupPoints": 312.02
    },
    "7": {
     "waiverClaims": 19,
@@ -16083,7 +16089,7 @@
     "waiverWins": 0,
     "freeAgents": 8,
     "trades": 0,
-    "pickupPoints": 83.18
+    "pickupPoints": 92.78
    },
    "8": {
     "waiverClaims": 1,

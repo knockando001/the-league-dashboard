@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T17:55:11.157965+00:00",
+  "generatedAt": "2026-11-28T01:14:40.958967+00:00",
   "season": 2026,
   "week": 12,
   "complete": false,
@@ -10,9 +10,9 @@
       "kickoff": "2026-11-27T20:00Z",
       "home": "PIT",
       "away": "DEN",
-      "homeScore": 0,
-      "awayScore": 0,
-      "final": false
+      "homeScore": 27,
+      "awayScore": 5,
+      "final": true
     },
     {
       "espnId": "401873079",
@@ -385,6 +385,41 @@
       "team": "DET",
       "opponent": "CHI",
       "date": "2026-11-26"
+    },
+    "13345": {
+      "team": "DEN",
+      "opponent": "PIT",
+      "date": "2026-11-27"
+    },
+    "7600": {
+      "team": "PIT",
+      "opponent": "DEN",
+      "date": "2026-11-27"
+    },
+    "8228": {
+      "team": "PIT",
+      "opponent": "DEN",
+      "date": "2026-11-27"
+    },
+    "7021": {
+      "team": "PIT",
+      "opponent": "DEN",
+      "date": "2026-11-27"
+    },
+    "5846": {
+      "team": "PIT",
+      "opponent": "DEN",
+      "date": "2026-11-27"
+    },
+    "DEN": {
+      "team": "DEN",
+      "opponent": "PIT",
+      "date": "2026-11-27"
+    },
+    "PIT": {
+      "team": "PIT",
+      "opponent": "DEN",
+      "date": "2026-11-27"
     }
   }
 }
