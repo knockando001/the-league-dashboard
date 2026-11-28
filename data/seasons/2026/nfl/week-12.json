@@ -1,19 +1,9 @@
 {
-  "generatedAt": "2026-11-28T01:14:40.958967+00:00",
+  "generatedAt": "2026-11-28T09:55:27.963443+00:00",
   "season": 2026,
   "week": 12,
   "complete": false,
   "games": [
-    {
-      "espnId": "401873083",
-      "name": "DEN @ PIT",
-      "kickoff": "2026-11-27T20:00Z",
-      "home": "PIT",
-      "away": "DEN",
-      "homeScore": 27,
-      "awayScore": 5,
-      "final": true
-    },
     {
       "espnId": "401873079",
       "name": "GB @ LAR",
@@ -52,6 +42,16 @@
       "away": "KC",
       "homeScore": 13,
       "awayScore": 10,
+      "final": true
+    },
+    {
+      "espnId": "401873083",
+      "name": "DEN @ PIT",
+      "kickoff": "2026-11-27T20:00Z",
+      "home": "PIT",
+      "away": "DEN",
+      "homeScore": 27,
+      "awayScore": 5,
       "final": true
     },
     {
